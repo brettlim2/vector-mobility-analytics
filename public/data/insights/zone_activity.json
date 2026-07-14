@@ -1,0 +1,1052 @@
+{
+  "by_zone": [
+    {
+      "zone": "Bedok",
+      "kind": "residential",
+      "devices": 58633,
+      "stops": 206697,
+      "med_dwell_min": 62.1,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Hougang",
+      "kind": "residential",
+      "devices": 57849,
+      "stops": 201738,
+      "med_dwell_min": 64.6,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Geylang",
+      "kind": "residential",
+      "devices": 54468,
+      "stops": 161766,
+      "med_dwell_min": 53.4,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Toa Payoh",
+      "kind": "residential",
+      "devices": 51761,
+      "stops": 152267,
+      "med_dwell_min": 55.9,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Ang Mo Kio",
+      "kind": "residential",
+      "devices": 48401,
+      "stops": 160815,
+      "med_dwell_min": 63.6,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Bugis",
+      "kind": "cbd",
+      "devices": 44783,
+      "stops": 86675,
+      "med_dwell_min": 48.8,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Yishun",
+      "kind": "residential",
+      "devices": 43455,
+      "stops": 165342,
+      "med_dwell_min": 75.8,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Jurong West",
+      "kind": "residential",
+      "devices": 43424,
+      "stops": 161189,
+      "med_dwell_min": 65.8,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Orchard",
+      "kind": "leisure",
+      "devices": 41740,
+      "stops": 104286,
+      "med_dwell_min": 57.2,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Sengkang",
+      "kind": "residential",
+      "devices": 40318,
+      "stops": 159830,
+      "med_dwell_min": 84.4,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Woodlands",
+      "kind": "residential",
+      "devices": 40246,
+      "stops": 144221,
+      "med_dwell_min": 72.7,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Tampines",
+      "kind": "residential",
+      "devices": 39445,
+      "stops": 147985,
+      "med_dwell_min": 78.5,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Choa Chu Kang",
+      "kind": "residential",
+      "devices": 37774,
+      "stops": 152268,
+      "med_dwell_min": 70.8,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Serangoon",
+      "kind": "residential",
+      "devices": 35598,
+      "stops": 107312,
+      "med_dwell_min": 60.6,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Jurong East",
+      "kind": "cbd",
+      "devices": 35021,
+      "stops": 104108,
+      "med_dwell_min": 69.5,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Clementi",
+      "kind": "residential",
+      "devices": 33431,
+      "stops": 110761,
+      "med_dwell_min": 59.3,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Bukit Batok",
+      "kind": "residential",
+      "devices": 32029,
+      "stops": 103449,
+      "med_dwell_min": 62.2,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Punggol",
+      "kind": "residential",
+      "devices": 30468,
+      "stops": 118830,
+      "med_dwell_min": 84.7,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Kallang",
+      "kind": "residential",
+      "devices": 30246,
+      "stops": 80839,
+      "med_dwell_min": 59.9,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Little India",
+      "kind": "leisure",
+      "devices": 28380,
+      "stops": 62066,
+      "med_dwell_min": 56.1,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Bukit Panjang",
+      "kind": "residential",
+      "devices": 28221,
+      "stops": 97775,
+      "med_dwell_min": 65.6,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Pasir Ris",
+      "kind": "residential",
+      "devices": 27174,
+      "stops": 97481,
+      "med_dwell_min": 79.3,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Sembawang",
+      "kind": "residential",
+      "devices": 25971,
+      "stops": 95545,
+      "med_dwell_min": 79.0,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Bukit Merah",
+      "kind": "residential",
+      "devices": 25807,
+      "stops": 79971,
+      "med_dwell_min": 63.9,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Bukit Timah",
+      "kind": "residential",
+      "devices": 24735,
+      "stops": 76551,
+      "med_dwell_min": 54.8,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Raffles Place / CBD",
+      "kind": "cbd",
+      "devices": 21262,
+      "stops": 51796,
+      "med_dwell_min": 55.0,
+      "peak_hour": 8
+    },
+    {
+      "zone": "East Coast",
+      "kind": "leisure",
+      "devices": 21181,
+      "stops": 65839,
+      "med_dwell_min": 57.3,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Tiong Bahru",
+      "kind": "residential",
+      "devices": 21161,
+      "stops": 55553,
+      "med_dwell_min": 59.8,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Clarke Quay / River Valley",
+      "kind": "leisure",
+      "devices": 20431,
+      "stops": 45910,
+      "med_dwell_min": 51.5,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Tengah",
+      "kind": "residential",
+      "devices": 18997,
+      "stops": 66227,
+      "med_dwell_min": 80.9,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Paya Lebar",
+      "kind": "cbd",
+      "devices": 18199,
+      "stops": 48663,
+      "med_dwell_min": 69.2,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Tuas",
+      "kind": "industrial",
+      "devices": 17974,
+      "stops": 59916,
+      "med_dwell_min": 65.6,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Changi Business Park / Expo",
+      "kind": "cbd",
+      "devices": 17415,
+      "stops": 55866,
+      "med_dwell_min": 78.8,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Holland Village",
+      "kind": "leisure",
+      "devices": 16957,
+      "stops": 52725,
+      "med_dwell_min": 66.6,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Bishan",
+      "kind": "residential",
+      "devices": 16804,
+      "stops": 53491,
+      "med_dwell_min": 76.7,
+      "peak_hour": 8
+    },
+    {
+      "zone": "NTU / Pioneer",
+      "kind": "education",
+      "devices": 15802,
+      "stops": 49156,
+      "med_dwell_min": 64.3,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Chinatown",
+      "kind": "cbd",
+      "devices": 14390,
+      "stops": 27939,
+      "med_dwell_min": 56.1,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Seletar",
+      "kind": "industrial",
+      "devices": 13628,
+      "stops": 40679,
+      "med_dwell_min": 51.4,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Loyang",
+      "kind": "industrial",
+      "devices": 13612,
+      "stops": 45383,
+      "med_dwell_min": 80.4,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Novena",
+      "kind": "residential",
+      "devices": 13372,
+      "stops": 40279,
+      "med_dwell_min": 79.9,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Marine Parade / Katong",
+      "kind": "residential",
+      "devices": 13275,
+      "stops": 39596,
+      "med_dwell_min": 62.1,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Alexandra / Labrador",
+      "kind": "cbd",
+      "devices": 12262,
+      "stops": 32564,
+      "med_dwell_min": 66.9,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Tanjong Pagar",
+      "kind": "cbd",
+      "devices": 11391,
+      "stops": 27283,
+      "med_dwell_min": 66.0,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Changi Airport",
+      "kind": "airport",
+      "devices": 11293,
+      "stops": 26757,
+      "med_dwell_min": 61.9,
+      "peak_hour": 8
+    },
+    {
+      "zone": "One-North / Buona Vista",
+      "kind": "cbd",
+      "devices": 10929,
+      "stops": 29817,
+      "med_dwell_min": 68.2,
+      "peak_hour": 8
+    },
+    {
+      "zone": "HarbourFront",
+      "kind": "leisure",
+      "devices": 10227,
+      "stops": 22599,
+      "med_dwell_min": 65.9,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Queenstown",
+      "kind": "residential",
+      "devices": 10099,
+      "stops": 29745,
+      "med_dwell_min": 81.2,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Newton",
+      "kind": "residential",
+      "devices": 8386,
+      "stops": 23619,
+      "med_dwell_min": 70.4,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Woodlands Checkpoint",
+      "kind": "transport",
+      "devices": 8257,
+      "stops": 25881,
+      "med_dwell_min": 75.4,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Kranji",
+      "kind": "industrial",
+      "devices": 8072,
+      "stops": 24548,
+      "med_dwell_min": 72.5,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Marina Bay",
+      "kind": "cbd",
+      "devices": 7961,
+      "stops": 16017,
+      "med_dwell_min": 60.2,
+      "peak_hour": 8
+    },
+    {
+      "zone": "NUS / Kent Ridge",
+      "kind": "education",
+      "devices": 6234,
+      "stops": 17617,
+      "med_dwell_min": 63.6,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Sentosa",
+      "kind": "leisure",
+      "devices": 3319,
+      "stops": 9062,
+      "med_dwell_min": 69.3,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Pasir Panjang",
+      "kind": "industrial",
+      "devices": 3271,
+      "stops": 9173,
+      "med_dwell_min": 61.7,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Mandai",
+      "kind": "leisure",
+      "devices": 2643,
+      "stops": 6132,
+      "med_dwell_min": 59.6,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Jurong Island",
+      "kind": "industrial",
+      "devices": 2538,
+      "stops": 7808,
+      "med_dwell_min": 61.4,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Lim Chu Kang",
+      "kind": "industrial",
+      "devices": 850,
+      "stops": 2358,
+      "med_dwell_min": 63.1,
+      "peak_hour": 8
+    },
+    {
+      "zone": "Tuas Checkpoint",
+      "kind": "transport",
+      "devices": 838,
+      "stops": 2088,
+      "med_dwell_min": 63.0,
+      "peak_hour": 8
+    }
+  ],
+  "day_night": [
+    {
+      "zone": "Bedok",
+      "day_devices": 39066,
+      "night_devices": 21347
+    },
+    {
+      "zone": "Hougang",
+      "day_devices": 37669,
+      "night_devices": 21660
+    },
+    {
+      "zone": "Geylang",
+      "day_devices": 35902,
+      "night_devices": 18464
+    },
+    {
+      "zone": "Toa Payoh",
+      "day_devices": 33082,
+      "night_devices": 17652
+    },
+    {
+      "zone": "Ang Mo Kio",
+      "day_devices": 31240,
+      "night_devices": 15608
+    },
+    {
+      "zone": "Bugis",
+      "day_devices": 30217,
+      "night_devices": 8725
+    },
+    {
+      "zone": "Orchard",
+      "day_devices": 28429,
+      "night_devices": 10154
+    },
+    {
+      "zone": "Jurong West",
+      "day_devices": 28179,
+      "night_devices": 16034
+    },
+    {
+      "zone": "Yishun",
+      "day_devices": 27608,
+      "night_devices": 15906
+    },
+    {
+      "zone": "Tampines",
+      "day_devices": 25851,
+      "night_devices": 13944
+    },
+    {
+      "zone": "Sengkang",
+      "day_devices": 25326,
+      "night_devices": 15905
+    },
+    {
+      "zone": "Woodlands",
+      "day_devices": 25319,
+      "night_devices": 14965
+    },
+    {
+      "zone": "Choa Chu Kang",
+      "day_devices": 24330,
+      "night_devices": 15874
+    },
+    {
+      "zone": "Jurong East",
+      "day_devices": 22989,
+      "night_devices": 9487
+    },
+    {
+      "zone": "Serangoon",
+      "day_devices": 22832,
+      "night_devices": 11416
+    },
+    {
+      "zone": "Clementi",
+      "day_devices": 22042,
+      "night_devices": 11373
+    },
+    {
+      "zone": "Bukit Batok",
+      "day_devices": 20241,
+      "night_devices": 11344
+    },
+    {
+      "zone": "Punggol",
+      "day_devices": 19070,
+      "night_devices": 11679
+    },
+    {
+      "zone": "Kallang",
+      "day_devices": 19023,
+      "night_devices": 9115
+    },
+    {
+      "zone": "Little India",
+      "day_devices": 18286,
+      "night_devices": 6928
+    },
+    {
+      "zone": "Bukit Panjang",
+      "day_devices": 18002,
+      "night_devices": 11459
+    },
+    {
+      "zone": "Pasir Ris",
+      "day_devices": 17491,
+      "night_devices": 9483
+    },
+    {
+      "zone": "Sembawang",
+      "day_devices": 16942,
+      "night_devices": 9397
+    },
+    {
+      "zone": "Bukit Merah",
+      "day_devices": 16540,
+      "night_devices": 8138
+    },
+    {
+      "zone": "Bukit Timah",
+      "day_devices": 16153,
+      "night_devices": 8390
+    },
+    {
+      "zone": "Raffles Place / CBD",
+      "day_devices": 14205,
+      "night_devices": 6475
+    },
+    {
+      "zone": "Tiong Bahru",
+      "day_devices": 14011,
+      "night_devices": 5633
+    },
+    {
+      "zone": "East Coast",
+      "day_devices": 13762,
+      "night_devices": 7419
+    },
+    {
+      "zone": "Clarke Quay / River Valley",
+      "day_devices": 12926,
+      "night_devices": 5783
+    },
+    {
+      "zone": "Tuas",
+      "day_devices": 12405,
+      "night_devices": 4737
+    },
+    {
+      "zone": "Paya Lebar",
+      "day_devices": 12262,
+      "night_devices": 4252
+    },
+    {
+      "zone": "Tengah",
+      "day_devices": 11915,
+      "night_devices": 6517
+    },
+    {
+      "zone": "Changi Business Park / Expo",
+      "day_devices": 11780,
+      "night_devices": 4535
+    },
+    {
+      "zone": "Bishan",
+      "day_devices": 11477,
+      "night_devices": 4269
+    },
+    {
+      "zone": "Holland Village",
+      "day_devices": 10996,
+      "night_devices": 4812
+    },
+    {
+      "zone": "NTU / Pioneer",
+      "day_devices": 10279,
+      "night_devices": 5395
+    },
+    {
+      "zone": "Novena",
+      "day_devices": 9437,
+      "night_devices": 2966
+    },
+    {
+      "zone": "Chinatown",
+      "day_devices": 9412,
+      "night_devices": 2873
+    },
+    {
+      "zone": "Loyang",
+      "day_devices": 8755,
+      "night_devices": 4237
+    },
+    {
+      "zone": "Seletar",
+      "day_devices": 8551,
+      "night_devices": 5511
+    },
+    {
+      "zone": "Marine Parade / Katong",
+      "day_devices": 8345,
+      "night_devices": 4309
+    },
+    {
+      "zone": "Alexandra / Labrador",
+      "day_devices": 8196,
+      "night_devices": 2832
+    },
+    {
+      "zone": "Tanjong Pagar",
+      "day_devices": 7565,
+      "night_devices": 2146
+    },
+    {
+      "zone": "Queenstown",
+      "day_devices": 7502,
+      "night_devices": 3964
+    },
+    {
+      "zone": "Changi Airport",
+      "day_devices": 6967,
+      "night_devices": 2364
+    },
+    {
+      "zone": "One-North / Buona Vista",
+      "day_devices": 6959,
+      "night_devices": 2886
+    },
+    {
+      "zone": "HarbourFront",
+      "day_devices": 6931,
+      "night_devices": 1733
+    },
+    {
+      "zone": "Newton",
+      "day_devices": 5336,
+      "night_devices": 2195
+    },
+    {
+      "zone": "Kranji",
+      "day_devices": 5302,
+      "night_devices": 2181
+    },
+    {
+      "zone": "Woodlands Checkpoint",
+      "day_devices": 5067,
+      "night_devices": 2741
+    },
+    {
+      "zone": "Marina Bay",
+      "day_devices": 4731,
+      "night_devices": 1530
+    },
+    {
+      "zone": "NUS / Kent Ridge",
+      "day_devices": 3997,
+      "night_devices": 1536
+    },
+    {
+      "zone": "Sentosa",
+      "day_devices": 2401,
+      "night_devices": 767
+    },
+    {
+      "zone": "Pasir Panjang",
+      "day_devices": 2022,
+      "night_devices": 835
+    },
+    {
+      "zone": "Mandai",
+      "day_devices": 1766,
+      "night_devices": 512
+    },
+    {
+      "zone": "Jurong Island",
+      "day_devices": 1657,
+      "night_devices": 473
+    },
+    {
+      "zone": "Lim Chu Kang",
+      "day_devices": 610,
+      "night_devices": 165
+    },
+    {
+      "zone": "Tuas Checkpoint",
+      "day_devices": 565,
+      "night_devices": 130
+    }
+  ],
+  "weekend_shift": [
+    {
+      "zone": "Sentosa",
+      "wkday_devices_per_day": 461.0,
+      "wkend_devices_per_day": 781.0
+    },
+    {
+      "zone": "Marina Bay",
+      "wkday_devices_per_day": 1056.4,
+      "wkend_devices_per_day": 1774.0
+    },
+    {
+      "zone": "Little India",
+      "wkday_devices_per_day": 3951.4,
+      "wkend_devices_per_day": 6514.0
+    },
+    {
+      "zone": "Punggol",
+      "wkday_devices_per_day": 4795.0,
+      "wkend_devices_per_day": 7868.5
+    },
+    {
+      "zone": "Sengkang",
+      "wkday_devices_per_day": 6390.4,
+      "wkend_devices_per_day": 10371.5
+    },
+    {
+      "zone": "Yishun",
+      "wkday_devices_per_day": 6815.2,
+      "wkend_devices_per_day": 11039.5
+    },
+    {
+      "zone": "HarbourFront",
+      "wkday_devices_per_day": 1406.4,
+      "wkend_devices_per_day": 2265.5
+    },
+    {
+      "zone": "Mandai",
+      "wkday_devices_per_day": 364.0,
+      "wkend_devices_per_day": 583.0
+    },
+    {
+      "zone": "Pasir Ris",
+      "wkday_devices_per_day": 4252.4,
+      "wkend_devices_per_day": 6703.5
+    },
+    {
+      "zone": "Seletar",
+      "wkday_devices_per_day": 2110.6,
+      "wkend_devices_per_day": 3313.0
+    },
+    {
+      "zone": "Bukit Batok",
+      "wkday_devices_per_day": 4928.8,
+      "wkend_devices_per_day": 7723.0
+    },
+    {
+      "zone": "Woodlands",
+      "wkday_devices_per_day": 6387.2,
+      "wkend_devices_per_day": 9811.5
+    },
+    {
+      "zone": "Woodlands Checkpoint",
+      "wkday_devices_per_day": 1276.6,
+      "wkend_devices_per_day": 1955.0
+    },
+    {
+      "zone": "Bukit Panjang",
+      "wkday_devices_per_day": 4512.6,
+      "wkend_devices_per_day": 6899.0
+    },
+    {
+      "zone": "Marine Parade / Katong",
+      "wkday_devices_per_day": 2007.6,
+      "wkend_devices_per_day": 3068.5
+    },
+    {
+      "zone": "Tengah",
+      "wkday_devices_per_day": 2980.8,
+      "wkend_devices_per_day": 4548.5
+    },
+    {
+      "zone": "East Coast",
+      "wkday_devices_per_day": 3284.4,
+      "wkend_devices_per_day": 5007.0
+    },
+    {
+      "zone": "Hougang",
+      "wkday_devices_per_day": 9239.0,
+      "wkend_devices_per_day": 13932.5
+    },
+    {
+      "zone": "Kallang",
+      "wkday_devices_per_day": 4530.8,
+      "wkend_devices_per_day": 6829.0
+    },
+    {
+      "zone": "Sembawang",
+      "wkday_devices_per_day": 4152.4,
+      "wkend_devices_per_day": 6258.0
+    },
+    {
+      "zone": "Ang Mo Kio",
+      "wkday_devices_per_day": 7546.4,
+      "wkend_devices_per_day": 11351.5
+    },
+    {
+      "zone": "Changi Airport",
+      "wkday_devices_per_day": 1605.2,
+      "wkend_devices_per_day": 2396.5
+    },
+    {
+      "zone": "Loyang",
+      "wkday_devices_per_day": 2132.8,
+      "wkend_devices_per_day": 3177.5
+    },
+    {
+      "zone": "Choa Chu Kang",
+      "wkday_devices_per_day": 6209.8,
+      "wkend_devices_per_day": 9242.0
+    },
+    {
+      "zone": "Paya Lebar",
+      "wkday_devices_per_day": 2728.2,
+      "wkend_devices_per_day": 4058.5
+    },
+    {
+      "zone": "Bishan",
+      "wkday_devices_per_day": 2605.8,
+      "wkend_devices_per_day": 3844.5
+    },
+    {
+      "zone": "Tampines",
+      "wkday_devices_per_day": 6380.4,
+      "wkend_devices_per_day": 9384.0
+    },
+    {
+      "zone": "Jurong West",
+      "wkday_devices_per_day": 7053.2,
+      "wkend_devices_per_day": 10365.5
+    },
+    {
+      "zone": "Holland Village",
+      "wkday_devices_per_day": 2635.6,
+      "wkend_devices_per_day": 3837.5
+    },
+    {
+      "zone": "Serangoon",
+      "wkday_devices_per_day": 5546.0,
+      "wkend_devices_per_day": 7984.0
+    },
+    {
+      "zone": "Lim Chu Kang",
+      "wkday_devices_per_day": 123.0,
+      "wkend_devices_per_day": 177.0
+    },
+    {
+      "zone": "Kranji",
+      "wkday_devices_per_day": 1266.0,
+      "wkend_devices_per_day": 1771.5
+    },
+    {
+      "zone": "Bukit Merah",
+      "wkday_devices_per_day": 4098.4,
+      "wkend_devices_per_day": 5638.0
+    },
+    {
+      "zone": "NTU / Pioneer",
+      "wkday_devices_per_day": 2539.8,
+      "wkend_devices_per_day": 3456.5
+    },
+    {
+      "zone": "Newton",
+      "wkday_devices_per_day": 1290.4,
+      "wkend_devices_per_day": 1744.0
+    },
+    {
+      "zone": "Bukit Timah",
+      "wkday_devices_per_day": 3948.6,
+      "wkend_devices_per_day": 5215.5
+    },
+    {
+      "zone": "Tiong Bahru",
+      "wkday_devices_per_day": 3320.0,
+      "wkend_devices_per_day": 4353.0
+    },
+    {
+      "zone": "Jurong East",
+      "wkday_devices_per_day": 5567.2,
+      "wkend_devices_per_day": 7295.5
+    },
+    {
+      "zone": "Alexandra / Labrador",
+      "wkday_devices_per_day": 1905.4,
+      "wkend_devices_per_day": 2493.0
+    },
+    {
+      "zone": "Changi Business Park / Expo",
+      "wkday_devices_per_day": 2791.0,
+      "wkend_devices_per_day": 3613.5
+    },
+    {
+      "zone": "Geylang",
+      "wkday_devices_per_day": 8807.0,
+      "wkend_devices_per_day": 11401.5
+    },
+    {
+      "zone": "Bedok",
+      "wkday_devices_per_day": 9688.8,
+      "wkend_devices_per_day": 12542.0
+    },
+    {
+      "zone": "Bugis",
+      "wkday_devices_per_day": 6731.6,
+      "wkend_devices_per_day": 8690.0
+    },
+    {
+      "zone": "Pasir Panjang",
+      "wkday_devices_per_day": 518.0,
+      "wkend_devices_per_day": 666.0
+    },
+    {
+      "zone": "One-North / Buona Vista",
+      "wkday_devices_per_day": 1724.0,
+      "wkend_devices_per_day": 2201.0
+    },
+    {
+      "zone": "Novena",
+      "wkday_devices_per_day": 2126.4,
+      "wkend_devices_per_day": 2694.5
+    },
+    {
+      "zone": "Clarke Quay / River Valley",
+      "wkday_devices_per_day": 3141.4,
+      "wkend_devices_per_day": 3969.0
+    },
+    {
+      "zone": "Tuas",
+      "wkday_devices_per_day": 2992.4,
+      "wkend_devices_per_day": 3702.0
+    },
+    {
+      "zone": "Toa Payoh",
+      "wkday_devices_per_day": 8397.4,
+      "wkend_devices_per_day": 10376.0
+    },
+    {
+      "zone": "Chinatown",
+      "wkday_devices_per_day": 2171.4,
+      "wkend_devices_per_day": 2623.5
+    },
+    {
+      "zone": "Orchard",
+      "wkday_devices_per_day": 6583.6,
+      "wkend_devices_per_day": 7929.5
+    },
+    {
+      "zone": "NUS / Kent Ridge",
+      "wkday_devices_per_day": 1000.6,
+      "wkend_devices_per_day": 1202.5
+    },
+    {
+      "zone": "Clementi",
+      "wkday_devices_per_day": 5566.4,
+      "wkend_devices_per_day": 6639.0
+    },
+    {
+      "zone": "Jurong Island",
+      "wkday_devices_per_day": 420.2,
+      "wkend_devices_per_day": 468.0
+    },
+    {
+      "zone": "Tanjong Pagar",
+      "wkday_devices_per_day": 1830.4,
+      "wkend_devices_per_day": 1904.0
+    },
+    {
+      "zone": "Raffles Place / CBD",
+      "wkday_devices_per_day": 3584.2,
+      "wkend_devices_per_day": 3353.0
+    },
+    {
+      "zone": "Tuas Checkpoint",
+      "wkday_devices_per_day": 140.6,
+      "wkend_devices_per_day": 128.5
+    },
+    {
+      "zone": "Queenstown",
+      "wkday_devices_per_day": 1722.6,
+      "wkend_devices_per_day": 1373.5
+    }
+  ]
+}

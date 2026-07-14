@@ -1,0 +1,369 @@
+{
+  "utc_midnight_step": [
+    {
+      "h": 0,
+      "agg_devices": 930883,
+      "sdk_app_devices": 9054
+    },
+    {
+      "h": 1,
+      "agg_devices": 728448,
+      "sdk_app_devices": 7080
+    },
+    {
+      "h": 2,
+      "agg_devices": 629994,
+      "sdk_app_devices": 5980
+    },
+    {
+      "h": 3,
+      "agg_devices": 628944,
+      "sdk_app_devices": 5567
+    },
+    {
+      "h": 4,
+      "agg_devices": 571248,
+      "sdk_app_devices": 6376
+    },
+    {
+      "h": 5,
+      "agg_devices": 592731,
+      "sdk_app_devices": 10360
+    },
+    {
+      "h": 6,
+      "agg_devices": 665347,
+      "sdk_app_devices": 13417
+    },
+    {
+      "h": 7,
+      "agg_devices": 862362,
+      "sdk_app_devices": 16246
+    },
+    {
+      "h": 8,
+      "agg_devices": 2388041,
+      "sdk_app_devices": 17437
+    },
+    {
+      "h": 9,
+      "agg_devices": 2276150,
+      "sdk_app_devices": 17413
+    },
+    {
+      "h": 10,
+      "agg_devices": 2010798,
+      "sdk_app_devices": 17047
+    },
+    {
+      "h": 11,
+      "agg_devices": 1319168,
+      "sdk_app_devices": 16859
+    },
+    {
+      "h": 12,
+      "agg_devices": 1246497,
+      "sdk_app_devices": 16915
+    },
+    {
+      "h": 13,
+      "agg_devices": 1246636,
+      "sdk_app_devices": 17112
+    },
+    {
+      "h": 14,
+      "agg_devices": 1280171,
+      "sdk_app_devices": 15927
+    },
+    {
+      "h": 15,
+      "agg_devices": 1270883,
+      "sdk_app_devices": 15808
+    },
+    {
+      "h": 16,
+      "agg_devices": 1318675,
+      "sdk_app_devices": 17271
+    },
+    {
+      "h": 17,
+      "agg_devices": 1330009,
+      "sdk_app_devices": 16608
+    },
+    {
+      "h": 18,
+      "agg_devices": 1359535,
+      "sdk_app_devices": 17622
+    },
+    {
+      "h": 19,
+      "agg_devices": 1309944,
+      "sdk_app_devices": 18523
+    },
+    {
+      "h": 20,
+      "agg_devices": 1233623,
+      "sdk_app_devices": 16541
+    },
+    {
+      "h": 21,
+      "agg_devices": 1233472,
+      "sdk_app_devices": 14384
+    },
+    {
+      "h": 22,
+      "agg_devices": 1212404,
+      "sdk_app_devices": 13298
+    },
+    {
+      "h": 23,
+      "agg_devices": 1102530,
+      "sdk_app_devices": 11501
+    }
+  ],
+  "hourly_sdk_app_only": [
+    {
+      "h": 0,
+      "daytype": "weekday",
+      "devices": 7536
+    },
+    {
+      "h": 1,
+      "daytype": "weekday",
+      "devices": 5675
+    },
+    {
+      "h": 2,
+      "daytype": "weekday",
+      "devices": 4801
+    },
+    {
+      "h": 3,
+      "daytype": "weekday",
+      "devices": 4535
+    },
+    {
+      "h": 4,
+      "daytype": "weekday",
+      "devices": 5331
+    },
+    {
+      "h": 5,
+      "daytype": "weekday",
+      "devices": 9036
+    },
+    {
+      "h": 6,
+      "daytype": "weekday",
+      "devices": 11980
+    },
+    {
+      "h": 7,
+      "daytype": "weekday",
+      "devices": 14650
+    },
+    {
+      "h": 8,
+      "daytype": "weekday",
+      "devices": 15393
+    },
+    {
+      "h": 9,
+      "daytype": "weekday",
+      "devices": 15186
+    },
+    {
+      "h": 10,
+      "daytype": "weekday",
+      "devices": 14660
+    },
+    {
+      "h": 11,
+      "daytype": "weekday",
+      "devices": 14559
+    },
+    {
+      "h": 12,
+      "daytype": "weekday",
+      "devices": 14643
+    },
+    {
+      "h": 13,
+      "daytype": "weekday",
+      "devices": 14779
+    },
+    {
+      "h": 14,
+      "daytype": "weekday",
+      "devices": 13803
+    },
+    {
+      "h": 15,
+      "daytype": "weekday",
+      "devices": 13701
+    },
+    {
+      "h": 16,
+      "daytype": "weekday",
+      "devices": 14968
+    },
+    {
+      "h": 17,
+      "daytype": "weekday",
+      "devices": 14597
+    },
+    {
+      "h": 18,
+      "daytype": "weekday",
+      "devices": 15437
+    },
+    {
+      "h": 19,
+      "daytype": "weekday",
+      "devices": 16194
+    },
+    {
+      "h": 20,
+      "daytype": "weekday",
+      "devices": 14289
+    },
+    {
+      "h": 21,
+      "daytype": "weekday",
+      "devices": 12417
+    },
+    {
+      "h": 22,
+      "daytype": "weekday",
+      "devices": 11359
+    },
+    {
+      "h": 23,
+      "daytype": "weekday",
+      "devices": 9740
+    },
+    {
+      "h": 0,
+      "daytype": "weekend",
+      "devices": 4708
+    },
+    {
+      "h": 1,
+      "daytype": "weekend",
+      "devices": 3516
+    },
+    {
+      "h": 2,
+      "daytype": "weekend",
+      "devices": 2790
+    },
+    {
+      "h": 3,
+      "daytype": "weekend",
+      "devices": 2506
+    },
+    {
+      "h": 4,
+      "daytype": "weekend",
+      "devices": 2790
+    },
+    {
+      "h": 5,
+      "daytype": "weekend",
+      "devices": 4903
+    },
+    {
+      "h": 6,
+      "daytype": "weekend",
+      "devices": 6221
+    },
+    {
+      "h": 7,
+      "daytype": "weekend",
+      "devices": 7499
+    },
+    {
+      "h": 8,
+      "daytype": "weekend",
+      "devices": 8386
+    },
+    {
+      "h": 9,
+      "daytype": "weekend",
+      "devices": 8739
+    },
+    {
+      "h": 10,
+      "daytype": "weekend",
+      "devices": 9041
+    },
+    {
+      "h": 11,
+      "daytype": "weekend",
+      "devices": 9044
+    },
+    {
+      "h": 12,
+      "daytype": "weekend",
+      "devices": 9009
+    },
+    {
+      "h": 13,
+      "daytype": "weekend",
+      "devices": 8983
+    },
+    {
+      "h": 14,
+      "daytype": "weekend",
+      "devices": 8386
+    },
+    {
+      "h": 15,
+      "daytype": "weekend",
+      "devices": 8314
+    },
+    {
+      "h": 16,
+      "daytype": "weekend",
+      "devices": 9009
+    },
+    {
+      "h": 17,
+      "daytype": "weekend",
+      "devices": 8483
+    },
+    {
+      "h": 18,
+      "daytype": "weekend",
+      "devices": 9077
+    },
+    {
+      "h": 19,
+      "daytype": "weekend",
+      "devices": 9774
+    },
+    {
+      "h": 20,
+      "daytype": "weekend",
+      "devices": 8931
+    },
+    {
+      "h": 21,
+      "daytype": "weekend",
+      "devices": 7804
+    },
+    {
+      "h": 22,
+      "daytype": "weekend",
+      "devices": 7269
+    },
+    {
+      "h": 23,
+      "daytype": "weekend",
+      "devices": 6059
+    }
+  ],
+  "duplicate_share": {
+    "same_ts_share": 0.0
+  }
+}

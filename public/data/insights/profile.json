@@ -1,0 +1,114 @@
+{
+  "totals": {
+    "pings": 183826187,
+    "devices": 9641233,
+    "first_ts": "2026-06-01 08:00:00",
+    "last_ts": "2026-06-08 07:59:59.988000"
+  },
+  "per_day": [
+    {
+      "d": "2026-06-01",
+      "pings": 20472955,
+      "devices": 2139297
+    },
+    {
+      "d": "2026-06-02",
+      "pings": 23237368,
+      "devices": 2489102
+    },
+    {
+      "d": "2026-06-03",
+      "pings": 27124829,
+      "devices": 2868248
+    },
+    {
+      "d": "2026-06-04",
+      "pings": 28486223,
+      "devices": 2769876
+    },
+    {
+      "d": "2026-06-05",
+      "pings": 25031623,
+      "devices": 2157337
+    },
+    {
+      "d": "2026-06-06",
+      "pings": 28443755,
+      "devices": 2678567
+    },
+    {
+      "d": "2026-06-07",
+      "pings": 26356992,
+      "devices": 2734756
+    },
+    {
+      "d": "2026-06-08",
+      "pings": 4672442,
+      "devices": 739955
+    }
+  ],
+  "source_mix": [
+    {
+      "source_type": "agg",
+      "pings": 175924821,
+      "devices": 9621160
+    },
+    {
+      "source_type": "sdk",
+      "pings": 6433422,
+      "devices": 26702
+    },
+    {
+      "source_type": "app",
+      "pings": 1467944,
+      "devices": 14753
+    }
+  ],
+  "id_mix": [
+    {
+      "id_type": "aaid",
+      "devices": 6694380
+    },
+    {
+      "id_type": "idfa",
+      "devices": 3005649
+    },
+    {
+      "id_type": "other",
+      "devices": 32284
+    }
+  ],
+  "accuracy_quantiles_m": {
+    "p25": 11.2,
+    "p50": 18.0,
+    "p75": 31.0,
+    "p95": 107.0
+  },
+  "pings_per_device": {
+    "mean": 19.1,
+    "p50": 3.0,
+    "p90": 23.0,
+    "p99": 336.0,
+    "max": 76566
+  },
+  "device_depth": {
+    "single_ping": 2608788,
+    "light": 5916642,
+    "trajectory_grade": 1059086,
+    "active_5plus_days": 793966
+  },
+  "warehouse": [
+    {
+      "tbl": "stops",
+      "n": 4251853
+    },
+    {
+      "tbl": "trips",
+      "n": 988778
+    },
+    {
+      "tbl": "traj_devices",
+      "n": 1059086
+    }
+  ]
+}

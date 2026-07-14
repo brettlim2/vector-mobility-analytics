@@ -1,0 +1,776 @@
+{
+  "hourly": [
+    {
+      "h": 0,
+      "daytype": "weekday",
+      "pings_per_day": 731039.2,
+      "devices": 753190
+    },
+    {
+      "h": 1,
+      "daytype": "weekday",
+      "pings_per_day": 574461.4,
+      "devices": 588747
+    },
+    {
+      "h": 2,
+      "daytype": "weekday",
+      "pings_per_day": 488916.2,
+      "devices": 519263
+    },
+    {
+      "h": 3,
+      "daytype": "weekday",
+      "pings_per_day": 467160.0,
+      "devices": 516294
+    },
+    {
+      "h": 4,
+      "daytype": "weekday",
+      "pings_per_day": 433229.0,
+      "devices": 473004
+    },
+    {
+      "h": 5,
+      "daytype": "weekday",
+      "pings_per_day": 495192.0,
+      "devices": 497668
+    },
+    {
+      "h": 6,
+      "daytype": "weekday",
+      "pings_per_day": 696573.4,
+      "devices": 562709
+    },
+    {
+      "h": 7,
+      "daytype": "weekday",
+      "pings_per_day": 997573.2,
+      "devices": 727806
+    },
+    {
+      "h": 8,
+      "daytype": "weekday",
+      "pings_per_day": 2443982.2,
+      "devices": 1713448
+    },
+    {
+      "h": 9,
+      "daytype": "weekday",
+      "pings_per_day": 2004089.4,
+      "devices": 1615937
+    },
+    {
+      "h": 10,
+      "daytype": "weekday",
+      "pings_per_day": 1639133.2,
+      "devices": 1456297
+    },
+    {
+      "h": 11,
+      "daytype": "weekday",
+      "pings_per_day": 1073170.2,
+      "devices": 986578
+    },
+    {
+      "h": 12,
+      "daytype": "weekday",
+      "pings_per_day": 1085497.6,
+      "devices": 955914
+    },
+    {
+      "h": 13,
+      "daytype": "weekday",
+      "pings_per_day": 1149706.6,
+      "devices": 967045
+    },
+    {
+      "h": 14,
+      "daytype": "weekday",
+      "pings_per_day": 1177015.6,
+      "devices": 988243
+    },
+    {
+      "h": 15,
+      "daytype": "weekday",
+      "pings_per_day": 1166992.4,
+      "devices": 984540
+    },
+    {
+      "h": 16,
+      "daytype": "weekday",
+      "pings_per_day": 1197384.4,
+      "devices": 1008682
+    },
+    {
+      "h": 17,
+      "daytype": "weekday",
+      "pings_per_day": 1300985.8,
+      "devices": 1016648
+    },
+    {
+      "h": 18,
+      "daytype": "weekday",
+      "pings_per_day": 1341770.0,
+      "devices": 1037945
+    },
+    {
+      "h": 19,
+      "daytype": "weekday",
+      "pings_per_day": 1227772.6,
+      "devices": 1013134
+    },
+    {
+      "h": 20,
+      "daytype": "weekday",
+      "pings_per_day": 1128091.4,
+      "devices": 965949
+    },
+    {
+      "h": 21,
+      "daytype": "weekday",
+      "pings_per_day": 1091927.8,
+      "devices": 958429
+    },
+    {
+      "h": 22,
+      "daytype": "weekday",
+      "pings_per_day": 1025145.6,
+      "devices": 942640
+    },
+    {
+      "h": 23,
+      "daytype": "weekday",
+      "pings_per_day": 868278.8,
+      "devices": 844905
+    },
+    {
+      "h": 0,
+      "daytype": "weekend",
+      "pings_per_day": 718950.0,
+      "devices": 316175
+    },
+    {
+      "h": 1,
+      "daytype": "weekend",
+      "pings_per_day": 567976.5,
+      "devices": 250117
+    },
+    {
+      "h": 2,
+      "daytype": "weekend",
+      "pings_per_day": 463755.0,
+      "devices": 205845
+    },
+    {
+      "h": 3,
+      "daytype": "weekend",
+      "pings_per_day": 435890.0,
+      "devices": 204205
+    },
+    {
+      "h": 4,
+      "daytype": "weekend",
+      "pings_per_day": 405507.0,
+      "devices": 187332
+    },
+    {
+      "h": 5,
+      "daytype": "weekend",
+      "pings_per_day": 443622.5,
+      "devices": 194448
+    },
+    {
+      "h": 6,
+      "daytype": "weekend",
+      "pings_per_day": 580428.0,
+      "devices": 217415
+    },
+    {
+      "h": 7,
+      "daytype": "weekend",
+      "pings_per_day": 797092.0,
+      "devices": 271290
+    },
+    {
+      "h": 8,
+      "daytype": "weekend",
+      "pings_per_day": 3259582.5,
+      "devices": 1013136
+    },
+    {
+      "h": 9,
+      "daytype": "weekend",
+      "pings_per_day": 2817964.5,
+      "devices": 1001223
+    },
+    {
+      "h": 10,
+      "daytype": "weekend",
+      "pings_per_day": 1973189.5,
+      "devices": 840138
+    },
+    {
+      "h": 11,
+      "daytype": "weekend",
+      "pings_per_day": 1190208.5,
+      "devices": 529828
+    },
+    {
+      "h": 12,
+      "daytype": "weekend",
+      "pings_per_day": 1134645.5,
+      "devices": 479942
+    },
+    {
+      "h": 13,
+      "daytype": "weekend",
+      "pings_per_day": 1139782.5,
+      "devices": 462882
+    },
+    {
+      "h": 14,
+      "daytype": "weekend",
+      "pings_per_day": 1167176.5,
+      "devices": 481168
+    },
+    {
+      "h": 15,
+      "daytype": "weekend",
+      "pings_per_day": 1162943.0,
+      "devices": 475818
+    },
+    {
+      "h": 16,
+      "daytype": "weekend",
+      "pings_per_day": 1236800.0,
+      "devices": 515060
+    },
+    {
+      "h": 17,
+      "daytype": "weekend",
+      "pings_per_day": 1267764.5,
+      "devices": 520385
+    },
+    {
+      "h": 18,
+      "daytype": "weekend",
+      "pings_per_day": 1273778.5,
+      "devices": 536421
+    },
+    {
+      "h": 19,
+      "daytype": "weekend",
+      "pings_per_day": 1179692.0,
+      "devices": 506941
+    },
+    {
+      "h": 20,
+      "daytype": "weekend",
+      "pings_per_day": 1113120.0,
+      "devices": 457134
+    },
+    {
+      "h": 21,
+      "daytype": "weekend",
+      "pings_per_day": 1097060.0,
+      "devices": 461683
+    },
+    {
+      "h": 22,
+      "daytype": "weekend",
+      "pings_per_day": 1045612.5,
+      "devices": 450213
+    },
+    {
+      "h": 23,
+      "daytype": "weekend",
+      "pings_per_day": 927832.5,
+      "devices": 422579
+    }
+  ],
+  "stop_starts_hourly": [
+    {
+      "h": 0,
+      "daytype": "weekday",
+      "stops_per_day": 14564.8
+    },
+    {
+      "h": 1,
+      "daytype": "weekday",
+      "stops_per_day": 11034.0
+    },
+    {
+      "h": 2,
+      "daytype": "weekday",
+      "stops_per_day": 9789.8
+    },
+    {
+      "h": 3,
+      "daytype": "weekday",
+      "stops_per_day": 9272.0
+    },
+    {
+      "h": 4,
+      "daytype": "weekday",
+      "stops_per_day": 13676.6
+    },
+    {
+      "h": 5,
+      "daytype": "weekday",
+      "stops_per_day": 14449.2
+    },
+    {
+      "h": 6,
+      "daytype": "weekday",
+      "stops_per_day": 19070.0
+    },
+    {
+      "h": 7,
+      "daytype": "weekday",
+      "stops_per_day": 22723.0
+    },
+    {
+      "h": 8,
+      "daytype": "weekday",
+      "stops_per_day": 66805.8
+    },
+    {
+      "h": 9,
+      "daytype": "weekday",
+      "stops_per_day": 40107.4
+    },
+    {
+      "h": 10,
+      "daytype": "weekday",
+      "stops_per_day": 30453.6
+    },
+    {
+      "h": 11,
+      "daytype": "weekday",
+      "stops_per_day": 25233.6
+    },
+    {
+      "h": 12,
+      "daytype": "weekday",
+      "stops_per_day": 27842.2
+    },
+    {
+      "h": 13,
+      "daytype": "weekday",
+      "stops_per_day": 28690.8
+    },
+    {
+      "h": 14,
+      "daytype": "weekday",
+      "stops_per_day": 28340.4
+    },
+    {
+      "h": 15,
+      "daytype": "weekday",
+      "stops_per_day": 27342.8
+    },
+    {
+      "h": 16,
+      "daytype": "weekday",
+      "stops_per_day": 28235.6
+    },
+    {
+      "h": 17,
+      "daytype": "weekday",
+      "stops_per_day": 28527.2
+    },
+    {
+      "h": 18,
+      "daytype": "weekday",
+      "stops_per_day": 31401.2
+    },
+    {
+      "h": 19,
+      "daytype": "weekday",
+      "stops_per_day": 30277.8
+    },
+    {
+      "h": 20,
+      "daytype": "weekday",
+      "stops_per_day": 28736.2
+    },
+    {
+      "h": 21,
+      "daytype": "weekday",
+      "stops_per_day": 26631.6
+    },
+    {
+      "h": 22,
+      "daytype": "weekday",
+      "stops_per_day": 23408.0
+    },
+    {
+      "h": 23,
+      "daytype": "weekday",
+      "stops_per_day": 18466.2
+    },
+    {
+      "h": 0,
+      "daytype": "weekend",
+      "stops_per_day": 14654.0
+    },
+    {
+      "h": 1,
+      "daytype": "weekend",
+      "stops_per_day": 10661.0
+    },
+    {
+      "h": 2,
+      "daytype": "weekend",
+      "stops_per_day": 9173.0
+    },
+    {
+      "h": 3,
+      "daytype": "weekend",
+      "stops_per_day": 8585.5
+    },
+    {
+      "h": 4,
+      "daytype": "weekend",
+      "stops_per_day": 13332.5
+    },
+    {
+      "h": 5,
+      "daytype": "weekend",
+      "stops_per_day": 13132.5
+    },
+    {
+      "h": 6,
+      "daytype": "weekend",
+      "stops_per_day": 17338.0
+    },
+    {
+      "h": 7,
+      "daytype": "weekend",
+      "stops_per_day": 22343.0
+    },
+    {
+      "h": 8,
+      "daytype": "weekend",
+      "stops_per_day": 74141.5
+    },
+    {
+      "h": 9,
+      "daytype": "weekend",
+      "stops_per_day": 47048.5
+    },
+    {
+      "h": 10,
+      "daytype": "weekend",
+      "stops_per_day": 31882.0
+    },
+    {
+      "h": 11,
+      "daytype": "weekend",
+      "stops_per_day": 26818.5
+    },
+    {
+      "h": 12,
+      "daytype": "weekend",
+      "stops_per_day": 27625.5
+    },
+    {
+      "h": 13,
+      "daytype": "weekend",
+      "stops_per_day": 27325.0
+    },
+    {
+      "h": 14,
+      "daytype": "weekend",
+      "stops_per_day": 26904.5
+    },
+    {
+      "h": 15,
+      "daytype": "weekend",
+      "stops_per_day": 26925.5
+    },
+    {
+      "h": 16,
+      "daytype": "weekend",
+      "stops_per_day": 28821.0
+    },
+    {
+      "h": 17,
+      "daytype": "weekend",
+      "stops_per_day": 28620.5
+    },
+    {
+      "h": 18,
+      "daytype": "weekend",
+      "stops_per_day": 29722.5
+    },
+    {
+      "h": 19,
+      "daytype": "weekend",
+      "stops_per_day": 28476.5
+    },
+    {
+      "h": 20,
+      "daytype": "weekend",
+      "stops_per_day": 28817.0
+    },
+    {
+      "h": 21,
+      "daytype": "weekend",
+      "stops_per_day": 26797.0
+    },
+    {
+      "h": 22,
+      "daytype": "weekend",
+      "stops_per_day": 24075.5
+    },
+    {
+      "h": 23,
+      "daytype": "weekend",
+      "stops_per_day": 20006.5
+    }
+  ],
+  "trip_departures_hourly": [
+    {
+      "h": 0,
+      "daytype": "weekday",
+      "trips_per_day": 1162.8
+    },
+    {
+      "h": 1,
+      "daytype": "weekday",
+      "trips_per_day": 861.0
+    },
+    {
+      "h": 2,
+      "daytype": "weekday",
+      "trips_per_day": 816.2
+    },
+    {
+      "h": 3,
+      "daytype": "weekday",
+      "trips_per_day": 1684.0
+    },
+    {
+      "h": 4,
+      "daytype": "weekday",
+      "trips_per_day": 1120.6
+    },
+    {
+      "h": 5,
+      "daytype": "weekday",
+      "trips_per_day": 1980.6
+    },
+    {
+      "h": 6,
+      "daytype": "weekday",
+      "trips_per_day": 5767.8
+    },
+    {
+      "h": 7,
+      "daytype": "weekday",
+      "trips_per_day": 8779.0
+    },
+    {
+      "h": 8,
+      "daytype": "weekday",
+      "trips_per_day": 6344.6
+    },
+    {
+      "h": 9,
+      "daytype": "weekday",
+      "trips_per_day": 7073.8
+    },
+    {
+      "h": 10,
+      "daytype": "weekday",
+      "trips_per_day": 7040.4
+    },
+    {
+      "h": 11,
+      "daytype": "weekday",
+      "trips_per_day": 7725.4
+    },
+    {
+      "h": 12,
+      "daytype": "weekday",
+      "trips_per_day": 8357.8
+    },
+    {
+      "h": 13,
+      "daytype": "weekday",
+      "trips_per_day": 9070.4
+    },
+    {
+      "h": 14,
+      "daytype": "weekday",
+      "trips_per_day": 8345.0
+    },
+    {
+      "h": 15,
+      "daytype": "weekday",
+      "trips_per_day": 8346.8
+    },
+    {
+      "h": 16,
+      "daytype": "weekday",
+      "trips_per_day": 8796.8
+    },
+    {
+      "h": 17,
+      "daytype": "weekday",
+      "trips_per_day": 10788.2
+    },
+    {
+      "h": 18,
+      "daytype": "weekday",
+      "trips_per_day": 10255.6
+    },
+    {
+      "h": 19,
+      "daytype": "weekday",
+      "trips_per_day": 8104.8
+    },
+    {
+      "h": 20,
+      "daytype": "weekday",
+      "trips_per_day": 6453.2
+    },
+    {
+      "h": 21,
+      "daytype": "weekday",
+      "trips_per_day": 5080.0
+    },
+    {
+      "h": 22,
+      "daytype": "weekday",
+      "trips_per_day": 3398.2
+    },
+    {
+      "h": 23,
+      "daytype": "weekday",
+      "trips_per_day": 1901.0
+    },
+    {
+      "h": 0,
+      "daytype": "weekend",
+      "trips_per_day": 1755.5
+    },
+    {
+      "h": 1,
+      "daytype": "weekend",
+      "trips_per_day": 1245.0
+    },
+    {
+      "h": 2,
+      "daytype": "weekend",
+      "trips_per_day": 1078.0
+    },
+    {
+      "h": 3,
+      "daytype": "weekend",
+      "trips_per_day": 2027.0
+    },
+    {
+      "h": 4,
+      "daytype": "weekend",
+      "trips_per_day": 1123.5
+    },
+    {
+      "h": 5,
+      "daytype": "weekend",
+      "trips_per_day": 1678.5
+    },
+    {
+      "h": 6,
+      "daytype": "weekend",
+      "trips_per_day": 4421.0
+    },
+    {
+      "h": 7,
+      "daytype": "weekend",
+      "trips_per_day": 9377.0
+    },
+    {
+      "h": 8,
+      "daytype": "weekend",
+      "trips_per_day": 5000.5
+    },
+    {
+      "h": 9,
+      "daytype": "weekend",
+      "trips_per_day": 7452.5
+    },
+    {
+      "h": 10,
+      "daytype": "weekend",
+      "trips_per_day": 8191.0
+    },
+    {
+      "h": 11,
+      "daytype": "weekend",
+      "trips_per_day": 8811.5
+    },
+    {
+      "h": 12,
+      "daytype": "weekend",
+      "trips_per_day": 9012.5
+    },
+    {
+      "h": 13,
+      "daytype": "weekend",
+      "trips_per_day": 9006.5
+    },
+    {
+      "h": 14,
+      "daytype": "weekend",
+      "trips_per_day": 8641.0
+    },
+    {
+      "h": 15,
+      "daytype": "weekend",
+      "trips_per_day": 8529.0
+    },
+    {
+      "h": 16,
+      "daytype": "weekend",
+      "trips_per_day": 8772.5
+    },
+    {
+      "h": 17,
+      "daytype": "weekend",
+      "trips_per_day": 9669.0
+    },
+    {
+      "h": 18,
+      "daytype": "weekend",
+      "trips_per_day": 9582.0
+    },
+    {
+      "h": 19,
+      "daytype": "weekend",
+      "trips_per_day": 8905.5
+    },
+    {
+      "h": 20,
+      "daytype": "weekend",
+      "trips_per_day": 7874.5
+    },
+    {
+      "h": 21,
+      "daytype": "weekend",
+      "trips_per_day": 6551.5
+    },
+    {
+      "h": 22,
+      "daytype": "weekend",
+      "trips_per_day": 4699.0
+    },
+    {
+      "h": 23,
+      "daytype": "weekend",
+      "trips_per_day": 2850.0
+    }
+  ]
+}

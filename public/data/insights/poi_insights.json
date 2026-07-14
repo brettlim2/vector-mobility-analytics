@@ -1,0 +1,1862 @@
+{
+  "attribution": {
+    "venue_like_stops": 3837962,
+    "attributed_visits": 3541346,
+    "match_rate": 0.923,
+    "med_match_dist_m": 35.2,
+    "med_poi_candidates": 7.0,
+    "pois_loaded": 106764,
+    "visitor_visits": 633358,
+    "devices_with_home": 94979
+  },
+  "top_venues": [
+    {
+      "name": "Woodleigh Glen",
+      "grp": "Lodging",
+      "category": "accommodation",
+      "devices": 844,
+      "visits": 2317,
+      "med_dwell_min": 37.9,
+      "med_home_dist_km": 2.5
+    },
+    {
+      "name": "Vienna Beauty",
+      "grp": "Lifestyle Services",
+      "category": "skin_care",
+      "devices": 816,
+      "visits": 2337,
+      "med_dwell_min": 40.8,
+      "med_home_dist_km": 1.6
+    },
+    {
+      "name": "Cornerstone Medical Bidadari",
+      "grp": "Health Care",
+      "category": "family_practice",
+      "devices": 806,
+      "visits": 1807,
+      "med_dwell_min": 37.8,
+      "med_home_dist_km": 2.1
+    },
+    {
+      "name": "81 Carrot Cake Local Delights",
+      "grp": "Food & Drink",
+      "category": "food_stand",
+      "devices": 795,
+      "visits": 2036,
+      "med_dwell_min": 39.8,
+      "med_home_dist_km": 2.6
+    },
+    {
+      "name": "Chartwell Drive Park",
+      "grp": "Sports & Recreation",
+      "category": "park",
+      "devices": 785,
+      "visits": 1912,
+      "med_dwell_min": 39.9,
+      "med_home_dist_km": 3.6
+    },
+    {
+      "name": "Lion Corporation",
+      "grp": "Services & Business",
+      "category": "business_manufacturing_and_supply",
+      "devices": 760,
+      "visits": 2197,
+      "med_dwell_min": 39.0,
+      "med_home_dist_km": 1.4
+    },
+    {
+      "name": "Lake Little Guilin",
+      "grp": "Geographic",
+      "category": "lake",
+      "devices": 627,
+      "visits": 1891,
+      "med_dwell_min": 39.7,
+      "med_home_dist_km": 5.7
+    },
+    {
+      "name": "Toa Payoh Sensory Park",
+      "grp": "Sports & Recreation",
+      "category": "park",
+      "devices": 619,
+      "visits": 1430,
+      "med_dwell_min": 41.0,
+      "med_home_dist_km": 2.3
+    },
+    {
+      "name": "Bishan Ang Mo Kio Park",
+      "grp": "Sports & Recreation",
+      "category": "park",
+      "devices": 617,
+      "visits": 1798,
+      "med_dwell_min": 42.0,
+      "med_home_dist_km": 3.8
+    },
+    {
+      "name": "Cheng Soon Garden Playground",
+      "grp": "Sports & Recreation",
+      "category": "playground",
+      "devices": 566,
+      "visits": 2059,
+      "med_dwell_min": 39.7,
+      "med_home_dist_km": 3.3
+    },
+    {
+      "name": "National Biodiversity Centre",
+      "grp": "Services & Business",
+      "category": "environmental_conservation_organization",
+      "devices": 555,
+      "visits": 1158,
+      "med_dwell_min": 41.9,
+      "med_home_dist_km": 4.7
+    },
+    {
+      "name": "Aljunied Park",
+      "grp": "Sports & Recreation",
+      "category": "park",
+      "devices": 549,
+      "visits": 1372,
+      "med_dwell_min": 37.3,
+      "med_home_dist_km": 2.6
+    },
+    {
+      "name": "Circuit Road Basketball Court",
+      "grp": "Sports & Recreation",
+      "category": "basketball_court",
+      "devices": 539,
+      "visits": 1388,
+      "med_dwell_min": 41.2,
+      "med_home_dist_km": 1.3
+    },
+    {
+      "name": "Bedok Stadium",
+      "grp": "Arts & Entertainment",
+      "category": "stadium_arena",
+      "devices": 538,
+      "visits": 1537,
+      "med_dwell_min": 41.9,
+      "med_home_dist_km": 6.0
+    },
+    {
+      "name": "Playground, Telok Kurau Park",
+      "grp": "Sports & Recreation",
+      "category": "park",
+      "devices": 503,
+      "visits": 1608,
+      "med_dwell_min": 42.9,
+      "med_home_dist_km": 1.3
+    },
+    {
+      "name": "Edinburgh Road",
+      "grp": "Arts & Entertainment",
+      "category": "attractions_and_activities",
+      "devices": 495,
+      "visits": 1163,
+      "med_dwell_min": 38.8,
+      "med_home_dist_km": 3.3
+    },
+    {
+      "name": "Dynamics Square Singapore",
+      "grp": "Services & Business",
+      "category": "business",
+      "devices": 483,
+      "visits": 704,
+      "med_dwell_min": 37.6,
+      "med_home_dist_km": 7.9
+    },
+    {
+      "name": "Luxehouse Singapore",
+      "grp": "Shopping",
+      "category": "boutique",
+      "devices": 473,
+      "visits": 1493,
+      "med_dwell_min": 40.5,
+      "med_home_dist_km": 1.5
+    },
+    {
+      "name": "Asia Media Academy",
+      "grp": "Arts & Entertainment",
+      "category": "psychic_medium",
+      "devices": 472,
+      "visits": 1564,
+      "med_dwell_min": 39.5,
+      "med_home_dist_km": 2.1
+    },
+    {
+      "name": "TRIFECTA Riders' Lounge",
+      "grp": "Food & Drink",
+      "category": "lounge",
+      "devices": 436,
+      "visits": 1212,
+      "med_dwell_min": 42.0,
+      "med_home_dist_km": 2.3
+    },
+    {
+      "name": "Aroozoo Park",
+      "grp": "Sports & Recreation",
+      "category": "park",
+      "devices": 413,
+      "visits": 960,
+      "med_dwell_min": 38.9,
+      "med_home_dist_km": 4.1
+    },
+    {
+      "name": "Ikea Restaurant",
+      "grp": "Food & Drink",
+      "category": "cafe",
+      "devices": 395,
+      "visits": 414,
+      "med_dwell_min": 85.9,
+      "med_home_dist_km": 6.2
+    },
+    {
+      "name": "My Drum School",
+      "grp": "Arts & Entertainment",
+      "category": "music_venue",
+      "devices": 382,
+      "visits": 915,
+      "med_dwell_min": 41.4,
+      "med_home_dist_km": 3.4
+    },
+    {
+      "name": "Petir Park Playground",
+      "grp": "Sports & Recreation",
+      "category": "park",
+      "devices": 371,
+      "visits": 912,
+      "med_dwell_min": 38.9,
+      "med_home_dist_km": 4.4
+    },
+    {
+      "name": "Fort Canning Reservoir",
+      "grp": "Geographic",
+      "category": "structure_and_geography",
+      "devices": 369,
+      "visits": 847,
+      "med_dwell_min": 39.0,
+      "med_home_dist_km": 8.8
+    },
+    {
+      "name": "Healthcare United",
+      "grp": "Health Care",
+      "category": "health_and_medical",
+      "devices": 330,
+      "visits": 617,
+      "med_dwell_min": 40.5,
+      "med_home_dist_km": 2.4
+    },
+    {
+      "name": "Coronation Park",
+      "grp": "Sports & Recreation",
+      "category": "park",
+      "devices": 320,
+      "visits": 899,
+      "med_dwell_min": 38.6,
+      "med_home_dist_km": 3.3
+    },
+    {
+      "name": "Neram Crescent Playground",
+      "grp": "Sports & Recreation",
+      "category": "playground",
+      "devices": 319,
+      "visits": 947,
+      "med_dwell_min": 41.3,
+      "med_home_dist_km": 2.9
+    },
+    {
+      "name": "Ang Mo Kio Town Garden West",
+      "grp": "Sports & Recreation",
+      "category": "park",
+      "devices": 313,
+      "visits": 626,
+      "med_dwell_min": 44.2,
+      "med_home_dist_km": 4.4
+    },
+    {
+      "name": "Tampines Retail Park",
+      "grp": "Shopping",
+      "category": "furniture_store",
+      "devices": 289,
+      "visits": 311,
+      "med_dwell_min": 79.7,
+      "med_home_dist_km": 5.6
+    }
+  ],
+  "top_brands": [
+    {
+      "name": "TotalEnergies",
+      "locations": 296,
+      "devices": 2704,
+      "visits": 4271,
+      "med_dwell_min": 64.2
+    },
+    {
+      "name": "7-Eleven",
+      "locations": 271,
+      "devices": 1888,
+      "visits": 2457,
+      "med_dwell_min": 56.0
+    },
+    {
+      "name": "Singapore Pools",
+      "locations": 183,
+      "devices": 1547,
+      "visits": 1898,
+      "med_dwell_min": 50.8
+    },
+    {
+      "name": "McDonald's",
+      "locations": 132,
+      "devices": 1503,
+      "visits": 1811,
+      "med_dwell_min": 52.5
+    },
+    {
+      "name": "POSB",
+      "locations": 118,
+      "devices": 1307,
+      "visits": 1648,
+      "med_dwell_min": 52.7
+    },
+    {
+      "name": "Subway",
+      "locations": 137,
+      "devices": 1017,
+      "visits": 1221,
+      "med_dwell_min": 65.2
+    },
+    {
+      "name": "My First Skool",
+      "locations": 105,
+      "devices": 996,
+      "visits": 1465,
+      "med_dwell_min": 70.0
+    },
+    {
+      "name": "Starbucks",
+      "locations": 147,
+      "devices": 935,
+      "visits": 1155,
+      "med_dwell_min": 66.2
+    },
+    {
+      "name": "Shell Recharge",
+      "locations": 83,
+      "devices": 805,
+      "visits": 1301,
+      "med_dwell_min": 78.2
+    },
+    {
+      "name": "Cheers",
+      "locations": 102,
+      "devices": 768,
+      "visits": 979,
+      "med_dwell_min": 47.6
+    },
+    {
+      "name": "FairPrice",
+      "locations": 86,
+      "devices": 706,
+      "visits": 788,
+      "med_dwell_min": 43.0
+    },
+    {
+      "name": "KFC",
+      "locations": 71,
+      "devices": 647,
+      "visits": 756,
+      "med_dwell_min": 51.1
+    },
+    {
+      "name": "Watsons",
+      "locations": 85,
+      "devices": 647,
+      "visits": 736,
+      "med_dwell_min": 61.3
+    },
+    {
+      "name": "Sheng Siong Supermarket",
+      "locations": 45,
+      "devices": 596,
+      "visits": 715,
+      "med_dwell_min": 41.0
+    },
+    {
+      "name": "Burger King",
+      "locations": 73,
+      "devices": 589,
+      "visits": 726,
+      "med_dwell_min": 50.9
+    }
+  ],
+  "by_group": [
+    {
+      "grp": "Food & Drink",
+      "devices": 47833,
+      "visits": 151955,
+      "med_dwell_min": 58.2,
+      "weekend_ratio": 1.17
+    },
+    {
+      "grp": "Services & Business",
+      "devices": 33586,
+      "visits": 94511,
+      "med_dwell_min": 65.0,
+      "weekend_ratio": 0.74
+    },
+    {
+      "grp": "Shopping",
+      "devices": 36672,
+      "visits": 86424,
+      "med_dwell_min": 60.5,
+      "weekend_ratio": 1.06
+    },
+    {
+      "grp": "Education",
+      "devices": 20054,
+      "visits": 46653,
+      "med_dwell_min": 73.5,
+      "weekend_ratio": 0.68
+    },
+    {
+      "grp": "Cultural & Historic",
+      "devices": 20711,
+      "visits": 46488,
+      "med_dwell_min": 61.8,
+      "weekend_ratio": 1.17
+    },
+    {
+      "grp": "Sports & Recreation",
+      "devices": 18580,
+      "visits": 42415,
+      "med_dwell_min": 49.9,
+      "weekend_ratio": 1.09
+    },
+    {
+      "grp": "Transport & Travel",
+      "devices": 16382,
+      "visits": 33745,
+      "med_dwell_min": 56.3,
+      "weekend_ratio": 0.91
+    },
+    {
+      "grp": "Health Care",
+      "devices": 17224,
+      "visits": 30575,
+      "med_dwell_min": 61.5,
+      "weekend_ratio": 0.83
+    },
+    {
+      "grp": "Lifestyle Services",
+      "devices": 18344,
+      "visits": 29839,
+      "med_dwell_min": 57.1,
+      "weekend_ratio": 1.1
+    },
+    {
+      "grp": "Community & Government",
+      "devices": 11934,
+      "visits": 24280,
+      "med_dwell_min": 67.2,
+      "weekend_ratio": 0.91
+    },
+    {
+      "grp": "Arts & Entertainment",
+      "devices": 10637,
+      "visits": 19117,
+      "med_dwell_min": 53.1,
+      "weekend_ratio": 1.07
+    },
+    {
+      "grp": "Lodging",
+      "devices": 9555,
+      "visits": 17956,
+      "med_dwell_min": 61.7,
+      "weekend_ratio": 1.18
+    },
+    {
+      "grp": "Geographic",
+      "devices": 3522,
+      "visits": 6639,
+      "med_dwell_min": 44.1,
+      "weekend_ratio": 1.08
+    },
+    {
+      "grp": "Other",
+      "devices": 2202,
+      "visits": 2761,
+      "med_dwell_min": 61.2,
+      "weekend_ratio": 0.99
+    }
+  ],
+  "group_rhythms": [
+    {
+      "grp": "Arts & Entertainment",
+      "h": 0,
+      "occupied_visits": 444
+    },
+    {
+      "grp": "Arts & Entertainment",
+      "h": 1,
+      "occupied_visits": 583
+    },
+    {
+      "grp": "Arts & Entertainment",
+      "h": 2,
+      "occupied_visits": 527
+    },
+    {
+      "grp": "Arts & Entertainment",
+      "h": 3,
+      "occupied_visits": 427
+    },
+    {
+      "grp": "Arts & Entertainment",
+      "h": 4,
+      "occupied_visits": 431
+    },
+    {
+      "grp": "Arts & Entertainment",
+      "h": 5,
+      "occupied_visits": 433
+    },
+    {
+      "grp": "Arts & Entertainment",
+      "h": 6,
+      "occupied_visits": 658
+    },
+    {
+      "grp": "Arts & Entertainment",
+      "h": 7,
+      "occupied_visits": 1038
+    },
+    {
+      "grp": "Arts & Entertainment",
+      "h": 8,
+      "occupied_visits": 1553
+    },
+    {
+      "grp": "Arts & Entertainment",
+      "h": 9,
+      "occupied_visits": 2031
+    },
+    {
+      "grp": "Arts & Entertainment",
+      "h": 10,
+      "occupied_visits": 2303
+    },
+    {
+      "grp": "Arts & Entertainment",
+      "h": 11,
+      "occupied_visits": 2503
+    },
+    {
+      "grp": "Arts & Entertainment",
+      "h": 12,
+      "occupied_visits": 2703
+    },
+    {
+      "grp": "Arts & Entertainment",
+      "h": 13,
+      "occupied_visits": 2855
+    },
+    {
+      "grp": "Arts & Entertainment",
+      "h": 14,
+      "occupied_visits": 2738
+    },
+    {
+      "grp": "Arts & Entertainment",
+      "h": 15,
+      "occupied_visits": 2665
+    },
+    {
+      "grp": "Arts & Entertainment",
+      "h": 16,
+      "occupied_visits": 2661
+    },
+    {
+      "grp": "Arts & Entertainment",
+      "h": 17,
+      "occupied_visits": 2680
+    },
+    {
+      "grp": "Arts & Entertainment",
+      "h": 18,
+      "occupied_visits": 2709
+    },
+    {
+      "grp": "Arts & Entertainment",
+      "h": 19,
+      "occupied_visits": 2621
+    },
+    {
+      "grp": "Arts & Entertainment",
+      "h": 20,
+      "occupied_visits": 2457
+    },
+    {
+      "grp": "Arts & Entertainment",
+      "h": 21,
+      "occupied_visits": 2160
+    },
+    {
+      "grp": "Arts & Entertainment",
+      "h": 22,
+      "occupied_visits": 1616
+    },
+    {
+      "grp": "Arts & Entertainment",
+      "h": 23,
+      "occupied_visits": 817
+    },
+    {
+      "grp": "Education",
+      "h": 0,
+      "occupied_visits": 352
+    },
+    {
+      "grp": "Education",
+      "h": 1,
+      "occupied_visits": 531
+    },
+    {
+      "grp": "Education",
+      "h": 2,
+      "occupied_visits": 562
+    },
+    {
+      "grp": "Education",
+      "h": 3,
+      "occupied_visits": 532
+    },
+    {
+      "grp": "Education",
+      "h": 4,
+      "occupied_visits": 721
+    },
+    {
+      "grp": "Education",
+      "h": 5,
+      "occupied_visits": 845
+    },
+    {
+      "grp": "Education",
+      "h": 6,
+      "occupied_visits": 2986
+    },
+    {
+      "grp": "Education",
+      "h": 7,
+      "occupied_visits": 7233
+    },
+    {
+      "grp": "Education",
+      "h": 8,
+      "occupied_visits": 8430
+    },
+    {
+      "grp": "Education",
+      "h": 9,
+      "occupied_visits": 10052
+    },
+    {
+      "grp": "Education",
+      "h": 10,
+      "occupied_visits": 10873
+    },
+    {
+      "grp": "Education",
+      "h": 11,
+      "occupied_visits": 10711
+    },
+    {
+      "grp": "Education",
+      "h": 12,
+      "occupied_visits": 10533
+    },
+    {
+      "grp": "Education",
+      "h": 13,
+      "occupied_visits": 10229
+    },
+    {
+      "grp": "Education",
+      "h": 14,
+      "occupied_visits": 8906
+    },
+    {
+      "grp": "Education",
+      "h": 15,
+      "occupied_visits": 7603
+    },
+    {
+      "grp": "Education",
+      "h": 16,
+      "occupied_visits": 6580
+    },
+    {
+      "grp": "Education",
+      "h": 17,
+      "occupied_visits": 5804
+    },
+    {
+      "grp": "Education",
+      "h": 18,
+      "occupied_visits": 5168
+    },
+    {
+      "grp": "Education",
+      "h": 19,
+      "occupied_visits": 4528
+    },
+    {
+      "grp": "Education",
+      "h": 20,
+      "occupied_visits": 4012
+    },
+    {
+      "grp": "Education",
+      "h": 21,
+      "occupied_visits": 3101
+    },
+    {
+      "grp": "Education",
+      "h": 22,
+      "occupied_visits": 1910
+    },
+    {
+      "grp": "Education",
+      "h": 23,
+      "occupied_visits": 831
+    },
+    {
+      "grp": "Food & Drink",
+      "h": 0,
+      "occupied_visits": 1622
+    },
+    {
+      "grp": "Food & Drink",
+      "h": 1,
+      "occupied_visits": 2171
+    },
+    {
+      "grp": "Food & Drink",
+      "h": 2,
+      "occupied_visits": 1952
+    },
+    {
+      "grp": "Food & Drink",
+      "h": 3,
+      "occupied_visits": 1616
+    },
+    {
+      "grp": "Food & Drink",
+      "h": 4,
+      "occupied_visits": 1728
+    },
+    {
+      "grp": "Food & Drink",
+      "h": 5,
+      "occupied_visits": 2142
+    },
+    {
+      "grp": "Food & Drink",
+      "h": 6,
+      "occupied_visits": 4077
+    },
+    {
+      "grp": "Food & Drink",
+      "h": 7,
+      "occupied_visits": 7117
+    },
+    {
+      "grp": "Food & Drink",
+      "h": 8,
+      "occupied_visits": 11334
+    },
+    {
+      "grp": "Food & Drink",
+      "h": 9,
+      "occupied_visits": 15742
+    },
+    {
+      "grp": "Food & Drink",
+      "h": 10,
+      "occupied_visits": 18705
+    },
+    {
+      "grp": "Food & Drink",
+      "h": 11,
+      "occupied_visits": 21772
+    },
+    {
+      "grp": "Food & Drink",
+      "h": 12,
+      "occupied_visits": 25654
+    },
+    {
+      "grp": "Food & Drink",
+      "h": 13,
+      "occupied_visits": 26270
+    },
+    {
+      "grp": "Food & Drink",
+      "h": 14,
+      "occupied_visits": 24211
+    },
+    {
+      "grp": "Food & Drink",
+      "h": 15,
+      "occupied_visits": 22971
+    },
+    {
+      "grp": "Food & Drink",
+      "h": 16,
+      "occupied_visits": 22538
+    },
+    {
+      "grp": "Food & Drink",
+      "h": 17,
+      "occupied_visits": 23436
+    },
+    {
+      "grp": "Food & Drink",
+      "h": 18,
+      "occupied_visits": 25873
+    },
+    {
+      "grp": "Food & Drink",
+      "h": 19,
+      "occupied_visits": 26757
+    },
+    {
+      "grp": "Food & Drink",
+      "h": 20,
+      "occupied_visits": 24376
+    },
+    {
+      "grp": "Food & Drink",
+      "h": 21,
+      "occupied_visits": 18613
+    },
+    {
+      "grp": "Food & Drink",
+      "h": 22,
+      "occupied_visits": 10952
+    },
+    {
+      "grp": "Food & Drink",
+      "h": 23,
+      "occupied_visits": 4121
+    },
+    {
+      "grp": "Shopping",
+      "h": 0,
+      "occupied_visits": 721
+    },
+    {
+      "grp": "Shopping",
+      "h": 1,
+      "occupied_visits": 1046
+    },
+    {
+      "grp": "Shopping",
+      "h": 2,
+      "occupied_visits": 983
+    },
+    {
+      "grp": "Shopping",
+      "h": 3,
+      "occupied_visits": 908
+    },
+    {
+      "grp": "Shopping",
+      "h": 4,
+      "occupied_visits": 1108
+    },
+    {
+      "grp": "Shopping",
+      "h": 5,
+      "occupied_visits": 1388
+    },
+    {
+      "grp": "Shopping",
+      "h": 6,
+      "occupied_visits": 2479
+    },
+    {
+      "grp": "Shopping",
+      "h": 7,
+      "occupied_visits": 4194
+    },
+    {
+      "grp": "Shopping",
+      "h": 8,
+      "occupied_visits": 7351
+    },
+    {
+      "grp": "Shopping",
+      "h": 9,
+      "occupied_visits": 10375
+    },
+    {
+      "grp": "Shopping",
+      "h": 10,
+      "occupied_visits": 12281
+    },
+    {
+      "grp": "Shopping",
+      "h": 11,
+      "occupied_visits": 13787
+    },
+    {
+      "grp": "Shopping",
+      "h": 12,
+      "occupied_visits": 15530
+    },
+    {
+      "grp": "Shopping",
+      "h": 13,
+      "occupied_visits": 15899
+    },
+    {
+      "grp": "Shopping",
+      "h": 14,
+      "occupied_visits": 15579
+    },
+    {
+      "grp": "Shopping",
+      "h": 15,
+      "occupied_visits": 15290
+    },
+    {
+      "grp": "Shopping",
+      "h": 16,
+      "occupied_visits": 15140
+    },
+    {
+      "grp": "Shopping",
+      "h": 17,
+      "occupied_visits": 15088
+    },
+    {
+      "grp": "Shopping",
+      "h": 18,
+      "occupied_visits": 14761
+    },
+    {
+      "grp": "Shopping",
+      "h": 19,
+      "occupied_visits": 13585
+    },
+    {
+      "grp": "Shopping",
+      "h": 20,
+      "occupied_visits": 11790
+    },
+    {
+      "grp": "Shopping",
+      "h": 21,
+      "occupied_visits": 8390
+    },
+    {
+      "grp": "Shopping",
+      "h": 22,
+      "occupied_visits": 4501
+    },
+    {
+      "grp": "Shopping",
+      "h": 23,
+      "occupied_visits": 1788
+    },
+    {
+      "grp": "Sports & Recreation",
+      "h": 0,
+      "occupied_visits": 1135
+    },
+    {
+      "grp": "Sports & Recreation",
+      "h": 1,
+      "occupied_visits": 1483
+    },
+    {
+      "grp": "Sports & Recreation",
+      "h": 2,
+      "occupied_visits": 1229
+    },
+    {
+      "grp": "Sports & Recreation",
+      "h": 3,
+      "occupied_visits": 1073
+    },
+    {
+      "grp": "Sports & Recreation",
+      "h": 4,
+      "occupied_visits": 1088
+    },
+    {
+      "grp": "Sports & Recreation",
+      "h": 5,
+      "occupied_visits": 1166
+    },
+    {
+      "grp": "Sports & Recreation",
+      "h": 6,
+      "occupied_visits": 1670
+    },
+    {
+      "grp": "Sports & Recreation",
+      "h": 7,
+      "occupied_visits": 2340
+    },
+    {
+      "grp": "Sports & Recreation",
+      "h": 8,
+      "occupied_visits": 3213
+    },
+    {
+      "grp": "Sports & Recreation",
+      "h": 9,
+      "occupied_visits": 4185
+    },
+    {
+      "grp": "Sports & Recreation",
+      "h": 10,
+      "occupied_visits": 4600
+    },
+    {
+      "grp": "Sports & Recreation",
+      "h": 11,
+      "occupied_visits": 4799
+    },
+    {
+      "grp": "Sports & Recreation",
+      "h": 12,
+      "occupied_visits": 5138
+    },
+    {
+      "grp": "Sports & Recreation",
+      "h": 13,
+      "occupied_visits": 5340
+    },
+    {
+      "grp": "Sports & Recreation",
+      "h": 14,
+      "occupied_visits": 5395
+    },
+    {
+      "grp": "Sports & Recreation",
+      "h": 15,
+      "occupied_visits": 5481
+    },
+    {
+      "grp": "Sports & Recreation",
+      "h": 16,
+      "occupied_visits": 5599
+    },
+    {
+      "grp": "Sports & Recreation",
+      "h": 17,
+      "occupied_visits": 5708
+    },
+    {
+      "grp": "Sports & Recreation",
+      "h": 18,
+      "occupied_visits": 5906
+    },
+    {
+      "grp": "Sports & Recreation",
+      "h": 19,
+      "occupied_visits": 5773
+    },
+    {
+      "grp": "Sports & Recreation",
+      "h": 20,
+      "occupied_visits": 5430
+    },
+    {
+      "grp": "Sports & Recreation",
+      "h": 21,
+      "occupied_visits": 4931
+    },
+    {
+      "grp": "Sports & Recreation",
+      "h": 22,
+      "occupied_visits": 3861
+    },
+    {
+      "grp": "Sports & Recreation",
+      "h": 23,
+      "occupied_visits": 1947
+    },
+    {
+      "grp": "Transport & Travel",
+      "h": 0,
+      "occupied_visits": 529
+    },
+    {
+      "grp": "Transport & Travel",
+      "h": 1,
+      "occupied_visits": 754
+    },
+    {
+      "grp": "Transport & Travel",
+      "h": 2,
+      "occupied_visits": 724
+    },
+    {
+      "grp": "Transport & Travel",
+      "h": 3,
+      "occupied_visits": 657
+    },
+    {
+      "grp": "Transport & Travel",
+      "h": 4,
+      "occupied_visits": 880
+    },
+    {
+      "grp": "Transport & Travel",
+      "h": 5,
+      "occupied_visits": 1005
+    },
+    {
+      "grp": "Transport & Travel",
+      "h": 6,
+      "occupied_visits": 1493
+    },
+    {
+      "grp": "Transport & Travel",
+      "h": 7,
+      "occupied_visits": 2419
+    },
+    {
+      "grp": "Transport & Travel",
+      "h": 8,
+      "occupied_visits": 3672
+    },
+    {
+      "grp": "Transport & Travel",
+      "h": 9,
+      "occupied_visits": 4597
+    },
+    {
+      "grp": "Transport & Travel",
+      "h": 10,
+      "occupied_visits": 4945
+    },
+    {
+      "grp": "Transport & Travel",
+      "h": 11,
+      "occupied_visits": 5122
+    },
+    {
+      "grp": "Transport & Travel",
+      "h": 12,
+      "occupied_visits": 5270
+    },
+    {
+      "grp": "Transport & Travel",
+      "h": 13,
+      "occupied_visits": 5539
+    },
+    {
+      "grp": "Transport & Travel",
+      "h": 14,
+      "occupied_visits": 5519
+    },
+    {
+      "grp": "Transport & Travel",
+      "h": 15,
+      "occupied_visits": 5506
+    },
+    {
+      "grp": "Transport & Travel",
+      "h": 16,
+      "occupied_visits": 5351
+    },
+    {
+      "grp": "Transport & Travel",
+      "h": 17,
+      "occupied_visits": 5151
+    },
+    {
+      "grp": "Transport & Travel",
+      "h": 18,
+      "occupied_visits": 4797
+    },
+    {
+      "grp": "Transport & Travel",
+      "h": 19,
+      "occupied_visits": 4223
+    },
+    {
+      "grp": "Transport & Travel",
+      "h": 20,
+      "occupied_visits": 3743
+    },
+    {
+      "grp": "Transport & Travel",
+      "h": 21,
+      "occupied_visits": 2898
+    },
+    {
+      "grp": "Transport & Travel",
+      "h": 22,
+      "occupied_visits": 1918
+    },
+    {
+      "grp": "Transport & Travel",
+      "h": 23,
+      "occupied_visits": 895
+    }
+  ],
+  "top_by_group": [
+    {
+      "grp": "Arts & Entertainment",
+      "name": "Bedok Stadium",
+      "devices": 538,
+      "med_dwell_min": 41.9
+    },
+    {
+      "grp": "Arts & Entertainment",
+      "name": "Edinburgh Road",
+      "devices": 495,
+      "med_dwell_min": 38.8
+    },
+    {
+      "grp": "Arts & Entertainment",
+      "name": "Asia Media Academy",
+      "devices": 472,
+      "med_dwell_min": 39.5
+    },
+    {
+      "grp": "Arts & Entertainment",
+      "name": "My Drum School",
+      "devices": 382,
+      "med_dwell_min": 41.4
+    },
+    {
+      "grp": "Arts & Entertainment",
+      "name": "Etonhouse Broadrick",
+      "devices": 168,
+      "med_dwell_min": 40.6
+    },
+    {
+      "grp": "Community & Government",
+      "name": "Kubur Kassim",
+      "devices": 254,
+      "med_dwell_min": 43.8
+    },
+    {
+      "grp": "Community & Government",
+      "name": "Statue of Sir Stamford Raffles",
+      "devices": 123,
+      "med_dwell_min": 49.7
+    },
+    {
+      "grp": "Community & Government",
+      "name": "Mandai Crematorium and Columbarium Complex",
+      "devices": 75,
+      "med_dwell_min": 42.5
+    },
+    {
+      "grp": "Community & Government",
+      "name": "Singapore Swimming Club",
+      "devices": 57,
+      "med_dwell_min": 108.5
+    },
+    {
+      "grp": "Community & Government",
+      "name": "Matilda Edge",
+      "devices": 52,
+      "med_dwell_min": 75.6
+    },
+    {
+      "grp": "Cultural & Historic",
+      "name": "Alexandra Peaks",
+      "devices": 268,
+      "med_dwell_min": 39.2
+    },
+    {
+      "grp": "Cultural & Historic",
+      "name": "Yu Huang Dian Combined Temple",
+      "devices": 261,
+      "med_dwell_min": 42.4
+    },
+    {
+      "grp": "Cultural & Historic",
+      "name": "War Memorial Park",
+      "devices": 239,
+      "med_dwell_min": 38.7
+    },
+    {
+      "grp": "Cultural & Historic",
+      "name": "The Civilian War Memorial",
+      "devices": 195,
+      "med_dwell_min": 33.6
+    },
+    {
+      "grp": "Cultural & Historic",
+      "name": "Civilian War Memorial",
+      "devices": 159,
+      "med_dwell_min": 34.9
+    },
+    {
+      "grp": "Education",
+      "name": "Richard Math Academy",
+      "devices": 279,
+      "med_dwell_min": 41.1
+    },
+    {
+      "grp": "Education",
+      "name": "Anglo-Chinese Junior College",
+      "devices": 97,
+      "med_dwell_min": 55.1
+    },
+    {
+      "grp": "Education",
+      "name": "Bukit Batok Driving Centre",
+      "devices": 85,
+      "med_dwell_min": 59.7
+    },
+    {
+      "grp": "Education",
+      "name": "CDC Driving Centre",
+      "devices": 79,
+      "med_dwell_min": 54.8
+    },
+    {
+      "grp": "Education",
+      "name": "NYGH Yuzhi Library",
+      "devices": 52,
+      "med_dwell_min": 138.1
+    },
+    {
+      "grp": "Food & Drink",
+      "name": "81 Carrot Cake Local Delights",
+      "devices": 795,
+      "med_dwell_min": 39.8
+    },
+    {
+      "grp": "Food & Drink",
+      "name": "TRIFECTA Riders' Lounge",
+      "devices": 436,
+      "med_dwell_min": 42.0
+    },
+    {
+      "grp": "Food & Drink",
+      "name": "Ikea Restaurant",
+      "devices": 395,
+      "med_dwell_min": 85.9
+    },
+    {
+      "grp": "Food & Drink",
+      "name": "Swedish Bistro",
+      "devices": 194,
+      "med_dwell_min": 87.1
+    },
+    {
+      "grp": "Food & Drink",
+      "name": "Picante",
+      "devices": 183,
+      "med_dwell_min": 40.5
+    },
+    {
+      "grp": "Geographic",
+      "name": "Lake Little Guilin",
+      "devices": 627,
+      "med_dwell_min": 39.7
+    },
+    {
+      "grp": "Geographic",
+      "name": "Fort Canning Reservoir",
+      "devices": 369,
+      "med_dwell_min": 39.0
+    },
+    {
+      "grp": "Geographic",
+      "name": "Quarry Wetland | Rifle Range Nature Park",
+      "devices": 171,
+      "med_dwell_min": 43.6
+    },
+    {
+      "grp": "Geographic",
+      "name": "Psa Pasir Panjang Terminal",
+      "devices": 60,
+      "med_dwell_min": 39.0
+    },
+    {
+      "grp": "Geographic",
+      "name": "Botanische G\u00e4rten von Singapur",
+      "devices": 49,
+      "med_dwell_min": 45.6
+    },
+    {
+      "grp": "Health Care",
+      "name": "Cornerstone Medical Bidadari",
+      "devices": 806,
+      "med_dwell_min": 37.8
+    },
+    {
+      "grp": "Health Care",
+      "name": "Healthcare United",
+      "devices": 330,
+      "med_dwell_min": 40.5
+    },
+    {
+      "grp": "Health Care",
+      "name": "Hua Mei Clinic",
+      "devices": 141,
+      "med_dwell_min": 36.1
+    },
+    {
+      "grp": "Health Care",
+      "name": "Observation Ward, Kkh Delivery Suite",
+      "devices": 84,
+      "med_dwell_min": 122.8
+    },
+    {
+      "grp": "Health Care",
+      "name": "Sgh Ward 53A",
+      "devices": 68,
+      "med_dwell_min": 88.4
+    },
+    {
+      "grp": "Lifestyle Services",
+      "name": "Vienna Beauty",
+      "devices": 816,
+      "med_dwell_min": 40.8
+    },
+    {
+      "grp": "Lifestyle Services",
+      "name": "OSIM",
+      "devices": 110,
+      "med_dwell_min": 69.1
+    },
+    {
+      "grp": "Lifestyle Services",
+      "name": "J\u00f6ie's Studio (SengKang)",
+      "devices": 78,
+      "med_dwell_min": 44.2
+    },
+    {
+      "grp": "Lifestyle Services",
+      "name": "U Hair",
+      "devices": 55,
+      "med_dwell_min": 82.4
+    },
+    {
+      "grp": "Lifestyle Services",
+      "name": "Vet Central",
+      "devices": 53,
+      "med_dwell_min": 30.2
+    },
+    {
+      "grp": "Lodging",
+      "name": "Woodleigh Glen",
+      "devices": 844,
+      "med_dwell_min": 37.9
+    },
+    {
+      "grp": "Lodging",
+      "name": "St Andrew's Hall",
+      "devices": 67,
+      "med_dwell_min": 50.8
+    },
+    {
+      "grp": "Lodging",
+      "name": "\u6ff1\u6d77\u7063\u91d1\u6c99Marina Bay Sands",
+      "devices": 47,
+      "med_dwell_min": 87.9
+    },
+    {
+      "grp": "Lodging",
+      "name": "7th Storey",
+      "devices": 44,
+      "med_dwell_min": 47.5
+    },
+    {
+      "grp": "Lodging",
+      "name": "Bt Merah",
+      "devices": 44,
+      "med_dwell_min": 41.2
+    },
+    {
+      "grp": "Other",
+      "name": "Department of Child Development",
+      "devices": 36,
+      "med_dwell_min": 109.5
+    },
+    {
+      "grp": "Other",
+      "name": "Clinic 2B",
+      "devices": 36,
+      "med_dwell_min": 106.6
+    },
+    {
+      "grp": "Other",
+      "name": "Raffles Medical Group",
+      "devices": 36,
+      "med_dwell_min": 70.5
+    },
+    {
+      "grp": "Other",
+      "name": "HL Family Clinic and Surgery",
+      "devices": 33,
+      "med_dwell_min": 45.4
+    },
+    {
+      "grp": "Other",
+      "name": "Hearing Partners",
+      "devices": 33,
+      "med_dwell_min": 80.2
+    },
+    {
+      "grp": "Services & Business",
+      "name": "Lion Corporation",
+      "devices": 760,
+      "med_dwell_min": 39.0
+    },
+    {
+      "grp": "Services & Business",
+      "name": "National Biodiversity Centre",
+      "devices": 555,
+      "med_dwell_min": 41.9
+    },
+    {
+      "grp": "Services & Business",
+      "name": "Dynamics Square Singapore",
+      "devices": 483,
+      "med_dwell_min": 37.6
+    },
+    {
+      "grp": "Services & Business",
+      "name": "SingaporeMidas Awnings",
+      "devices": 187,
+      "med_dwell_min": 42.3
+    },
+    {
+      "grp": "Services & Business",
+      "name": "Trifecta Singapore",
+      "devices": 92,
+      "med_dwell_min": 42.7
+    },
+    {
+      "grp": "Shopping",
+      "name": "Luxehouse Singapore",
+      "devices": 473,
+      "med_dwell_min": 40.5
+    },
+    {
+      "grp": "Shopping",
+      "name": "Tampines Retail Park",
+      "devices": 289,
+      "med_dwell_min": 79.7
+    },
+    {
+      "grp": "Shopping",
+      "name": "Ikano",
+      "devices": 284,
+      "med_dwell_min": 82.9
+    },
+    {
+      "grp": "Shopping",
+      "name": "Guardian Health & Beauty",
+      "devices": 264,
+      "med_dwell_min": 62.4
+    },
+    {
+      "grp": "Shopping",
+      "name": "Fresh",
+      "devices": 192,
+      "med_dwell_min": 37.8
+    },
+    {
+      "grp": "Sports & Recreation",
+      "name": "Chartwell Drive Park",
+      "devices": 785,
+      "med_dwell_min": 39.9
+    },
+    {
+      "grp": "Sports & Recreation",
+      "name": "Toa Payoh Sensory Park",
+      "devices": 619,
+      "med_dwell_min": 41.0
+    },
+    {
+      "grp": "Sports & Recreation",
+      "name": "Bishan Ang Mo Kio Park",
+      "devices": 617,
+      "med_dwell_min": 42.0
+    },
+    {
+      "grp": "Sports & Recreation",
+      "name": "Cheng Soon Garden Playground",
+      "devices": 566,
+      "med_dwell_min": 39.7
+    },
+    {
+      "grp": "Sports & Recreation",
+      "name": "Aljunied Park",
+      "devices": 549,
+      "med_dwell_min": 37.3
+    },
+    {
+      "grp": "Transport & Travel",
+      "name": "Thanggam LRT Station",
+      "devices": 283,
+      "med_dwell_min": 41.7
+    },
+    {
+      "grp": "Transport & Travel",
+      "name": "Jurong East Bus Interchange",
+      "devices": 156,
+      "med_dwell_min": 82.0
+    },
+    {
+      "grp": "Transport & Travel",
+      "name": "Posb @ Admiralty Mrt",
+      "devices": 109,
+      "med_dwell_min": 41.7
+    },
+    {
+      "grp": "Transport & Travel",
+      "name": "India Visa - IVC Services",
+      "devices": 90,
+      "med_dwell_min": 39.0
+    },
+    {
+      "grp": "Transport & Travel",
+      "name": "UOB Waterway Point Branch",
+      "devices": 80,
+      "med_dwell_min": 46.9
+    }
+  ],
+  "catchment": [
+    {
+      "name": "Bedok Stadium",
+      "visitors": 538,
+      "med_home_dist_km": 6.0,
+      "share_local_3km": 0.24
+    },
+    {
+      "name": "Lake Little Guilin",
+      "visitors": 627,
+      "med_home_dist_km": 5.7,
+      "share_local_3km": 0.26
+    },
+    {
+      "name": "National Biodiversity Centre",
+      "visitors": 555,
+      "med_home_dist_km": 4.7,
+      "share_local_3km": 0.18
+    },
+    {
+      "name": "Bishan Ang Mo Kio Park",
+      "visitors": 617,
+      "med_home_dist_km": 3.8,
+      "share_local_3km": 0.27
+    },
+    {
+      "name": "Chartwell Drive Park",
+      "visitors": 785,
+      "med_home_dist_km": 3.6,
+      "share_local_3km": 0.46
+    },
+    {
+      "name": "Cheng Soon Garden Playground",
+      "visitors": 566,
+      "med_home_dist_km": 3.3,
+      "share_local_3km": 0.34
+    },
+    {
+      "name": "Aljunied Park",
+      "visitors": 549,
+      "med_home_dist_km": 2.6,
+      "share_local_3km": 0.56
+    },
+    {
+      "name": "81 Carrot Cake Local Delights",
+      "visitors": 795,
+      "med_home_dist_km": 2.6,
+      "share_local_3km": 0.58
+    },
+    {
+      "name": "Woodleigh Glen",
+      "visitors": 844,
+      "med_home_dist_km": 2.5,
+      "share_local_3km": 0.66
+    },
+    {
+      "name": "Toa Payoh Sensory Park",
+      "visitors": 619,
+      "med_home_dist_km": 2.3,
+      "share_local_3km": 0.61
+    },
+    {
+      "name": "Cornerstone Medical Bidadari",
+      "visitors": 806,
+      "med_home_dist_km": 2.1,
+      "share_local_3km": 0.57
+    },
+    {
+      "name": "Vienna Beauty",
+      "visitors": 816,
+      "med_home_dist_km": 1.6,
+      "share_local_3km": 0.75
+    },
+    {
+      "name": "Lion Corporation",
+      "visitors": 760,
+      "med_home_dist_km": 1.4,
+      "share_local_3km": 0.77
+    },
+    {
+      "name": "Circuit Road Basketball Court",
+      "visitors": 539,
+      "med_home_dist_km": 1.3,
+      "share_local_3km": 0.75
+    },
+    {
+      "name": "Playground, Telok Kurau Park",
+      "visitors": 503,
+      "med_home_dist_km": 1.3,
+      "share_local_3km": 0.75
+    }
+  ],
+  "hotspot_pois": [
+    {
+      "gh6": "w21z77",
+      "cell_devices": 689813,
+      "top_pois": [
+        "Dynamics Square Singapore",
+        "War Memorial Park",
+        "The Civilian War Memorial"
+      ]
+    },
+    {
+      "gh6": "w21z74",
+      "cell_devices": 629396,
+      "top_pois": [
+        "Picante",
+        "Aptimos @ Chinatown Point",
+        "Statue of Sir Stamford Raffles"
+      ]
+    },
+    {
+      "gh6": "w21z75",
+      "cell_devices": 229361,
+      "top_pois": [
+        "Fort Canning Reservoir",
+        "SingaporeMidas Awnings",
+        "SOTA Concert Hall"
+      ]
+    },
+    {
+      "gh6": "w21ze3",
+      "cell_devices": 186297,
+      "top_pois": [
+        "81 Carrot Cake Local Delights",
+        "Hua Mei Clinic",
+        "TotalEnergies"
+      ]
+    },
+    {
+      "gh6": "w21z6u",
+      "cell_devices": 181428,
+      "top_pois": [
+        "TRIFECTA Riders' Lounge",
+        "Trifecta Singapore",
+        "Watsons"
+      ]
+    },
+    {
+      "gh6": "w21zf0",
+      "cell_devices": 172584,
+      "top_pois": [
+        "Central Catchment Nature Reserve"
+      ]
+    },
+    {
+      "gh6": "w21z7m",
+      "cell_devices": 168561,
+      "top_pois": [
+        "My Drum School",
+        "India Visa - IVC Services",
+        "Immigration & Checkpoints Authority"
+      ]
+    },
+    {
+      "gh6": "w21ze5",
+      "cell_devices": 162954,
+      "top_pois": [
+        "Toa Payoh Sensory Park",
+        "Healthcare United",
+        "75 Wanton Mee"
+      ]
+    },
+    {
+      "gh6": "w21zs1",
+      "cell_devices": 147941,
+      "top_pois": [
+        "Asia Media Academy",
+        "Sodick Singapore Pte Ltd",
+        "Ya Kun Kaya Toast"
+      ]
+    },
+    {
+      "gh6": "w21z71",
+      "cell_devices": 146151,
+      "top_pois": [
+        "Picante",
+        "Aptimos @ Chinatown Point",
+        "Statue of Sir Stamford Raffles"
+      ]
+    },
+    {
+      "gh6": "w21z7j",
+      "cell_devices": 143854,
+      "top_pois": [
+        "Edinburgh Road",
+        "Observation Ward, Kkh Delivery Suite",
+        "Kkh Cardiac Centre"
+      ]
+    },
+    {
+      "gh6": "w21zg1",
+      "cell_devices": 141925,
+      "top_pois": [
+        "Ang Mo Kio Town Garden West",
+        "McDonald's",
+        "Four Leaves"
+      ]
+    },
+    {
+      "gh6": "w21zed",
+      "cell_devices": 139254,
+      "top_pois": [
+        "Cornerstone Medical Bidadari",
+        "Cedar Girls' Secondary School",
+        "My First Skool"
+      ]
+    },
+    {
+      "gh6": "w21zey",
+      "cell_devices": 137226,
+      "top_pois": [
+        "Aroozoo Park",
+        "The Roofing Specialist",
+        "TotalEnergies"
+      ]
+    },
+    {
+      "gh6": "w21zfb",
+      "cell_devices": 137009,
+      "top_pois": [
+        "Bishan Ang Mo Kio Park",
+        "452 Ang Mo Kio Ave 10",
+        "Boon Tong Kee"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=IBM+Plex+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap');
+@import 'tailwindcss';
+
+:root {
+  --vm-ink: #0c1220;
+  --vm-paper: #e8eef4;
+  --vm-muted: #6b7c8f;
+  --vm-line: rgba(12, 18, 32, 0.12);
+  --vm-panel: rgba(255, 255, 255, 0.86);
+  --vm-panel-strong: rgba(255, 255, 255, 0.94);
+  --vm-accent: #0d7a6f;
+  --vm-accent-soft: rgba(13, 122, 111, 0.14);
+  --vm-warn: #b45309;
+  --vm-map-fade: linear-gradient(180deg, rgba(232, 238, 244, 0.92) 0%, rgba(232, 238, 244, 0.55) 42%, transparent 100%);
+  --font-display: 'Newsreader', 'Source Serif 4', Georgia, serif;
+  --font-sans: 'DM Sans', 'Segoe UI', sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+  color: var(--vm-ink);
+  background: var(--vm-paper);
+  font-family: var(--font-sans);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+}
+
+button,
+select,
+input {
+  font: inherit;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}

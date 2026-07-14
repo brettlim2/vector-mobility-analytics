@@ -1,0 +1,41 @@
+{
+  "trip_distance_km": {
+    "p25": 1.79,
+    "p50": 4.7,
+    "p75": 9.91,
+    "p95": 17.88,
+    "trips": 988778
+  },
+  "trip_speed_bands": [
+    {
+      "band": "slow / mixed (5-15)",
+      "trips": 359067,
+      "med_dist_km": 4.87
+    },
+    {
+      "band": "walk (<5 km/h)",
+      "trips": 355635,
+      "med_dist_km": 2.06
+    },
+    {
+      "band": "road / transit (15-35)",
+      "trips": 224303,
+      "med_dist_km": 8.82
+    },
+    {
+      "band": "fast (>35 km/h)",
+      "trips": 49773,
+      "med_dist_km": 12.71
+    }
+  ],
+  "radius_of_gyration_km": {
+    "devices": 210453,
+    "p25": 0.04,
+    "p50": 1.93,
+    "p75": 4.47,
+    "p95": 8.06
+  },
+  "trips_per_active_device_day": {
+    "trips": 2.36
+  }
+}

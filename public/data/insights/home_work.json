@@ -1,0 +1,378 @@
+{
+  "devices_classified": {
+    "n": 54431,
+    "commuters": 16867
+  },
+  "top_home_zones": [
+    {
+      "zone": "Sengkang",
+      "devices": 3184
+    },
+    {
+      "zone": "Yishun",
+      "devices": 2783
+    },
+    {
+      "zone": "Hougang",
+      "devices": 2766
+    },
+    {
+      "zone": "Bedok",
+      "devices": 2725
+    },
+    {
+      "zone": "Tampines",
+      "devices": 2472
+    },
+    {
+      "zone": "Choa Chu Kang",
+      "devices": 2449
+    },
+    {
+      "zone": "Woodlands",
+      "devices": 2305
+    },
+    {
+      "zone": "Punggol",
+      "devices": 2288
+    },
+    {
+      "zone": "Jurong West",
+      "devices": 2284
+    },
+    {
+      "zone": "Ang Mo Kio",
+      "devices": 2117
+    },
+    {
+      "zone": "Pasir Ris",
+      "devices": 1723
+    },
+    {
+      "zone": "Toa Payoh",
+      "devices": 1679
+    },
+    {
+      "zone": "Sembawang",
+      "devices": 1641
+    },
+    {
+      "zone": "Bukit Panjang",
+      "devices": 1427
+    },
+    {
+      "zone": "Serangoon",
+      "devices": 1395
+    },
+    {
+      "zone": "Bukit Batok",
+      "devices": 1395
+    },
+    {
+      "zone": "Geylang",
+      "devices": 1288
+    },
+    {
+      "zone": "Clementi",
+      "devices": 1270
+    },
+    {
+      "zone": "Jurong East",
+      "devices": 1201
+    },
+    {
+      "zone": "Tengah",
+      "devices": 1184
+    }
+  ],
+  "top_work_zones": [
+    {
+      "zone": "Sengkang",
+      "devices": 2479
+    },
+    {
+      "zone": "Bedok",
+      "devices": 2411
+    },
+    {
+      "zone": "Hougang",
+      "devices": 2392
+    },
+    {
+      "zone": "Yishun",
+      "devices": 2300
+    },
+    {
+      "zone": "Tampines",
+      "devices": 2194
+    },
+    {
+      "zone": "Ang Mo Kio",
+      "devices": 2091
+    },
+    {
+      "zone": "Jurong West",
+      "devices": 2066
+    },
+    {
+      "zone": "Choa Chu Kang",
+      "devices": 1961
+    },
+    {
+      "zone": "Woodlands",
+      "devices": 1881
+    },
+    {
+      "zone": "Geylang",
+      "devices": 1816
+    },
+    {
+      "zone": "Punggol",
+      "devices": 1794
+    },
+    {
+      "zone": "Toa Payoh",
+      "devices": 1545
+    },
+    {
+      "zone": "Jurong East",
+      "devices": 1495
+    },
+    {
+      "zone": "Pasir Ris",
+      "devices": 1445
+    },
+    {
+      "zone": "Sembawang",
+      "devices": 1430
+    },
+    {
+      "zone": "Serangoon",
+      "devices": 1285
+    },
+    {
+      "zone": "Clementi",
+      "devices": 1270
+    },
+    {
+      "zone": "Orchard",
+      "devices": 1235
+    },
+    {
+      "zone": "Bukit Batok",
+      "devices": 1220
+    },
+    {
+      "zone": "Bukit Panjang",
+      "devices": 1115
+    }
+  ],
+  "commute_flows": [
+    {
+      "home_zone": "Jurong West",
+      "work_zone": "Jurong East",
+      "devices": 100
+    },
+    {
+      "home_zone": "Sengkang",
+      "work_zone": "Hougang",
+      "devices": 88
+    },
+    {
+      "home_zone": "Jurong West",
+      "work_zone": "Tuas",
+      "devices": 87
+    },
+    {
+      "home_zone": "Sengkang",
+      "work_zone": "Geylang",
+      "devices": 85
+    },
+    {
+      "home_zone": "Hougang",
+      "work_zone": "Geylang",
+      "devices": 81
+    },
+    {
+      "home_zone": "Bedok",
+      "work_zone": "Geylang",
+      "devices": 80
+    },
+    {
+      "home_zone": "Choa Chu Kang",
+      "work_zone": "Jurong East",
+      "devices": 77
+    },
+    {
+      "home_zone": "Woodlands",
+      "work_zone": "Sembawang",
+      "devices": 64
+    },
+    {
+      "home_zone": "Yishun",
+      "work_zone": "Ang Mo Kio",
+      "devices": 61
+    },
+    {
+      "home_zone": "Choa Chu Kang",
+      "work_zone": "Jurong West",
+      "devices": 61
+    },
+    {
+      "home_zone": "Tampines",
+      "work_zone": "Geylang",
+      "devices": 60
+    },
+    {
+      "home_zone": "Yishun",
+      "work_zone": "Sembawang",
+      "devices": 60
+    },
+    {
+      "home_zone": "Sembawang",
+      "work_zone": "Woodlands",
+      "devices": 56
+    },
+    {
+      "home_zone": "Yishun",
+      "work_zone": "Geylang",
+      "devices": 55
+    },
+    {
+      "home_zone": "Tampines",
+      "work_zone": "Changi Airport",
+      "devices": 53
+    },
+    {
+      "home_zone": "Punggol",
+      "work_zone": "Geylang",
+      "devices": 52
+    },
+    {
+      "home_zone": "Pasir Ris",
+      "work_zone": "Tampines",
+      "devices": 52
+    },
+    {
+      "home_zone": "Hougang",
+      "work_zone": "Ang Mo Kio",
+      "devices": 51
+    },
+    {
+      "home_zone": "Tengah",
+      "work_zone": "Jurong East",
+      "devices": 51
+    },
+    {
+      "home_zone": "Tampines",
+      "work_zone": "Changi Business Park / Expo",
+      "devices": 49
+    },
+    {
+      "home_zone": "Woodlands",
+      "work_zone": "Yishun",
+      "devices": 49
+    },
+    {
+      "home_zone": "Sengkang",
+      "work_zone": "Ang Mo Kio",
+      "devices": 48
+    },
+    {
+      "home_zone": "Toa Payoh",
+      "work_zone": "Geylang",
+      "devices": 48
+    },
+    {
+      "home_zone": "Bedok",
+      "work_zone": "Changi Business Park / Expo",
+      "devices": 48
+    },
+    {
+      "home_zone": "Sengkang",
+      "work_zone": "Punggol",
+      "devices": 48
+    },
+    {
+      "home_zone": "Choa Chu Kang",
+      "work_zone": "Tuas",
+      "devices": 48
+    },
+    {
+      "home_zone": "Pasir Ris",
+      "work_zone": "Geylang",
+      "devices": 47
+    },
+    {
+      "home_zone": "Bedok",
+      "work_zone": "Tampines",
+      "devices": 47
+    },
+    {
+      "home_zone": "Punggol",
+      "work_zone": "Sengkang",
+      "devices": 46
+    },
+    {
+      "home_zone": "Sengkang",
+      "work_zone": "Orchard",
+      "devices": 46
+    },
+    {
+      "home_zone": "Yishun",
+      "work_zone": "Woodlands",
+      "devices": 45
+    },
+    {
+      "home_zone": "Ang Mo Kio",
+      "work_zone": "Orchard",
+      "devices": 45
+    },
+    {
+      "home_zone": "Hougang",
+      "work_zone": "Sengkang",
+      "devices": 44
+    },
+    {
+      "home_zone": "Sembawang",
+      "work_zone": "Yishun",
+      "devices": 44
+    },
+    {
+      "home_zone": "Tengah",
+      "work_zone": "Jurong West",
+      "devices": 43
+    },
+    {
+      "home_zone": "Hougang",
+      "work_zone": "Serangoon",
+      "devices": 43
+    },
+    {
+      "home_zone": "Bukit Batok",
+      "work_zone": "Jurong East",
+      "devices": 43
+    },
+    {
+      "home_zone": "Woodlands",
+      "work_zone": "Ang Mo Kio",
+      "devices": 42
+    },
+    {
+      "home_zone": "Jurong West",
+      "work_zone": "NTU / Pioneer",
+      "devices": 41
+    },
+    {
+      "home_zone": "Yishun",
+      "work_zone": "Orchard",
+      "devices": 41
+    }
+  ],
+  "commute_distance_km": {
+    "p25": 4.9,
+    "p50": 8.8,
+    "p75": 13.9,
+    "p90": 17.8
+  }
+}
