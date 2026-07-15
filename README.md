@@ -49,7 +49,7 @@ npm run dev
 | `daypart` | morning / midday / evening / night (hex) |
 | `hourBand` | am / pm / late / offpeak (OD) |
 | `source` | sdk_app / agg / all |
-| `h3` | 7 / 8 / 9 |
+| `h3` | 7 / 8 / 9 / 10 |
 | `zone` | named zone |
 | `category` | POI category group |
 
@@ -59,7 +59,7 @@ Example: `?daytype=weekday&hourBand=am&source=sdk_app&h3=8`
 
 | path | content |
 |---|---|
-| `hex_density.json` | H3 res 7/8/9 × daypart device counts |
+| `hex_density.json` | H3 res 7/8/9/10 × daypart device counts |
 | `od_arcs.json` | zone→zone arcs by hour band |
 | `planning_areas.geojson` | URA MP2025 planning areas |
 | `cubes/cube_hex_hour.json` | h3_res8 × hour × daytype × source_class |

@@ -2,7 +2,7 @@ export type Daytype = 'weekday' | 'weekend' | 'all'
 export type Daypart = 'all' | 'morning' | 'midday' | 'evening' | 'night'
 export type HourBand = 'all' | 'am' | 'pm' | 'late' | 'offpeak'
 export type SourceClass = 'all' | 'sdk_app' | 'agg'
-export type H3Res = '7' | '8' | '9'
+export type H3Res = '7' | '8' | '9' | '10'
 
 export interface Filters {
   daytype: Daytype

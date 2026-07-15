@@ -117,7 +117,7 @@ def export_kepler(con) -> None:
 
 
 def export_hex_density(con) -> None:
-    """Unique devices by H3 res 7/8/9 × daypart (from stop centroids, k≥5)."""
+    """Unique devices by H3 res 7/8/9/10 × daypart (from stop centroids, k≥5)."""
     t0 = time.time()
     base = _rows(con, f"""
         SELECT h3.cell AS h3_10, daypart,
@@ -163,11 +163,11 @@ def export_hex_density(con) -> None:
     else:
         print(f"[export] hex density via DuckDB h3: {len(base)} cells", flush=True)
 
-    by_res: dict[str, list[dict]] = {"7": [], "8": [], "9": []}
-    for res in (7, 8, 9):
+    by_res: dict[str, list[dict]] = {"7": [], "8": [], "9": [], "10": []}
+    for res in (7, 8, 9, 10):
         rolled: dict[tuple[str, str], int] = defaultdict(int)
         for row in base:
-            parent = _parent(row["h3_10"], res)
+            parent = row["h3_10"] if res == 10 else _parent(row["h3_10"], res)
             if not parent:
                 continue
             rolled[(parent, row["daypart"])] += int(row["devices"])
@@ -214,11 +214,11 @@ def export_hex_density_from_pings(con) -> None:
     """)
     print(f"[export] hex base cells (sdk/app): {len(base):,} in {time.time() - t0:.1f}s", flush=True)
 
-    by_res: dict[str, list[dict]] = {"7": [], "8": [], "9": []}
-    for res in (7, 8, 9):
+    by_res: dict[str, list[dict]] = {"7": [], "8": [], "9": [], "10": []}
+    for res in (7, 8, 9, 10):
         rolled: dict[tuple[str, str], int] = defaultdict(int)
         for row in base:
-            parent = _parent(row["h3_10"], res)
+            parent = row["h3_10"] if res == 10 else _parent(row["h3_10"], res)
             if parent:
                 rolled[(parent, row["daypart"])] += int(row["devices"])
         rows = [

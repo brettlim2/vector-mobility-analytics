@@ -79,6 +79,7 @@ export function FilterBar({ zones, categories }: Props) {
           <option value="7">7 · ~1.2 km</option>
           <option value="8">8 · ~460 m</option>
           <option value="9">9 · ~170 m</option>
+          <option value="10">10 · ~65 m</option>
         </select>
       </Field>
 
