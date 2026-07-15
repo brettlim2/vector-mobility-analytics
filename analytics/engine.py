@@ -262,7 +262,16 @@ def build_trips(con: duckdb.DuckDBPyConnection) -> None:
 
 
 def build(steps: list[str] | None = None) -> None:
+    from .acra import build_acra
+    from .datagov import build_context, build_stop_pa
+    from .household import build_household
+    from .lifestage import build_lifestage
     from .overture import build_pois, build_visits
+    from .purpose import build_purpose
+    from .segments import build_segments
+    from .sequences import build_sequences
+    from .ses import build_ses
+    from .weighting import build_weights
 
     con = connect()
     all_steps = {
@@ -273,6 +282,16 @@ def build(steps: list[str] | None = None) -> None:
         "trips": build_trips,
         "pois": lambda c: (build_pois(c), _count(c, "pois")),
         "visits": lambda c: (build_visits(c), _count(c, "visits")),
+        "context": build_context,
+        "stop_pa": build_stop_pa,
+        "segments": build_segments,
+        "weights": build_weights,
+        "purpose": build_purpose,
+        "ses": build_ses,
+        "acra": build_acra,
+        "lifestage": build_lifestage,
+        "household": build_household,
+        "sequences": build_sequences,
     }
     for name, fn in all_steps.items():
         if steps and name not in steps:

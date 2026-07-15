@@ -1,11 +1,24 @@
 import { useEffect, useState } from 'react'
 import type {
+  AnalyticsInsights,
+  AnomaliesInsight,
   CalendarCell,
+  DataQualityInsight,
+  DwellInsight,
   GroupRhythm,
   HexCell,
+  HomeWorkInsight,
+  HouseholdInsight,
   Kpi,
+  MovementInsight,
   OdArc,
+  PoiInsights,
+  PurposeInsight,
+  SegmentsInsight,
+  SesInsight,
+  UrbanContextInsight,
   VisitCell,
+  ZoneActivityInsight,
   ZoneRow,
 } from '../types'
 
@@ -19,6 +32,7 @@ export interface AppData {
   visitCategories: string[]
   zones: ZoneRow[]
   planningAreas: GeoJSON.FeatureCollection | null
+  insights: AnalyticsInsights | null
   loading: boolean
   error: string | null
 }
@@ -33,6 +47,7 @@ const empty: AppData = {
   visitCategories: [],
   zones: [],
   planningAreas: null,
+  insights: null,
   loading: true,
   error: null,
 }
@@ -59,6 +74,18 @@ export function useAnalyticsData(): AppData {
           cubeHex,
           cubeVisits,
           cubeOd,
+          homeWork,
+          zoneActivity,
+          poi,
+          movement,
+          dwell,
+          anomalies,
+          dataQuality,
+          segments,
+          ses,
+          purpose,
+          urbanContext,
+          household,
         ] = await Promise.all([
           getJson<Kpi>('data/kpi.json'),
           getJson<{ resolutions: Record<string, HexCell[]> }>('data/hex_density.json'),
@@ -70,6 +97,18 @@ export function useAnalyticsData(): AppData {
             'data/cubes/cube_visits.json',
           ),
           getJson<{ cells: OdArc[] }>('data/cubes/cube_od.json'),
+          getJson<HomeWorkInsight>('data/insights/home_work.json'),
+          getJson<ZoneActivityInsight>('data/insights/zone_activity.json'),
+          getJson<PoiInsights>('data/insights/poi_insights.json'),
+          getJson<MovementInsight>('data/insights/movement.json'),
+          getJson<DwellInsight>('data/insights/dwell.json'),
+          getJson<AnomaliesInsight>('data/insights/anomalies.json'),
+          getJson<DataQualityInsight>('data/insights/data_quality.json'),
+          getJson<SegmentsInsight>('data/insights/segments.json'),
+          getJson<SesInsight>('data/insights/ses.json'),
+          getJson<PurposeInsight>('data/insights/purpose.json'),
+          getJson<UrbanContextInsight>('data/insights/urban_context.json'),
+          getJson<HouseholdInsight>('data/insights/household.json'),
         ])
         if (cancelled) return
         const cats = [
@@ -85,6 +124,20 @@ export function useAnalyticsData(): AppData {
           visitCategories: cats,
           zones: zones.zones,
           planningAreas: planning,
+          insights: {
+            homeWork,
+            zoneActivity,
+            poi,
+            movement,
+            dwell,
+            anomalies,
+            dataQuality,
+            segments,
+            ses,
+            purpose,
+            urbanContext,
+            household,
+          },
           loading: false,
           error: null,
         })

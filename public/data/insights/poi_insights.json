@@ -360,18 +360,18 @@
       "med_dwell_min": 43.0
     },
     {
-      "name": "KFC",
-      "locations": 71,
-      "devices": 647,
-      "visits": 756,
-      "med_dwell_min": 51.1
-    },
-    {
       "name": "Watsons",
       "locations": 85,
       "devices": 647,
       "visits": 736,
       "med_dwell_min": 61.3
+    },
+    {
+      "name": "KFC",
+      "locations": 71,
+      "devices": 647,
+      "visits": 756,
+      "med_dwell_min": 51.1
     },
     {
       "name": "Sheng Siong Supermarket",
@@ -391,85 +391,85 @@
   "by_group": [
     {
       "grp": "Food & Drink",
-      "devices": 47833,
-      "visits": 151955,
+      "devices": 47823,
+      "visits": 151941,
       "med_dwell_min": 58.2,
       "weekend_ratio": 1.17
     },
     {
       "grp": "Services & Business",
-      "devices": 33586,
-      "visits": 94511,
-      "med_dwell_min": 65.0,
+      "devices": 33546,
+      "visits": 94415,
+      "med_dwell_min": 64.9,
       "weekend_ratio": 0.74
     },
     {
       "grp": "Shopping",
-      "devices": 36672,
-      "visits": 86424,
+      "devices": 36646,
+      "visits": 86304,
       "med_dwell_min": 60.5,
       "weekend_ratio": 1.06
     },
     {
       "grp": "Education",
-      "devices": 20054,
-      "visits": 46653,
+      "devices": 20074,
+      "visits": 46687,
       "med_dwell_min": 73.5,
       "weekend_ratio": 0.68
     },
     {
       "grp": "Cultural & Historic",
-      "devices": 20711,
-      "visits": 46488,
+      "devices": 20714,
+      "visits": 46491,
       "med_dwell_min": 61.8,
       "weekend_ratio": 1.17
     },
     {
       "grp": "Sports & Recreation",
-      "devices": 18580,
-      "visits": 42415,
+      "devices": 18643,
+      "visits": 42512,
       "med_dwell_min": 49.9,
       "weekend_ratio": 1.09
     },
     {
       "grp": "Transport & Travel",
-      "devices": 16382,
-      "visits": 33745,
+      "devices": 16392,
+      "visits": 33757,
       "med_dwell_min": 56.3,
       "weekend_ratio": 0.91
     },
     {
       "grp": "Health Care",
-      "devices": 17224,
-      "visits": 30575,
-      "med_dwell_min": 61.5,
+      "devices": 17247,
+      "visits": 30676,
+      "med_dwell_min": 61.6,
       "weekend_ratio": 0.83
     },
     {
       "grp": "Lifestyle Services",
-      "devices": 18344,
-      "visits": 29839,
+      "devices": 18337,
+      "visits": 29822,
       "med_dwell_min": 57.1,
       "weekend_ratio": 1.1
     },
     {
       "grp": "Community & Government",
-      "devices": 11934,
-      "visits": 24280,
+      "devices": 11936,
+      "visits": 24282,
       "med_dwell_min": 67.2,
       "weekend_ratio": 0.91
     },
     {
       "grp": "Arts & Entertainment",
-      "devices": 10637,
-      "visits": 19117,
+      "devices": 10638,
+      "visits": 19118,
       "med_dwell_min": 53.1,
       "weekend_ratio": 1.07
     },
     {
       "grp": "Lodging",
-      "devices": 9555,
-      "visits": 17956,
+      "devices": 9558,
+      "visits": 17960,
       "med_dwell_min": 61.7,
       "weekend_ratio": 1.18
     },
@@ -482,9 +482,9 @@
     },
     {
       "grp": "Other",
-      "devices": 2202,
-      "visits": 2761,
-      "med_dwell_min": 61.2,
+      "devices": 2195,
+      "visits": 2754,
+      "med_dwell_min": 61.1,
       "weekend_ratio": 0.99
     }
   ],
@@ -547,17 +547,17 @@
     {
       "grp": "Arts & Entertainment",
       "h": 11,
-      "occupied_visits": 2503
+      "occupied_visits": 2504
     },
     {
       "grp": "Arts & Entertainment",
       "h": 12,
-      "occupied_visits": 2703
+      "occupied_visits": 2704
     },
     {
       "grp": "Arts & Entertainment",
       "h": 13,
-      "occupied_visits": 2855
+      "occupied_visits": 2856
     },
     {
       "grp": "Arts & Entertainment",
@@ -567,27 +567,27 @@
     {
       "grp": "Arts & Entertainment",
       "h": 15,
-      "occupied_visits": 2665
+      "occupied_visits": 2666
     },
     {
       "grp": "Arts & Entertainment",
       "h": 16,
-      "occupied_visits": 2661
+      "occupied_visits": 2660
     },
     {
       "grp": "Arts & Entertainment",
       "h": 17,
-      "occupied_visits": 2680
+      "occupied_visits": 2679
     },
     {
       "grp": "Arts & Entertainment",
       "h": 18,
-      "occupied_visits": 2709
+      "occupied_visits": 2708
     },
     {
       "grp": "Arts & Entertainment",
       "h": 19,
-      "occupied_visits": 2621
+      "occupied_visits": 2620
     },
     {
       "grp": "Arts & Entertainment",
@@ -612,22 +612,22 @@
     {
       "grp": "Education",
       "h": 0,
-      "occupied_visits": 352
+      "occupied_visits": 357
     },
     {
       "grp": "Education",
       "h": 1,
-      "occupied_visits": 531
+      "occupied_visits": 535
     },
     {
       "grp": "Education",
       "h": 2,
-      "occupied_visits": 562
+      "occupied_visits": 563
     },
     {
       "grp": "Education",
       "h": 3,
-      "occupied_visits": 532
+      "occupied_visits": 533
     },
     {
       "grp": "Education",
@@ -642,92 +642,92 @@
     {
       "grp": "Education",
       "h": 6,
-      "occupied_visits": 2986
+      "occupied_visits": 2987
     },
     {
       "grp": "Education",
       "h": 7,
-      "occupied_visits": 7233
+      "occupied_visits": 7231
     },
     {
       "grp": "Education",
       "h": 8,
-      "occupied_visits": 8430
+      "occupied_visits": 8428
     },
     {
       "grp": "Education",
       "h": 9,
-      "occupied_visits": 10052
+      "occupied_visits": 10050
     },
     {
       "grp": "Education",
       "h": 10,
-      "occupied_visits": 10873
+      "occupied_visits": 10875
     },
     {
       "grp": "Education",
       "h": 11,
-      "occupied_visits": 10711
+      "occupied_visits": 10713
     },
     {
       "grp": "Education",
       "h": 12,
-      "occupied_visits": 10533
+      "occupied_visits": 10539
     },
     {
       "grp": "Education",
       "h": 13,
-      "occupied_visits": 10229
+      "occupied_visits": 10233
     },
     {
       "grp": "Education",
       "h": 14,
-      "occupied_visits": 8906
+      "occupied_visits": 8913
     },
     {
       "grp": "Education",
       "h": 15,
-      "occupied_visits": 7603
+      "occupied_visits": 7606
     },
     {
       "grp": "Education",
       "h": 16,
-      "occupied_visits": 6580
+      "occupied_visits": 6585
     },
     {
       "grp": "Education",
       "h": 17,
-      "occupied_visits": 5804
+      "occupied_visits": 5813
     },
     {
       "grp": "Education",
       "h": 18,
-      "occupied_visits": 5168
+      "occupied_visits": 5182
     },
     {
       "grp": "Education",
       "h": 19,
-      "occupied_visits": 4528
+      "occupied_visits": 4535
     },
     {
       "grp": "Education",
       "h": 20,
-      "occupied_visits": 4012
+      "occupied_visits": 4017
     },
     {
       "grp": "Education",
       "h": 21,
-      "occupied_visits": 3101
+      "occupied_visits": 3106
     },
     {
       "grp": "Education",
       "h": 22,
-      "occupied_visits": 1910
+      "occupied_visits": 1913
     },
     {
       "grp": "Education",
       "h": 23,
-      "occupied_visits": 831
+      "occupied_visits": 832
     },
     {
       "grp": "Food & Drink",
@@ -742,92 +742,92 @@
     {
       "grp": "Food & Drink",
       "h": 2,
-      "occupied_visits": 1952
+      "occupied_visits": 1951
     },
     {
       "grp": "Food & Drink",
       "h": 3,
-      "occupied_visits": 1616
+      "occupied_visits": 1615
     },
     {
       "grp": "Food & Drink",
       "h": 4,
-      "occupied_visits": 1728
+      "occupied_visits": 1731
     },
     {
       "grp": "Food & Drink",
       "h": 5,
-      "occupied_visits": 2142
+      "occupied_visits": 2144
     },
     {
       "grp": "Food & Drink",
       "h": 6,
-      "occupied_visits": 4077
+      "occupied_visits": 4076
     },
     {
       "grp": "Food & Drink",
       "h": 7,
-      "occupied_visits": 7117
+      "occupied_visits": 7112
     },
     {
       "grp": "Food & Drink",
       "h": 8,
-      "occupied_visits": 11334
+      "occupied_visits": 11333
     },
     {
       "grp": "Food & Drink",
       "h": 9,
-      "occupied_visits": 15742
+      "occupied_visits": 15739
     },
     {
       "grp": "Food & Drink",
       "h": 10,
-      "occupied_visits": 18705
+      "occupied_visits": 18700
     },
     {
       "grp": "Food & Drink",
       "h": 11,
-      "occupied_visits": 21772
+      "occupied_visits": 21767
     },
     {
       "grp": "Food & Drink",
       "h": 12,
-      "occupied_visits": 25654
+      "occupied_visits": 25647
     },
     {
       "grp": "Food & Drink",
       "h": 13,
-      "occupied_visits": 26270
+      "occupied_visits": 26265
     },
     {
       "grp": "Food & Drink",
       "h": 14,
-      "occupied_visits": 24211
+      "occupied_visits": 24205
     },
     {
       "grp": "Food & Drink",
       "h": 15,
-      "occupied_visits": 22971
+      "occupied_visits": 22965
     },
     {
       "grp": "Food & Drink",
       "h": 16,
-      "occupied_visits": 22538
+      "occupied_visits": 22535
     },
     {
       "grp": "Food & Drink",
       "h": 17,
-      "occupied_visits": 23436
+      "occupied_visits": 23433
     },
     {
       "grp": "Food & Drink",
       "h": 18,
-      "occupied_visits": 25873
+      "occupied_visits": 25868
     },
     {
       "grp": "Food & Drink",
       "h": 19,
-      "occupied_visits": 26757
+      "occupied_visits": 26751
     },
     {
       "grp": "Food & Drink",
@@ -837,7 +837,7 @@
     {
       "grp": "Food & Drink",
       "h": 21,
-      "occupied_visits": 18613
+      "occupied_visits": 18612
     },
     {
       "grp": "Food & Drink",
@@ -852,122 +852,122 @@
     {
       "grp": "Shopping",
       "h": 0,
-      "occupied_visits": 721
+      "occupied_visits": 717
     },
     {
       "grp": "Shopping",
       "h": 1,
-      "occupied_visits": 1046
+      "occupied_visits": 1044
     },
     {
       "grp": "Shopping",
       "h": 2,
-      "occupied_visits": 983
+      "occupied_visits": 985
     },
     {
       "grp": "Shopping",
       "h": 3,
-      "occupied_visits": 908
+      "occupied_visits": 909
     },
     {
       "grp": "Shopping",
       "h": 4,
-      "occupied_visits": 1108
+      "occupied_visits": 1105
     },
     {
       "grp": "Shopping",
       "h": 5,
-      "occupied_visits": 1388
+      "occupied_visits": 1386
     },
     {
       "grp": "Shopping",
       "h": 6,
-      "occupied_visits": 2479
+      "occupied_visits": 2476
     },
     {
       "grp": "Shopping",
       "h": 7,
-      "occupied_visits": 4194
+      "occupied_visits": 4193
     },
     {
       "grp": "Shopping",
       "h": 8,
-      "occupied_visits": 7351
+      "occupied_visits": 7350
     },
     {
       "grp": "Shopping",
       "h": 9,
-      "occupied_visits": 10375
+      "occupied_visits": 10366
     },
     {
       "grp": "Shopping",
       "h": 10,
-      "occupied_visits": 12281
+      "occupied_visits": 12268
     },
     {
       "grp": "Shopping",
       "h": 11,
-      "occupied_visits": 13787
+      "occupied_visits": 13772
     },
     {
       "grp": "Shopping",
       "h": 12,
-      "occupied_visits": 15530
+      "occupied_visits": 15512
     },
     {
       "grp": "Shopping",
       "h": 13,
-      "occupied_visits": 15899
+      "occupied_visits": 15878
     },
     {
       "grp": "Shopping",
       "h": 14,
-      "occupied_visits": 15579
+      "occupied_visits": 15561
     },
     {
       "grp": "Shopping",
       "h": 15,
-      "occupied_visits": 15290
+      "occupied_visits": 15273
     },
     {
       "grp": "Shopping",
       "h": 16,
-      "occupied_visits": 15140
+      "occupied_visits": 15121
     },
     {
       "grp": "Shopping",
       "h": 17,
-      "occupied_visits": 15088
+      "occupied_visits": 15068
     },
     {
       "grp": "Shopping",
       "h": 18,
-      "occupied_visits": 14761
+      "occupied_visits": 14739
     },
     {
       "grp": "Shopping",
       "h": 19,
-      "occupied_visits": 13585
+      "occupied_visits": 13557
     },
     {
       "grp": "Shopping",
       "h": 20,
-      "occupied_visits": 11790
+      "occupied_visits": 11761
     },
     {
       "grp": "Shopping",
       "h": 21,
-      "occupied_visits": 8390
+      "occupied_visits": 8370
     },
     {
       "grp": "Shopping",
       "h": 22,
-      "occupied_visits": 4501
+      "occupied_visits": 4490
     },
     {
       "grp": "Shopping",
       "h": 23,
-      "occupied_visits": 1788
+      "occupied_visits": 1786
     },
     {
       "grp": "Sports & Recreation",
@@ -1002,92 +1002,92 @@
     {
       "grp": "Sports & Recreation",
       "h": 6,
-      "occupied_visits": 1670
+      "occupied_visits": 1674
     },
     {
       "grp": "Sports & Recreation",
       "h": 7,
-      "occupied_visits": 2340
+      "occupied_visits": 2344
     },
     {
       "grp": "Sports & Recreation",
       "h": 8,
-      "occupied_visits": 3213
+      "occupied_visits": 3214
     },
     {
       "grp": "Sports & Recreation",
       "h": 9,
-      "occupied_visits": 4185
+      "occupied_visits": 4193
     },
     {
       "grp": "Sports & Recreation",
       "h": 10,
-      "occupied_visits": 4600
+      "occupied_visits": 4616
     },
     {
       "grp": "Sports & Recreation",
       "h": 11,
-      "occupied_visits": 4799
+      "occupied_visits": 4815
     },
     {
       "grp": "Sports & Recreation",
       "h": 12,
-      "occupied_visits": 5138
+      "occupied_visits": 5152
     },
     {
       "grp": "Sports & Recreation",
       "h": 13,
-      "occupied_visits": 5340
+      "occupied_visits": 5355
     },
     {
       "grp": "Sports & Recreation",
       "h": 14,
-      "occupied_visits": 5395
+      "occupied_visits": 5411
     },
     {
       "grp": "Sports & Recreation",
       "h": 15,
-      "occupied_visits": 5481
+      "occupied_visits": 5499
     },
     {
       "grp": "Sports & Recreation",
       "h": 16,
-      "occupied_visits": 5599
+      "occupied_visits": 5617
     },
     {
       "grp": "Sports & Recreation",
       "h": 17,
-      "occupied_visits": 5708
+      "occupied_visits": 5720
     },
     {
       "grp": "Sports & Recreation",
       "h": 18,
-      "occupied_visits": 5906
+      "occupied_visits": 5925
     },
     {
       "grp": "Sports & Recreation",
       "h": 19,
-      "occupied_visits": 5773
+      "occupied_visits": 5799
     },
     {
       "grp": "Sports & Recreation",
       "h": 20,
-      "occupied_visits": 5430
+      "occupied_visits": 5454
     },
     {
       "grp": "Sports & Recreation",
       "h": 21,
-      "occupied_visits": 4931
+      "occupied_visits": 4946
     },
     {
       "grp": "Sports & Recreation",
       "h": 22,
-      "occupied_visits": 3861
+      "occupied_visits": 3867
     },
     {
       "grp": "Sports & Recreation",
       "h": 23,
-      "occupied_visits": 1947
+      "occupied_visits": 1948
     },
     {
       "grp": "Transport & Travel",
@@ -1117,12 +1117,12 @@
     {
       "grp": "Transport & Travel",
       "h": 5,
-      "occupied_visits": 1005
+      "occupied_visits": 1006
     },
     {
       "grp": "Transport & Travel",
       "h": 6,
-      "occupied_visits": 1493
+      "occupied_visits": 1494
     },
     {
       "grp": "Transport & Travel",
@@ -1137,7 +1137,7 @@
     {
       "grp": "Transport & Travel",
       "h": 9,
-      "occupied_visits": 4597
+      "occupied_visits": 4599
     },
     {
       "grp": "Transport & Travel",
@@ -1147,57 +1147,57 @@
     {
       "grp": "Transport & Travel",
       "h": 11,
-      "occupied_visits": 5122
+      "occupied_visits": 5123
     },
     {
       "grp": "Transport & Travel",
       "h": 12,
-      "occupied_visits": 5270
+      "occupied_visits": 5275
     },
     {
       "grp": "Transport & Travel",
       "h": 13,
-      "occupied_visits": 5539
+      "occupied_visits": 5545
     },
     {
       "grp": "Transport & Travel",
       "h": 14,
-      "occupied_visits": 5519
+      "occupied_visits": 5521
     },
     {
       "grp": "Transport & Travel",
       "h": 15,
-      "occupied_visits": 5506
+      "occupied_visits": 5505
     },
     {
       "grp": "Transport & Travel",
       "h": 16,
-      "occupied_visits": 5351
+      "occupied_visits": 5353
     },
     {
       "grp": "Transport & Travel",
       "h": 17,
-      "occupied_visits": 5151
+      "occupied_visits": 5152
     },
     {
       "grp": "Transport & Travel",
       "h": 18,
-      "occupied_visits": 4797
+      "occupied_visits": 4800
     },
     {
       "grp": "Transport & Travel",
       "h": 19,
-      "occupied_visits": 4223
+      "occupied_visits": 4226
     },
     {
       "grp": "Transport & Travel",
       "h": 20,
-      "occupied_visits": 3743
+      "occupied_visits": 3747
     },
     {
       "grp": "Transport & Travel",
       "h": 21,
-      "occupied_visits": 2898
+      "occupied_visits": 2901
     },
     {
       "grp": "Transport & Travel",
@@ -1357,9 +1357,9 @@
     },
     {
       "grp": "Food & Drink",
-      "name": "Picante",
+      "name": "Thohirah Restaurant",
       "devices": 183,
-      "med_dwell_min": 40.5
+      "med_dwell_min": 50.0
     },
     {
       "grp": "Geographic",
@@ -1417,9 +1417,9 @@
     },
     {
       "grp": "Health Care",
-      "name": "Sgh Ward 53A",
+      "name": "Jurong Polyclinic",
       "devices": 68,
-      "med_dwell_min": 88.4
+      "med_dwell_min": 73.6
     },
     {
       "grp": "Lifestyle Services",
@@ -1483,9 +1483,9 @@
     },
     {
       "grp": "Other",
-      "name": "Department of Child Development",
+      "name": "Raffles Medical Group",
       "devices": 36,
-      "med_dwell_min": 109.5
+      "med_dwell_min": 70.5
     },
     {
       "grp": "Other",
@@ -1495,21 +1495,21 @@
     },
     {
       "grp": "Other",
-      "name": "Raffles Medical Group",
+      "name": "Department of Child Development",
       "devices": 36,
-      "med_dwell_min": 70.5
+      "med_dwell_min": 109.5
+    },
+    {
+      "grp": "Other",
+      "name": "Orthopaedic Diagnostic Centre",
+      "devices": 33,
+      "med_dwell_min": 111.9
     },
     {
       "grp": "Other",
       "name": "HL Family Clinic and Surgery",
       "devices": 33,
       "med_dwell_min": 45.4
-    },
-    {
-      "grp": "Other",
-      "name": "Hearing Partners",
-      "devices": 33,
-      "med_dwell_min": 80.2
     },
     {
       "grp": "Services & Business",
@@ -1670,16 +1670,16 @@
       "share_local_3km": 0.34
     },
     {
-      "name": "Aljunied Park",
-      "visitors": 549,
-      "med_home_dist_km": 2.6,
-      "share_local_3km": 0.56
-    },
-    {
       "name": "81 Carrot Cake Local Delights",
       "visitors": 795,
       "med_home_dist_km": 2.6,
       "share_local_3km": 0.58
+    },
+    {
+      "name": "Aljunied Park",
+      "visitors": 549,
+      "med_home_dist_km": 2.6,
+      "share_local_3km": 0.56
     },
     {
       "name": "Woodleigh Glen",
@@ -1712,14 +1712,14 @@
       "share_local_3km": 0.77
     },
     {
-      "name": "Circuit Road Basketball Court",
-      "visitors": 539,
+      "name": "Playground, Telok Kurau Park",
+      "visitors": 503,
       "med_home_dist_km": 1.3,
       "share_local_3km": 0.75
     },
     {
-      "name": "Playground, Telok Kurau Park",
-      "visitors": 503,
+      "name": "Circuit Road Basketball Court",
+      "visitors": 539,
       "med_home_dist_km": 1.3,
       "share_local_3km": 0.75
     }
@@ -1855,7 +1855,7 @@
       "top_pois": [
         "Bishan Ang Mo Kio Park",
         "452 Ang Mo Kio Ave 10",
-        "Boon Tong Kee"
+        "A11"
       ]
     }
   ]

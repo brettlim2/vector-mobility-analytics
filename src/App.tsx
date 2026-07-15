@@ -2,6 +2,7 @@ import { useEffect, useMemo } from 'react'
 import { CalendarHeatmap } from './components/CalendarHeatmap'
 import { CorridorList } from './components/CorridorList'
 import { FilterBar } from './components/FilterBar'
+import { InsightsPanel } from './components/InsightsPanel'
 import { KpiStrip } from './components/KpiStrip'
 import { MapView } from './components/MapView'
 import { RhythmGrid } from './components/RhythmGrid'
@@ -103,6 +104,7 @@ export default function App() {
           <CorridorList arcs={arcs} />
           <CalendarHeatmap cells={calendar} />
           <RhythmGrid rhythms={rhythms} />
+          {data.insights && <InsightsPanel data={data.insights} zone={filters.zone} />}
           <p className="border-t border-[var(--vm-line)] pt-3 text-[10px] leading-relaxed text-[var(--vm-muted)]">
             Privacy: every cell suppressed below 5 distinct devices at export. POI rhythms use
             visitor footfall only (home ≥400 m from venue). Filter state is URL-encoded for sharing.

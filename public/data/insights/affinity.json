@@ -1,0 +1,398 @@
+{
+  "category_lift": [
+    {
+      "ga": "Cultural & Historic",
+      "gb": "Lodging",
+      "both_days": 1992,
+      "lift": 1.09
+    },
+    {
+      "ga": "Community & Government",
+      "gb": "Transport & Travel",
+      "both_days": 1897,
+      "lift": 1.04
+    },
+    {
+      "ga": "Community & Government",
+      "gb": "Cultural & Historic",
+      "both_days": 2534,
+      "lift": 1.03
+    },
+    {
+      "ga": "Lodging",
+      "gb": "Transport & Travel",
+      "both_days": 1398,
+      "lift": 1.03
+    },
+    {
+      "ga": "Services & Business",
+      "gb": "Transport & Travel",
+      "both_days": 6506,
+      "lift": 1.02
+    },
+    {
+      "ga": "Cultural & Historic",
+      "gb": "Transport & Travel",
+      "both_days": 3445,
+      "lift": 1.01
+    },
+    {
+      "ga": "Shopping",
+      "gb": "Transport & Travel",
+      "both_days": 6533,
+      "lift": 1.01
+    },
+    {
+      "ga": "Community & Government",
+      "gb": "Lodging",
+      "both_days": 946,
+      "lift": 0.97
+    },
+    {
+      "ga": "Cultural & Historic",
+      "gb": "Lifestyle Services",
+      "both_days": 3150,
+      "lift": 0.95
+    },
+    {
+      "ga": "Lifestyle Services",
+      "gb": "Shopping",
+      "both_days": 6004,
+      "lift": 0.95
+    },
+    {
+      "ga": "Lodging",
+      "gb": "Sports & Recreation",
+      "both_days": 1467,
+      "lift": 0.94
+    },
+    {
+      "ga": "Health Care",
+      "gb": "Lifestyle Services",
+      "both_days": 2196,
+      "lift": 0.93
+    },
+    {
+      "ga": "Services & Business",
+      "gb": "Shopping",
+      "both_days": 15297,
+      "lift": 0.93
+    },
+    {
+      "ga": "Lifestyle Services",
+      "gb": "Transport & Travel",
+      "both_days": 2286,
+      "lift": 0.93
+    },
+    {
+      "ga": "Food & Drink",
+      "gb": "Shopping",
+      "both_days": 25241,
+      "lift": 0.93
+    },
+    {
+      "ga": "Food & Drink",
+      "gb": "Transport & Travel",
+      "both_days": 9747,
+      "lift": 0.92
+    },
+    {
+      "ga": "Arts & Entertainment",
+      "gb": "Sports & Recreation",
+      "both_days": 1505,
+      "lift": 0.92
+    },
+    {
+      "ga": "Food & Drink",
+      "gb": "Lifestyle Services",
+      "both_days": 9389,
+      "lift": 0.91
+    },
+    {
+      "ga": "Cultural & Historic",
+      "gb": "Services & Business",
+      "both_days": 7767,
+      "lift": 0.9
+    },
+    {
+      "ga": "Lifestyle Services",
+      "gb": "Lodging",
+      "both_days": 1185,
+      "lift": 0.9
+    },
+    {
+      "ga": "Cultural & Historic",
+      "gb": "Education",
+      "both_days": 4228,
+      "lift": 0.9
+    },
+    {
+      "ga": "Community & Government",
+      "gb": "Education",
+      "both_days": 2258,
+      "lift": 0.9
+    },
+    {
+      "ga": "Cultural & Historic",
+      "gb": "Shopping",
+      "both_days": 7875,
+      "lift": 0.9
+    },
+    {
+      "ga": "Cultural & Historic",
+      "gb": "Food & Drink",
+      "both_days": 12500,
+      "lift": 0.88
+    },
+    {
+      "ga": "Food & Drink",
+      "gb": "Lodging",
+      "both_days": 4996,
+      "lift": 0.88
+    }
+  ],
+  "brand_lift": [
+    {
+      "ba": "My First Skool",
+      "bb": "Sheng Siong Supermarket",
+      "both_days": 9,
+      "lift": 0.23
+    },
+    {
+      "ba": "Sheng Siong Supermarket",
+      "bb": "Watsons",
+      "both_days": 5,
+      "lift": 0.23
+    },
+    {
+      "ba": "McDonald's",
+      "bb": "NTUC Fairprice",
+      "both_days": 8,
+      "lift": 0.18
+    },
+    {
+      "ba": "My First Skool",
+      "bb": "NTUC Fairprice",
+      "both_days": 6,
+      "lift": 0.18
+    },
+    {
+      "ba": "My First Skool",
+      "bb": "Shell Recharge",
+      "both_days": 11,
+      "lift": 0.17
+    },
+    {
+      "ba": "Starbucks",
+      "bb": "Subway",
+      "both_days": 9,
+      "lift": 0.16
+    },
+    {
+      "ba": "Guardian Health & Beauty",
+      "bb": "POSB",
+      "both_days": 5,
+      "lift": 0.15
+    },
+    {
+      "ba": "NTUC Fairprice",
+      "bb": "Singapore Pools",
+      "both_days": 7,
+      "lift": 0.15
+    },
+    {
+      "ba": "Sheng Siong Supermarket",
+      "bb": "TotalEnergies",
+      "both_days": 16,
+      "lift": 0.14
+    },
+    {
+      "ba": "POSB",
+      "bb": "Subway",
+      "both_days": 11,
+      "lift": 0.14
+    },
+    {
+      "ba": "FairPrice",
+      "bb": "Singapore Pools",
+      "both_days": 9,
+      "lift": 0.14
+    },
+    {
+      "ba": "7-Eleven",
+      "bb": "Subway",
+      "both_days": 17,
+      "lift": 0.14
+    },
+    {
+      "ba": "TotalEnergies",
+      "bb": "Watsons",
+      "both_days": 17,
+      "lift": 0.14
+    },
+    {
+      "ba": "7-Eleven",
+      "bb": "FairPrice",
+      "both_days": 11,
+      "lift": 0.14
+    },
+    {
+      "ba": "Shell Recharge",
+      "bb": "Singapore Pools",
+      "both_days": 12,
+      "lift": 0.13
+    },
+    {
+      "ba": "Anytime Fitness",
+      "bb": "Singapore Pools",
+      "both_days": 7,
+      "lift": 0.13
+    },
+    {
+      "ba": "Shell Recharge",
+      "bb": "TotalEnergies",
+      "both_days": 24,
+      "lift": 0.13
+    },
+    {
+      "ba": "McDonald's",
+      "bb": "NTUC FairPrice",
+      "both_days": 5,
+      "lift": 0.13
+    },
+    {
+      "ba": "Burger King",
+      "bb": "McDonald's",
+      "both_days": 7,
+      "lift": 0.13
+    },
+    {
+      "ba": "Cheers",
+      "bb": "Subway",
+      "both_days": 6,
+      "lift": 0.13
+    }
+  ],
+  "mall_overlap": [
+    {
+      "mall_a": "Braun B\u00fcffel",
+      "mall_b": "Orchard Gateway",
+      "shared_devices": 331,
+      "a_devices": 2104,
+      "b_devices": 2357,
+      "overlap_share": 0.157
+    },
+    {
+      "mall_a": "Omega",
+      "mall_b": "Orchard Gateway",
+      "shared_devices": 320,
+      "a_devices": 2094,
+      "b_devices": 2357,
+      "overlap_share": 0.153
+    },
+    {
+      "mall_a": "Heveya\u00ae Tangs Orchard",
+      "mall_b": "Orchard Gateway",
+      "shared_devices": 322,
+      "a_devices": 2141,
+      "b_devices": 2357,
+      "overlap_share": 0.15
+    },
+    {
+      "mall_a": "Braun B\u00fcffel",
+      "mall_b": "Tokyu Hands",
+      "shared_devices": 314,
+      "a_devices": 2104,
+      "b_devices": 2265,
+      "overlap_share": 0.149
+    },
+    {
+      "mall_a": "Omega",
+      "mall_b": "Tokyu Hands",
+      "shared_devices": 301,
+      "a_devices": 2094,
+      "b_devices": 2265,
+      "overlap_share": 0.144
+    },
+    {
+      "mall_a": "Heveya\u00ae Tangs Orchard",
+      "mall_b": "Tokyu Hands",
+      "shared_devices": 307,
+      "a_devices": 2141,
+      "b_devices": 2265,
+      "overlap_share": 0.143
+    },
+    {
+      "mall_a": "Braun B\u00fcffel",
+      "mall_b": "Orchard Central",
+      "shared_devices": 283,
+      "a_devices": 2104,
+      "b_devices": 2078,
+      "overlap_share": 0.136
+    },
+    {
+      "mall_a": "Heveya\u00ae Tangs Orchard",
+      "mall_b": "Orchard Central",
+      "shared_devices": 280,
+      "a_devices": 2141,
+      "b_devices": 2078,
+      "overlap_share": 0.135
+    },
+    {
+      "mall_a": "Omega",
+      "mall_b": "Orchard Central",
+      "shared_devices": 274,
+      "a_devices": 2094,
+      "b_devices": 2078,
+      "overlap_share": 0.132
+    },
+    {
+      "mall_a": "Braun B\u00fcffel",
+      "mall_b": "Vivocity Station",
+      "shared_devices": 162,
+      "a_devices": 2104,
+      "b_devices": 2380,
+      "overlap_share": 0.077
+    },
+    {
+      "mall_a": "Omega",
+      "mall_b": "Vivocity Station",
+      "shared_devices": 160,
+      "a_devices": 2094,
+      "b_devices": 2380,
+      "overlap_share": 0.076
+    },
+    {
+      "mall_a": "Heveya\u00ae Tangs Orchard",
+      "mall_b": "Vivocity Station",
+      "shared_devices": 156,
+      "a_devices": 2141,
+      "b_devices": 2380,
+      "overlap_share": 0.073
+    },
+    {
+      "mall_a": "Orchard Central",
+      "mall_b": "Vivocity Station",
+      "shared_devices": 149,
+      "a_devices": 2078,
+      "b_devices": 2380,
+      "overlap_share": 0.072
+    },
+    {
+      "mall_a": "Eu Yan Sang Retail Store VivoCity",
+      "mall_b": "Jurong East Mall - J.E.M",
+      "shared_devices": 151,
+      "a_devices": 2108,
+      "b_devices": 2611,
+      "overlap_share": 0.072
+    },
+    {
+      "mall_a": "Tokyu Hands",
+      "mall_b": "Vivocity Station",
+      "shared_devices": 164,
+      "a_devices": 2265,
+      "b_devices": 2380,
+      "overlap_share": 0.072
+    }
+  ]
+}

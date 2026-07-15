@@ -145,15 +145,6 @@
       "med_speed_kmh": 5.6
     },
     {
-      "o_zone": "Bedok",
-      "d_zone": "Geylang",
-      "trips": 2640,
-      "devices": 1805,
-      "med_travel_min": 33.7,
-      "med_dist_km": 3.7,
-      "med_speed_kmh": 5.7
-    },
-    {
       "o_zone": "Geylang",
       "d_zone": "Bedok",
       "trips": 2640,
@@ -161,6 +152,15 @@
       "med_travel_min": 31.3,
       "med_dist_km": 3.61,
       "med_speed_kmh": 6.0
+    },
+    {
+      "o_zone": "Bedok",
+      "d_zone": "Geylang",
+      "trips": 2640,
+      "devices": 1805,
+      "med_travel_min": 33.7,
+      "med_dist_km": 3.7,
+      "med_speed_kmh": 5.7
     },
     {
       "o_zone": "Bukit Panjang",
@@ -498,15 +498,6 @@
       "med_speed_kmh": 9.8
     },
     {
-      "o_zone": "Yishun",
-      "d_zone": "Ang Mo Kio",
-      "trips": 414,
-      "devices": 256,
-      "med_travel_min": 34.3,
-      "med_dist_km": 5.72,
-      "med_speed_kmh": 10.3
-    },
-    {
       "o_zone": "Hougang",
       "d_zone": "Ang Mo Kio",
       "trips": 414,
@@ -514,6 +505,15 @@
       "med_travel_min": 34.6,
       "med_dist_km": 4.14,
       "med_speed_kmh": 7.3
+    },
+    {
+      "o_zone": "Yishun",
+      "d_zone": "Ang Mo Kio",
+      "trips": 414,
+      "devices": 256,
+      "med_travel_min": 34.3,
+      "med_dist_km": 5.72,
+      "med_speed_kmh": 10.3
     },
     {
       "o_zone": "Bedok",
@@ -561,15 +561,6 @@
       "med_speed_kmh": 5.2
     },
     {
-      "o_zone": "Tengah",
-      "d_zone": "Jurong West",
-      "trips": 378,
-      "devices": 244,
-      "med_travel_min": 31.2,
-      "med_dist_km": 2.7,
-      "med_speed_kmh": 5.7
-    },
-    {
       "o_zone": "Sengkang",
       "d_zone": "Ang Mo Kio",
       "trips": 378,
@@ -577,6 +568,15 @@
       "med_travel_min": 38.1,
       "med_dist_km": 5.61,
       "med_speed_kmh": 8.3
+    },
+    {
+      "o_zone": "Tengah",
+      "d_zone": "Jurong West",
+      "trips": 378,
+      "devices": 244,
+      "med_travel_min": 31.2,
+      "med_dist_km": 2.7,
+      "med_speed_kmh": 5.7
     },
     {
       "o_zone": "Jurong West",
@@ -770,15 +770,6 @@
       "med_speed_kmh": 5.6
     },
     {
-      "o_zone": "Hougang",
-      "d_zone": "Serangoon",
-      "trips": 490,
-      "devices": 412,
-      "med_travel_min": 22.1,
-      "med_dist_km": 2.35,
-      "med_speed_kmh": 5.7
-    },
-    {
       "o_zone": "Pasir Ris",
       "d_zone": "Tampines",
       "trips": 490,
@@ -788,13 +779,13 @@
       "med_speed_kmh": 5.6
     },
     {
-      "o_zone": "Bishan",
-      "d_zone": "Ang Mo Kio",
-      "trips": 489,
-      "devices": 385,
-      "med_travel_min": 18.7,
-      "med_dist_km": 2.16,
-      "med_speed_kmh": 6.1
+      "o_zone": "Hougang",
+      "d_zone": "Serangoon",
+      "trips": 490,
+      "devices": 412,
+      "med_travel_min": 22.1,
+      "med_dist_km": 2.35,
+      "med_speed_kmh": 5.7
     },
     {
       "o_zone": "Bukit Panjang",
@@ -804,6 +795,15 @@
       "med_travel_min": 21.2,
       "med_dist_km": 2.24,
       "med_speed_kmh": 5.8
+    },
+    {
+      "o_zone": "Bishan",
+      "d_zone": "Ang Mo Kio",
+      "trips": 489,
+      "devices": 385,
+      "med_travel_min": 18.7,
+      "med_dist_km": 2.16,
+      "med_speed_kmh": 6.1
     },
     {
       "o_zone": "Changi Business Park / Expo",
@@ -916,15 +916,6 @@
       "med_speed_kmh": 5.1
     },
     {
-      "o_zone": "Sengkang",
-      "d_zone": "Punggol",
-      "trips": 175,
-      "devices": 142,
-      "med_travel_min": 20.5,
-      "med_dist_km": 1.91,
-      "med_speed_kmh": 4.4
-    },
-    {
       "o_zone": "Yishun",
       "d_zone": "Woodlands",
       "trips": 175,
@@ -932,6 +923,15 @@
       "med_travel_min": 30.2,
       "med_dist_km": 5.1,
       "med_speed_kmh": 9.7
+    },
+    {
+      "o_zone": "Sengkang",
+      "d_zone": "Punggol",
+      "trips": 175,
+      "devices": 142,
+      "med_travel_min": 20.5,
+      "med_dist_km": 1.91,
+      "med_speed_kmh": 4.4
     },
     {
       "o_zone": "Woodlands",

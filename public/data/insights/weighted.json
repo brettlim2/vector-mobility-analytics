@@ -1,0 +1,253 @@
+{
+  "weighted_totals": {
+    "weighted_devices": 93654,
+    "estimated_population": 4042400.0
+  },
+  "segment_shares": [
+    {
+      "segment": "homebody",
+      "panel_devices": 33288,
+      "panel_share": 0.355,
+      "weighted_pop": 1349580.0,
+      "weighted_share": 0.334
+    },
+    {
+      "segment": "local_resident",
+      "panel_devices": 27795,
+      "panel_share": 0.297,
+      "weighted_pop": 1216623.0,
+      "weighted_share": 0.301
+    },
+    {
+      "segment": "school_linked",
+      "panel_devices": 9787,
+      "panel_share": 0.105,
+      "weighted_pop": 459190.0,
+      "weighted_share": 0.114
+    },
+    {
+      "segment": "town_commuter",
+      "panel_devices": 8127,
+      "panel_share": 0.087,
+      "weighted_pop": 364356.0,
+      "weighted_share": 0.09
+    },
+    {
+      "segment": "works_near_home",
+      "panel_devices": 5202,
+      "panel_share": 0.056,
+      "weighted_pop": 236523.0,
+      "weighted_share": 0.059
+    },
+    {
+      "segment": "long_haul_commuter",
+      "panel_devices": 3211,
+      "panel_share": 0.034,
+      "weighted_pop": 142070.0,
+      "weighted_share": 0.035
+    },
+    {
+      "segment": "islandwide_rover",
+      "panel_devices": 2464,
+      "panel_share": 0.026,
+      "weighted_pop": 103479.0,
+      "weighted_share": 0.026
+    },
+    {
+      "segment": "cbd_commuter",
+      "panel_devices": 2288,
+      "panel_share": 0.024,
+      "weighted_pop": 101364.0,
+      "weighted_share": 0.025
+    },
+    {
+      "segment": "cross_border",
+      "panel_devices": 958,
+      "panel_share": 0.01,
+      "weighted_pop": 45901.0,
+      "weighted_share": 0.011
+    },
+    {
+      "segment": "night_shift",
+      "panel_devices": 534,
+      "panel_share": 0.006,
+      "weighted_pop": 23314.0,
+      "weighted_share": 0.006
+    }
+  ],
+  "weighted_od": [
+    {
+      "o_zone": "Hougang",
+      "d_zone": "Sengkang",
+      "panel_trips": 3376,
+      "weighted_trips": 159871.0
+    },
+    {
+      "o_zone": "Sengkang",
+      "d_zone": "Hougang",
+      "panel_trips": 3196,
+      "weighted_trips": 151265.0
+    },
+    {
+      "o_zone": "Yishun",
+      "d_zone": "Sembawang",
+      "panel_trips": 2789,
+      "weighted_trips": 133723.0
+    },
+    {
+      "o_zone": "Sembawang",
+      "d_zone": "Yishun",
+      "panel_trips": 2728,
+      "weighted_trips": 130881.0
+    },
+    {
+      "o_zone": "Jurong East",
+      "d_zone": "Jurong West",
+      "panel_trips": 2641,
+      "weighted_trips": 123731.0
+    },
+    {
+      "o_zone": "Sengkang",
+      "d_zone": "Punggol",
+      "panel_trips": 2450,
+      "weighted_trips": 121476.0
+    },
+    {
+      "o_zone": "Punggol",
+      "d_zone": "Sengkang",
+      "panel_trips": 2386,
+      "weighted_trips": 117561.0
+    },
+    {
+      "o_zone": "Tampines",
+      "d_zone": "Pasir Ris",
+      "panel_trips": 2415,
+      "weighted_trips": 114670.0
+    },
+    {
+      "o_zone": "Bedok",
+      "d_zone": "Tampines",
+      "panel_trips": 2442,
+      "weighted_trips": 113765.0
+    },
+    {
+      "o_zone": "Jurong West",
+      "d_zone": "Jurong East",
+      "panel_trips": 2433,
+      "weighted_trips": 113510.0
+    },
+    {
+      "o_zone": "Woodlands",
+      "d_zone": "Sembawang",
+      "panel_trips": 2315,
+      "weighted_trips": 111998.0
+    },
+    {
+      "o_zone": "Serangoon",
+      "d_zone": "Hougang",
+      "panel_trips": 2389,
+      "weighted_trips": 111654.0
+    },
+    {
+      "o_zone": "Pasir Ris",
+      "d_zone": "Tampines",
+      "panel_trips": 2314,
+      "weighted_trips": 109629.0
+    },
+    {
+      "o_zone": "Tampines",
+      "d_zone": "Bedok",
+      "panel_trips": 2371,
+      "weighted_trips": 109485.0
+    },
+    {
+      "o_zone": "Sembawang",
+      "d_zone": "Woodlands",
+      "panel_trips": 2245,
+      "weighted_trips": 108856.0
+    },
+    {
+      "o_zone": "Hougang",
+      "d_zone": "Serangoon",
+      "panel_trips": 2219,
+      "weighted_trips": 103425.0
+    },
+    {
+      "o_zone": "Bishan",
+      "d_zone": "Ang Mo Kio",
+      "panel_trips": 1833,
+      "weighted_trips": 101758.0
+    },
+    {
+      "o_zone": "Ang Mo Kio",
+      "d_zone": "Bishan",
+      "panel_trips": 1779,
+      "weighted_trips": 98668.0
+    },
+    {
+      "o_zone": "Bukit Panjang",
+      "d_zone": "Choa Chu Kang",
+      "panel_trips": 1943,
+      "weighted_trips": 97301.0
+    },
+    {
+      "o_zone": "Choa Chu Kang",
+      "d_zone": "Bukit Panjang",
+      "panel_trips": 1850,
+      "weighted_trips": 93283.0
+    }
+  ],
+  "dwelling_mix": [
+    {
+      "home_dwelling": "hdb",
+      "panel_devices": 51474,
+      "weighted_pop": 2448033.0,
+      "weighted_share": 0.606
+    },
+    {
+      "home_dwelling": "other",
+      "panel_devices": 21032,
+      "weighted_pop": 740873.0,
+      "weighted_share": 0.183
+    },
+    {
+      "home_dwelling": "private_residential",
+      "panel_devices": 15090,
+      "weighted_pop": 676912.0,
+      "weighted_share": 0.167
+    },
+    {
+      "home_dwelling": "industrial_dorm_like",
+      "panel_devices": 2811,
+      "weighted_pop": 75317.0,
+      "weighted_share": 0.019
+    },
+    {
+      "home_dwelling": "landed",
+      "panel_devices": 2075,
+      "weighted_pop": 59521.0,
+      "weighted_share": 0.015
+    },
+    {
+      "home_dwelling": "campus",
+      "panel_devices": 819,
+      "weighted_pop": 34750.0,
+      "weighted_share": 0.009
+    },
+    {
+      "home_dwelling": "hotel_area",
+      "panel_devices": 353,
+      "weighted_pop": 6994.0,
+      "weighted_share": 0.002
+    }
+  ],
+  "feed_correction_check": [
+    {
+      "test_day": "holdout_friday",
+      "max_dev_uncorrected": 1.491,
+      "max_dev_corrected": 0.634,
+      "mean_dev_uncorrected": 0.392,
+      "mean_dev_corrected": 0.228
+    }
+  ]
+}

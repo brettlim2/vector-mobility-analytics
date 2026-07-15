@@ -1,0 +1,143 @@
+{
+  "privacy": "distributions_only_no_pairs",
+  "min_k": 5,
+  "household_size_distribution": [
+    {
+      "household_size_band": "1",
+      "n_home_cells": 63974,
+      "n_devices": 63974,
+      "n_with_work": 15158
+    },
+    {
+      "household_size_band": "2",
+      "n_home_cells": 6672,
+      "n_devices": 13344,
+      "n_with_work": 3122
+    },
+    {
+      "household_size_band": "3",
+      "n_home_cells": 980,
+      "n_devices": 2940,
+      "n_with_work": 591
+    },
+    {
+      "household_size_band": "4-5",
+      "n_home_cells": 306,
+      "n_devices": 1298,
+      "n_with_work": 217
+    },
+    {
+      "household_size_band": "6+",
+      "n_home_cells": 199,
+      "n_devices": 13423,
+      "n_with_work": 284
+    }
+  ],
+  "single_vs_multi": {
+    "single_device_homes": 63974,
+    "multi_device_homes": 8157,
+    "multi_share": 0.113
+  },
+  "dual_income_proxy": {
+    "dual_work_homes": 693,
+    "multi_homes": 8157,
+    "dual_income_share_among_multi": 0.085
+  },
+  "weekend_comove_rate": {
+    "likely_household_pairs": 9039,
+    "weekend_comove_pairs": 7478,
+    "weekend_comove_share": 0.827
+  },
+  "colleague_work_pa_dist": [
+    {
+      "work_pa": "DOWNTOWN CORE",
+      "colleague_pair_count": 5038
+    },
+    {
+      "work_pa": "GEYLANG",
+      "colleague_pair_count": 3862
+    },
+    {
+      "work_pa": "TAMPINES",
+      "colleague_pair_count": 2468
+    },
+    {
+      "work_pa": "ORCHARD",
+      "colleague_pair_count": 2429
+    },
+    {
+      "work_pa": "BUKIT MERAH",
+      "colleague_pair_count": 2218
+    },
+    {
+      "work_pa": "WOODLANDS",
+      "colleague_pair_count": 2167
+    },
+    {
+      "work_pa": "JURONG WEST",
+      "colleague_pair_count": 2111
+    },
+    {
+      "work_pa": "QUEENSTOWN",
+      "colleague_pair_count": 2035
+    },
+    {
+      "work_pa": "YISHUN",
+      "colleague_pair_count": 1855
+    },
+    {
+      "work_pa": "HOUGANG",
+      "colleague_pair_count": 1794
+    },
+    {
+      "work_pa": "NOVENA",
+      "colleague_pair_count": 1777
+    },
+    {
+      "work_pa": "BUKIT TIMAH",
+      "colleague_pair_count": 1692
+    },
+    {
+      "work_pa": "BEDOK",
+      "colleague_pair_count": 1692
+    },
+    {
+      "work_pa": "KALLANG",
+      "colleague_pair_count": 1646
+    },
+    {
+      "work_pa": "ANG MO KIO",
+      "colleague_pair_count": 1593
+    },
+    {
+      "work_pa": "TOA PAYOH",
+      "colleague_pair_count": 1540
+    },
+    {
+      "work_pa": "SERANGOON",
+      "colleague_pair_count": 1483
+    },
+    {
+      "work_pa": "SENGKANG",
+      "colleague_pair_count": 1380
+    },
+    {
+      "work_pa": "JURONG EAST",
+      "colleague_pair_count": 1207
+    },
+    {
+      "work_pa": "CHOA CHU KANG",
+      "colleague_pair_count": 838
+    }
+  ],
+  "acra_industry_mix": [
+    {
+      "industry_label": "Local Company",
+      "devices": 1869
+    },
+    {
+      "industry_label": "Sole Proprietorship/ Partnership",
+      "devices": 423
+    }
+  ]
+}

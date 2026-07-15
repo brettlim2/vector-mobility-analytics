@@ -11,16 +11,6 @@
       "lng": 103.94587
     },
     {
-      "gh6": "w21zmw",
-      "hour_sgt": "2026-06-06 09:00:00",
-      "devices": 64,
-      "typical_devices": 16.0,
-      "ratio": 4.0,
-      "zone": "Changi Business Park / Expo",
-      "lat": 1.31223,
-      "lng": 103.95387
-    },
-    {
       "gh6": "w21zmj",
       "hour_sgt": "2026-06-07 00:00:00",
       "devices": 64,
@@ -29,6 +19,16 @@
       "zone": "Bedok",
       "lat": 1.30679,
       "lng": 103.93523
+    },
+    {
+      "gh6": "w21zmw",
+      "hour_sgt": "2026-06-06 09:00:00",
+      "devices": 64,
+      "typical_devices": 16.0,
+      "ratio": 4.0,
+      "zone": "Changi Business Park / Expo",
+      "lat": 1.31223,
+      "lng": 103.95387
     },
     {
       "gh6": "w21zc0",
@@ -42,16 +42,6 @@
     },
     {
       "gh6": "w21zc0",
-      "hour_sgt": "2026-06-07 22:00:00",
-      "devices": 1840,
-      "typical_devices": 490.0,
-      "ratio": 3.8,
-      "zone": "Bukit Batok",
-      "lat": 1.36332,
-      "lng": 103.75971
-    },
-    {
-      "gh6": "w21zc0",
       "hour_sgt": "2026-06-07 23:00:00",
       "devices": 1438,
       "typical_devices": 376.0,
@@ -61,14 +51,14 @@
       "lng": 103.75978
     },
     {
-      "gh6": "w21z5x",
-      "hour_sgt": "2026-06-07 20:00:00",
-      "devices": 50,
-      "typical_devices": 14.0,
-      "ratio": 3.6,
-      "zone": "Marina Bay",
-      "lat": 1.27283,
-      "lng": 103.86564
+      "gh6": "w21zc0",
+      "hour_sgt": "2026-06-07 22:00:00",
+      "devices": 1840,
+      "typical_devices": 490.0,
+      "ratio": 3.8,
+      "zone": "Bukit Batok",
+      "lat": 1.36332,
+      "lng": 103.75971
     },
     {
       "gh6": "w23b5g",
@@ -81,16 +71,6 @@
       "lng": 103.88206
     },
     {
-      "gh6": "w21zdm",
-      "hour_sgt": "2026-06-06 08:00:00",
-      "devices": 54,
-      "typical_devices": 15.0,
-      "ratio": 3.6,
-      "zone": "Bukit Timah",
-      "lat": 1.35008,
-      "lng": 103.81788
-    },
-    {
       "gh6": "w21zc0",
       "hour_sgt": "2026-06-08 00:00:00",
       "devices": 1002,
@@ -99,6 +79,26 @@
       "zone": "Bukit Batok",
       "lat": 1.36334,
       "lng": 103.75979
+    },
+    {
+      "gh6": "w21z5x",
+      "hour_sgt": "2026-06-07 20:00:00",
+      "devices": 50,
+      "typical_devices": 14.0,
+      "ratio": 3.6,
+      "zone": "Marina Bay",
+      "lat": 1.27283,
+      "lng": 103.86564
+    },
+    {
+      "gh6": "w21zdm",
+      "hour_sgt": "2026-06-06 08:00:00",
+      "devices": 54,
+      "typical_devices": 15.0,
+      "ratio": 3.6,
+      "zone": "Bukit Timah",
+      "lat": 1.35008,
+      "lng": 103.81788
     },
     {
       "gh6": "w21zc0",
@@ -121,16 +121,6 @@
       "lng": 103.75994
     },
     {
-      "gh6": "w21z5x",
-      "hour_sgt": "2026-06-07 19:00:00",
-      "devices": 51,
-      "typical_devices": 15.0,
-      "ratio": 3.4,
-      "zone": "Marina Bay",
-      "lat": 1.27237,
-      "lng": 103.86546
-    },
-    {
       "gh6": "w21zc0",
       "hour_sgt": "2026-06-08 04:00:00",
       "devices": 530,
@@ -139,16 +129,6 @@
       "zone": "Bukit Batok",
       "lat": 1.36337,
       "lng": 103.75996
-    },
-    {
-      "gh6": "w21zc0",
-      "hour_sgt": "2026-06-07 12:00:00",
-      "devices": 1241,
-      "typical_devices": 362.0,
-      "ratio": 3.4,
-      "zone": "Bukit Batok",
-      "lat": 1.36335,
-      "lng": 103.75985
     },
     {
       "gh6": "w21zc0",
@@ -162,6 +142,26 @@
     },
     {
       "gh6": "w21zc0",
+      "hour_sgt": "2026-06-07 12:00:00",
+      "devices": 1241,
+      "typical_devices": 362.0,
+      "ratio": 3.4,
+      "zone": "Bukit Batok",
+      "lat": 1.36335,
+      "lng": 103.75985
+    },
+    {
+      "gh6": "w21z5x",
+      "hour_sgt": "2026-06-07 19:00:00",
+      "devices": 51,
+      "typical_devices": 15.0,
+      "ratio": 3.4,
+      "zone": "Marina Bay",
+      "lat": 1.27237,
+      "lng": 103.86546
+    },
+    {
+      "gh6": "w21zc0",
       "hour_sgt": "2026-06-08 03:00:00",
       "devices": 717,
       "typical_devices": 220.0,
@@ -172,13 +172,13 @@
     },
     {
       "gh6": "w21zc0",
-      "hour_sgt": "2026-06-08 05:00:00",
-      "devices": 613,
-      "typical_devices": 183.0,
+      "hour_sgt": "2026-06-07 13:00:00",
+      "devices": 1271,
+      "typical_devices": 385.0,
       "ratio": 3.3,
       "zone": "Bukit Batok",
-      "lat": 1.3634,
-      "lng": 103.75997
+      "lat": 1.36332,
+      "lng": 103.75975
     },
     {
       "gh6": "w21z78",
@@ -192,13 +192,13 @@
     },
     {
       "gh6": "w21zc0",
-      "hour_sgt": "2026-06-07 13:00:00",
-      "devices": 1271,
-      "typical_devices": 385.0,
+      "hour_sgt": "2026-06-08 05:00:00",
+      "devices": 613,
+      "typical_devices": 183.0,
       "ratio": 3.3,
       "zone": "Bukit Batok",
-      "lat": 1.36332,
-      "lng": 103.75975
+      "lat": 1.3634,
+      "lng": 103.75997
     },
     {
       "gh6": "w21zc0",
@@ -211,16 +211,6 @@
       "lng": 103.75975
     },
     {
-      "gh6": "w21zdp",
-      "hour_sgt": "2026-06-07 08:00:00",
-      "devices": 52,
-      "typical_devices": 17.0,
-      "ratio": 3.1,
-      "zone": "Bukit Timah",
-      "lat": 1.35963,
-      "lng": 103.79991
-    },
-    {
       "gh6": "w21zc0",
       "hour_sgt": "2026-06-07 11:00:00",
       "devices": 1049,
@@ -229,6 +219,16 @@
       "zone": "Bukit Batok",
       "lat": 1.36336,
       "lng": 103.75987
+    },
+    {
+      "gh6": "w21zdp",
+      "hour_sgt": "2026-06-07 08:00:00",
+      "devices": 52,
+      "typical_devices": 17.0,
+      "ratio": 3.1,
+      "zone": "Bukit Timah",
+      "lat": 1.35963,
+      "lng": 103.79991
     },
     {
       "gh6": "w21zmq",
@@ -291,6 +291,204 @@
       "d": "2026-06-08",
       "day": "Monday",
       "devices": 739955
+    }
+  ],
+  "events": [
+    {
+      "zone": "Bedok",
+      "d": "2026-06-07",
+      "first_hour": "2026-06-07 01:00:00",
+      "last_hour": "2026-06-07 23:00:00",
+      "burst_hours": 2,
+      "cells": 1,
+      "peak_devices": 86,
+      "peak_uplift": 4.9,
+      "lat": 1.3112,
+      "lng": 103.9467,
+      "event_stop_devices": 1948,
+      "first_time_share": 0.39
+    },
+    {
+      "zone": "Bedok",
+      "d": "2026-06-07",
+      "first_hour": "2026-06-07 00:00:00",
+      "last_hour": "2026-06-07 15:00:00",
+      "burst_hours": 3,
+      "cells": 1,
+      "peak_devices": 64,
+      "peak_uplift": 4.0,
+      "lat": 1.3067,
+      "lng": 103.9353,
+      "event_stop_devices": 1407,
+      "first_time_share": 0.34
+    },
+    {
+      "zone": "Bukit Batok",
+      "d": "2026-06-08",
+      "first_hour": "2026-06-08 00:00:00",
+      "last_hour": "2026-06-08 07:00:00",
+      "burst_hours": 7,
+      "cells": 1,
+      "peak_devices": 1182,
+      "peak_uplift": 3.9,
+      "lat": 1.3634,
+      "lng": 103.7599,
+      "event_stop_devices": 1752,
+      "first_time_share": 0.14
+    },
+    {
+      "zone": "Bukit Batok",
+      "d": "2026-06-07",
+      "first_hour": "2026-06-07 00:00:00",
+      "last_hour": "2026-06-07 23:00:00",
+      "burst_hours": 13,
+      "cells": 1,
+      "peak_devices": 2316,
+      "peak_uplift": 3.8,
+      "lat": 1.3633,
+      "lng": 103.7598,
+      "event_stop_devices": 8080,
+      "first_time_share": 0.4
+    },
+    {
+      "zone": "Marina Bay",
+      "d": "2026-06-07",
+      "first_hour": "2026-06-07 11:00:00",
+      "last_hour": "2026-06-07 20:00:00",
+      "burst_hours": 3,
+      "cells": 3,
+      "peak_devices": 157,
+      "peak_uplift": 3.6,
+      "lat": 1.2769,
+      "lng": 103.8673,
+      "event_stop_devices": 1033,
+      "first_time_share": 0.7
+    },
+    {
+      "zone": "Bedok",
+      "d": "2026-06-06",
+      "first_hour": "2026-06-06 15:00:00",
+      "last_hour": "2026-06-06 21:00:00",
+      "burst_hours": 2,
+      "cells": 1,
+      "peak_devices": 154,
+      "peak_uplift": 2.9,
+      "lat": 1.3066,
+      "lng": 103.9354,
+      "event_stop_devices": 907,
+      "first_time_share": 0.46
+    },
+    {
+      "zone": "Jurong Island",
+      "d": "2026-06-03",
+      "first_hour": "2026-06-03 12:00:00",
+      "last_hour": "2026-06-03 15:00:00",
+      "burst_hours": 3,
+      "cells": 2,
+      "peak_devices": 85,
+      "peak_uplift": 2.9,
+      "lat": 1.2738,
+      "lng": 103.7239,
+      "event_stop_devices": 82,
+      "first_time_share": 0.6
+    },
+    {
+      "zone": "Tampines",
+      "d": "2026-06-03",
+      "first_hour": "2026-06-03 13:00:00",
+      "last_hour": "2026-06-03 13:00:00",
+      "burst_hours": 1,
+      "cells": 1,
+      "peak_devices": 3621,
+      "peak_uplift": 2.9,
+      "lat": 1.3582,
+      "lng": 103.9448,
+      "event_stop_devices": 877,
+      "first_time_share": 0.43
+    },
+    {
+      "zone": "Bukit Batok",
+      "d": "2026-06-06",
+      "first_hour": "2026-06-06 23:00:00",
+      "last_hour": "2026-06-06 23:00:00",
+      "burst_hours": 1,
+      "cells": 1,
+      "peak_devices": 1045,
+      "peak_uplift": 2.8,
+      "lat": 1.3633,
+      "lng": 103.7598,
+      "event_stop_devices": 428,
+      "first_time_share": 0.31
+    },
+    {
+      "zone": "Pasir Ris",
+      "d": "2026-06-07",
+      "first_hour": "2026-06-07 17:00:00",
+      "last_hour": "2026-06-07 18:00:00",
+      "burst_hours": 2,
+      "cells": 1,
+      "peak_devices": 63,
+      "peak_uplift": 2.7,
+      "lat": 1.3851,
+      "lng": 103.9445,
+      "event_stop_devices": 478,
+      "first_time_share": 0.33
+    },
+    {
+      "zone": "Jurong East",
+      "d": "2026-06-05",
+      "first_hour": "2026-06-05 06:00:00",
+      "last_hour": "2026-06-05 06:00:00",
+      "burst_hours": 1,
+      "cells": 1,
+      "peak_devices": 980,
+      "peak_uplift": 2.7,
+      "lat": 1.3254,
+      "lng": 103.7429,
+      "event_stop_devices": 282,
+      "first_time_share": 0.15
+    },
+    {
+      "zone": "Jurong East",
+      "d": "2026-06-04",
+      "first_hour": "2026-06-04 21:00:00",
+      "last_hour": "2026-06-04 23:00:00",
+      "burst_hours": 2,
+      "cells": 1,
+      "peak_devices": 1717,
+      "peak_uplift": 2.6,
+      "lat": 1.3254,
+      "lng": 103.7432,
+      "event_stop_devices": 1062,
+      "first_time_share": 0.47
+    },
+    {
+      "zone": "Bukit Batok",
+      "d": "2026-06-03",
+      "first_hour": "2026-06-03 13:00:00",
+      "last_hour": "2026-06-03 13:00:00",
+      "burst_hours": 1,
+      "cells": 1,
+      "peak_devices": 995,
+      "peak_uplift": 2.6,
+      "lat": 1.3634,
+      "lng": 103.7602,
+      "event_stop_devices": 540,
+      "first_time_share": 0.45
+    },
+    {
+      "zone": "Queenstown",
+      "d": "2026-06-02",
+      "first_hour": "2026-06-02 18:00:00",
+      "last_hour": "2026-06-02 18:00:00",
+      "burst_hours": 1,
+      "cells": 1,
+      "peak_devices": 3826,
+      "peak_uplift": 2.5,
+      "lat": 1.2949,
+      "lng": 103.7896,
+      "event_stop_devices": 669,
+      "first_time_share": 0.6
     }
   ]
 }

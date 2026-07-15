@@ -1,0 +1,3538 @@
+{
+  "purpose_by_hour": [
+    {
+      "h": 0,
+      "daytype": "weekday",
+      "purpose": "shopping_errands",
+      "trips": 347
+    },
+    {
+      "h": 0,
+      "daytype": "weekday",
+      "purpose": "work",
+      "trips": 145
+    },
+    {
+      "h": 0,
+      "daytype": "weekday",
+      "purpose": "leisure",
+      "trips": 608
+    },
+    {
+      "h": 0,
+      "daytype": "weekday",
+      "purpose": "other_visit",
+      "trips": 8
+    },
+    {
+      "h": 0,
+      "daytype": "weekday",
+      "purpose": "education",
+      "trips": 131
+    },
+    {
+      "h": 0,
+      "daytype": "weekday",
+      "purpose": "transit_travel",
+      "trips": 243
+    },
+    {
+      "h": 0,
+      "daytype": "weekday",
+      "purpose": "health",
+      "trips": 86
+    },
+    {
+      "h": 0,
+      "daytype": "weekday",
+      "purpose": "services",
+      "trips": 389
+    },
+    {
+      "h": 0,
+      "daytype": "weekday",
+      "purpose": "home",
+      "trips": 3047
+    },
+    {
+      "h": 0,
+      "daytype": "weekday",
+      "purpose": "dining",
+      "trips": 491
+    },
+    {
+      "h": 1,
+      "daytype": "weekday",
+      "purpose": "health",
+      "trips": 93
+    },
+    {
+      "h": 1,
+      "daytype": "weekday",
+      "purpose": "services",
+      "trips": 376
+    },
+    {
+      "h": 1,
+      "daytype": "weekday",
+      "purpose": "other_visit",
+      "trips": 4
+    },
+    {
+      "h": 1,
+      "daytype": "weekday",
+      "purpose": "dining",
+      "trips": 379
+    },
+    {
+      "h": 1,
+      "daytype": "weekday",
+      "purpose": "home",
+      "trips": 1961
+    },
+    {
+      "h": 1,
+      "daytype": "weekday",
+      "purpose": "work",
+      "trips": 146
+    },
+    {
+      "h": 1,
+      "daytype": "weekday",
+      "purpose": "leisure",
+      "trips": 486
+    },
+    {
+      "h": 1,
+      "daytype": "weekday",
+      "purpose": "education",
+      "trips": 132
+    },
+    {
+      "h": 1,
+      "daytype": "weekday",
+      "purpose": "shopping_errands",
+      "trips": 262
+    },
+    {
+      "h": 1,
+      "daytype": "weekday",
+      "purpose": "transit_travel",
+      "trips": 199
+    },
+    {
+      "h": 2,
+      "daytype": "weekday",
+      "purpose": "home",
+      "trips": 1388
+    },
+    {
+      "h": 2,
+      "daytype": "weekday",
+      "purpose": "education",
+      "trips": 171
+    },
+    {
+      "h": 2,
+      "daytype": "weekday",
+      "purpose": "dining",
+      "trips": 374
+    },
+    {
+      "h": 2,
+      "daytype": "weekday",
+      "purpose": "shopping_errands",
+      "trips": 310
+    },
+    {
+      "h": 2,
+      "daytype": "weekday",
+      "purpose": "other_visit",
+      "trips": 9
+    },
+    {
+      "h": 2,
+      "daytype": "weekday",
+      "purpose": "services",
+      "trips": 438
+    },
+    {
+      "h": 2,
+      "daytype": "weekday",
+      "purpose": "health",
+      "trips": 110
+    },
+    {
+      "h": 2,
+      "daytype": "weekday",
+      "purpose": "transit_travel",
+      "trips": 234
+    },
+    {
+      "h": 2,
+      "daytype": "weekday",
+      "purpose": "leisure",
+      "trips": 471
+    },
+    {
+      "h": 2,
+      "daytype": "weekday",
+      "purpose": "work",
+      "trips": 241
+    },
+    {
+      "h": 3,
+      "daytype": "weekday",
+      "purpose": "dining",
+      "trips": 757
+    },
+    {
+      "h": 3,
+      "daytype": "weekday",
+      "purpose": "services",
+      "trips": 945
+    },
+    {
+      "h": 3,
+      "daytype": "weekday",
+      "purpose": "health",
+      "trips": 243
+    },
+    {
+      "h": 3,
+      "daytype": "weekday",
+      "purpose": "home",
+      "trips": 2215
+    },
+    {
+      "h": 3,
+      "daytype": "weekday",
+      "purpose": "work",
+      "trips": 797
+    },
+    {
+      "h": 3,
+      "daytype": "weekday",
+      "purpose": "transit_travel",
+      "trips": 535
+    },
+    {
+      "h": 3,
+      "daytype": "weekday",
+      "purpose": "leisure",
+      "trips": 894
+    },
+    {
+      "h": 3,
+      "daytype": "weekday",
+      "purpose": "education",
+      "trips": 599
+    },
+    {
+      "h": 3,
+      "daytype": "weekday",
+      "purpose": "shopping_errands",
+      "trips": 625
+    },
+    {
+      "h": 3,
+      "daytype": "weekday",
+      "purpose": "other_visit",
+      "trips": 21
+    },
+    {
+      "h": 4,
+      "daytype": "weekday",
+      "purpose": "shopping_errands",
+      "trips": 471
+    },
+    {
+      "h": 4,
+      "daytype": "weekday",
+      "purpose": "leisure",
+      "trips": 586
+    },
+    {
+      "h": 4,
+      "daytype": "weekday",
+      "purpose": "work",
+      "trips": 545
+    },
+    {
+      "h": 4,
+      "daytype": "weekday",
+      "purpose": "education",
+      "trips": 374
+    },
+    {
+      "h": 4,
+      "daytype": "weekday",
+      "purpose": "health",
+      "trips": 145
+    },
+    {
+      "h": 4,
+      "daytype": "weekday",
+      "purpose": "transit_travel",
+      "trips": 342
+    },
+    {
+      "h": 4,
+      "daytype": "weekday",
+      "purpose": "services",
+      "trips": 772
+    },
+    {
+      "h": 4,
+      "daytype": "weekday",
+      "purpose": "other_visit",
+      "trips": 13
+    },
+    {
+      "h": 4,
+      "daytype": "weekday",
+      "purpose": "dining",
+      "trips": 633
+    },
+    {
+      "h": 4,
+      "daytype": "weekday",
+      "purpose": "home",
+      "trips": 1042
+    },
+    {
+      "h": 5,
+      "daytype": "weekday",
+      "purpose": "shopping_errands",
+      "trips": 847
+    },
+    {
+      "h": 5,
+      "daytype": "weekday",
+      "purpose": "transit_travel",
+      "trips": 565
+    },
+    {
+      "h": 5,
+      "daytype": "weekday",
+      "purpose": "work",
+      "trips": 1339
+    },
+    {
+      "h": 5,
+      "daytype": "weekday",
+      "purpose": "leisure",
+      "trips": 915
+    },
+    {
+      "h": 5,
+      "daytype": "weekday",
+      "purpose": "dining",
+      "trips": 1184
+    },
+    {
+      "h": 5,
+      "daytype": "weekday",
+      "purpose": "home",
+      "trips": 739
+    },
+    {
+      "h": 5,
+      "daytype": "weekday",
+      "purpose": "other_visit",
+      "trips": 28
+    },
+    {
+      "h": 5,
+      "daytype": "weekday",
+      "purpose": "health",
+      "trips": 294
+    },
+    {
+      "h": 5,
+      "daytype": "weekday",
+      "purpose": "services",
+      "trips": 1489
+    },
+    {
+      "h": 5,
+      "daytype": "weekday",
+      "purpose": "education",
+      "trips": 769
+    },
+    {
+      "h": 6,
+      "daytype": "weekday",
+      "purpose": "health",
+      "trips": 833
+    },
+    {
+      "h": 6,
+      "daytype": "weekday",
+      "purpose": "services",
+      "trips": 3872
+    },
+    {
+      "h": 6,
+      "daytype": "weekday",
+      "purpose": "transit_travel",
+      "trips": 1389
+    },
+    {
+      "h": 6,
+      "daytype": "weekday",
+      "purpose": "education",
+      "trips": 4034
+    },
+    {
+      "h": 6,
+      "daytype": "weekday",
+      "purpose": "shopping_errands",
+      "trips": 2419
+    },
+    {
+      "h": 6,
+      "daytype": "weekday",
+      "purpose": "dining",
+      "trips": 3374
+    },
+    {
+      "h": 6,
+      "daytype": "weekday",
+      "purpose": "home",
+      "trips": 790
+    },
+    {
+      "h": 6,
+      "daytype": "weekday",
+      "purpose": "leisure",
+      "trips": 2509
+    },
+    {
+      "h": 6,
+      "daytype": "weekday",
+      "purpose": "work",
+      "trips": 3936
+    },
+    {
+      "h": 6,
+      "daytype": "weekday",
+      "purpose": "other_visit",
+      "trips": 63
+    },
+    {
+      "h": 7,
+      "daytype": "weekday",
+      "purpose": "other_visit",
+      "trips": 114
+    },
+    {
+      "h": 7,
+      "daytype": "weekday",
+      "purpose": "services",
+      "trips": 5282
+    },
+    {
+      "h": 7,
+      "daytype": "weekday",
+      "purpose": "health",
+      "trips": 1288
+    },
+    {
+      "h": 7,
+      "daytype": "weekday",
+      "purpose": "dining",
+      "trips": 4811
+    },
+    {
+      "h": 7,
+      "daytype": "weekday",
+      "purpose": "home",
+      "trips": 4533
+    },
+    {
+      "h": 7,
+      "daytype": "weekday",
+      "purpose": "leisure",
+      "trips": 3305
+    },
+    {
+      "h": 7,
+      "daytype": "weekday",
+      "purpose": "education",
+      "trips": 3138
+    },
+    {
+      "h": 7,
+      "daytype": "weekday",
+      "purpose": "work",
+      "trips": 7746
+    },
+    {
+      "h": 7,
+      "daytype": "weekday",
+      "purpose": "shopping_errands",
+      "trips": 3661
+    },
+    {
+      "h": 7,
+      "daytype": "weekday",
+      "purpose": "transit_travel",
+      "trips": 1816
+    },
+    {
+      "h": 8,
+      "daytype": "weekday",
+      "purpose": "leisure",
+      "trips": 3003
+    },
+    {
+      "h": 8,
+      "daytype": "weekday",
+      "purpose": "home",
+      "trips": 2112
+    },
+    {
+      "h": 8,
+      "daytype": "weekday",
+      "purpose": "dining",
+      "trips": 4133
+    },
+    {
+      "h": 8,
+      "daytype": "weekday",
+      "purpose": "work",
+      "trips": 7062
+    },
+    {
+      "h": 8,
+      "daytype": "weekday",
+      "purpose": "shopping_errands",
+      "trips": 3509
+    },
+    {
+      "h": 8,
+      "daytype": "weekday",
+      "purpose": "services",
+      "trips": 4208
+    },
+    {
+      "h": 8,
+      "daytype": "weekday",
+      "purpose": "health",
+      "trips": 1144
+    },
+    {
+      "h": 8,
+      "daytype": "weekday",
+      "purpose": "other_visit",
+      "trips": 118
+    },
+    {
+      "h": 8,
+      "daytype": "weekday",
+      "purpose": "transit_travel",
+      "trips": 1528
+    },
+    {
+      "h": 8,
+      "daytype": "weekday",
+      "purpose": "education",
+      "trips": 1182
+    },
+    {
+      "h": 9,
+      "daytype": "weekday",
+      "purpose": "shopping_errands",
+      "trips": 4457
+    },
+    {
+      "h": 9,
+      "daytype": "weekday",
+      "purpose": "other_visit",
+      "trips": 114
+    },
+    {
+      "h": 9,
+      "daytype": "weekday",
+      "purpose": "transit_travel",
+      "trips": 1740
+    },
+    {
+      "h": 9,
+      "daytype": "weekday",
+      "purpose": "education",
+      "trips": 1333
+    },
+    {
+      "h": 9,
+      "daytype": "weekday",
+      "purpose": "leisure",
+      "trips": 3959
+    },
+    {
+      "h": 9,
+      "daytype": "weekday",
+      "purpose": "work",
+      "trips": 6450
+    },
+    {
+      "h": 9,
+      "daytype": "weekday",
+      "purpose": "dining",
+      "trips": 5372
+    },
+    {
+      "h": 9,
+      "daytype": "weekday",
+      "purpose": "home",
+      "trips": 3453
+    },
+    {
+      "h": 9,
+      "daytype": "weekday",
+      "purpose": "health",
+      "trips": 1388
+    },
+    {
+      "h": 9,
+      "daytype": "weekday",
+      "purpose": "services",
+      "trips": 4691
+    },
+    {
+      "h": 10,
+      "daytype": "weekday",
+      "purpose": "dining",
+      "trips": 6189
+    },
+    {
+      "h": 10,
+      "daytype": "weekday",
+      "purpose": "health",
+      "trips": 1442
+    },
+    {
+      "h": 10,
+      "daytype": "weekday",
+      "purpose": "services",
+      "trips": 4375
+    },
+    {
+      "h": 10,
+      "daytype": "weekday",
+      "purpose": "home",
+      "trips": 4506
+    },
+    {
+      "h": 10,
+      "daytype": "weekday",
+      "purpose": "leisure",
+      "trips": 4199
+    },
+    {
+      "h": 10,
+      "daytype": "weekday",
+      "purpose": "transit_travel",
+      "trips": 1741
+    },
+    {
+      "h": 10,
+      "daytype": "weekday",
+      "purpose": "work",
+      "trips": 4446
+    },
+    {
+      "h": 10,
+      "daytype": "weekday",
+      "purpose": "education",
+      "trips": 1353
+    },
+    {
+      "h": 10,
+      "daytype": "weekday",
+      "purpose": "shopping_errands",
+      "trips": 4912
+    },
+    {
+      "h": 10,
+      "daytype": "weekday",
+      "purpose": "other_visit",
+      "trips": 140
+    },
+    {
+      "h": 11,
+      "daytype": "weekday",
+      "purpose": "leisure",
+      "trips": 4261
+    },
+    {
+      "h": 11,
+      "daytype": "weekday",
+      "purpose": "transit_travel",
+      "trips": 1890
+    },
+    {
+      "h": 11,
+      "daytype": "weekday",
+      "purpose": "work",
+      "trips": 3940
+    },
+    {
+      "h": 11,
+      "daytype": "weekday",
+      "purpose": "health",
+      "trips": 1350
+    },
+    {
+      "h": 11,
+      "daytype": "weekday",
+      "purpose": "services",
+      "trips": 4413
+    },
+    {
+      "h": 11,
+      "daytype": "weekday",
+      "purpose": "other_visit",
+      "trips": 130
+    },
+    {
+      "h": 11,
+      "daytype": "weekday",
+      "purpose": "dining",
+      "trips": 7802
+    },
+    {
+      "h": 11,
+      "daytype": "weekday",
+      "purpose": "home",
+      "trips": 6001
+    },
+    {
+      "h": 11,
+      "daytype": "weekday",
+      "purpose": "shopping_errands",
+      "trips": 5646
+    },
+    {
+      "h": 11,
+      "daytype": "weekday",
+      "purpose": "education",
+      "trips": 1417
+    },
+    {
+      "h": 12,
+      "daytype": "weekday",
+      "purpose": "education",
+      "trips": 1606
+    },
+    {
+      "h": 12,
+      "daytype": "weekday",
+      "purpose": "dining",
+      "trips": 7691
+    },
+    {
+      "h": 12,
+      "daytype": "weekday",
+      "purpose": "home",
+      "trips": 7576
+    },
+    {
+      "h": 12,
+      "daytype": "weekday",
+      "purpose": "shopping_errands",
+      "trips": 5584
+    },
+    {
+      "h": 12,
+      "daytype": "weekday",
+      "purpose": "other_visit",
+      "trips": 121
+    },
+    {
+      "h": 12,
+      "daytype": "weekday",
+      "purpose": "services",
+      "trips": 4713
+    },
+    {
+      "h": 12,
+      "daytype": "weekday",
+      "purpose": "transit_travel",
+      "trips": 2033
+    },
+    {
+      "h": 12,
+      "daytype": "weekday",
+      "purpose": "health",
+      "trips": 1340
+    },
+    {
+      "h": 12,
+      "daytype": "weekday",
+      "purpose": "leisure",
+      "trips": 4461
+    },
+    {
+      "h": 12,
+      "daytype": "weekday",
+      "purpose": "work",
+      "trips": 4640
+    },
+    {
+      "h": 13,
+      "daytype": "weekday",
+      "purpose": "home",
+      "trips": 10399
+    },
+    {
+      "h": 13,
+      "daytype": "weekday",
+      "purpose": "dining",
+      "trips": 6573
+    },
+    {
+      "h": 13,
+      "daytype": "weekday",
+      "purpose": "services",
+      "trips": 4880
+    },
+    {
+      "h": 13,
+      "daytype": "weekday",
+      "purpose": "health",
+      "trips": 1566
+    },
+    {
+      "h": 13,
+      "daytype": "weekday",
+      "purpose": "leisure",
+      "trips": 4593
+    },
+    {
+      "h": 13,
+      "daytype": "weekday",
+      "purpose": "transit_travel",
+      "trips": 2178
+    },
+    {
+      "h": 13,
+      "daytype": "weekday",
+      "purpose": "work",
+      "trips": 5659
+    },
+    {
+      "h": 13,
+      "daytype": "weekday",
+      "purpose": "shopping_errands",
+      "trips": 5468
+    },
+    {
+      "h": 13,
+      "daytype": "weekday",
+      "purpose": "education",
+      "trips": 1661
+    },
+    {
+      "h": 13,
+      "daytype": "weekday",
+      "purpose": "other_visit",
+      "trips": 126
+    },
+    {
+      "h": 14,
+      "daytype": "weekday",
+      "purpose": "home",
+      "trips": 10461
+    },
+    {
+      "h": 14,
+      "daytype": "weekday",
+      "purpose": "education",
+      "trips": 1413
+    },
+    {
+      "h": 14,
+      "daytype": "weekday",
+      "purpose": "dining",
+      "trips": 5927
+    },
+    {
+      "h": 14,
+      "daytype": "weekday",
+      "purpose": "leisure",
+      "trips": 4557
+    },
+    {
+      "h": 14,
+      "daytype": "weekday",
+      "purpose": "work",
+      "trips": 4367
+    },
+    {
+      "h": 14,
+      "daytype": "weekday",
+      "purpose": "transit_travel",
+      "trips": 2019
+    },
+    {
+      "h": 14,
+      "daytype": "weekday",
+      "purpose": "other_visit",
+      "trips": 147
+    },
+    {
+      "h": 14,
+      "daytype": "weekday",
+      "purpose": "services",
+      "trips": 4264
+    },
+    {
+      "h": 14,
+      "daytype": "weekday",
+      "purpose": "health",
+      "trips": 1399
+    },
+    {
+      "h": 14,
+      "daytype": "weekday",
+      "purpose": "shopping_errands",
+      "trips": 5040
+    },
+    {
+      "h": 15,
+      "daytype": "weekday",
+      "purpose": "education",
+      "trips": 1293
+    },
+    {
+      "h": 15,
+      "daytype": "weekday",
+      "purpose": "dining",
+      "trips": 5686
+    },
+    {
+      "h": 15,
+      "daytype": "weekday",
+      "purpose": "home",
+      "trips": 11830
+    },
+    {
+      "h": 15,
+      "daytype": "weekday",
+      "purpose": "shopping_errands",
+      "trips": 4935
+    },
+    {
+      "h": 15,
+      "daytype": "weekday",
+      "purpose": "health",
+      "trips": 1175
+    },
+    {
+      "h": 15,
+      "daytype": "weekday",
+      "purpose": "services",
+      "trips": 4106
+    },
+    {
+      "h": 15,
+      "daytype": "weekday",
+      "purpose": "transit_travel",
+      "trips": 1972
+    },
+    {
+      "h": 15,
+      "daytype": "weekday",
+      "purpose": "work",
+      "trips": 3786
+    },
+    {
+      "h": 15,
+      "daytype": "weekday",
+      "purpose": "leisure",
+      "trips": 4534
+    },
+    {
+      "h": 15,
+      "daytype": "weekday",
+      "purpose": "other_visit",
+      "trips": 129
+    },
+    {
+      "h": 16,
+      "daytype": "weekday",
+      "purpose": "services",
+      "trips": 3836
+    },
+    {
+      "h": 16,
+      "daytype": "weekday",
+      "purpose": "transit_travel",
+      "trips": 2048
+    },
+    {
+      "h": 16,
+      "daytype": "weekday",
+      "purpose": "health",
+      "trips": 1120
+    },
+    {
+      "h": 16,
+      "daytype": "weekday",
+      "purpose": "education",
+      "trips": 1360
+    },
+    {
+      "h": 16,
+      "daytype": "weekday",
+      "purpose": "home",
+      "trips": 13848
+    },
+    {
+      "h": 16,
+      "daytype": "weekday",
+      "purpose": "shopping_errands",
+      "trips": 4955
+    },
+    {
+      "h": 16,
+      "daytype": "weekday",
+      "purpose": "dining",
+      "trips": 6067
+    },
+    {
+      "h": 16,
+      "daytype": "weekday",
+      "purpose": "other_visit",
+      "trips": 106
+    },
+    {
+      "h": 16,
+      "daytype": "weekday",
+      "purpose": "leisure",
+      "trips": 4805
+    },
+    {
+      "h": 16,
+      "daytype": "weekday",
+      "purpose": "work",
+      "trips": 3216
+    },
+    {
+      "h": 17,
+      "daytype": "weekday",
+      "purpose": "other_visit",
+      "trips": 105
+    },
+    {
+      "h": 17,
+      "daytype": "weekday",
+      "purpose": "transit_travel",
+      "trips": 2210
+    },
+    {
+      "h": 17,
+      "daytype": "weekday",
+      "purpose": "health",
+      "trips": 1280
+    },
+    {
+      "h": 17,
+      "daytype": "weekday",
+      "purpose": "services",
+      "trips": 4103
+    },
+    {
+      "h": 17,
+      "daytype": "weekday",
+      "purpose": "shopping_errands",
+      "trips": 5690
+    },
+    {
+      "h": 17,
+      "daytype": "weekday",
+      "purpose": "leisure",
+      "trips": 5392
+    },
+    {
+      "h": 17,
+      "daytype": "weekday",
+      "purpose": "work",
+      "trips": 2495
+    },
+    {
+      "h": 17,
+      "daytype": "weekday",
+      "purpose": "education",
+      "trips": 1577
+    },
+    {
+      "h": 17,
+      "daytype": "weekday",
+      "purpose": "dining",
+      "trips": 7851
+    },
+    {
+      "h": 17,
+      "daytype": "weekday",
+      "purpose": "home",
+      "trips": 19238
+    },
+    {
+      "h": 18,
+      "daytype": "weekday",
+      "purpose": "work",
+      "trips": 1423
+    },
+    {
+      "h": 18,
+      "daytype": "weekday",
+      "purpose": "other_visit",
+      "trips": 127
+    },
+    {
+      "h": 18,
+      "daytype": "weekday",
+      "purpose": "shopping_errands",
+      "trips": 5288
+    },
+    {
+      "h": 18,
+      "daytype": "weekday",
+      "purpose": "leisure",
+      "trips": 5031
+    },
+    {
+      "h": 18,
+      "daytype": "weekday",
+      "purpose": "education",
+      "trips": 1381
+    },
+    {
+      "h": 18,
+      "daytype": "weekday",
+      "purpose": "transit_travel",
+      "trips": 2072
+    },
+    {
+      "h": 18,
+      "daytype": "weekday",
+      "purpose": "services",
+      "trips": 3851
+    },
+    {
+      "h": 18,
+      "daytype": "weekday",
+      "purpose": "health",
+      "trips": 1188
+    },
+    {
+      "h": 18,
+      "daytype": "weekday",
+      "purpose": "dining",
+      "trips": 7794
+    },
+    {
+      "h": 18,
+      "daytype": "weekday",
+      "purpose": "home",
+      "trips": 18719
+    },
+    {
+      "h": 19,
+      "daytype": "weekday",
+      "purpose": "transit_travel",
+      "trips": 1570
+    },
+    {
+      "h": 19,
+      "daytype": "weekday",
+      "purpose": "leisure",
+      "trips": 3919
+    },
+    {
+      "h": 19,
+      "daytype": "weekday",
+      "purpose": "work",
+      "trips": 1193
+    },
+    {
+      "h": 19,
+      "daytype": "weekday",
+      "purpose": "services",
+      "trips": 2861
+    },
+    {
+      "h": 19,
+      "daytype": "weekday",
+      "purpose": "other_visit",
+      "trips": 89
+    },
+    {
+      "h": 19,
+      "daytype": "weekday",
+      "purpose": "health",
+      "trips": 810
+    },
+    {
+      "h": 19,
+      "daytype": "weekday",
+      "purpose": "home",
+      "trips": 16278
+    },
+    {
+      "h": 19,
+      "daytype": "weekday",
+      "purpose": "dining",
+      "trips": 5638
+    },
+    {
+      "h": 19,
+      "daytype": "weekday",
+      "purpose": "education",
+      "trips": 1081
+    },
+    {
+      "h": 19,
+      "daytype": "weekday",
+      "purpose": "shopping_errands",
+      "trips": 3784
+    },
+    {
+      "h": 20,
+      "daytype": "weekday",
+      "purpose": "education",
+      "trips": 713
+    },
+    {
+      "h": 20,
+      "daytype": "weekday",
+      "purpose": "work",
+      "trips": 940
+    },
+    {
+      "h": 20,
+      "daytype": "weekday",
+      "purpose": "leisure",
+      "trips": 2978
+    },
+    {
+      "h": 20,
+      "daytype": "weekday",
+      "purpose": "shopping_errands",
+      "trips": 2261
+    },
+    {
+      "h": 20,
+      "daytype": "weekday",
+      "purpose": "health",
+      "trips": 508
+    },
+    {
+      "h": 20,
+      "daytype": "weekday",
+      "purpose": "transit_travel",
+      "trips": 1128
+    },
+    {
+      "h": 20,
+      "daytype": "weekday",
+      "purpose": "services",
+      "trips": 1988
+    },
+    {
+      "h": 20,
+      "daytype": "weekday",
+      "purpose": "other_visit",
+      "trips": 50
+    },
+    {
+      "h": 20,
+      "daytype": "weekday",
+      "purpose": "home",
+      "trips": 16128
+    },
+    {
+      "h": 20,
+      "daytype": "weekday",
+      "purpose": "dining",
+      "trips": 3428
+    },
+    {
+      "h": 21,
+      "daytype": "weekday",
+      "purpose": "dining",
+      "trips": 1961
+    },
+    {
+      "h": 21,
+      "daytype": "weekday",
+      "purpose": "education",
+      "trips": 392
+    },
+    {
+      "h": 21,
+      "daytype": "weekday",
+      "purpose": "home",
+      "trips": 15626
+    },
+    {
+      "h": 21,
+      "daytype": "weekday",
+      "purpose": "leisure",
+      "trips": 2007
+    },
+    {
+      "h": 21,
+      "daytype": "weekday",
+      "purpose": "transit_travel",
+      "trips": 830
+    },
+    {
+      "h": 21,
+      "daytype": "weekday",
+      "purpose": "work",
+      "trips": 484
+    },
+    {
+      "h": 21,
+      "daytype": "weekday",
+      "purpose": "other_visit",
+      "trips": 30
+    },
+    {
+      "h": 21,
+      "daytype": "weekday",
+      "purpose": "services",
+      "trips": 1231
+    },
+    {
+      "h": 21,
+      "daytype": "weekday",
+      "purpose": "health",
+      "trips": 345
+    },
+    {
+      "h": 21,
+      "daytype": "weekday",
+      "purpose": "shopping_errands",
+      "trips": 1258
+    },
+    {
+      "h": 22,
+      "daytype": "weekday",
+      "purpose": "home",
+      "trips": 10503
+    },
+    {
+      "h": 22,
+      "daytype": "weekday",
+      "purpose": "dining",
+      "trips": 1276
+    },
+    {
+      "h": 22,
+      "daytype": "weekday",
+      "purpose": "education",
+      "trips": 297
+    },
+    {
+      "h": 22,
+      "daytype": "weekday",
+      "purpose": "shopping_errands",
+      "trips": 788
+    },
+    {
+      "h": 22,
+      "daytype": "weekday",
+      "purpose": "other_visit",
+      "trips": 20
+    },
+    {
+      "h": 22,
+      "daytype": "weekday",
+      "purpose": "services",
+      "trips": 839
+    },
+    {
+      "h": 22,
+      "daytype": "weekday",
+      "purpose": "health",
+      "trips": 234
+    },
+    {
+      "h": 22,
+      "daytype": "weekday",
+      "purpose": "transit_travel",
+      "trips": 596
+    },
+    {
+      "h": 22,
+      "daytype": "weekday",
+      "purpose": "work",
+      "trips": 300
+    },
+    {
+      "h": 22,
+      "daytype": "weekday",
+      "purpose": "leisure",
+      "trips": 1381
+    },
+    {
+      "h": 23,
+      "daytype": "weekday",
+      "purpose": "shopping_errands",
+      "trips": 486
+    },
+    {
+      "h": 23,
+      "daytype": "weekday",
+      "purpose": "transit_travel",
+      "trips": 379
+    },
+    {
+      "h": 23,
+      "daytype": "weekday",
+      "purpose": "other_visit",
+      "trips": 11
+    },
+    {
+      "h": 23,
+      "daytype": "weekday",
+      "purpose": "education",
+      "trips": 173
+    },
+    {
+      "h": 23,
+      "daytype": "weekday",
+      "purpose": "leisure",
+      "trips": 951
+    },
+    {
+      "h": 23,
+      "daytype": "weekday",
+      "purpose": "dining",
+      "trips": 687
+    },
+    {
+      "h": 23,
+      "daytype": "weekday",
+      "purpose": "home",
+      "trips": 5590
+    },
+    {
+      "h": 23,
+      "daytype": "weekday",
+      "purpose": "work",
+      "trips": 159
+    },
+    {
+      "h": 23,
+      "daytype": "weekday",
+      "purpose": "health",
+      "trips": 140
+    },
+    {
+      "h": 23,
+      "daytype": "weekday",
+      "purpose": "services",
+      "trips": 508
+    },
+    {
+      "h": 0,
+      "daytype": "weekend",
+      "purpose": "other_visit",
+      "trips": 3
+    },
+    {
+      "h": 0,
+      "daytype": "weekend",
+      "purpose": "health",
+      "trips": 56
+    },
+    {
+      "h": 0,
+      "daytype": "weekend",
+      "purpose": "services",
+      "trips": 212
+    },
+    {
+      "h": 0,
+      "daytype": "weekend",
+      "purpose": "home",
+      "trips": 1966
+    },
+    {
+      "h": 0,
+      "daytype": "weekend",
+      "purpose": "dining",
+      "trips": 291
+    },
+    {
+      "h": 0,
+      "daytype": "weekend",
+      "purpose": "leisure",
+      "trips": 331
+    },
+    {
+      "h": 0,
+      "daytype": "weekend",
+      "purpose": "education",
+      "trips": 79
+    },
+    {
+      "h": 0,
+      "daytype": "weekend",
+      "purpose": "work",
+      "trips": 79
+    },
+    {
+      "h": 0,
+      "daytype": "weekend",
+      "purpose": "shopping_errands",
+      "trips": 208
+    },
+    {
+      "h": 0,
+      "daytype": "weekend",
+      "purpose": "transit_travel",
+      "trips": 131
+    },
+    {
+      "h": 1,
+      "daytype": "weekend",
+      "purpose": "other_visit",
+      "trips": 4
+    },
+    {
+      "h": 1,
+      "daytype": "weekend",
+      "purpose": "transit_travel",
+      "trips": 130
+    },
+    {
+      "h": 1,
+      "daytype": "weekend",
+      "purpose": "health",
+      "trips": 43
+    },
+    {
+      "h": 1,
+      "daytype": "weekend",
+      "purpose": "services",
+      "trips": 169
+    },
+    {
+      "h": 1,
+      "daytype": "weekend",
+      "purpose": "shopping_errands",
+      "trips": 148
+    },
+    {
+      "h": 1,
+      "daytype": "weekend",
+      "purpose": "education",
+      "trips": 77
+    },
+    {
+      "h": 1,
+      "daytype": "weekend",
+      "purpose": "leisure",
+      "trips": 281
+    },
+    {
+      "h": 1,
+      "daytype": "weekend",
+      "purpose": "work",
+      "trips": 70
+    },
+    {
+      "h": 1,
+      "daytype": "weekend",
+      "purpose": "dining",
+      "trips": 200
+    },
+    {
+      "h": 1,
+      "daytype": "weekend",
+      "purpose": "home",
+      "trips": 1248
+    },
+    {
+      "h": 2,
+      "daytype": "weekend",
+      "purpose": "home",
+      "trips": 1018
+    },
+    {
+      "h": 2,
+      "daytype": "weekend",
+      "purpose": "shopping_errands",
+      "trips": 138
+    },
+    {
+      "h": 2,
+      "daytype": "weekend",
+      "purpose": "dining",
+      "trips": 168
+    },
+    {
+      "h": 2,
+      "daytype": "weekend",
+      "purpose": "education",
+      "trips": 58
+    },
+    {
+      "h": 2,
+      "daytype": "weekend",
+      "purpose": "health",
+      "trips": 40
+    },
+    {
+      "h": 2,
+      "daytype": "weekend",
+      "purpose": "services",
+      "trips": 178
+    },
+    {
+      "h": 2,
+      "daytype": "weekend",
+      "purpose": "transit_travel",
+      "trips": 81
+    },
+    {
+      "h": 2,
+      "daytype": "weekend",
+      "purpose": "leisure",
+      "trips": 229
+    },
+    {
+      "h": 2,
+      "daytype": "weekend",
+      "purpose": "other_visit",
+      "trips": 4
+    },
+    {
+      "h": 2,
+      "daytype": "weekend",
+      "purpose": "work",
+      "trips": 93
+    },
+    {
+      "h": 3,
+      "daytype": "weekend",
+      "purpose": "work",
+      "trips": 287
+    },
+    {
+      "h": 3,
+      "daytype": "weekend",
+      "purpose": "transit_travel",
+      "trips": 201
+    },
+    {
+      "h": 3,
+      "daytype": "weekend",
+      "purpose": "other_visit",
+      "trips": 6
+    },
+    {
+      "h": 3,
+      "daytype": "weekend",
+      "purpose": "services",
+      "trips": 350
+    },
+    {
+      "h": 3,
+      "daytype": "weekend",
+      "purpose": "health",
+      "trips": 96
+    },
+    {
+      "h": 3,
+      "daytype": "weekend",
+      "purpose": "leisure",
+      "trips": 406
+    },
+    {
+      "h": 3,
+      "daytype": "weekend",
+      "purpose": "dining",
+      "trips": 325
+    },
+    {
+      "h": 3,
+      "daytype": "weekend",
+      "purpose": "home",
+      "trips": 1662
+    },
+    {
+      "h": 3,
+      "daytype": "weekend",
+      "purpose": "shopping_errands",
+      "trips": 272
+    },
+    {
+      "h": 3,
+      "daytype": "weekend",
+      "purpose": "education",
+      "trips": 186
+    },
+    {
+      "h": 4,
+      "daytype": "weekend",
+      "purpose": "health",
+      "trips": 63
+    },
+    {
+      "h": 4,
+      "daytype": "weekend",
+      "purpose": "services",
+      "trips": 257
+    },
+    {
+      "h": 4,
+      "daytype": "weekend",
+      "purpose": "other_visit",
+      "trips": 7
+    },
+    {
+      "h": 4,
+      "daytype": "weekend",
+      "purpose": "home",
+      "trips": 570
+    },
+    {
+      "h": 4,
+      "daytype": "weekend",
+      "purpose": "dining",
+      "trips": 252
+    },
+    {
+      "h": 4,
+      "daytype": "weekend",
+      "purpose": "leisure",
+      "trips": 231
+    },
+    {
+      "h": 4,
+      "daytype": "weekend",
+      "purpose": "work",
+      "trips": 168
+    },
+    {
+      "h": 4,
+      "daytype": "weekend",
+      "purpose": "education",
+      "trips": 112
+    },
+    {
+      "h": 4,
+      "daytype": "weekend",
+      "purpose": "transit_travel",
+      "trips": 148
+    },
+    {
+      "h": 4,
+      "daytype": "weekend",
+      "purpose": "shopping_errands",
+      "trips": 226
+    },
+    {
+      "h": 5,
+      "daytype": "weekend",
+      "purpose": "dining",
+      "trips": 530
+    },
+    {
+      "h": 5,
+      "daytype": "weekend",
+      "purpose": "home",
+      "trips": 379
+    },
+    {
+      "h": 5,
+      "daytype": "weekend",
+      "purpose": "health",
+      "trips": 106
+    },
+    {
+      "h": 5,
+      "daytype": "weekend",
+      "purpose": "services",
+      "trips": 479
+    },
+    {
+      "h": 5,
+      "daytype": "weekend",
+      "purpose": "work",
+      "trips": 298
+    },
+    {
+      "h": 5,
+      "daytype": "weekend",
+      "purpose": "transit_travel",
+      "trips": 203
+    },
+    {
+      "h": 5,
+      "daytype": "weekend",
+      "purpose": "leisure",
+      "trips": 398
+    },
+    {
+      "h": 5,
+      "daytype": "weekend",
+      "purpose": "education",
+      "trips": 224
+    },
+    {
+      "h": 5,
+      "daytype": "weekend",
+      "purpose": "shopping_errands",
+      "trips": 333
+    },
+    {
+      "h": 5,
+      "daytype": "weekend",
+      "purpose": "other_visit",
+      "trips": 11
+    },
+    {
+      "h": 6,
+      "daytype": "weekend",
+      "purpose": "education",
+      "trips": 1244
+    },
+    {
+      "h": 6,
+      "daytype": "weekend",
+      "purpose": "services",
+      "trips": 1341
+    },
+    {
+      "h": 6,
+      "daytype": "weekend",
+      "purpose": "health",
+      "trips": 355
+    },
+    {
+      "h": 6,
+      "daytype": "weekend",
+      "purpose": "other_visit",
+      "trips": 22
+    },
+    {
+      "h": 6,
+      "daytype": "weekend",
+      "purpose": "shopping_errands",
+      "trips": 984
+    },
+    {
+      "h": 6,
+      "daytype": "weekend",
+      "purpose": "work",
+      "trips": 605
+    },
+    {
+      "h": 6,
+      "daytype": "weekend",
+      "purpose": "home",
+      "trips": 476
+    },
+    {
+      "h": 6,
+      "daytype": "weekend",
+      "purpose": "leisure",
+      "trips": 1066
+    },
+    {
+      "h": 6,
+      "daytype": "weekend",
+      "purpose": "dining",
+      "trips": 1340
+    },
+    {
+      "h": 6,
+      "daytype": "weekend",
+      "purpose": "transit_travel",
+      "trips": 526
+    },
+    {
+      "h": 7,
+      "daytype": "weekend",
+      "purpose": "transit_travel",
+      "trips": 833
+    },
+    {
+      "h": 7,
+      "daytype": "weekend",
+      "purpose": "other_visit",
+      "trips": 38
+    },
+    {
+      "h": 7,
+      "daytype": "weekend",
+      "purpose": "work",
+      "trips": 1728
+    },
+    {
+      "h": 7,
+      "daytype": "weekend",
+      "purpose": "leisure",
+      "trips": 1797
+    },
+    {
+      "h": 7,
+      "daytype": "weekend",
+      "purpose": "home",
+      "trips": 5177
+    },
+    {
+      "h": 7,
+      "daytype": "weekend",
+      "purpose": "shopping_errands",
+      "trips": 1661
+    },
+    {
+      "h": 7,
+      "daytype": "weekend",
+      "purpose": "dining",
+      "trips": 2390
+    },
+    {
+      "h": 7,
+      "daytype": "weekend",
+      "purpose": "education",
+      "trips": 741
+    },
+    {
+      "h": 7,
+      "daytype": "weekend",
+      "purpose": "health",
+      "trips": 521
+    },
+    {
+      "h": 7,
+      "daytype": "weekend",
+      "purpose": "services",
+      "trips": 1731
+    },
+    {
+      "h": 8,
+      "daytype": "weekend",
+      "purpose": "other_visit",
+      "trips": 50
+    },
+    {
+      "h": 8,
+      "daytype": "weekend",
+      "purpose": "health",
+      "trips": 402
+    },
+    {
+      "h": 8,
+      "daytype": "weekend",
+      "purpose": "services",
+      "trips": 1142
+    },
+    {
+      "h": 8,
+      "daytype": "weekend",
+      "purpose": "home",
+      "trips": 876
+    },
+    {
+      "h": 8,
+      "daytype": "weekend",
+      "purpose": "dining",
+      "trips": 2099
+    },
+    {
+      "h": 8,
+      "daytype": "weekend",
+      "purpose": "education",
+      "trips": 355
+    },
+    {
+      "h": 8,
+      "daytype": "weekend",
+      "purpose": "work",
+      "trips": 887
+    },
+    {
+      "h": 8,
+      "daytype": "weekend",
+      "purpose": "leisure",
+      "trips": 1405
+    },
+    {
+      "h": 8,
+      "daytype": "weekend",
+      "purpose": "shopping_errands",
+      "trips": 1448
+    },
+    {
+      "h": 8,
+      "daytype": "weekend",
+      "purpose": "transit_travel",
+      "trips": 490
+    },
+    {
+      "h": 9,
+      "daytype": "weekend",
+      "purpose": "other_visit",
+      "trips": 50
+    },
+    {
+      "h": 9,
+      "daytype": "weekend",
+      "purpose": "transit_travel",
+      "trips": 752
+    },
+    {
+      "h": 9,
+      "daytype": "weekend",
+      "purpose": "work",
+      "trips": 1079
+    },
+    {
+      "h": 9,
+      "daytype": "weekend",
+      "purpose": "leisure",
+      "trips": 1992
+    },
+    {
+      "h": 9,
+      "daytype": "weekend",
+      "purpose": "shopping_errands",
+      "trips": 2275
+    },
+    {
+      "h": 9,
+      "daytype": "weekend",
+      "purpose": "home",
+      "trips": 1877
+    },
+    {
+      "h": 9,
+      "daytype": "weekend",
+      "purpose": "dining",
+      "trips": 3096
+    },
+    {
+      "h": 9,
+      "daytype": "weekend",
+      "purpose": "education",
+      "trips": 582
+    },
+    {
+      "h": 9,
+      "daytype": "weekend",
+      "purpose": "services",
+      "trips": 1638
+    },
+    {
+      "h": 9,
+      "daytype": "weekend",
+      "purpose": "health",
+      "trips": 480
+    },
+    {
+      "h": 10,
+      "daytype": "weekend",
+      "purpose": "other_visit",
+      "trips": 68
+    },
+    {
+      "h": 10,
+      "daytype": "weekend",
+      "purpose": "transit_travel",
+      "trips": 823
+    },
+    {
+      "h": 10,
+      "daytype": "weekend",
+      "purpose": "services",
+      "trips": 1647
+    },
+    {
+      "h": 10,
+      "daytype": "weekend",
+      "purpose": "health",
+      "trips": 542
+    },
+    {
+      "h": 10,
+      "daytype": "weekend",
+      "purpose": "shopping_errands",
+      "trips": 2629
+    },
+    {
+      "h": 10,
+      "daytype": "weekend",
+      "purpose": "work",
+      "trips": 983
+    },
+    {
+      "h": 10,
+      "daytype": "weekend",
+      "purpose": "education",
+      "trips": 560
+    },
+    {
+      "h": 10,
+      "daytype": "weekend",
+      "purpose": "leisure",
+      "trips": 2126
+    },
+    {
+      "h": 10,
+      "daytype": "weekend",
+      "purpose": "home",
+      "trips": 2427
+    },
+    {
+      "h": 10,
+      "daytype": "weekend",
+      "purpose": "dining",
+      "trips": 3545
+    },
+    {
+      "h": 11,
+      "daytype": "weekend",
+      "purpose": "home",
+      "trips": 3143
+    },
+    {
+      "h": 11,
+      "daytype": "weekend",
+      "purpose": "dining",
+      "trips": 3881
+    },
+    {
+      "h": 11,
+      "daytype": "weekend",
+      "purpose": "education",
+      "trips": 654
+    },
+    {
+      "h": 11,
+      "daytype": "weekend",
+      "purpose": "leisure",
+      "trips": 2112
+    },
+    {
+      "h": 11,
+      "daytype": "weekend",
+      "purpose": "work",
+      "trips": 834
+    },
+    {
+      "h": 11,
+      "daytype": "weekend",
+      "purpose": "transit_travel",
+      "trips": 881
+    },
+    {
+      "h": 11,
+      "daytype": "weekend",
+      "purpose": "other_visit",
+      "trips": 54
+    },
+    {
+      "h": 11,
+      "daytype": "weekend",
+      "purpose": "services",
+      "trips": 1759
+    },
+    {
+      "h": 11,
+      "daytype": "weekend",
+      "purpose": "health",
+      "trips": 548
+    },
+    {
+      "h": 11,
+      "daytype": "weekend",
+      "purpose": "shopping_errands",
+      "trips": 2716
+    },
+    {
+      "h": 12,
+      "daytype": "weekend",
+      "purpose": "services",
+      "trips": 1736
+    },
+    {
+      "h": 12,
+      "daytype": "weekend",
+      "purpose": "health",
+      "trips": 508
+    },
+    {
+      "h": 12,
+      "daytype": "weekend",
+      "purpose": "work",
+      "trips": 838
+    },
+    {
+      "h": 12,
+      "daytype": "weekend",
+      "purpose": "transit_travel",
+      "trips": 865
+    },
+    {
+      "h": 12,
+      "daytype": "weekend",
+      "purpose": "other_visit",
+      "trips": 57
+    },
+    {
+      "h": 12,
+      "daytype": "weekend",
+      "purpose": "leisure",
+      "trips": 2166
+    },
+    {
+      "h": 12,
+      "daytype": "weekend",
+      "purpose": "home",
+      "trips": 3596
+    },
+    {
+      "h": 12,
+      "daytype": "weekend",
+      "purpose": "dining",
+      "trips": 3702
+    },
+    {
+      "h": 12,
+      "daytype": "weekend",
+      "purpose": "education",
+      "trips": 663
+    },
+    {
+      "h": 12,
+      "daytype": "weekend",
+      "purpose": "shopping_errands",
+      "trips": 2775
+    },
+    {
+      "h": 13,
+      "daytype": "weekend",
+      "purpose": "shopping_errands",
+      "trips": 2604
+    },
+    {
+      "h": 13,
+      "daytype": "weekend",
+      "purpose": "leisure",
+      "trips": 2103
+    },
+    {
+      "h": 13,
+      "daytype": "weekend",
+      "purpose": "education",
+      "trips": 571
+    },
+    {
+      "h": 13,
+      "daytype": "weekend",
+      "purpose": "work",
+      "trips": 784
+    },
+    {
+      "h": 13,
+      "daytype": "weekend",
+      "purpose": "transit_travel",
+      "trips": 910
+    },
+    {
+      "h": 13,
+      "daytype": "weekend",
+      "purpose": "services",
+      "trips": 1685
+    },
+    {
+      "h": 13,
+      "daytype": "weekend",
+      "purpose": "health",
+      "trips": 474
+    },
+    {
+      "h": 13,
+      "daytype": "weekend",
+      "purpose": "other_visit",
+      "trips": 57
+    },
+    {
+      "h": 13,
+      "daytype": "weekend",
+      "purpose": "dining",
+      "trips": 3484
+    },
+    {
+      "h": 13,
+      "daytype": "weekend",
+      "purpose": "home",
+      "trips": 4150
+    },
+    {
+      "h": 14,
+      "daytype": "weekend",
+      "purpose": "health",
+      "trips": 406
+    },
+    {
+      "h": 14,
+      "daytype": "weekend",
+      "purpose": "services",
+      "trips": 1641
+    },
+    {
+      "h": 14,
+      "daytype": "weekend",
+      "purpose": "transit_travel",
+      "trips": 891
+    },
+    {
+      "h": 14,
+      "daytype": "weekend",
+      "purpose": "education",
+      "trips": 595
+    },
+    {
+      "h": 14,
+      "daytype": "weekend",
+      "purpose": "home",
+      "trips": 4024
+    },
+    {
+      "h": 14,
+      "daytype": "weekend",
+      "purpose": "shopping_errands",
+      "trips": 2544
+    },
+    {
+      "h": 14,
+      "daytype": "weekend",
+      "purpose": "dining",
+      "trips": 3069
+    },
+    {
+      "h": 14,
+      "daytype": "weekend",
+      "purpose": "leisure",
+      "trips": 2212
+    },
+    {
+      "h": 14,
+      "daytype": "weekend",
+      "purpose": "work",
+      "trips": 695
+    },
+    {
+      "h": 14,
+      "daytype": "weekend",
+      "purpose": "other_visit",
+      "trips": 47
+    },
+    {
+      "h": 15,
+      "daytype": "weekend",
+      "purpose": "education",
+      "trips": 603
+    },
+    {
+      "h": 15,
+      "daytype": "weekend",
+      "purpose": "dining",
+      "trips": 3032
+    },
+    {
+      "h": 15,
+      "daytype": "weekend",
+      "purpose": "home",
+      "trips": 4051
+    },
+    {
+      "h": 15,
+      "daytype": "weekend",
+      "purpose": "other_visit",
+      "trips": 45
+    },
+    {
+      "h": 15,
+      "daytype": "weekend",
+      "purpose": "shopping_errands",
+      "trips": 2556
+    },
+    {
+      "h": 15,
+      "daytype": "weekend",
+      "purpose": "health",
+      "trips": 390
+    },
+    {
+      "h": 15,
+      "daytype": "weekend",
+      "purpose": "transit_travel",
+      "trips": 841
+    },
+    {
+      "h": 15,
+      "daytype": "weekend",
+      "purpose": "services",
+      "trips": 1583
+    },
+    {
+      "h": 15,
+      "daytype": "weekend",
+      "purpose": "leisure",
+      "trips": 2206
+    },
+    {
+      "h": 15,
+      "daytype": "weekend",
+      "purpose": "work",
+      "trips": 656
+    },
+    {
+      "h": 16,
+      "daytype": "weekend",
+      "purpose": "other_visit",
+      "trips": 64
+    },
+    {
+      "h": 16,
+      "daytype": "weekend",
+      "purpose": "transit_travel",
+      "trips": 873
+    },
+    {
+      "h": 16,
+      "daytype": "weekend",
+      "purpose": "services",
+      "trips": 1575
+    },
+    {
+      "h": 16,
+      "daytype": "weekend",
+      "purpose": "health",
+      "trips": 460
+    },
+    {
+      "h": 16,
+      "daytype": "weekend",
+      "purpose": "shopping_errands",
+      "trips": 2439
+    },
+    {
+      "h": 16,
+      "daytype": "weekend",
+      "purpose": "work",
+      "trips": 619
+    },
+    {
+      "h": 16,
+      "daytype": "weekend",
+      "purpose": "leisure",
+      "trips": 2354
+    },
+    {
+      "h": 16,
+      "daytype": "weekend",
+      "purpose": "education",
+      "trips": 562
+    },
+    {
+      "h": 16,
+      "daytype": "weekend",
+      "purpose": "dining",
+      "trips": 3194
+    },
+    {
+      "h": 16,
+      "daytype": "weekend",
+      "purpose": "home",
+      "trips": 4219
+    },
+    {
+      "h": 17,
+      "daytype": "weekend",
+      "purpose": "work",
+      "trips": 535
+    },
+    {
+      "h": 17,
+      "daytype": "weekend",
+      "purpose": "leisure",
+      "trips": 2545
+    },
+    {
+      "h": 17,
+      "daytype": "weekend",
+      "purpose": "education",
+      "trips": 554
+    },
+    {
+      "h": 17,
+      "daytype": "weekend",
+      "purpose": "shopping_errands",
+      "trips": 2611
+    },
+    {
+      "h": 17,
+      "daytype": "weekend",
+      "purpose": "health",
+      "trips": 473
+    },
+    {
+      "h": 17,
+      "daytype": "weekend",
+      "purpose": "services",
+      "trips": 1822
+    },
+    {
+      "h": 17,
+      "daytype": "weekend",
+      "purpose": "transit_travel",
+      "trips": 979
+    },
+    {
+      "h": 17,
+      "daytype": "weekend",
+      "purpose": "other_visit",
+      "trips": 45
+    },
+    {
+      "h": 17,
+      "daytype": "weekend",
+      "purpose": "home",
+      "trips": 4494
+    },
+    {
+      "h": 17,
+      "daytype": "weekend",
+      "purpose": "dining",
+      "trips": 4022
+    },
+    {
+      "h": 18,
+      "daytype": "weekend",
+      "purpose": "home",
+      "trips": 5030
+    },
+    {
+      "h": 18,
+      "daytype": "weekend",
+      "purpose": "services",
+      "trips": 1696
+    },
+    {
+      "h": 18,
+      "daytype": "weekend",
+      "purpose": "dining",
+      "trips": 3717
+    },
+    {
+      "h": 18,
+      "daytype": "weekend",
+      "purpose": "health",
+      "trips": 447
+    },
+    {
+      "h": 18,
+      "daytype": "weekend",
+      "purpose": "work",
+      "trips": 616
+    },
+    {
+      "h": 18,
+      "daytype": "weekend",
+      "purpose": "transit_travel",
+      "trips": 890
+    },
+    {
+      "h": 18,
+      "daytype": "weekend",
+      "purpose": "leisure",
+      "trips": 2359
+    },
+    {
+      "h": 18,
+      "daytype": "weekend",
+      "purpose": "shopping_errands",
+      "trips": 2383
+    },
+    {
+      "h": 18,
+      "daytype": "weekend",
+      "purpose": "education",
+      "trips": 631
+    },
+    {
+      "h": 18,
+      "daytype": "weekend",
+      "purpose": "other_visit",
+      "trips": 44
+    },
+    {
+      "h": 19,
+      "daytype": "weekend",
+      "purpose": "home",
+      "trips": 5803
+    },
+    {
+      "h": 19,
+      "daytype": "weekend",
+      "purpose": "dining",
+      "trips": 3052
+    },
+    {
+      "h": 19,
+      "daytype": "weekend",
+      "purpose": "shopping_errands",
+      "trips": 1866
+    },
+    {
+      "h": 19,
+      "daytype": "weekend",
+      "purpose": "education",
+      "trips": 494
+    },
+    {
+      "h": 19,
+      "daytype": "weekend",
+      "purpose": "services",
+      "trips": 1335
+    },
+    {
+      "h": 19,
+      "daytype": "weekend",
+      "purpose": "health",
+      "trips": 351
+    },
+    {
+      "h": 19,
+      "daytype": "weekend",
+      "purpose": "transit_travel",
+      "trips": 811
+    },
+    {
+      "h": 19,
+      "daytype": "weekend",
+      "purpose": "other_visit",
+      "trips": 43
+    },
+    {
+      "h": 19,
+      "daytype": "weekend",
+      "purpose": "leisure",
+      "trips": 2013
+    },
+    {
+      "h": 19,
+      "daytype": "weekend",
+      "purpose": "work",
+      "trips": 665
+    },
+    {
+      "h": 20,
+      "daytype": "weekend",
+      "purpose": "transit_travel",
+      "trips": 556
+    },
+    {
+      "h": 20,
+      "daytype": "weekend",
+      "purpose": "health",
+      "trips": 244
+    },
+    {
+      "h": 20,
+      "daytype": "weekend",
+      "purpose": "services",
+      "trips": 975
+    },
+    {
+      "h": 20,
+      "daytype": "weekend",
+      "purpose": "education",
+      "trips": 365
+    },
+    {
+      "h": 20,
+      "daytype": "weekend",
+      "purpose": "shopping_errands",
+      "trips": 1218
+    },
+    {
+      "h": 20,
+      "daytype": "weekend",
+      "purpose": "dining",
+      "trips": 1976
+    },
+    {
+      "h": 20,
+      "daytype": "weekend",
+      "purpose": "home",
+      "trips": 7232
+    },
+    {
+      "h": 20,
+      "daytype": "weekend",
+      "purpose": "leisure",
+      "trips": 1392
+    },
+    {
+      "h": 20,
+      "daytype": "weekend",
+      "purpose": "work",
+      "trips": 650
+    },
+    {
+      "h": 20,
+      "daytype": "weekend",
+      "purpose": "other_visit",
+      "trips": 21
+    },
+    {
+      "h": 21,
+      "daytype": "weekend",
+      "purpose": "education",
+      "trips": 231
+    },
+    {
+      "h": 21,
+      "daytype": "weekend",
+      "purpose": "shopping_errands",
+      "trips": 674
+    },
+    {
+      "h": 21,
+      "daytype": "weekend",
+      "purpose": "work",
+      "trips": 356
+    },
+    {
+      "h": 21,
+      "daytype": "weekend",
+      "purpose": "leisure",
+      "trips": 1011
+    },
+    {
+      "h": 21,
+      "daytype": "weekend",
+      "purpose": "transit_travel",
+      "trips": 423
+    },
+    {
+      "h": 21,
+      "daytype": "weekend",
+      "purpose": "health",
+      "trips": 159
+    },
+    {
+      "h": 21,
+      "daytype": "weekend",
+      "purpose": "services",
+      "trips": 642
+    },
+    {
+      "h": 21,
+      "daytype": "weekend",
+      "purpose": "other_visit",
+      "trips": 13
+    },
+    {
+      "h": 21,
+      "daytype": "weekend",
+      "purpose": "home",
+      "trips": 7675
+    },
+    {
+      "h": 21,
+      "daytype": "weekend",
+      "purpose": "dining",
+      "trips": 1155
+    },
+    {
+      "h": 22,
+      "daytype": "weekend",
+      "purpose": "education",
+      "trips": 145
+    },
+    {
+      "h": 22,
+      "daytype": "weekend",
+      "purpose": "dining",
+      "trips": 728
+    },
+    {
+      "h": 22,
+      "daytype": "weekend",
+      "purpose": "home",
+      "trips": 5773
+    },
+    {
+      "h": 22,
+      "daytype": "weekend",
+      "purpose": "work",
+      "trips": 190
+    },
+    {
+      "h": 22,
+      "daytype": "weekend",
+      "purpose": "leisure",
+      "trips": 685
+    },
+    {
+      "h": 22,
+      "daytype": "weekend",
+      "purpose": "transit_travel",
+      "trips": 344
+    },
+    {
+      "h": 22,
+      "daytype": "weekend",
+      "purpose": "other_visit",
+      "trips": 16
+    },
+    {
+      "h": 22,
+      "daytype": "weekend",
+      "purpose": "services",
+      "trips": 496
+    },
+    {
+      "h": 22,
+      "daytype": "weekend",
+      "purpose": "health",
+      "trips": 104
+    },
+    {
+      "h": 22,
+      "daytype": "weekend",
+      "purpose": "shopping_errands",
+      "trips": 437
+    },
+    {
+      "h": 23,
+      "daytype": "weekend",
+      "purpose": "work",
+      "trips": 110
+    },
+    {
+      "h": 23,
+      "daytype": "weekend",
+      "purpose": "transit_travel",
+      "trips": 219
+    },
+    {
+      "h": 23,
+      "daytype": "weekend",
+      "purpose": "leisure",
+      "trips": 491
+    },
+    {
+      "h": 23,
+      "daytype": "weekend",
+      "purpose": "shopping_errands",
+      "trips": 291
+    },
+    {
+      "h": 23,
+      "daytype": "weekend",
+      "purpose": "home",
+      "trips": 3423
+    },
+    {
+      "h": 23,
+      "daytype": "weekend",
+      "purpose": "dining",
+      "trips": 419
+    },
+    {
+      "h": 23,
+      "daytype": "weekend",
+      "purpose": "other_visit",
+      "trips": 3
+    },
+    {
+      "h": 23,
+      "daytype": "weekend",
+      "purpose": "health",
+      "trips": 80
+    },
+    {
+      "h": 23,
+      "daytype": "weekend",
+      "purpose": "services",
+      "trips": 299
+    },
+    {
+      "h": 23,
+      "daytype": "weekend",
+      "purpose": "education",
+      "trips": 95
+    }
+  ],
+  "purpose_mix": [
+    {
+      "purpose": "home",
+      "trips": 268272,
+      "trip_share": 0.271,
+      "med_dist_km": 4.78,
+      "med_travel_min": 33.1
+    },
+    {
+      "purpose": "dining",
+      "trips": 145745,
+      "trip_share": 0.147,
+      "med_dist_km": 4.05,
+      "med_travel_min": 31.5
+    },
+    {
+      "purpose": "shopping_errands",
+      "trips": 108439,
+      "trip_share": 0.11,
+      "med_dist_km": 4.11,
+      "med_travel_min": 31.8
+    },
+    {
+      "purpose": "leisure",
+      "trips": 103716,
+      "trip_share": 0.105,
+      "med_dist_km": 4.71,
+      "med_travel_min": 41.7
+    },
+    {
+      "purpose": "services",
+      "trips": 94818,
+      "trip_share": 0.096,
+      "med_dist_km": 5.25,
+      "med_travel_min": 37.1
+    },
+    {
+      "purpose": "work",
+      "trips": 79280,
+      "trip_share": 0.08,
+      "med_dist_km": 4.72,
+      "med_travel_min": 31.7
+    },
+    {
+      "purpose": "other",
+      "trips": 76025,
+      "trip_share": 0.077,
+      "med_dist_km": 6.04,
+      "med_travel_min": 35.6
+    },
+    {
+      "purpose": "transit_travel",
+      "trips": 45058,
+      "trip_share": 0.046,
+      "med_dist_km": 5.06,
+      "med_travel_min": 37.4
+    },
+    {
+      "purpose": "education",
+      "trips": 37961,
+      "trip_share": 0.038,
+      "med_dist_km": 4.3,
+      "med_travel_min": 35.2
+    },
+    {
+      "purpose": "health",
+      "trips": 26869,
+      "trip_share": 0.027,
+      "med_dist_km": 4.39,
+      "med_travel_min": 33.2
+    },
+    {
+      "purpose": "other_visit",
+      "trips": 2595,
+      "trip_share": 0.003,
+      "med_dist_km": 4.02,
+      "med_travel_min": 30.1
+    }
+  ],
+  "corridor_purpose": [
+    {
+      "o_zone": "Bedok",
+      "d_zone": "Tampines",
+      "purpose": "home",
+      "trips": 1072
+    },
+    {
+      "o_zone": "Bedok",
+      "d_zone": "Tampines",
+      "purpose": "dining",
+      "trips": 463
+    },
+    {
+      "o_zone": "Bedok",
+      "d_zone": "Tampines",
+      "purpose": "shopping_errands",
+      "trips": 392
+    },
+    {
+      "o_zone": "Bedok",
+      "d_zone": "Tampines",
+      "purpose": "leisure",
+      "trips": 260
+    },
+    {
+      "o_zone": "Bedok",
+      "d_zone": "Tampines",
+      "purpose": "services",
+      "trips": 251
+    },
+    {
+      "o_zone": "Bedok",
+      "d_zone": "Tampines",
+      "purpose": "work",
+      "trips": 226
+    },
+    {
+      "o_zone": "Bedok",
+      "d_zone": "Tampines",
+      "purpose": "education",
+      "trips": 188
+    },
+    {
+      "o_zone": "Bedok",
+      "d_zone": "Tampines",
+      "purpose": "transit_travel",
+      "trips": 94
+    },
+    {
+      "o_zone": "Bedok",
+      "d_zone": "Tampines",
+      "purpose": "health",
+      "trips": 64
+    },
+    {
+      "o_zone": "Bedok",
+      "d_zone": "Tampines",
+      "purpose": "other_visit",
+      "trips": 12
+    },
+    {
+      "o_zone": "Hougang",
+      "d_zone": "Sengkang",
+      "purpose": "home",
+      "trips": 1940
+    },
+    {
+      "o_zone": "Hougang",
+      "d_zone": "Sengkang",
+      "purpose": "dining",
+      "trips": 408
+    },
+    {
+      "o_zone": "Hougang",
+      "d_zone": "Sengkang",
+      "purpose": "work",
+      "trips": 393
+    },
+    {
+      "o_zone": "Hougang",
+      "d_zone": "Sengkang",
+      "purpose": "leisure",
+      "trips": 369
+    },
+    {
+      "o_zone": "Hougang",
+      "d_zone": "Sengkang",
+      "purpose": "shopping_errands",
+      "trips": 357
+    },
+    {
+      "o_zone": "Hougang",
+      "d_zone": "Sengkang",
+      "purpose": "services",
+      "trips": 209
+    },
+    {
+      "o_zone": "Hougang",
+      "d_zone": "Sengkang",
+      "purpose": "education",
+      "trips": 199
+    },
+    {
+      "o_zone": "Hougang",
+      "d_zone": "Sengkang",
+      "purpose": "transit_travel",
+      "trips": 197
+    },
+    {
+      "o_zone": "Hougang",
+      "d_zone": "Sengkang",
+      "purpose": "health",
+      "trips": 102
+    },
+    {
+      "o_zone": "Hougang",
+      "d_zone": "Sengkang",
+      "purpose": "other_visit",
+      "trips": 15
+    },
+    {
+      "o_zone": "Jurong East",
+      "d_zone": "Jurong West",
+      "purpose": "home",
+      "trips": 1421
+    },
+    {
+      "o_zone": "Jurong East",
+      "d_zone": "Jurong West",
+      "purpose": "leisure",
+      "trips": 373
+    },
+    {
+      "o_zone": "Jurong East",
+      "d_zone": "Jurong West",
+      "purpose": "services",
+      "trips": 329
+    },
+    {
+      "o_zone": "Jurong East",
+      "d_zone": "Jurong West",
+      "purpose": "shopping_errands",
+      "trips": 305
+    },
+    {
+      "o_zone": "Jurong East",
+      "d_zone": "Jurong West",
+      "purpose": "dining",
+      "trips": 285
+    },
+    {
+      "o_zone": "Jurong East",
+      "d_zone": "Jurong West",
+      "purpose": "work",
+      "trips": 256
+    },
+    {
+      "o_zone": "Jurong East",
+      "d_zone": "Jurong West",
+      "purpose": "transit_travel",
+      "trips": 207
+    },
+    {
+      "o_zone": "Jurong East",
+      "d_zone": "Jurong West",
+      "purpose": "education",
+      "trips": 90
+    },
+    {
+      "o_zone": "Jurong East",
+      "d_zone": "Jurong West",
+      "purpose": "health",
+      "trips": 39
+    },
+    {
+      "o_zone": "Jurong West",
+      "d_zone": "Jurong East",
+      "purpose": "dining",
+      "trips": 668
+    },
+    {
+      "o_zone": "Jurong West",
+      "d_zone": "Jurong East",
+      "purpose": "shopping_errands",
+      "trips": 585
+    },
+    {
+      "o_zone": "Jurong West",
+      "d_zone": "Jurong East",
+      "purpose": "home",
+      "trips": 428
+    },
+    {
+      "o_zone": "Jurong West",
+      "d_zone": "Jurong East",
+      "purpose": "services",
+      "trips": 426
+    },
+    {
+      "o_zone": "Jurong West",
+      "d_zone": "Jurong East",
+      "purpose": "work",
+      "trips": 258
+    },
+    {
+      "o_zone": "Jurong West",
+      "d_zone": "Jurong East",
+      "purpose": "leisure",
+      "trips": 246
+    },
+    {
+      "o_zone": "Jurong West",
+      "d_zone": "Jurong East",
+      "purpose": "transit_travel",
+      "trips": 159
+    },
+    {
+      "o_zone": "Jurong West",
+      "d_zone": "Jurong East",
+      "purpose": "education",
+      "trips": 98
+    },
+    {
+      "o_zone": "Jurong West",
+      "d_zone": "Jurong East",
+      "purpose": "health",
+      "trips": 71
+    },
+    {
+      "o_zone": "Jurong West",
+      "d_zone": "Jurong East",
+      "purpose": "other_visit",
+      "trips": 7
+    },
+    {
+      "o_zone": "Sembawang",
+      "d_zone": "Yishun",
+      "purpose": "home",
+      "trips": 886
+    },
+    {
+      "o_zone": "Sembawang",
+      "d_zone": "Yishun",
+      "purpose": "dining",
+      "trips": 621
+    },
+    {
+      "o_zone": "Sembawang",
+      "d_zone": "Yishun",
+      "purpose": "shopping_errands",
+      "trips": 501
+    },
+    {
+      "o_zone": "Sembawang",
+      "d_zone": "Yishun",
+      "purpose": "leisure",
+      "trips": 331
+    },
+    {
+      "o_zone": "Sembawang",
+      "d_zone": "Yishun",
+      "purpose": "services",
+      "trips": 245
+    },
+    {
+      "o_zone": "Sembawang",
+      "d_zone": "Yishun",
+      "purpose": "work",
+      "trips": 214
+    },
+    {
+      "o_zone": "Sembawang",
+      "d_zone": "Yishun",
+      "purpose": "education",
+      "trips": 205
+    },
+    {
+      "o_zone": "Sembawang",
+      "d_zone": "Yishun",
+      "purpose": "health",
+      "trips": 149
+    },
+    {
+      "o_zone": "Sembawang",
+      "d_zone": "Yishun",
+      "purpose": "transit_travel",
+      "trips": 115
+    },
+    {
+      "o_zone": "Sembawang",
+      "d_zone": "Yishun",
+      "purpose": "other_visit",
+      "trips": 5
+    },
+    {
+      "o_zone": "Sengkang",
+      "d_zone": "Hougang",
+      "purpose": "home",
+      "trips": 937
+    },
+    {
+      "o_zone": "Sengkang",
+      "d_zone": "Hougang",
+      "purpose": "dining",
+      "trips": 706
+    },
+    {
+      "o_zone": "Sengkang",
+      "d_zone": "Hougang",
+      "purpose": "shopping_errands",
+      "trips": 511
+    },
+    {
+      "o_zone": "Sengkang",
+      "d_zone": "Hougang",
+      "purpose": "leisure",
+      "trips": 405
+    },
+    {
+      "o_zone": "Sengkang",
+      "d_zone": "Hougang",
+      "purpose": "education",
+      "trips": 360
+    },
+    {
+      "o_zone": "Sengkang",
+      "d_zone": "Hougang",
+      "purpose": "work",
+      "trips": 334
+    },
+    {
+      "o_zone": "Sengkang",
+      "d_zone": "Hougang",
+      "purpose": "services",
+      "trips": 334
+    },
+    {
+      "o_zone": "Sengkang",
+      "d_zone": "Hougang",
+      "purpose": "transit_travel",
+      "trips": 203
+    },
+    {
+      "o_zone": "Sengkang",
+      "d_zone": "Hougang",
+      "purpose": "health",
+      "trips": 162
+    },
+    {
+      "o_zone": "Sengkang",
+      "d_zone": "Hougang",
+      "purpose": "other_visit",
+      "trips": 10
+    },
+    {
+      "o_zone": "Serangoon",
+      "d_zone": "Hougang",
+      "purpose": "home",
+      "trips": 1072
+    },
+    {
+      "o_zone": "Serangoon",
+      "d_zone": "Hougang",
+      "purpose": "dining",
+      "trips": 451
+    },
+    {
+      "o_zone": "Serangoon",
+      "d_zone": "Hougang",
+      "purpose": "leisure",
+      "trips": 406
+    },
+    {
+      "o_zone": "Serangoon",
+      "d_zone": "Hougang",
+      "purpose": "shopping_errands",
+      "trips": 309
+    },
+    {
+      "o_zone": "Serangoon",
+      "d_zone": "Hougang",
+      "purpose": "work",
+      "trips": 247
+    },
+    {
+      "o_zone": "Serangoon",
+      "d_zone": "Hougang",
+      "purpose": "services",
+      "trips": 223
+    },
+    {
+      "o_zone": "Serangoon",
+      "d_zone": "Hougang",
+      "purpose": "education",
+      "trips": 156
+    },
+    {
+      "o_zone": "Serangoon",
+      "d_zone": "Hougang",
+      "purpose": "transit_travel",
+      "trips": 114
+    },
+    {
+      "o_zone": "Serangoon",
+      "d_zone": "Hougang",
+      "purpose": "health",
+      "trips": 95
+    },
+    {
+      "o_zone": "Yishun",
+      "d_zone": "Sembawang",
+      "purpose": "home",
+      "trips": 1315
+    },
+    {
+      "o_zone": "Yishun",
+      "d_zone": "Sembawang",
+      "purpose": "dining",
+      "trips": 445
+    },
+    {
+      "o_zone": "Yishun",
+      "d_zone": "Sembawang",
+      "purpose": "services",
+      "trips": 435
+    },
+    {
+      "o_zone": "Yishun",
+      "d_zone": "Sembawang",
+      "purpose": "work",
+      "trips": 301
+    },
+    {
+      "o_zone": "Yishun",
+      "d_zone": "Sembawang",
+      "purpose": "shopping_errands",
+      "trips": 298
+    },
+    {
+      "o_zone": "Yishun",
+      "d_zone": "Sembawang",
+      "purpose": "leisure",
+      "trips": 259
+    },
+    {
+      "o_zone": "Yishun",
+      "d_zone": "Sembawang",
+      "purpose": "transit_travel",
+      "trips": 135
+    },
+    {
+      "o_zone": "Yishun",
+      "d_zone": "Sembawang",
+      "purpose": "education",
+      "trips": 86
+    },
+    {
+      "o_zone": "Yishun",
+      "d_zone": "Sembawang",
+      "purpose": "health",
+      "trips": 44
+    },
+    {
+      "o_zone": "Yishun",
+      "d_zone": "Sembawang",
+      "purpose": "other_visit",
+      "trips": 9
+    }
+  ],
+  "holiday_work_check": {
+    "vesak_work_trips": 9091,
+    "midweek_avg": 14027.0
+  },
+  "tours_by_segment": [
+    {
+      "segment": "local_resident",
+      "tours": 111098,
+      "avg_legs": 2.07,
+      "simple_commute_share": 0.005,
+      "multi_stop_share": 0.222
+    },
+    {
+      "segment": "town_commuter",
+      "tours": 103455,
+      "avg_legs": 2.4,
+      "simple_commute_share": 0.277,
+      "multi_stop_share": 0.325
+    },
+    {
+      "segment": "school_linked",
+      "tours": 40784,
+      "avg_legs": 2.1,
+      "simple_commute_share": 0.01,
+      "multi_stop_share": 0.218
+    },
+    {
+      "segment": "works_near_home",
+      "tours": 35698,
+      "avg_legs": 2.36,
+      "simple_commute_share": 0.117,
+      "multi_stop_share": 0.313
+    },
+    {
+      "segment": "homebody",
+      "tours": 35243,
+      "avg_legs": 1.79,
+      "simple_commute_share": 0.014,
+      "multi_stop_share": 0.103
+    },
+    {
+      "segment": "long_haul_commuter",
+      "tours": 21956,
+      "avg_legs": 2.53,
+      "simple_commute_share": 0.206,
+      "multi_stop_share": 0.357
+    },
+    {
+      "segment": "cbd_commuter",
+      "tours": 15053,
+      "avg_legs": 2.3,
+      "simple_commute_share": 0.253,
+      "multi_stop_share": 0.299
+    },
+    {
+      "segment": "islandwide_rover",
+      "tours": 11162,
+      "avg_legs": 2.24,
+      "simple_commute_share": 0.002,
+      "multi_stop_share": 0.288
+    },
+    {
+      "segment": "cross_border",
+      "tours": 6439,
+      "avg_legs": 2.36,
+      "simple_commute_share": 0.089,
+      "multi_stop_share": 0.31
+    },
+    {
+      "segment": "night_shift",
+      "tours": 3633,
+      "avg_legs": 2.31,
+      "simple_commute_share": 0.005,
+      "multi_stop_share": 0.281
+    },
+    {
+      "segment": "likely_tourist",
+      "tours": 681,
+      "avg_legs": 1.59,
+      "simple_commute_share": 0.044,
+      "multi_stop_share": 0.131
+    }
+  ],
+  "tour_types": [
+    {
+      "tour_type": "errand_leisure",
+      "tours": 323015,
+      "avg_legs": 1.51
+    },
+    {
+      "tour_type": "complex",
+      "tours": 82848,
+      "avg_legs": 3.77
+    },
+    {
+      "tour_type": "simple_commute",
+      "tours": 43280,
+      "avg_legs": 1.77
+    },
+    {
+      "tour_type": "commute_plus",
+      "tours": 27639,
+      "avg_legs": 4.02
+    }
+  ]
+}

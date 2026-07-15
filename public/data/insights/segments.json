@@ -1,0 +1,1274 @@
+{
+  "sizes": [
+    {
+      "segment": "unanchored",
+      "devices": 731835,
+      "share": 0.861
+    },
+    {
+      "segment": "homebody",
+      "devices": 33855,
+      "share": 0.04
+    },
+    {
+      "segment": "local_resident",
+      "devices": 28032,
+      "share": 0.033
+    },
+    {
+      "segment": "town_commuter",
+      "devices": 27288,
+      "share": 0.032
+    },
+    {
+      "segment": "school_linked",
+      "devices": 9811,
+      "share": 0.012
+    },
+    {
+      "segment": "works_near_home",
+      "devices": 5247,
+      "share": 0.006
+    },
+    {
+      "segment": "long_haul_commuter",
+      "devices": 3255,
+      "share": 0.004
+    },
+    {
+      "segment": "likely_tourist",
+      "devices": 2720,
+      "share": 0.003
+    },
+    {
+      "segment": "cross_border",
+      "devices": 2597,
+      "share": 0.003
+    },
+    {
+      "segment": "islandwide_rover",
+      "devices": 2519,
+      "share": 0.003
+    },
+    {
+      "segment": "cbd_commuter",
+      "devices": 2293,
+      "share": 0.003
+    },
+    {
+      "segment": "night_shift",
+      "devices": 547,
+      "share": 0.001
+    }
+  ],
+  "profiles": [
+    {
+      "segment": "unanchored",
+      "devices": 731835,
+      "med_active_days": 5.0,
+      "med_rog_km": 0.01,
+      "med_commute_km": 0.0,
+      "avg_night_share": 0.131,
+      "avg_weekend_share": 0.306,
+      "med_trips": 0.0,
+      "avg_visits": 2.3,
+      "ios_share": 0.33
+    },
+    {
+      "segment": "homebody",
+      "devices": 33855,
+      "med_active_days": 7.0,
+      "med_rog_km": 0.05,
+      "med_commute_km": 0.0,
+      "avg_night_share": 0.348,
+      "avg_weekend_share": 0.294,
+      "med_trips": 0.0,
+      "avg_visits": 11.1,
+      "ios_share": 0.24
+    },
+    {
+      "segment": "local_resident",
+      "devices": 28032,
+      "med_active_days": 8.0,
+      "med_rog_km": 4.05,
+      "med_commute_km": 0.0,
+      "avg_night_share": 0.251,
+      "avg_weekend_share": 0.308,
+      "med_trips": 6.0,
+      "avg_visits": 16.4,
+      "ios_share": 0.31
+    },
+    {
+      "segment": "town_commuter",
+      "devices": 27288,
+      "med_active_days": 8.0,
+      "med_rog_km": 3.14,
+      "med_commute_km": 5.8,
+      "avg_night_share": 0.087,
+      "avg_weekend_share": 0.225,
+      "med_trips": 7.0,
+      "avg_visits": 16.4,
+      "ios_share": 0.18
+    },
+    {
+      "segment": "school_linked",
+      "devices": 9811,
+      "med_active_days": 8.0,
+      "med_rog_km": 2.67,
+      "med_commute_km": 0.0,
+      "avg_night_share": 0.24,
+      "avg_weekend_share": 0.294,
+      "med_trips": 7.0,
+      "avg_visits": 19.3,
+      "ios_share": 0.38
+    },
+    {
+      "segment": "works_near_home",
+      "devices": 5247,
+      "med_active_days": 8.0,
+      "med_rog_km": 4.3,
+      "med_commute_km": 2.0,
+      "avg_night_share": 0.182,
+      "avg_weekend_share": 0.263,
+      "med_trips": 15.0,
+      "avg_visits": 24.7,
+      "ios_share": 0.39
+    },
+    {
+      "segment": "long_haul_commuter",
+      "devices": 3255,
+      "med_active_days": 8.0,
+      "med_rog_km": 8.08,
+      "med_commute_km": 15.7,
+      "avg_night_share": 0.175,
+      "avg_weekend_share": 0.263,
+      "med_trips": 15.0,
+      "avg_visits": 25.0,
+      "ios_share": 0.33
+    },
+    {
+      "segment": "likely_tourist",
+      "devices": 2720,
+      "med_active_days": 6.0,
+      "med_rog_km": 0.01,
+      "med_commute_km": null,
+      "avg_night_share": 0.576,
+      "avg_weekend_share": 0.288,
+      "med_trips": 0.0,
+      "avg_visits": 5.3,
+      "ios_share": 0.35
+    },
+    {
+      "segment": "cross_border",
+      "devices": 2597,
+      "med_active_days": 7.0,
+      "med_rog_km": 1.39,
+      "med_commute_km": 2.2,
+      "avg_night_share": 0.179,
+      "avg_weekend_share": 0.285,
+      "med_trips": 1.0,
+      "avg_visits": 11.2,
+      "ios_share": 0.24
+    },
+    {
+      "segment": "islandwide_rover",
+      "devices": 2519,
+      "med_active_days": 8.0,
+      "med_rog_km": 9.08,
+      "med_commute_km": 0.0,
+      "avg_night_share": 0.245,
+      "avg_weekend_share": 0.314,
+      "med_trips": 8.0,
+      "avg_visits": 15.7,
+      "ios_share": 0.17
+    },
+    {
+      "segment": "cbd_commuter",
+      "devices": 2293,
+      "med_active_days": 8.0,
+      "med_rog_km": 5.33,
+      "med_commute_km": 9.5,
+      "avg_night_share": 0.186,
+      "avg_weekend_share": 0.263,
+      "med_trips": 14.0,
+      "avg_visits": 23.9,
+      "ios_share": 0.39
+    },
+    {
+      "segment": "night_shift",
+      "devices": 547,
+      "med_active_days": 8.0,
+      "med_rog_km": 5.63,
+      "med_commute_km": 0.0,
+      "avg_night_share": 0.307,
+      "avg_weekend_share": 0.325,
+      "med_trips": 14.0,
+      "avg_visits": 22.2,
+      "ios_share": 0.29
+    }
+  ],
+  "tags": [
+    {
+      "tag": "transit_rider",
+      "devices": 106517
+    },
+    {
+      "tag": "worked_on_vesak",
+      "devices": 31696
+    },
+    {
+      "tag": "active_lifestyle",
+      "devices": 26857
+    },
+    {
+      "tag": "foodie",
+      "devices": 17893
+    },
+    {
+      "tag": "school_age_kids",
+      "devices": 16050
+    },
+    {
+      "tag": "hawker_regular",
+      "devices": 13811
+    },
+    {
+      "tag": "shopper",
+      "devices": 12503
+    },
+    {
+      "tag": "airport_contact",
+      "devices": 6159
+    },
+    {
+      "tag": "young_family",
+      "devices": 4842
+    },
+    {
+      "tag": "night_owl",
+      "devices": 1714
+    },
+    {
+      "tag": "student",
+      "devices": 1013
+    },
+    {
+      "tag": "retiree_like",
+      "devices": 425
+    }
+  ],
+  "occupation_mix": [
+    {
+      "occupation_class": "no_work_anchor",
+      "devices": 810300
+    },
+    {
+      "occupation_class": "other_work",
+      "devices": 28874
+    },
+    {
+      "occupation_class": "industrial",
+      "devices": 5056
+    },
+    {
+      "occupation_class": "office_cbd",
+      "devices": 3892
+    },
+    {
+      "occupation_class": "hospital_shift",
+      "devices": 1667
+    },
+    {
+      "occupation_class": "construction_dorm",
+      "devices": 187
+    },
+    {
+      "occupation_class": "retail_staff",
+      "devices": 23
+    }
+  ],
+  "segment_hourly": [
+    {
+      "segment": "cbd_commuter",
+      "h": 0,
+      "stop_starts": 1137
+    },
+    {
+      "segment": "cbd_commuter",
+      "h": 1,
+      "stop_starts": 887
+    },
+    {
+      "segment": "cbd_commuter",
+      "h": 2,
+      "stop_starts": 826
+    },
+    {
+      "segment": "cbd_commuter",
+      "h": 3,
+      "stop_starts": 811
+    },
+    {
+      "segment": "cbd_commuter",
+      "h": 4,
+      "stop_starts": 1415
+    },
+    {
+      "segment": "cbd_commuter",
+      "h": 5,
+      "stop_starts": 1353
+    },
+    {
+      "segment": "cbd_commuter",
+      "h": 6,
+      "stop_starts": 1569
+    },
+    {
+      "segment": "cbd_commuter",
+      "h": 7,
+      "stop_starts": 1675
+    },
+    {
+      "segment": "cbd_commuter",
+      "h": 8,
+      "stop_starts": 4614
+    },
+    {
+      "segment": "cbd_commuter",
+      "h": 9,
+      "stop_starts": 2914
+    },
+    {
+      "segment": "cbd_commuter",
+      "h": 10,
+      "stop_starts": 2534
+    },
+    {
+      "segment": "cbd_commuter",
+      "h": 11,
+      "stop_starts": 2181
+    },
+    {
+      "segment": "cbd_commuter",
+      "h": 12,
+      "stop_starts": 2560
+    },
+    {
+      "segment": "cbd_commuter",
+      "h": 13,
+      "stop_starts": 2433
+    },
+    {
+      "segment": "cbd_commuter",
+      "h": 14,
+      "stop_starts": 2085
+    },
+    {
+      "segment": "cbd_commuter",
+      "h": 15,
+      "stop_starts": 1898
+    },
+    {
+      "segment": "cbd_commuter",
+      "h": 16,
+      "stop_starts": 2069
+    },
+    {
+      "segment": "cbd_commuter",
+      "h": 17,
+      "stop_starts": 2245
+    },
+    {
+      "segment": "cbd_commuter",
+      "h": 18,
+      "stop_starts": 2910
+    },
+    {
+      "segment": "cbd_commuter",
+      "h": 19,
+      "stop_starts": 2845
+    },
+    {
+      "segment": "cbd_commuter",
+      "h": 20,
+      "stop_starts": 2632
+    },
+    {
+      "segment": "cbd_commuter",
+      "h": 21,
+      "stop_starts": 2515
+    },
+    {
+      "segment": "cbd_commuter",
+      "h": 22,
+      "stop_starts": 2022
+    },
+    {
+      "segment": "cbd_commuter",
+      "h": 23,
+      "stop_starts": 1639
+    },
+    {
+      "segment": "cross_border",
+      "h": 0,
+      "stop_starts": 594
+    },
+    {
+      "segment": "cross_border",
+      "h": 1,
+      "stop_starts": 475
+    },
+    {
+      "segment": "cross_border",
+      "h": 2,
+      "stop_starts": 447
+    },
+    {
+      "segment": "cross_border",
+      "h": 3,
+      "stop_starts": 459
+    },
+    {
+      "segment": "cross_border",
+      "h": 4,
+      "stop_starts": 789
+    },
+    {
+      "segment": "cross_border",
+      "h": 5,
+      "stop_starts": 733
+    },
+    {
+      "segment": "cross_border",
+      "h": 6,
+      "stop_starts": 966
+    },
+    {
+      "segment": "cross_border",
+      "h": 7,
+      "stop_starts": 982
+    },
+    {
+      "segment": "cross_border",
+      "h": 8,
+      "stop_starts": 2527
+    },
+    {
+      "segment": "cross_border",
+      "h": 9,
+      "stop_starts": 1421
+    },
+    {
+      "segment": "cross_border",
+      "h": 10,
+      "stop_starts": 1197
+    },
+    {
+      "segment": "cross_border",
+      "h": 11,
+      "stop_starts": 1156
+    },
+    {
+      "segment": "cross_border",
+      "h": 12,
+      "stop_starts": 1214
+    },
+    {
+      "segment": "cross_border",
+      "h": 13,
+      "stop_starts": 1261
+    },
+    {
+      "segment": "cross_border",
+      "h": 14,
+      "stop_starts": 1246
+    },
+    {
+      "segment": "cross_border",
+      "h": 15,
+      "stop_starts": 1071
+    },
+    {
+      "segment": "cross_border",
+      "h": 16,
+      "stop_starts": 1232
+    },
+    {
+      "segment": "cross_border",
+      "h": 17,
+      "stop_starts": 1209
+    },
+    {
+      "segment": "cross_border",
+      "h": 18,
+      "stop_starts": 1371
+    },
+    {
+      "segment": "cross_border",
+      "h": 19,
+      "stop_starts": 1248
+    },
+    {
+      "segment": "cross_border",
+      "h": 20,
+      "stop_starts": 1165
+    },
+    {
+      "segment": "cross_border",
+      "h": 21,
+      "stop_starts": 1016
+    },
+    {
+      "segment": "cross_border",
+      "h": 22,
+      "stop_starts": 884
+    },
+    {
+      "segment": "cross_border",
+      "h": 23,
+      "stop_starts": 673
+    },
+    {
+      "segment": "homebody",
+      "h": 0,
+      "stop_starts": 13514
+    },
+    {
+      "segment": "homebody",
+      "h": 1,
+      "stop_starts": 10790
+    },
+    {
+      "segment": "homebody",
+      "h": 2,
+      "stop_starts": 9846
+    },
+    {
+      "segment": "homebody",
+      "h": 3,
+      "stop_starts": 9492
+    },
+    {
+      "segment": "homebody",
+      "h": 4,
+      "stop_starts": 13416
+    },
+    {
+      "segment": "homebody",
+      "h": 5,
+      "stop_starts": 15181
+    },
+    {
+      "segment": "homebody",
+      "h": 6,
+      "stop_starts": 12470
+    },
+    {
+      "segment": "homebody",
+      "h": 7,
+      "stop_starts": 11590
+    },
+    {
+      "segment": "homebody",
+      "h": 8,
+      "stop_starts": 25876
+    },
+    {
+      "segment": "homebody",
+      "h": 9,
+      "stop_starts": 12450
+    },
+    {
+      "segment": "homebody",
+      "h": 10,
+      "stop_starts": 11933
+    },
+    {
+      "segment": "homebody",
+      "h": 11,
+      "stop_starts": 11620
+    },
+    {
+      "segment": "homebody",
+      "h": 12,
+      "stop_starts": 12980
+    },
+    {
+      "segment": "homebody",
+      "h": 13,
+      "stop_starts": 13512
+    },
+    {
+      "segment": "homebody",
+      "h": 14,
+      "stop_starts": 12903
+    },
+    {
+      "segment": "homebody",
+      "h": 15,
+      "stop_starts": 12662
+    },
+    {
+      "segment": "homebody",
+      "h": 16,
+      "stop_starts": 13506
+    },
+    {
+      "segment": "homebody",
+      "h": 17,
+      "stop_starts": 13366
+    },
+    {
+      "segment": "homebody",
+      "h": 18,
+      "stop_starts": 14410
+    },
+    {
+      "segment": "homebody",
+      "h": 19,
+      "stop_starts": 14562
+    },
+    {
+      "segment": "homebody",
+      "h": 20,
+      "stop_starts": 14707
+    },
+    {
+      "segment": "homebody",
+      "h": 21,
+      "stop_starts": 20119
+    },
+    {
+      "segment": "homebody",
+      "h": 22,
+      "stop_starts": 19062
+    },
+    {
+      "segment": "homebody",
+      "h": 23,
+      "stop_starts": 16350
+    },
+    {
+      "segment": "likely_tourist",
+      "h": 0,
+      "stop_starts": 725
+    },
+    {
+      "segment": "likely_tourist",
+      "h": 1,
+      "stop_starts": 495
+    },
+    {
+      "segment": "likely_tourist",
+      "h": 2,
+      "stop_starts": 427
+    },
+    {
+      "segment": "likely_tourist",
+      "h": 3,
+      "stop_starts": 428
+    },
+    {
+      "segment": "likely_tourist",
+      "h": 4,
+      "stop_starts": 326
+    },
+    {
+      "segment": "likely_tourist",
+      "h": 5,
+      "stop_starts": 69
+    },
+    {
+      "segment": "likely_tourist",
+      "h": 6,
+      "stop_starts": 197
+    },
+    {
+      "segment": "likely_tourist",
+      "h": 7,
+      "stop_starts": 209
+    },
+    {
+      "segment": "likely_tourist",
+      "h": 8,
+      "stop_starts": 442
+    },
+    {
+      "segment": "likely_tourist",
+      "h": 9,
+      "stop_starts": 359
+    },
+    {
+      "segment": "likely_tourist",
+      "h": 10,
+      "stop_starts": 380
+    },
+    {
+      "segment": "likely_tourist",
+      "h": 11,
+      "stop_starts": 326
+    },
+    {
+      "segment": "likely_tourist",
+      "h": 12,
+      "stop_starts": 380
+    },
+    {
+      "segment": "likely_tourist",
+      "h": 13,
+      "stop_starts": 423
+    },
+    {
+      "segment": "likely_tourist",
+      "h": 14,
+      "stop_starts": 438
+    },
+    {
+      "segment": "likely_tourist",
+      "h": 15,
+      "stop_starts": 401
+    },
+    {
+      "segment": "likely_tourist",
+      "h": 16,
+      "stop_starts": 429
+    },
+    {
+      "segment": "likely_tourist",
+      "h": 17,
+      "stop_starts": 459
+    },
+    {
+      "segment": "likely_tourist",
+      "h": 18,
+      "stop_starts": 448
+    },
+    {
+      "segment": "likely_tourist",
+      "h": 19,
+      "stop_starts": 488
+    },
+    {
+      "segment": "likely_tourist",
+      "h": 20,
+      "stop_starts": 527
+    },
+    {
+      "segment": "likely_tourist",
+      "h": 21,
+      "stop_starts": 287
+    },
+    {
+      "segment": "likely_tourist",
+      "h": 22,
+      "stop_starts": 1205
+    },
+    {
+      "segment": "likely_tourist",
+      "h": 23,
+      "stop_starts": 1038
+    },
+    {
+      "segment": "night_shift",
+      "h": 0,
+      "stop_starts": 441
+    },
+    {
+      "segment": "night_shift",
+      "h": 1,
+      "stop_starts": 349
+    },
+    {
+      "segment": "night_shift",
+      "h": 2,
+      "stop_starts": 327
+    },
+    {
+      "segment": "night_shift",
+      "h": 3,
+      "stop_starts": 257
+    },
+    {
+      "segment": "night_shift",
+      "h": 4,
+      "stop_starts": 702
+    },
+    {
+      "segment": "night_shift",
+      "h": 5,
+      "stop_starts": 296
+    },
+    {
+      "segment": "night_shift",
+      "h": 6,
+      "stop_starts": 382
+    },
+    {
+      "segment": "night_shift",
+      "h": 7,
+      "stop_starts": 320
+    },
+    {
+      "segment": "night_shift",
+      "h": 8,
+      "stop_starts": 1009
+    },
+    {
+      "segment": "night_shift",
+      "h": 9,
+      "stop_starts": 312
+    },
+    {
+      "segment": "night_shift",
+      "h": 10,
+      "stop_starts": 294
+    },
+    {
+      "segment": "night_shift",
+      "h": 11,
+      "stop_starts": 291
+    },
+    {
+      "segment": "night_shift",
+      "h": 12,
+      "stop_starts": 354
+    },
+    {
+      "segment": "night_shift",
+      "h": 13,
+      "stop_starts": 404
+    },
+    {
+      "segment": "night_shift",
+      "h": 14,
+      "stop_starts": 389
+    },
+    {
+      "segment": "night_shift",
+      "h": 15,
+      "stop_starts": 367
+    },
+    {
+      "segment": "night_shift",
+      "h": 16,
+      "stop_starts": 412
+    },
+    {
+      "segment": "night_shift",
+      "h": 17,
+      "stop_starts": 431
+    },
+    {
+      "segment": "night_shift",
+      "h": 18,
+      "stop_starts": 543
+    },
+    {
+      "segment": "night_shift",
+      "h": 19,
+      "stop_starts": 550
+    },
+    {
+      "segment": "night_shift",
+      "h": 20,
+      "stop_starts": 506
+    },
+    {
+      "segment": "night_shift",
+      "h": 21,
+      "stop_starts": 523
+    },
+    {
+      "segment": "night_shift",
+      "h": 22,
+      "stop_starts": 539
+    },
+    {
+      "segment": "night_shift",
+      "h": 23,
+      "stop_starts": 455
+    }
+  ],
+  "segment_home_pas": [
+    {
+      "segment": "cbd_commuter",
+      "home_pa": "BEDOK",
+      "devices": 151
+    },
+    {
+      "segment": "cbd_commuter",
+      "home_pa": "SENGKANG",
+      "devices": 129
+    },
+    {
+      "segment": "cbd_commuter",
+      "home_pa": "HOUGANG",
+      "devices": 123
+    },
+    {
+      "segment": "cbd_commuter",
+      "home_pa": "TAMPINES",
+      "devices": 123
+    },
+    {
+      "segment": "cbd_commuter",
+      "home_pa": "YISHUN",
+      "devices": 121
+    },
+    {
+      "segment": "cross_border",
+      "home_pa": "WOODLANDS",
+      "devices": 671
+    },
+    {
+      "segment": "cross_border",
+      "home_pa": "JURONG WEST",
+      "devices": 34
+    },
+    {
+      "segment": "cross_border",
+      "home_pa": "YISHUN",
+      "devices": 31
+    },
+    {
+      "segment": "cross_border",
+      "home_pa": "CHOA CHU KANG",
+      "devices": 22
+    },
+    {
+      "segment": "cross_border",
+      "home_pa": "SEMBAWANG",
+      "devices": 18
+    },
+    {
+      "segment": "homebody",
+      "home_pa": "BEDOK",
+      "devices": 2757
+    },
+    {
+      "segment": "homebody",
+      "home_pa": "GEYLANG",
+      "devices": 1951
+    },
+    {
+      "segment": "homebody",
+      "home_pa": "JURONG WEST",
+      "devices": 1703
+    },
+    {
+      "segment": "homebody",
+      "home_pa": "SENGKANG",
+      "devices": 1671
+    },
+    {
+      "segment": "homebody",
+      "home_pa": "TAMPINES",
+      "devices": 1581
+    },
+    {
+      "segment": "islandwide_rover",
+      "home_pa": "WOODLANDS",
+      "devices": 329
+    },
+    {
+      "segment": "islandwide_rover",
+      "home_pa": "JURONG WEST",
+      "devices": 316
+    },
+    {
+      "segment": "islandwide_rover",
+      "home_pa": "TAMPINES",
+      "devices": 170
+    },
+    {
+      "segment": "islandwide_rover",
+      "home_pa": "YISHUN",
+      "devices": 140
+    },
+    {
+      "segment": "islandwide_rover",
+      "home_pa": "SEMBAWANG",
+      "devices": 133
+    },
+    {
+      "segment": "local_resident",
+      "home_pa": "BEDOK",
+      "devices": 1964
+    },
+    {
+      "segment": "local_resident",
+      "home_pa": "SENGKANG",
+      "devices": 1728
+    },
+    {
+      "segment": "local_resident",
+      "home_pa": "TAMPINES",
+      "devices": 1461
+    },
+    {
+      "segment": "local_resident",
+      "home_pa": "HOUGANG",
+      "devices": 1446
+    },
+    {
+      "segment": "local_resident",
+      "home_pa": "JURONG WEST",
+      "devices": 1403
+    },
+    {
+      "segment": "long_haul_commuter",
+      "home_pa": "WOODLANDS",
+      "devices": 384
+    },
+    {
+      "segment": "long_haul_commuter",
+      "home_pa": "YISHUN",
+      "devices": 298
+    },
+    {
+      "segment": "long_haul_commuter",
+      "home_pa": "JURONG WEST",
+      "devices": 263
+    },
+    {
+      "segment": "long_haul_commuter",
+      "home_pa": "CHOA CHU KANG",
+      "devices": 198
+    },
+    {
+      "segment": "long_haul_commuter",
+      "home_pa": "SEMBAWANG",
+      "devices": 183
+    },
+    {
+      "segment": "night_shift",
+      "home_pa": "TAMPINES",
+      "devices": 41
+    },
+    {
+      "segment": "night_shift",
+      "home_pa": "BEDOK",
+      "devices": 36
+    },
+    {
+      "segment": "night_shift",
+      "home_pa": "SENGKANG",
+      "devices": 35
+    },
+    {
+      "segment": "night_shift",
+      "home_pa": "YISHUN",
+      "devices": 32
+    },
+    {
+      "segment": "night_shift",
+      "home_pa": "JURONG WEST",
+      "devices": 29
+    },
+    {
+      "segment": "school_linked",
+      "home_pa": "CHOA CHU KANG",
+      "devices": 1193
+    },
+    {
+      "segment": "school_linked",
+      "home_pa": "TAMPINES",
+      "devices": 701
+    },
+    {
+      "segment": "school_linked",
+      "home_pa": "SENGKANG",
+      "devices": 646
+    },
+    {
+      "segment": "school_linked",
+      "home_pa": "JURONG WEST",
+      "devices": 588
+    },
+    {
+      "segment": "school_linked",
+      "home_pa": "HOUGANG",
+      "devices": 541
+    },
+    {
+      "segment": "town_commuter",
+      "home_pa": "SENGKANG",
+      "devices": 587
+    },
+    {
+      "segment": "town_commuter",
+      "home_pa": "BEDOK",
+      "devices": 527
+    },
+    {
+      "segment": "town_commuter",
+      "home_pa": "JURONG WEST",
+      "devices": 510
+    },
+    {
+      "segment": "town_commuter",
+      "home_pa": "HOUGANG",
+      "devices": 496
+    },
+    {
+      "segment": "town_commuter",
+      "home_pa": "TAMPINES",
+      "devices": 449
+    },
+    {
+      "segment": "works_near_home",
+      "home_pa": "TAMPINES",
+      "devices": 419
+    },
+    {
+      "segment": "works_near_home",
+      "home_pa": "JURONG WEST",
+      "devices": 378
+    },
+    {
+      "segment": "works_near_home",
+      "home_pa": "BEDOK",
+      "devices": 366
+    },
+    {
+      "segment": "works_near_home",
+      "home_pa": "WOODLANDS",
+      "devices": 323
+    },
+    {
+      "segment": "works_near_home",
+      "home_pa": "SENGKANG",
+      "devices": 320
+    }
+  ],
+  "commuter_mode_context": [
+    {
+      "segment": "works_near_home",
+      "home_area_transit_share": 0.49,
+      "home_area_car_share": 0.24,
+      "avg_observed_mrt_stops": 7.1
+    },
+    {
+      "segment": "homebody",
+      "home_area_transit_share": 0.49,
+      "home_area_car_share": 0.25,
+      "avg_observed_mrt_stops": 1.9
+    },
+    {
+      "segment": "cbd_commuter",
+      "home_area_transit_share": 0.49,
+      "home_area_car_share": 0.25,
+      "avg_observed_mrt_stops": 10.9
+    },
+    {
+      "segment": "long_haul_commuter",
+      "home_area_transit_share": 0.49,
+      "home_area_car_share": 0.23,
+      "avg_observed_mrt_stops": 6.3
+    },
+    {
+      "segment": "town_commuter",
+      "home_area_transit_share": 0.49,
+      "home_area_car_share": 0.25,
+      "avg_observed_mrt_stops": 6.4
+    }
+  ],
+  "tag_overlap_example": [
+    {
+      "segment": "unanchored",
+      "foodie": 0.006,
+      "transit_rider": 0.085,
+      "hawker_regular": 0.007,
+      "night_owl": 0.0,
+      "worked_on_vesak": 0.0
+    },
+    {
+      "segment": "homebody",
+      "foodie": 0.094,
+      "transit_rider": 0.178,
+      "hawker_regular": 0.04,
+      "night_owl": 0.019,
+      "worked_on_vesak": 0.176
+    },
+    {
+      "segment": "local_resident",
+      "foodie": 0.127,
+      "transit_rider": 0.466,
+      "hawker_regular": 0.085,
+      "night_owl": 0.016,
+      "worked_on_vesak": 0.248
+    },
+    {
+      "segment": "town_commuter",
+      "foodie": 0.13,
+      "transit_rider": 0.418,
+      "hawker_regular": 0.093,
+      "night_owl": 0.006,
+      "worked_on_vesak": 0.402
+    },
+    {
+      "segment": "school_linked",
+      "foodie": 0.061,
+      "transit_rider": 0.418,
+      "hawker_regular": 0.071,
+      "night_owl": 0.006,
+      "worked_on_vesak": 0.347
+    },
+    {
+      "segment": "works_near_home",
+      "foodie": 0.164,
+      "transit_rider": 0.626,
+      "hawker_regular": 0.141,
+      "night_owl": 0.016,
+      "worked_on_vesak": 0.19
+    },
+    {
+      "segment": "long_haul_commuter",
+      "foodie": 0.175,
+      "transit_rider": 0.574,
+      "hawker_regular": 0.131,
+      "night_owl": 0.017,
+      "worked_on_vesak": 0.433
+    },
+    {
+      "segment": "likely_tourist",
+      "foodie": 0.085,
+      "transit_rider": 0.364,
+      "hawker_regular": 0.01,
+      "night_owl": 0.01,
+      "worked_on_vesak": 0.01
+    },
+    {
+      "segment": "cross_border",
+      "foodie": 0.069,
+      "transit_rider": 0.242,
+      "hawker_regular": 0.051,
+      "night_owl": 0.005,
+      "worked_on_vesak": 0.115
+    },
+    {
+      "segment": "islandwide_rover",
+      "foodie": 0.118,
+      "transit_rider": 0.423,
+      "hawker_regular": 0.084,
+      "night_owl": 0.008,
+      "worked_on_vesak": 0.128
+    },
+    {
+      "segment": "cbd_commuter",
+      "foodie": 0.241,
+      "transit_rider": 0.749,
+      "hawker_regular": 0.156,
+      "night_owl": 0.029,
+      "worked_on_vesak": 0.462
+    },
+    {
+      "segment": "night_shift",
+      "foodie": 0.19,
+      "transit_rider": 0.532,
+      "hawker_regular": 0.128,
+      "night_owl": 0.031,
+      "worked_on_vesak": 0.177
+    }
+  ]
+}

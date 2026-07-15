@@ -5,7 +5,7 @@ Loads the Overture `place` theme (downloaded via `overturemaps download
 POIs, so hotspots can be referenced to named venues instead of zone centroids.
 
 Tables produced:
-    pois   - named places: name, category leaf, category group, lat/lng, confidence
+    pois   - named places: name, brand, category leaf, category group, lat/lng, confidence
     visits - stops attributed to the nearest POI within ATTRIB_RADIUS_M
 """
 
@@ -15,7 +15,14 @@ import duckdb
 
 from . import ROOT
 
-PLACES_PARQUET = ROOT / "data/overture/places_sg.parquet"
+_LOCAL_DATA = ROOT / "data"
+_MVP_DATA = ROOT.parent / "VectorMobility MVP" / "data"
+PLACES_PARQUET = _LOCAL_DATA / "overture/places_sg.parquet"
+BRAND_TIERS = _LOCAL_DATA / "brand_tiers.csv"
+if not PLACES_PARQUET.exists():
+    PLACES_PARQUET = _MVP_DATA / "overture/places_sg.parquet"
+if not BRAND_TIERS.exists():
+    BRAND_TIERS = _MVP_DATA / "brand_tiers.csv"
 
 MIN_CONFIDENCE = 0.4       # Overture's own POI existence confidence
 ATTRIB_RADIUS_M = 120      # stop centroid must be this close to a POI
@@ -58,6 +65,7 @@ def build_pois(con: duckdb.DuckDBPyConnection) -> None:
         SELECT
           id,
           names."primary"       AS name,
+          brand.names.primary   AS brand,
           categories."primary"  AS category,
           {_category_group_sql('taxonomy.hierarchy[1]')} AS category_group,
           confidence,
@@ -70,6 +78,15 @@ def build_pois(con: duckdb.DuckDBPyConnection) -> None:
           AND coalesce(operating_status, 'open') != 'permanently_closed'
         """
     )
+    if BRAND_TIERS.exists():
+        con.execute(f"""
+            CREATE OR REPLACE TABLE brand_tiers AS
+            SELECT lower(trim(brand_or_name)) AS brand_key, tier::INT AS tier
+            FROM read_csv('{BRAND_TIERS}', header=true)""")
+    else:
+        con.execute("""
+            CREATE OR REPLACE TABLE brand_tiers AS
+            SELECT * FROM (VALUES ('', 0)) t(brand_key, tier) WHERE false""")
 
 
 def build_visits(con: duckdb.DuckDBPyConnection) -> None:
@@ -91,7 +108,7 @@ def build_visits(con: duckdb.DuckDBPyConnection) -> None:
           SELECT
             s.device_id, s.start_ts, s.end_ts, s.dwell_min, s.start_hour, s.dow,
             s.d, s.zone, s.lat AS slat, s.lng AS slng,
-            p.id AS poi_id, p.name, p.category, p.category_group,
+            p.id AS poi_id, p.name, p.brand, p.category, p.category_group,
             hav_m(s.lat, s.lng, p.lat, p.lng) AS dist_m
           FROM s
           JOIN p
@@ -104,6 +121,7 @@ def build_visits(con: duckdb.DuckDBPyConnection) -> None:
           slat AS lat, slng AS lng,
           arg_min(poi_id, dist_m)         AS poi_id,
           arg_min(name, dist_m)           AS poi_name,
+          arg_min(brand, dist_m)          AS poi_brand,
           arg_min(category, dist_m)       AS poi_category,
           arg_min(category_group, dist_m) AS poi_group,
           min(dist_m)                     AS dist_m,

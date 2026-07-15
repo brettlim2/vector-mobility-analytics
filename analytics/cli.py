@@ -14,7 +14,11 @@ def main() -> int:
     b.add_argument(
         "--steps",
         nargs="*",
-        choices=["zones", "pings", "devices", "stops", "trips", "pois", "visits"],
+        choices=[
+            "zones", "pings", "devices", "stops", "trips", "pois", "visits",
+            "context", "stop_pa", "segments", "weights", "purpose", "ses",
+            "acra", "lifestage", "household", "sequences",
+        ],
         help="rebuild only these steps (default: all)",
     )
 

@@ -321,8 +321,10 @@ def export_insights_copy() -> None:
     dest = EXPORT_DIR / "insights"
     dest.mkdir(parents=True, exist_ok=True)
     names = [
-        "profile", "rhythms", "od_flows", "home_work", "poi_insights",
-        "data_quality", "zone_activity", "anomalies", "movement", "dwell",
+        "profile", "rhythms", "hotspots", "zone_activity", "od_flows",
+        "home_work", "movement", "dwell", "anomalies", "pois",
+        "data_quality", "poi_insights", "urban_context", "segments",
+        "affinity", "purpose", "weighted", "uncertainty", "ses", "household",
     ]
     for name in names:
         f = src / f"{name}.json"

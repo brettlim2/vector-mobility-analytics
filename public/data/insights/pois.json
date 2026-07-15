@@ -1,0 +1,756 @@
+{
+  "hourly": [
+    {
+      "zone": "Changi Airport",
+      "h": 0,
+      "devices": 3993
+    },
+    {
+      "zone": "Changi Airport",
+      "h": 1,
+      "devices": 3289
+    },
+    {
+      "zone": "Changi Airport",
+      "h": 2,
+      "devices": 2965
+    },
+    {
+      "zone": "Changi Airport",
+      "h": 3,
+      "devices": 2667
+    },
+    {
+      "zone": "Changi Airport",
+      "h": 4,
+      "devices": 2582
+    },
+    {
+      "zone": "Changi Airport",
+      "h": 5,
+      "devices": 2619
+    },
+    {
+      "zone": "Changi Airport",
+      "h": 6,
+      "devices": 2973
+    },
+    {
+      "zone": "Changi Airport",
+      "h": 7,
+      "devices": 3993
+    },
+    {
+      "zone": "Changi Airport",
+      "h": 8,
+      "devices": 13793
+    },
+    {
+      "zone": "Changi Airport",
+      "h": 9,
+      "devices": 13564
+    },
+    {
+      "zone": "Changi Airport",
+      "h": 10,
+      "devices": 11605
+    },
+    {
+      "zone": "Changi Airport",
+      "h": 11,
+      "devices": 6777
+    },
+    {
+      "zone": "Changi Airport",
+      "h": 12,
+      "devices": 6807
+    },
+    {
+      "zone": "Changi Airport",
+      "h": 13,
+      "devices": 7324
+    },
+    {
+      "zone": "Changi Airport",
+      "h": 14,
+      "devices": 7886
+    },
+    {
+      "zone": "Changi Airport",
+      "h": 15,
+      "devices": 8104
+    },
+    {
+      "zone": "Changi Airport",
+      "h": 16,
+      "devices": 8164
+    },
+    {
+      "zone": "Changi Airport",
+      "h": 17,
+      "devices": 8175
+    },
+    {
+      "zone": "Changi Airport",
+      "h": 18,
+      "devices": 8193
+    },
+    {
+      "zone": "Changi Airport",
+      "h": 19,
+      "devices": 7695
+    },
+    {
+      "zone": "Changi Airport",
+      "h": 20,
+      "devices": 6837
+    },
+    {
+      "zone": "Changi Airport",
+      "h": 21,
+      "devices": 6267
+    },
+    {
+      "zone": "Changi Airport",
+      "h": 22,
+      "devices": 5581
+    },
+    {
+      "zone": "Changi Airport",
+      "h": 23,
+      "devices": 4628
+    },
+    {
+      "zone": "Marina Bay",
+      "h": 0,
+      "devices": 59639
+    },
+    {
+      "zone": "Marina Bay",
+      "h": 1,
+      "devices": 46546
+    },
+    {
+      "zone": "Marina Bay",
+      "h": 2,
+      "devices": 42433
+    },
+    {
+      "zone": "Marina Bay",
+      "h": 3,
+      "devices": 60027
+    },
+    {
+      "zone": "Marina Bay",
+      "h": 4,
+      "devices": 47019
+    },
+    {
+      "zone": "Marina Bay",
+      "h": 5,
+      "devices": 44875
+    },
+    {
+      "zone": "Marina Bay",
+      "h": 6,
+      "devices": 51897
+    },
+    {
+      "zone": "Marina Bay",
+      "h": 7,
+      "devices": 58757
+    },
+    {
+      "zone": "Marina Bay",
+      "h": 8,
+      "devices": 204777
+    },
+    {
+      "zone": "Marina Bay",
+      "h": 9,
+      "devices": 187128
+    },
+    {
+      "zone": "Marina Bay",
+      "h": 10,
+      "devices": 169409
+    },
+    {
+      "zone": "Marina Bay",
+      "h": 11,
+      "devices": 127571
+    },
+    {
+      "zone": "Marina Bay",
+      "h": 12,
+      "devices": 115557
+    },
+    {
+      "zone": "Marina Bay",
+      "h": 13,
+      "devices": 130752
+    },
+    {
+      "zone": "Marina Bay",
+      "h": 14,
+      "devices": 138051
+    },
+    {
+      "zone": "Marina Bay",
+      "h": 15,
+      "devices": 126196
+    },
+    {
+      "zone": "Marina Bay",
+      "h": 16,
+      "devices": 132244
+    },
+    {
+      "zone": "Marina Bay",
+      "h": 17,
+      "devices": 133426
+    },
+    {
+      "zone": "Marina Bay",
+      "h": 18,
+      "devices": 126418
+    },
+    {
+      "zone": "Marina Bay",
+      "h": 19,
+      "devices": 110408
+    },
+    {
+      "zone": "Marina Bay",
+      "h": 20,
+      "devices": 97265
+    },
+    {
+      "zone": "Marina Bay",
+      "h": 21,
+      "devices": 91312
+    },
+    {
+      "zone": "Marina Bay",
+      "h": 22,
+      "devices": 86070
+    },
+    {
+      "zone": "Marina Bay",
+      "h": 23,
+      "devices": 74155
+    },
+    {
+      "zone": "Orchard",
+      "h": 0,
+      "devices": 26808
+    },
+    {
+      "zone": "Orchard",
+      "h": 1,
+      "devices": 20028
+    },
+    {
+      "zone": "Orchard",
+      "h": 2,
+      "devices": 16767
+    },
+    {
+      "zone": "Orchard",
+      "h": 3,
+      "devices": 17187
+    },
+    {
+      "zone": "Orchard",
+      "h": 4,
+      "devices": 14798
+    },
+    {
+      "zone": "Orchard",
+      "h": 5,
+      "devices": 16217
+    },
+    {
+      "zone": "Orchard",
+      "h": 6,
+      "devices": 20884
+    },
+    {
+      "zone": "Orchard",
+      "h": 7,
+      "devices": 30061
+    },
+    {
+      "zone": "Orchard",
+      "h": 8,
+      "devices": 81411
+    },
+    {
+      "zone": "Orchard",
+      "h": 9,
+      "devices": 81629
+    },
+    {
+      "zone": "Orchard",
+      "h": 10,
+      "devices": 76745
+    },
+    {
+      "zone": "Orchard",
+      "h": 11,
+      "devices": 57907
+    },
+    {
+      "zone": "Orchard",
+      "h": 12,
+      "devices": 56388
+    },
+    {
+      "zone": "Orchard",
+      "h": 13,
+      "devices": 56449
+    },
+    {
+      "zone": "Orchard",
+      "h": 14,
+      "devices": 60664
+    },
+    {
+      "zone": "Orchard",
+      "h": 15,
+      "devices": 60906
+    },
+    {
+      "zone": "Orchard",
+      "h": 16,
+      "devices": 63457
+    },
+    {
+      "zone": "Orchard",
+      "h": 17,
+      "devices": 61802
+    },
+    {
+      "zone": "Orchard",
+      "h": 18,
+      "devices": 64895
+    },
+    {
+      "zone": "Orchard",
+      "h": 19,
+      "devices": 59211
+    },
+    {
+      "zone": "Orchard",
+      "h": 20,
+      "devices": 50830
+    },
+    {
+      "zone": "Orchard",
+      "h": 21,
+      "devices": 47378
+    },
+    {
+      "zone": "Orchard",
+      "h": 22,
+      "devices": 42058
+    },
+    {
+      "zone": "Orchard",
+      "h": 23,
+      "devices": 34461
+    },
+    {
+      "zone": "Sentosa",
+      "h": 0,
+      "devices": 2257
+    },
+    {
+      "zone": "Sentosa",
+      "h": 1,
+      "devices": 1898
+    },
+    {
+      "zone": "Sentosa",
+      "h": 2,
+      "devices": 1695
+    },
+    {
+      "zone": "Sentosa",
+      "h": 3,
+      "devices": 1680
+    },
+    {
+      "zone": "Sentosa",
+      "h": 4,
+      "devices": 1455
+    },
+    {
+      "zone": "Sentosa",
+      "h": 5,
+      "devices": 1388
+    },
+    {
+      "zone": "Sentosa",
+      "h": 6,
+      "devices": 1483
+    },
+    {
+      "zone": "Sentosa",
+      "h": 7,
+      "devices": 2125
+    },
+    {
+      "zone": "Sentosa",
+      "h": 8,
+      "devices": 6687
+    },
+    {
+      "zone": "Sentosa",
+      "h": 9,
+      "devices": 7449
+    },
+    {
+      "zone": "Sentosa",
+      "h": 10,
+      "devices": 7333
+    },
+    {
+      "zone": "Sentosa",
+      "h": 11,
+      "devices": 4929
+    },
+    {
+      "zone": "Sentosa",
+      "h": 12,
+      "devices": 4692
+    },
+    {
+      "zone": "Sentosa",
+      "h": 13,
+      "devices": 4773
+    },
+    {
+      "zone": "Sentosa",
+      "h": 14,
+      "devices": 5607
+    },
+    {
+      "zone": "Sentosa",
+      "h": 15,
+      "devices": 5583
+    },
+    {
+      "zone": "Sentosa",
+      "h": 16,
+      "devices": 5681
+    },
+    {
+      "zone": "Sentosa",
+      "h": 17,
+      "devices": 5472
+    },
+    {
+      "zone": "Sentosa",
+      "h": 18,
+      "devices": 5162
+    },
+    {
+      "zone": "Sentosa",
+      "h": 19,
+      "devices": 4832
+    },
+    {
+      "zone": "Sentosa",
+      "h": 20,
+      "devices": 3967
+    },
+    {
+      "zone": "Sentosa",
+      "h": 21,
+      "devices": 3620
+    },
+    {
+      "zone": "Sentosa",
+      "h": 22,
+      "devices": 3222
+    },
+    {
+      "zone": "Sentosa",
+      "h": 23,
+      "devices": 2807
+    },
+    {
+      "zone": "Tuas Checkpoint",
+      "h": 0,
+      "devices": 276
+    },
+    {
+      "zone": "Tuas Checkpoint",
+      "h": 1,
+      "devices": 247
+    },
+    {
+      "zone": "Tuas Checkpoint",
+      "h": 2,
+      "devices": 228
+    },
+    {
+      "zone": "Tuas Checkpoint",
+      "h": 3,
+      "devices": 204
+    },
+    {
+      "zone": "Tuas Checkpoint",
+      "h": 4,
+      "devices": 226
+    },
+    {
+      "zone": "Tuas Checkpoint",
+      "h": 5,
+      "devices": 220
+    },
+    {
+      "zone": "Tuas Checkpoint",
+      "h": 6,
+      "devices": 260
+    },
+    {
+      "zone": "Tuas Checkpoint",
+      "h": 7,
+      "devices": 507
+    },
+    {
+      "zone": "Tuas Checkpoint",
+      "h": 8,
+      "devices": 1751
+    },
+    {
+      "zone": "Tuas Checkpoint",
+      "h": 9,
+      "devices": 1594
+    },
+    {
+      "zone": "Tuas Checkpoint",
+      "h": 10,
+      "devices": 1219
+    },
+    {
+      "zone": "Tuas Checkpoint",
+      "h": 11,
+      "devices": 587
+    },
+    {
+      "zone": "Tuas Checkpoint",
+      "h": 12,
+      "devices": 541
+    },
+    {
+      "zone": "Tuas Checkpoint",
+      "h": 13,
+      "devices": 514
+    },
+    {
+      "zone": "Tuas Checkpoint",
+      "h": 14,
+      "devices": 530
+    },
+    {
+      "zone": "Tuas Checkpoint",
+      "h": 15,
+      "devices": 536
+    },
+    {
+      "zone": "Tuas Checkpoint",
+      "h": 16,
+      "devices": 552
+    },
+    {
+      "zone": "Tuas Checkpoint",
+      "h": 17,
+      "devices": 625
+    },
+    {
+      "zone": "Tuas Checkpoint",
+      "h": 18,
+      "devices": 614
+    },
+    {
+      "zone": "Tuas Checkpoint",
+      "h": 19,
+      "devices": 496
+    },
+    {
+      "zone": "Tuas Checkpoint",
+      "h": 20,
+      "devices": 481
+    },
+    {
+      "zone": "Tuas Checkpoint",
+      "h": 21,
+      "devices": 458
+    },
+    {
+      "zone": "Tuas Checkpoint",
+      "h": 22,
+      "devices": 399
+    },
+    {
+      "zone": "Tuas Checkpoint",
+      "h": 23,
+      "devices": 320
+    },
+    {
+      "zone": "Woodlands Checkpoint",
+      "h": 0,
+      "devices": 10440
+    },
+    {
+      "zone": "Woodlands Checkpoint",
+      "h": 1,
+      "devices": 8234
+    },
+    {
+      "zone": "Woodlands Checkpoint",
+      "h": 2,
+      "devices": 6971
+    },
+    {
+      "zone": "Woodlands Checkpoint",
+      "h": 3,
+      "devices": 6917
+    },
+    {
+      "zone": "Woodlands Checkpoint",
+      "h": 4,
+      "devices": 6464
+    },
+    {
+      "zone": "Woodlands Checkpoint",
+      "h": 5,
+      "devices": 6690
+    },
+    {
+      "zone": "Woodlands Checkpoint",
+      "h": 6,
+      "devices": 7969
+    },
+    {
+      "zone": "Woodlands Checkpoint",
+      "h": 7,
+      "devices": 10925
+    },
+    {
+      "zone": "Woodlands Checkpoint",
+      "h": 8,
+      "devices": 29488
+    },
+    {
+      "zone": "Woodlands Checkpoint",
+      "h": 9,
+      "devices": 27451
+    },
+    {
+      "zone": "Woodlands Checkpoint",
+      "h": 10,
+      "devices": 22935
+    },
+    {
+      "zone": "Woodlands Checkpoint",
+      "h": 11,
+      "devices": 13650
+    },
+    {
+      "zone": "Woodlands Checkpoint",
+      "h": 12,
+      "devices": 13006
+    },
+    {
+      "zone": "Woodlands Checkpoint",
+      "h": 13,
+      "devices": 13139
+    },
+    {
+      "zone": "Woodlands Checkpoint",
+      "h": 14,
+      "devices": 13272
+    },
+    {
+      "zone": "Woodlands Checkpoint",
+      "h": 15,
+      "devices": 13514
+    },
+    {
+      "zone": "Woodlands Checkpoint",
+      "h": 16,
+      "devices": 14002
+    },
+    {
+      "zone": "Woodlands Checkpoint",
+      "h": 17,
+      "devices": 14453
+    },
+    {
+      "zone": "Woodlands Checkpoint",
+      "h": 18,
+      "devices": 15418
+    },
+    {
+      "zone": "Woodlands Checkpoint",
+      "h": 19,
+      "devices": 15400
+    },
+    {
+      "zone": "Woodlands Checkpoint",
+      "h": 20,
+      "devices": 14533
+    },
+    {
+      "zone": "Woodlands Checkpoint",
+      "h": 21,
+      "devices": 14219
+    },
+    {
+      "zone": "Woodlands Checkpoint",
+      "h": 22,
+      "devices": 14038
+    },
+    {
+      "zone": "Woodlands Checkpoint",
+      "h": 23,
+      "devices": 12433
+    }
+  ],
+  "dwell": [
+    {
+      "zone": "Tuas Checkpoint",
+      "devices": 512,
+      "med_dwell_min": 61.3
+    },
+    {
+      "zone": "Sentosa",
+      "devices": 4119,
+      "med_dwell_min": 67.1
+    },
+    {
+      "zone": "Changi Airport",
+      "devices": 7209,
+      "med_dwell_min": 63.7
+    },
+    {
+      "zone": "Woodlands Checkpoint",
+      "devices": 13602,
+      "med_dwell_min": 60.8
+    },
+    {
+      "zone": "Orchard",
+      "devices": 46697,
+      "med_dwell_min": 59.2
+    },
+    {
+      "zone": "Marina Bay",
+      "devices": 60933,
+      "med_dwell_min": 50.1
+    }
+  ]
+}

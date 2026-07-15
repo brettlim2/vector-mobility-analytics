@@ -1,0 +1,133 @@
+{
+  "method": "day-level leave-one-out jackknife over the 7 full days; 95% CI on the mean daily value",
+  "venue_daily_footfall": [
+    {
+      "name": "Neram Crescent Playground",
+      "mean_per_day": 2923.1,
+      "se": 152.2,
+      "ci95_lo": 2624.7,
+      "ci95_hi": 3221.5
+    },
+    {
+      "name": "Richard Math Academy",
+      "mean_per_day": 2871.7,
+      "se": 137.1,
+      "ci95_lo": 2603.0,
+      "ci95_hi": 3140.5
+    },
+    {
+      "name": "Cheng Soon Garden Playground",
+      "mean_per_day": 2428.7,
+      "se": 336.9,
+      "ci95_lo": 1768.5,
+      "ci95_hi": 3089.0
+    },
+    {
+      "name": "Playground, Telok Kurau Park",
+      "mean_per_day": 2274.3,
+      "se": 118.4,
+      "ci95_lo": 2042.2,
+      "ci95_hi": 2506.4
+    },
+    {
+      "name": "Vienna Beauty",
+      "mean_per_day": 2172.9,
+      "se": 293.6,
+      "ci95_lo": 1597.3,
+      "ci95_hi": 2748.4
+    },
+    {
+      "name": "Lake Little Guilin",
+      "mean_per_day": 2029.4,
+      "se": 105.2,
+      "ci95_lo": 1823.2,
+      "ci95_hi": 2235.7
+    },
+    {
+      "name": "Bedok Stadium",
+      "mean_per_day": 1867.1,
+      "se": 719.3,
+      "ci95_lo": 457.4,
+      "ci95_hi": 3276.9
+    },
+    {
+      "name": "Cornerstone Medical Bidadari",
+      "mean_per_day": 1735.0,
+      "se": 317.1,
+      "ci95_lo": 1113.6,
+      "ci95_hi": 2356.4
+    },
+    {
+      "name": "Dynamics Square Singapore",
+      "mean_per_day": 1575.9,
+      "se": 138.9,
+      "ci95_lo": 1303.5,
+      "ci95_hi": 1848.2
+    },
+    {
+      "name": "National Biodiversity Centre",
+      "mean_per_day": 1500.0,
+      "se": 240.9,
+      "ci95_lo": 1027.9,
+      "ci95_hi": 1972.1
+    }
+  ],
+  "corridor_daily_trips": [
+    {
+      "corridor": "Hougang \u2192 Sengkang",
+      "mean_per_day": 635.1,
+      "se": 23.2,
+      "ci95_lo": 589.6,
+      "ci95_hi": 680.7
+    },
+    {
+      "corridor": "Sengkang \u2192 Hougang",
+      "mean_per_day": 595.4,
+      "se": 32.3,
+      "ci95_lo": 532.1,
+      "ci95_hi": 658.7
+    },
+    {
+      "corridor": "Yishun \u2192 Sembawang",
+      "mean_per_day": 510.4,
+      "se": 27.9,
+      "ci95_lo": 455.7,
+      "ci95_hi": 565.1
+    },
+    {
+      "corridor": "Jurong East \u2192 Jurong West",
+      "mean_per_day": 507.7,
+      "se": 23.7,
+      "ci95_lo": 461.2,
+      "ci95_hi": 554.2
+    },
+    {
+      "corridor": "Sembawang \u2192 Yishun",
+      "mean_per_day": 493.9,
+      "se": 30.0,
+      "ci95_lo": 435.0,
+      "ci95_hi": 552.7
+    },
+    {
+      "corridor": "Jurong West \u2192 Jurong East",
+      "mean_per_day": 465.3,
+      "se": 27.9,
+      "ci95_lo": 410.6,
+      "ci95_hi": 520.0
+    },
+    {
+      "corridor": "Serangoon \u2192 Hougang",
+      "mean_per_day": 463.6,
+      "se": 25.2,
+      "ci95_lo": 414.2,
+      "ci95_hi": 512.9
+    },
+    {
+      "corridor": "Bedok \u2192 Tampines",
+      "mean_per_day": 458.7,
+      "se": 25.9,
+      "ci95_lo": 408.0,
+      "ci95_hi": 509.4
+    }
+  ]
+}

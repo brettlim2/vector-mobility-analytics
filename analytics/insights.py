@@ -30,6 +30,34 @@ def one(con: duckdb.DuckDBPyConnection, sql: str) -> dict[str, Any]:
     return r[0] if r else {}
 
 
+def _safe_rows(con: duckdb.DuckDBPyConnection, sql: str) -> list[dict[str, Any]]:
+    try:
+        return rows(con, sql)
+    except Exception:
+        return []
+
+
+def _segment_tags(con) -> list[dict[str, Any]]:
+    base = """
+            SELECT 'foodie' AS tag, count(*) FILTER (tag_foodie) AS devices FROM device_segments
+            UNION ALL SELECT 'shopper', count(*) FILTER (tag_shopper) FROM device_segments
+            UNION ALL SELECT 'active_lifestyle', count(*) FILTER (tag_active_lifestyle) FROM device_segments
+            UNION ALL SELECT 'night_owl', count(*) FILTER (tag_night_owl) FROM device_segments
+            UNION ALL SELECT 'transit_rider', count(*) FILTER (tag_transit_rider) FROM device_segments
+            UNION ALL SELECT 'hawker_regular', count(*) FILTER (tag_hawker_regular) FROM device_segments
+            UNION ALL SELECT 'airport_contact', count(*) FILTER (tag_airport_contact) FROM device_segments
+            UNION ALL SELECT 'worked_on_vesak', count(*) FILTER (tag_worked_on_vesak) FROM device_segments"""
+    life = """
+            UNION ALL SELECT 'young_family', count(*) FILTER (tag_young_family) FROM device_segments
+            UNION ALL SELECT 'school_age_kids', count(*) FILTER (tag_school_age_kids) FROM device_segments
+            UNION ALL SELECT 'student', count(*) FILTER (tag_student) FROM device_segments
+            UNION ALL SELECT 'retiree_like', count(*) FILTER (tag_retiree_like) FROM device_segments"""
+    try:
+        return rows(con, base + life + " ORDER BY devices DESC")
+    except Exception:
+        return rows(con, base + " ORDER BY devices DESC")
+
+
 # ---------------------------------------------------------------- profile
 
 def run_profile(con: duckdb.DuckDBPyConnection | None = None) -> dict:
@@ -367,6 +395,75 @@ def run_anomalies(con) -> dict:
             SELECT ts::DATE AS d, dayname(ts::DATE) AS day,
                    count(DISTINCT device_id) AS devices
             FROM pings GROUP BY 1, 2 ORDER BY 1"""),
+        # v2: burst cell-hours clustered into event objects (2km bin x day),
+        # with visitor origin mix and share of first-time visitors to the site
+        "events": rows(con, f"""
+            WITH hex_hour AS (
+              SELECT gh6, date_trunc('hour', ts) AS hh, hour(ts) AS hod,
+                     count(DISTINCT device_id) AS devices,
+                     round(avg(lat), 5) AS lat, round(avg(lng), 5) AS lng
+              FROM pings GROUP BY 1, 2, 3
+            ),
+            stats AS (
+              SELECT *,
+                     median(devices) OVER (PARTITION BY gh6, hod) AS med,
+                     count(*) OVER (PARTITION BY gh6, hod) AS n_days
+              FROM hex_hour
+            ),
+            bursts AS (
+              SELECT *, round(lat / 0.02) AS by_, round(lng / 0.02) AS bx_,
+                     hh::DATE AS d
+              FROM stats
+              WHERE n_days >= 6 AND med >= {K} AND devices / med >= 2.5 AND devices >= 50
+            ),
+            events AS (
+              SELECT by_, bx_, d,
+                     min(hh) AS first_hour, max(hh) AS last_hour,
+                     count(DISTINCT hh) AS burst_hours,
+                     count(DISTINCT gh6) AS cells,
+                     max(devices) AS peak_devices,
+                     round(max(devices / med), 1) AS peak_uplift,
+                     round(avg(lat), 4) AS lat, round(avg(lng), 4) AS lng
+              FROM bursts
+              GROUP BY 1, 2, 3
+              HAVING count(DISTINCT hh) >= 2 OR max(devices) >= 200
+            ),
+            labelled AS (
+              SELECT e.*, min_by(z.zone, hav_m(e.lat, e.lng, z.zlat, z.zlng)) AS zone
+              FROM events e CROSS JOIN zones z GROUP BY ALL
+            ),
+            -- devices stopping inside each event's footprint during its window
+            event_devices AS (
+              SELECT l.d, l.by_, l.bx_, s.device_id,
+                     min(s.start_ts) AS first_stop_in_event
+              FROM labelled l
+              JOIN stops s
+                ON s.start_ts BETWEEN l.first_hour AND l.last_hour + INTERVAL 1 HOUR
+               AND hav_m(s.lat, s.lng, l.lat, l.lng) <= 1500
+              GROUP BY 1, 2, 3, 4
+            ),
+            prior_visitors AS (
+              SELECT DISTINCT l.d, l.by_, l.bx_, s2.device_id
+              FROM labelled l
+              JOIN stops s2
+                ON s2.d < l.d AND hav_m(s2.lat, s2.lng, l.lat, l.lng) <= 1500
+            ),
+            newcomers AS (
+              SELECT ed.d, ed.by_, ed.bx_,
+                     count(*) AS event_stop_devices,
+                     count(*) FILTER (p.device_id IS NULL) AS first_time_devices
+              FROM event_devices ed
+              LEFT JOIN prior_visitors p USING (d, by_, bx_, device_id)
+              GROUP BY 1, 2, 3
+            )
+            SELECT l.zone, l.d, l.first_hour, l.last_hour, l.burst_hours, l.cells,
+                   l.peak_devices, l.peak_uplift, l.lat, l.lng,
+                   n.event_stop_devices,
+                   round(n.first_time_devices / nullif(n.event_stop_devices, 0)::DOUBLE, 2)
+                     AS first_time_share
+            FROM labelled l
+            LEFT JOIN newcomers n USING (d, by_, bx_)
+            ORDER BY l.peak_uplift DESC LIMIT 15"""),
     }
 
 
@@ -538,6 +635,650 @@ def run_poi_insights(con) -> dict:
     }
 
 
+# ---------------------------------------------------------------- venue affinity
+
+def _visitor_view(con) -> None:
+    con.execute("""
+        CREATE OR REPLACE TEMP TABLE dh_aff AS
+        SELECT device_id, median(lat) AS hlat, median(lng) AS hlng
+        FROM stops
+        WHERE (start_hour >= 21 OR start_hour <= 5) AND dwell_min >= 30
+        GROUP BY 1 HAVING count(*) >= 3""")
+    con.execute("""
+        CREATE OR REPLACE TEMP VIEW vv_aff AS
+        SELECT v.* FROM visits v JOIN dh_aff h USING (device_id)
+        WHERE hav_m(v.lat, v.lng, h.hlat, h.hlng) >= 400""")
+
+
+def run_affinity(con) -> dict:
+    _visitor_view(con)
+    return {
+        # category-pair lift: P(A and B on same device-day) / (P(A) * P(B))
+        "category_lift": rows(con, f"""
+            WITH dd AS (
+              SELECT DISTINCT device_id, d, poi_group FROM vv_aff
+              WHERE poi_group NOT IN ('Other', 'Geographic')
+            ),
+            n_days AS (SELECT count(DISTINCT (device_id, d)) AS n FROM dd),
+            singles AS (
+              SELECT poi_group, count(*) AS days FROM dd GROUP BY 1
+            ),
+            pairs AS (
+              SELECT a.poi_group AS ga, b.poi_group AS gb, count(*) AS both_days
+              FROM dd a JOIN dd b USING (device_id, d)
+              WHERE a.poi_group < b.poi_group
+              GROUP BY 1, 2 HAVING count(*) >= {K * 10}
+            )
+            SELECT p.ga, p.gb, p.both_days,
+                   round(p.both_days * n.n / (sa.days * sb.days::DOUBLE), 2) AS lift
+            FROM pairs p, n_days n
+            JOIN singles sa ON sa.poi_group = p.ga
+            JOIN singles sb ON sb.poi_group = p.gb
+            ORDER BY lift DESC LIMIT 25"""),
+        "brand_lift": rows(con, f"""
+            WITH topb AS (
+              SELECT poi_name FROM vv_aff
+              GROUP BY 1 HAVING count(DISTINCT poi_id) >= 5
+              ORDER BY count(DISTINCT device_id) DESC LIMIT 20
+            ),
+            dd AS (
+              SELECT DISTINCT v.device_id, v.d, v.poi_name
+              FROM vv_aff v JOIN topb USING (poi_name)
+            ),
+            n_days AS (SELECT count(DISTINCT (device_id, d)) AS n FROM dd),
+            singles AS (SELECT poi_name, count(*) AS days FROM dd GROUP BY 1),
+            pairs AS (
+              SELECT a.poi_name AS ba, b.poi_name AS bb, count(*) AS both_days
+              FROM dd a JOIN dd b USING (device_id, d)
+              WHERE a.poi_name < b.poi_name
+              GROUP BY 1, 2 HAVING count(*) >= {K}
+            )
+            SELECT p.ba, p.bb, p.both_days,
+                   round(p.both_days * n.n / (sa.days * sb.days::DOUBLE), 2) AS lift
+            FROM pairs p, n_days n
+            JOIN singles sa ON sa.poi_name = p.ba
+            JOIN singles sb ON sb.poi_name = p.bb
+            ORDER BY lift DESC LIMIT 20"""),
+        # do Singapore's biggest malls share or split their visitors?
+        # A mall's footfall is split across its interior POIs by nearest-POI
+        # attribution, so the mall is defined spatially: any visitor visit
+        # within 150 m of the mall's Overture point.
+        "mall_overlap": rows(con, f"""
+            WITH mall_pois AS (
+              SELECT name, avg(lat) AS lat, avg(lng) AS lng
+              FROM pois
+              WHERE category IN ('shopping_center', 'department_store')
+                AND confidence >= 0.6
+              GROUP BY 1
+            ),
+            mv AS (
+              SELECT DISTINCT m.name, v.device_id
+              FROM vv_aff v JOIN mall_pois m
+                ON abs(v.lat - m.lat) < 0.0015 AND abs(v.lng - m.lng) < 0.0015
+               AND hav_m(v.lat, v.lng, m.lat, m.lng) <= 150
+            ),
+            top_malls AS (
+              SELECT name, count(*) AS devices FROM mv
+              GROUP BY 1 ORDER BY devices DESC LIMIT 12
+            )
+            SELECT a.name AS mall_a, b.name AS mall_b,
+                   count(*) AS shared_devices,
+                   ta.devices AS a_devices, tb.devices AS b_devices,
+                   round(count(*) / least(ta.devices, tb.devices)::DOUBLE, 3) AS overlap_share
+            FROM mv a
+            JOIN mv b USING (device_id)
+            JOIN top_malls ta ON ta.name = a.name
+            JOIN top_malls tb ON tb.name = b.name
+            JOIN mall_pois pa ON pa.name = a.name
+            JOIN mall_pois pb ON pb.name = b.name
+            WHERE a.name < b.name
+              -- different complexes only: duplicate/interior POIs of the same
+              -- mall sit within a few hundred metres of each other
+              AND hav_m(pa.lat, pa.lng, pb.lat, pb.lng) > 500
+            GROUP BY 1, 2, ta.devices, tb.devices
+            HAVING count(*) >= {K}
+            ORDER BY overlap_share DESC LIMIT 15"""),
+    }
+
+
+# ---------------------------------------------------------------- data.gov.sg context
+
+CBD_PAS = "('DOWNTOWN CORE','SINGAPORE RIVER','ORCHARD','MUSEUM','ROCHOR','OUTRAM','NEWTON','RIVER VALLEY')"
+
+
+def run_urban_context(con) -> dict:
+    con.execute("""
+        CREATE OR REPLACE TEMP TABLE device_home2 AS
+        SELECT device_id, median(lat) AS hlat, median(lng) AS hlng, mode(pa) AS home_pa
+        FROM stops
+        WHERE (start_hour >= 21 OR start_hour <= 5) AND dwell_min >= 30
+        GROUP BY 1 HAVING count(*) >= 3""")
+    return {
+        "holiday_effect": {
+            "calendar": rows(con, """
+                SELECT s.d, dayname(s.d) AS day, h.holiday,
+                       count(DISTINCT s.device_id) AS stop_devices,
+                       count(*) AS stops,
+                       round(count(*) FILTER (s.pa IN """ + CBD_PAS + """)
+                             / count(*)::DOUBLE, 3) AS cbd_stop_share
+                FROM stops s LEFT JOIN holidays h ON h.d = s.d
+                GROUP BY 1, 2, 3 ORDER BY 1"""),
+            "jun1_vs_midweek": one(con, """
+                WITH per_day AS (
+                  SELECT d, count(*) AS trips FROM trips GROUP BY 1
+                )
+                SELECT
+                  (SELECT trips FROM per_day WHERE d = DATE '2026-06-01') AS jun1_trips,
+                  round((SELECT avg(trips) FROM per_day
+                         WHERE d BETWEEN DATE '2026-06-02' AND DATE '2026-06-05'), 0) AS midweek_avg_trips"""),
+        },
+        "penetration": rows(con, f"""
+            SELECT p.pa, pop.residents,
+                   count(*) AS home_devices,
+                   round(count(*) / pop.residents::DOUBLE, 4) AS penetration
+            FROM device_home2 h
+            JOIN planning_areas p ON h.home_pa = p.pa
+            JOIN pa_population pop ON pop.pa = p.pa
+            GROUP BY 1, 2
+            HAVING count(*) >= {K}
+            ORDER BY penetration DESC"""),
+        "rain_response": {
+            "hourly_join": rows(con, """
+                WITH act AS (
+                  SELECT date_trunc('hour', ts) AS hh, count(DISTINCT device_id) AS devices
+                  FROM pings WHERE source_type IN ('sdk','app') GROUP BY 1
+                )
+                SELECT r.mm >= 0.5 AS wet, hour(a.hh) AS h,
+                       round(avg(a.devices), 0) AS avg_devices, count(*) AS n_hours
+                FROM act a JOIN rainfall r ON r.hh = a.hh
+                WHERE hour(a.hh) BETWEEN 7 AND 22
+                GROUP BY 1, 2 ORDER BY 2, 1"""),
+            "outdoor_vs_indoor": rows(con, """
+                SELECT r.mm >= 0.5 AS wet,
+                       count(*) FILTER (v.poi_group = 'Sports & Recreation') AS outdoor_visits,
+                       count(*) FILTER (v.poi_group IN ('Shopping', 'Food & Drink')) AS indoor_visits,
+                       count(*) AS all_visits,
+                       count(DISTINCT date_trunc('hour', v.start_ts)) AS n_hours
+                FROM visits v
+                JOIN rainfall r ON r.hh = date_trunc('hour', v.start_ts)
+                WHERE hour(v.start_ts) BETWEEN 7 AND 22
+                GROUP BY 1"""),
+        },
+        "commute_validation": rows(con, """
+            WITH census AS (
+              SELECT workplace_pa, workers,
+                     round((m0_15*7.5 + m16_30*23 + m31_45*38 + m46_60*53 + m60p*75)
+                           / workers, 0) AS census_est_mean_min
+              FROM travel_time ORDER BY workers DESC LIMIT 12
+            ),
+            observed AS (
+              SELECT s.pa AS workplace_pa,
+                     round(median(t.travel_min), 0) AS observed_med_min,
+                     count(*) AS obs_trips
+              FROM trips t
+              JOIN stops s ON s.device_id = t.device_id AND s.start_ts = t.arrive_ts
+              WHERE t.depart_hour BETWEEN 6 AND 9 AND t.dow BETWEEN 1 AND 5
+                AND s.dwell_min >= 120
+              GROUP BY 1
+            )
+            SELECT c.workplace_pa, c.workers AS census_workers,
+                   c.census_est_mean_min, o.observed_med_min, o.obs_trips
+            FROM census c LEFT JOIN observed o USING (workplace_pa)
+            ORDER BY c.workers DESC"""),
+        "hawker_footfall": rows(con, f"""
+            SELECT h.name, any_value(h.stalls) AS stalls,
+                   count(DISTINCT s.device_id) AS visitor_devices,
+                   round(median(s.dwell_min), 1) AS med_dwell_min
+            FROM stops s
+            JOIN hawkers h
+              ON abs(s.lat - h.lat) < 0.0013 AND abs(s.lng - h.lng) < 0.0013
+             AND hav_m(s.lat, s.lng, h.lat, h.lng) <= 120
+            JOIN device_home2 dh ON dh.device_id = s.device_id
+            WHERE s.dwell_min <= 240
+              AND hav_m(s.lat, s.lng, dh.hlat, dh.hlng) >= 400
+            GROUP BY h.name
+            HAVING count(DISTINCT s.device_id) >= {K}
+            ORDER BY visitor_devices DESC LIMIT 20"""),
+            "mrt_station_footfall": rows(con, f"""
+            WITH near AS (
+              SELECT s.device_id, s.dwell_min, e.station,
+                     hav_m(s.lat, s.lng, dh.hlat, dh.hlng) AS home_dist
+              FROM stops s
+              JOIN mrt_exits e
+                ON abs(s.lat - e.lat) < 0.0016 AND abs(s.lng - e.lng) < 0.0016
+               AND hav_m(s.lat, s.lng, e.lat, e.lng) <= 150
+              JOIN device_home2 dh ON dh.device_id = s.device_id
+              WHERE s.dwell_min <= 240
+                AND hav_m(s.lat, s.lng, dh.hlat, dh.hlng) >= 400
+            )
+            SELECT station, count(DISTINCT device_id) AS devices,
+                   round(median(dwell_min), 1) AS med_dwell_min,
+                   round(median(home_dist) / 1000.0, 1) AS med_home_dist_km
+            FROM near GROUP BY 1
+            HAVING count(DISTINCT device_id) >= {K}
+            ORDER BY devices DESC LIMIT 20"""),
+        "ses_validation": _ses_validation(con),
+    }
+
+
+def _ses_validation(con) -> dict:
+    """Ecological SES vs census income by home PA (corr computed in Python)."""
+    try:
+        con.execute("SELECT 1 FROM device_ses LIMIT 1")
+        con.execute("SELECT 1 FROM hh_income LIMIT 1")
+    except Exception:
+        return {"status": "skipped", "reason": "device_ses or hh_income missing"}
+
+    pa_rows = rows(con, f"""
+        WITH observed AS (
+          SELECT s.home_pa AS pa,
+                 count(*) AS devices,
+                 round(avg(s.ses_score), 3) AS mean_ses,
+                 round(median(s.ses_score), 3) AS med_ses,
+                 round(avg(coalesce(w.weight, 1) * s.ses_score)
+                       / nullif(avg(coalesce(w.weight, 1)), 0), 3) AS weighted_mean_ses,
+                 round(count(*) FILTER (s.ses_quintile >= 4)
+                       / count(*)::DOUBLE, 3) AS share_q4q5
+          FROM device_ses s
+          LEFT JOIN device_weights w USING (device_id)
+          GROUP BY 1 HAVING count(*) >= {K}
+        )
+        SELECT o.*, i.census_est_mean_income, i.share_ge_10k, i.share_ge_15k, i.households
+        FROM observed o
+        JOIN hh_income i USING (pa)
+        ORDER BY i.census_est_mean_income DESC""")
+
+    if len(pa_rows) < 5:
+        return {"status": "insufficient_pas", "n": len(pa_rows), "by_pa": pa_rows}
+
+    import math
+
+    def _rank(xs: list[float]) -> list[float]:
+        order = sorted(range(len(xs)), key=lambda i: xs[i])
+        ranks = [0.0] * len(xs)
+        for r, i in enumerate(order, start=1):
+            ranks[i] = float(r)
+        return ranks
+
+    def _pearson(xs: list[float], ys: list[float]) -> float | None:
+        n = len(xs)
+        if n < 3:
+            return None
+        mx = sum(xs) / n
+        my = sum(ys) / n
+        num = sum((x - mx) * (y - my) for x, y in zip(xs, ys))
+        dx = math.sqrt(sum((x - mx) ** 2 for x in xs))
+        dy = math.sqrt(sum((y - my) ** 2 for y in ys))
+        if dx == 0 or dy == 0:
+            return None
+        return round(num / (dx * dy), 3)
+
+    ses = [float(r["mean_ses"]) for r in pa_rows]
+    inc = [float(r["census_est_mean_income"]) for r in pa_rows]
+    pearson = _pearson(ses, inc)
+    spearman = _pearson(_rank(ses), _rank(inc))
+    return {
+        "status": "ok",
+        "n_pas": len(pa_rows),
+        "pearson_mean_ses_vs_census_income": pearson,
+        "spearman_mean_ses_vs_census_income": spearman,
+        "pass_criterion": bool(spearman is not None and spearman > 0.3),
+        "by_pa": pa_rows,
+    }
+
+
+# ---------------------------------------------------------------- device segments
+
+def run_segments(con) -> dict:
+    return {
+        "sizes": rows(con, """
+            SELECT segment, count(*) AS devices,
+                   round(count(*) / (SELECT count(*) FROM device_segments)::DOUBLE, 3) AS share
+            FROM device_segments GROUP BY 1 ORDER BY devices DESC"""),
+        "profiles": rows(con, f"""
+            SELECT s.segment,
+                   count(*) AS devices,
+                   round(median(f.active_days), 1) AS med_active_days,
+                   round(median(f.rog_km), 2) AS med_rog_km,
+                   round(median(f.commute_km), 1) AS med_commute_km,
+                   round(avg(f.night_stop_share), 3) AS avg_night_share,
+                   round(avg(f.weekend_stop_share), 3) AS avg_weekend_share,
+                   round(median(f.trips), 1) AS med_trips,
+                   round(avg(f.visits), 1) AS avg_visits,
+                   round(count(*) FILTER (f.id_type = 'idfa') / count(*)::DOUBLE, 2) AS ios_share
+            FROM device_segments s JOIN device_features f USING (device_id)
+            GROUP BY 1 HAVING count(*) >= {K}
+            ORDER BY devices DESC"""),
+        "tags": _segment_tags(con),
+        "occupation_mix": _safe_rows(con, f"""
+            SELECT occupation_class, count(*) AS devices
+            FROM device_segments
+            WHERE occupation_class IS NOT NULL
+            GROUP BY 1 HAVING count(*) >= {K}
+            ORDER BY devices DESC"""),
+        "segment_hourly": rows(con, """
+            SELECT g.segment, st.start_hour AS h, count(*) AS stop_starts
+            FROM stops st
+            JOIN device_segments g USING (device_id)
+            WHERE g.segment IN ('cbd_commuter', 'night_shift', 'likely_tourist',
+                                'homebody', 'cross_border')
+              AND st.dow BETWEEN 1 AND 5
+            GROUP BY 1, 2 ORDER BY 1, 2"""),
+        "segment_home_pas": rows(con, f"""
+            WITH ranked AS (
+              SELECT segment, home_pa, count(*) AS devices,
+                     row_number() OVER (PARTITION BY segment ORDER BY count(*) DESC) AS rk
+              FROM device_segments
+              WHERE home_pa IS NOT NULL
+              GROUP BY 1, 2 HAVING count(*) >= {K}
+            )
+            SELECT segment, home_pa, devices FROM ranked
+            WHERE rk <= 5 ORDER BY segment, devices DESC"""),
+        "commuter_mode_context": rows(con, f"""
+            -- area-level census mode share of each segment's home areas (ecological
+            -- context: describes the areas these devices sleep in, not individuals)
+            SELECT s.segment,
+                   round(sum(m.public_transit * 1.0) / sum(m.workers), 2) AS home_area_transit_share,
+                   round(sum(m.car * 1.0) / sum(m.workers), 2) AS home_area_car_share,
+                   round(avg(f.mrt_stops), 1) AS avg_observed_mrt_stops
+            FROM device_segments s
+            JOIN device_features f USING (device_id)
+            JOIN mode_share m ON m.pa = s.home_pa
+            WHERE s.segment IN ('cbd_commuter', 'long_haul_commuter', 'town_commuter',
+                                'works_near_home', 'homebody')
+            GROUP BY 1 HAVING count(*) >= {K}"""),
+        "tag_overlap_example": rows(con, f"""
+            SELECT segment,
+                   round(count(*) FILTER (tag_foodie) / count(*)::DOUBLE, 3) AS foodie,
+                   round(count(*) FILTER (tag_transit_rider) / count(*)::DOUBLE, 3) AS transit_rider,
+                   round(count(*) FILTER (tag_hawker_regular) / count(*)::DOUBLE, 3) AS hawker_regular,
+                   round(count(*) FILTER (tag_night_owl) / count(*)::DOUBLE, 3) AS night_owl,
+                   round(count(*) FILTER (tag_worked_on_vesak) / count(*)::DOUBLE, 3) AS worked_on_vesak
+            FROM device_segments
+            GROUP BY 1 HAVING count(*) >= {K * 20}
+            ORDER BY count(*) DESC"""),
+    }
+
+
+# ---------------------------------------------------------------- trip purpose & tours
+
+def run_purpose(con) -> dict:
+    return {
+        "purpose_by_hour": rows(con, """
+            SELECT depart_hour AS h,
+                   CASE WHEN dow IN (0,6) THEN 'weekend' ELSE 'weekday' END AS daytype,
+                   purpose, count(*) AS trips
+            FROM trip_purpose
+            WHERE purpose != 'other'
+            GROUP BY 1, 2, 3 ORDER BY 2, 1"""),
+        "purpose_mix": rows(con, """
+            SELECT purpose, count(*) AS trips,
+                   round(count(*) / (SELECT count(*) FROM trip_purpose)::DOUBLE, 3) AS trip_share,
+                   round(median(dist_km), 2) AS med_dist_km,
+                   round(median(travel_min), 1) AS med_travel_min
+            FROM trip_purpose GROUP BY 1 ORDER BY trips DESC"""),
+        "corridor_purpose": rows(con, f"""
+            WITH top_corr AS (
+              SELECT o_zone, d_zone FROM trips
+              WHERE o_zone != d_zone
+              GROUP BY 1, 2 ORDER BY count(*) DESC LIMIT 8
+            )
+            SELECT t.o_zone, t.d_zone, t.purpose, count(*) AS trips
+            FROM trip_purpose t JOIN top_corr USING (o_zone, d_zone)
+            WHERE t.purpose NOT IN ('other')
+            GROUP BY 1, 2, 3 HAVING count(*) >= {K}
+            ORDER BY 1, 2, trips DESC"""),
+        "holiday_work_check": one(con, """
+            WITH daily AS (
+              SELECT d, count(*) FILTER (purpose = 'work') AS work_trips FROM trip_purpose GROUP BY 1
+            )
+            SELECT
+              (SELECT work_trips FROM daily WHERE d = DATE '2026-06-01') AS vesak_work_trips,
+              round((SELECT avg(work_trips) FROM daily
+                     WHERE d BETWEEN DATE '2026-06-02' AND DATE '2026-06-05'), 0) AS midweek_avg"""),
+        "tours_by_segment": rows(con, f"""
+            SELECT g.segment, count(*) AS tours,
+                   round(avg(t.legs), 2) AS avg_legs,
+                   round(count(*) FILTER (t.tour_type = 'simple_commute')
+                         / count(*)::DOUBLE, 3) AS simple_commute_share,
+                   round(count(*) FILTER (t.tour_type IN ('commute_plus', 'complex'))
+                         / count(*)::DOUBLE, 3) AS multi_stop_share
+            FROM tours t JOIN device_segments g USING (device_id)
+            WHERE g.segment != 'unanchored'
+            GROUP BY 1 HAVING count(*) >= {K * 10}
+            ORDER BY tours DESC"""),
+        "tour_types": rows(con, """
+            SELECT tour_type, count(*) AS tours, round(avg(legs), 2) AS avg_legs
+            FROM tours GROUP BY 1 ORDER BY tours DESC"""),
+    }
+
+
+# ---------------------------------------------------------------- weighted estimates
+
+def run_weighted(con) -> dict:
+    return {
+        "weighted_totals": one(con, """
+            SELECT count(*) AS weighted_devices, round(sum(weight)) AS estimated_population
+            FROM device_weights"""),
+        "segment_shares": rows(con, f"""
+            SELECT s.segment,
+                   count(*) AS panel_devices,
+                   round(count(*) / sum(count(*)) OVER (), 3) AS panel_share,
+                   round(sum(w.weight)) AS weighted_pop,
+                   round(sum(w.weight) / sum(sum(w.weight)) OVER (), 3) AS weighted_share
+            FROM device_segments s JOIN device_weights w USING (device_id)
+            WHERE s.segment != 'unanchored'
+            GROUP BY 1 HAVING count(*) >= {K}
+            ORDER BY weighted_pop DESC"""),
+        "weighted_od": rows(con, f"""
+            SELECT t.o_zone, t.d_zone,
+                   count(*) AS panel_trips,
+                   round(sum(w.weight)) AS weighted_trips
+            FROM trips t JOIN device_weights w USING (device_id)
+            WHERE t.o_zone != t.d_zone
+            GROUP BY 1, 2 HAVING count(DISTINCT t.device_id) >= {K}
+            ORDER BY weighted_trips DESC LIMIT 20"""),
+        "dwelling_mix": rows(con, f"""
+            SELECT s.home_dwelling,
+                   count(*) AS panel_devices,
+                   round(sum(w.weight)) AS weighted_pop,
+                   round(sum(w.weight) / sum(sum(w.weight)) OVER (), 3) AS weighted_share
+            FROM device_segments s JOIN device_weights w USING (device_id)
+            GROUP BY 1 HAVING count(*) >= {K}
+            ORDER BY weighted_pop DESC"""),
+        # out-of-sample check: weights calibrated on Tue-Thu (Jun 2-4), applied
+        # to the held-out Friday (Jun 5) — does the corrected agg shape match
+        # Friday's sdk/app shape?
+        "feed_correction_check": rows(con, """
+            WITH cal AS (
+              SELECT hour(ts) AS h,
+                     count(DISTINCT device_id) FILTER (source_type = 'agg') AS agg_dev,
+                     count(DISTINCT device_id) FILTER (source_type IN ('sdk','app')) AS sdk_dev
+              FROM pings
+              WHERE ts::DATE BETWEEN DATE '2026-06-02' AND DATE '2026-06-04'
+              GROUP BY 1
+            ),
+            w AS (
+              SELECT h, (sdk_dev / sum(sdk_dev) OVER ())
+                       / (agg_dev / sum(agg_dev) OVER ()) AS weight
+              FROM cal
+            ),
+            test AS (
+              SELECT hour(ts) AS h,
+                     count(DISTINCT device_id) FILTER (source_type = 'agg') AS agg_dev,
+                     count(DISTINCT device_id) FILTER (source_type IN ('sdk','app')) AS sdk_dev
+              FROM pings WHERE ts::DATE = DATE '2026-06-05'
+              GROUP BY 1
+            ),
+            shares AS (
+              SELECT t.h,
+                     (t.agg_dev * w.weight) / sum(t.agg_dev * w.weight) OVER () AS agg_corr_share,
+                     t.agg_dev / sum(t.agg_dev) OVER () AS agg_raw_share,
+                     t.sdk_dev / sum(t.sdk_dev) OVER () AS sdk_share
+              FROM test t JOIN w USING (h)
+            )
+            SELECT 'holdout_friday' AS test_day,
+                   round(max(abs(agg_raw_share - sdk_share) / sdk_share), 3) AS max_dev_uncorrected,
+                   round(max(abs(agg_corr_share - sdk_share) / sdk_share), 3) AS max_dev_corrected,
+                   round(avg(abs(agg_raw_share - sdk_share) / sdk_share), 3) AS mean_dev_uncorrected,
+                   round(avg(abs(agg_corr_share - sdk_share) / sdk_share), 3) AS mean_dev_corrected
+            FROM shares"""),
+    }
+
+
+# ---------------------------------------------------------------- uncertainty
+
+def _jackknife(day_values: list[float]) -> dict:
+    """Day-level leave-one-out jackknife for the mean daily value."""
+    import math
+    n = len(day_values)
+    total = sum(day_values)
+    loo = [(total - v) / (n - 1) for v in day_values]
+    mean_loo = sum(loo) / n
+    se = math.sqrt((n - 1) / n * sum((x - mean_loo) ** 2 for x in loo))
+    mean = total / n
+    return {"mean_per_day": round(mean, 1), "se": round(se, 1),
+            "ci95_lo": round(mean - 1.96 * se, 1), "ci95_hi": round(mean + 1.96 * se, 1)}
+
+
+def run_uncertainty(con) -> dict:
+    # Only full days (Jun 1-7); Jun 8 is partial. Jun 1 is a holiday and is
+    # deliberately kept: the CI absorbs real day-to-day variation.
+    venue_days = rows(con, f"""
+        WITH top AS (
+          SELECT poi_id FROM visits GROUP BY 1
+          ORDER BY count(DISTINCT device_id) DESC LIMIT 10
+        )
+        SELECT any_value(v.poi_name) AS name, v.d, count(DISTINCT v.device_id) AS devices
+        FROM visits v JOIN top USING (poi_id)
+        WHERE v.d BETWEEN DATE '2026-06-01' AND DATE '2026-06-07'
+        GROUP BY v.poi_id, v.d""")
+    corridor_days = rows(con, f"""
+        WITH top AS (
+          SELECT o_zone, d_zone FROM trips WHERE o_zone != d_zone
+          GROUP BY 1, 2 ORDER BY count(*) DESC LIMIT 8
+        )
+        SELECT t.o_zone || ' → ' || t.d_zone AS corridor, t.d, count(*) AS trips
+        FROM trips t JOIN top USING (o_zone, d_zone)
+        WHERE t.d BETWEEN DATE '2026-06-01' AND DATE '2026-06-07'
+        GROUP BY 1, 2""")
+
+    def collect(recs, key, val):
+        out: dict[str, list[float]] = {}
+        for r in recs:
+            out.setdefault(r[key], []).append(float(r[val]))
+        return {k: _jackknife(v) for k, v in out.items() if len(v) == 7}
+
+    return {
+        "method": "day-level leave-one-out jackknife over the 7 full days; "
+                  "95% CI on the mean daily value",
+        "venue_daily_footfall": [
+            {"name": k, **v} for k, v in sorted(
+                collect(venue_days, "name", "devices").items(),
+                key=lambda kv: -kv[1]["mean_per_day"])],
+        "corridor_daily_trips": [
+            {"corridor": k, **v} for k, v in sorted(
+                collect(corridor_days, "corridor", "trips").items(),
+                key=lambda kv: -kv[1]["mean_per_day"])],
+    }
+
+
+# ---------------------------------------------------------------- SES / household / occupation exports
+
+def run_ses(con) -> dict:
+    try:
+        con.execute("SELECT 1 FROM device_ses LIMIT 1")
+    except Exception:
+        return {"status": "skipped", "reason": "device_ses missing — run build --steps ses"}
+
+    return {
+        "quintile_sizes": rows(con, f"""
+            SELECT ses_quintile, count(*) AS devices,
+                   round(avg(ses_score), 3) AS mean_score,
+                   round(median(home_value), 0) AS med_home_value,
+                   round(avg(is_ios), 3) AS ios_share,
+                   round(avg(mean_tier), 2) AS mean_brand_tier
+            FROM device_ses
+            GROUP BY 1 HAVING count(*) >= {K}
+            ORDER BY 1"""),
+        "dwelling_by_quintile": rows(con, f"""
+            SELECT ses_quintile, dwelling, count(*) AS devices
+            FROM device_ses
+            GROUP BY 1, 2 HAVING count(*) >= {K}
+            ORDER BY 1, devices DESC"""),
+        "pa_ses_mix": rows(con, f"""
+            SELECT home_pa,
+                   count(*) AS devices,
+                   round(avg(ses_score), 3) AS mean_ses,
+                   round(median(ses_quintile), 1) AS med_quintile,
+                   round(count(*) FILTER (ses_quintile >= 4) / count(*)::DOUBLE, 3) AS share_q4q5
+            FROM device_ses
+            GROUP BY 1 HAVING count(*) >= {K}
+            ORDER BY mean_ses DESC"""),
+        "segment_x_ses": rows(con, f"""
+            SELECT g.segment, s.ses_quintile, count(*) AS devices
+            FROM device_ses s
+            JOIN device_segments g USING (device_id)
+            GROUP BY 1, 2 HAVING count(*) >= {K}
+            ORDER BY 1, 2"""),
+        "validation": _ses_validation(con),
+    }
+
+
+def run_household(con) -> dict:
+    """Distributions only — never export device pairs."""
+    try:
+        con.execute("SELECT 1 FROM home_cell_occupancy LIMIT 1")
+    except Exception:
+        return {"status": "skipped", "reason": "household tables missing"}
+
+    out = {
+        "privacy": "distributions_only_no_pairs",
+        "min_k": K,
+        "household_size_distribution": rows(con, f"""
+            SELECT household_size_band, n_home_cells, n_devices, n_with_work
+            FROM household_cohorts
+            WHERE n_home_cells >= {K}
+            ORDER BY household_size_band"""),
+        "single_vs_multi": one(con, f"""
+            SELECT
+              count(*) FILTER (n_devices = 1) AS single_device_homes,
+              count(*) FILTER (n_devices >= 2) AS multi_device_homes,
+              round(count(*) FILTER (n_devices >= 2)
+                    / nullif(count(*), 0)::DOUBLE, 3) AS multi_share
+            FROM home_cell_occupancy
+            WHERE n_devices >= 1"""),
+        "dual_income_proxy": one(con, """
+            SELECT
+              count(*) FILTER (n_devices >= 2 AND n_with_work >= 2) AS dual_work_homes,
+              count(*) FILTER (n_devices >= 2) AS multi_homes,
+              round(count(*) FILTER (n_devices >= 2 AND n_with_work >= 2)
+                    / nullif(count(*) FILTER (n_devices >= 2), 0)::DOUBLE, 3)
+                AS dual_income_share_among_multi
+            FROM home_cell_occupancy"""),
+    }
+    try:
+        out["weekend_comove_rate"] = one(con, f"""
+            SELECT count(*) AS likely_household_pairs,
+                   count(*) FILTER (co_weekend_days >= 1) AS weekend_comove_pairs,
+                   round(count(*) FILTER (co_weekend_days >= 1)
+                         / nullif(count(*), 0)::DOUBLE, 3) AS weekend_comove_share
+            FROM household_pairs""")
+        out["colleague_work_pa_dist"] = rows(con, f"""
+            SELECT work_pa, count(*) AS colleague_pair_count
+            FROM colleague_pairs
+            GROUP BY 1 HAVING count(*) >= {K}
+            ORDER BY colleague_pair_count DESC LIMIT 20""")
+        out["acra_industry_mix"] = _safe_rows(con, f"""
+            SELECT industry_label, count(*) AS devices
+            FROM acra_work_industry
+            GROUP BY 1 HAVING count(*) >= {K}
+            ORDER BY devices DESC LIMIT 15""")
+    except Exception as e:
+        out["pair_stats_error"] = str(e)
+    return out
+
+
 # ---------------------------------------------------------------- runner
 
 ANALYSES: dict[str, Callable] = {
@@ -553,6 +1294,14 @@ ANALYSES: dict[str, Callable] = {
     "pois": run_pois,
     "data_quality": run_data_quality,
     "poi_insights": run_poi_insights,
+    "urban_context": run_urban_context,
+    "segments": run_segments,
+    "affinity": run_affinity,
+    "purpose": run_purpose,
+    "weighted": run_weighted,
+    "uncertainty": run_uncertainty,
+    "ses": run_ses,
+    "household": run_household,
 }
 
 

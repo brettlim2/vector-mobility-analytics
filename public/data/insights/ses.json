@@ -1,0 +1,1165 @@
+{
+  "quintile_sizes": [
+    {
+      "ses_quintile": 1,
+      "devices": 18945,
+      "mean_score": -0.74,
+      "med_home_value": 250000.0,
+      "ios_share": 0.205,
+      "mean_brand_tier": 2.6
+    },
+    {
+      "ses_quintile": 2,
+      "devices": 18945,
+      "mean_score": -0.313,
+      "med_home_value": 250000.0,
+      "ios_share": 0.262,
+      "mean_brand_tier": 2.74
+    },
+    {
+      "ses_quintile": 3,
+      "devices": 18945,
+      "mean_score": 0.004,
+      "med_home_value": 575000.0,
+      "ios_share": 0.201,
+      "mean_brand_tier": 2.88
+    },
+    {
+      "ses_quintile": 4,
+      "devices": 18945,
+      "mean_score": 0.249,
+      "med_home_value": 645000.0,
+      "ios_share": 0.359,
+      "mean_brand_tier": 3.0
+    },
+    {
+      "ses_quintile": 5,
+      "devices": 18944,
+      "mean_score": 0.799,
+      "med_home_value": 1450000.0,
+      "ios_share": 0.465,
+      "mean_brand_tier": 3.14
+    }
+  ],
+  "dwelling_by_quintile": [
+    {
+      "ses_quintile": 1,
+      "dwelling": "other",
+      "devices": 8893
+    },
+    {
+      "ses_quintile": 1,
+      "dwelling": "hdb",
+      "devices": 5913
+    },
+    {
+      "ses_quintile": 1,
+      "dwelling": "industrial_dorm_like",
+      "devices": 2975
+    },
+    {
+      "ses_quintile": 1,
+      "dwelling": "campus",
+      "devices": 789
+    },
+    {
+      "ses_quintile": 1,
+      "dwelling": "hotel_area",
+      "devices": 335
+    },
+    {
+      "ses_quintile": 1,
+      "dwelling": "private_residential",
+      "devices": 40
+    },
+    {
+      "ses_quintile": 2,
+      "dwelling": "other",
+      "devices": 10695
+    },
+    {
+      "ses_quintile": 2,
+      "dwelling": "hdb",
+      "devices": 7909
+    },
+    {
+      "ses_quintile": 2,
+      "dwelling": "private_residential",
+      "devices": 220
+    },
+    {
+      "ses_quintile": 2,
+      "dwelling": "industrial_dorm_like",
+      "devices": 85
+    },
+    {
+      "ses_quintile": 2,
+      "dwelling": "campus",
+      "devices": 21
+    },
+    {
+      "ses_quintile": 2,
+      "dwelling": "hotel_area",
+      "devices": 15
+    },
+    {
+      "ses_quintile": 3,
+      "dwelling": "hdb",
+      "devices": 17019
+    },
+    {
+      "ses_quintile": 3,
+      "dwelling": "other",
+      "devices": 1292
+    },
+    {
+      "ses_quintile": 3,
+      "dwelling": "private_residential",
+      "devices": 610
+    },
+    {
+      "ses_quintile": 3,
+      "dwelling": "campus",
+      "devices": 12
+    },
+    {
+      "ses_quintile": 3,
+      "dwelling": "industrial_dorm_like",
+      "devices": 7
+    },
+    {
+      "ses_quintile": 4,
+      "dwelling": "hdb",
+      "devices": 15991
+    },
+    {
+      "ses_quintile": 4,
+      "dwelling": "private_residential",
+      "devices": 2177
+    },
+    {
+      "ses_quintile": 4,
+      "dwelling": "other",
+      "devices": 753
+    },
+    {
+      "ses_quintile": 4,
+      "dwelling": "landed",
+      "devices": 23
+    },
+    {
+      "ses_quintile": 5,
+      "dwelling": "private_residential",
+      "devices": 12081
+    },
+    {
+      "ses_quintile": 5,
+      "dwelling": "hdb",
+      "devices": 4678
+    },
+    {
+      "ses_quintile": 5,
+      "dwelling": "landed",
+      "devices": 2051
+    },
+    {
+      "ses_quintile": 5,
+      "dwelling": "other",
+      "devices": 134
+    }
+  ],
+  "pa_ses_mix": [
+    {
+      "home_pa": "RIVER VALLEY",
+      "devices": 365,
+      "mean_ses": 0.629,
+      "med_quintile": 5.0,
+      "share_q4q5": 0.77
+    },
+    {
+      "home_pa": "TANGLIN",
+      "devices": 767,
+      "mean_ses": 0.591,
+      "med_quintile": 5.0,
+      "share_q4q5": 0.623
+    },
+    {
+      "home_pa": "BUKIT TIMAH",
+      "devices": 2697,
+      "mean_ses": 0.546,
+      "med_quintile": 5.0,
+      "share_q4q5": 0.582
+    },
+    {
+      "home_pa": "SOUTHERN ISLANDS",
+      "devices": 156,
+      "mean_ses": 0.368,
+      "med_quintile": 3.0,
+      "share_q4q5": 0.494
+    },
+    {
+      "home_pa": "MARINE PARADE",
+      "devices": 906,
+      "mean_ses": 0.225,
+      "med_quintile": 4.0,
+      "share_q4q5": 0.525
+    },
+    {
+      "home_pa": "BISHAN",
+      "devices": 1412,
+      "mean_ses": 0.219,
+      "med_quintile": 4.0,
+      "share_q4q5": 0.645
+    },
+    {
+      "home_pa": "PASIR RIS",
+      "devices": 3238,
+      "mean_ses": 0.211,
+      "med_quintile": 4.0,
+      "share_q4q5": 0.659
+    },
+    {
+      "home_pa": "BUKIT MERAH",
+      "devices": 2943,
+      "mean_ses": 0.157,
+      "med_quintile": 4.0,
+      "share_q4q5": 0.631
+    },
+    {
+      "home_pa": "MANDAI",
+      "devices": 88,
+      "mean_ses": 0.107,
+      "med_quintile": 3.0,
+      "share_q4q5": 0.443
+    },
+    {
+      "home_pa": "TAMPINES",
+      "devices": 5120,
+      "mean_ses": 0.084,
+      "med_quintile": 4.0,
+      "share_q4q5": 0.559
+    },
+    {
+      "home_pa": "NOVENA",
+      "devices": 1497,
+      "mean_ses": 0.079,
+      "med_quintile": 3.0,
+      "share_q4q5": 0.424
+    },
+    {
+      "home_pa": "BEDOK",
+      "devices": 6604,
+      "mean_ses": 0.079,
+      "med_quintile": 3.0,
+      "share_q4q5": 0.412
+    },
+    {
+      "home_pa": "SENGKANG",
+      "devices": 5343,
+      "mean_ses": 0.06,
+      "med_quintile": 4.0,
+      "share_q4q5": 0.524
+    },
+    {
+      "home_pa": "TOA PAYOH",
+      "devices": 3094,
+      "mean_ses": 0.052,
+      "med_quintile": 4.0,
+      "share_q4q5": 0.522
+    },
+    {
+      "home_pa": "CLEMENTI",
+      "devices": 1788,
+      "mean_ses": 0.049,
+      "med_quintile": 3.0,
+      "share_q4q5": 0.378
+    },
+    {
+      "home_pa": "JURONG WEST",
+      "devices": 5319,
+      "mean_ses": 0.042,
+      "med_quintile": 3.0,
+      "share_q4q5": 0.367
+    },
+    {
+      "home_pa": "HOUGANG",
+      "devices": 4572,
+      "mean_ses": 0.029,
+      "med_quintile": 4.0,
+      "share_q4q5": 0.508
+    },
+    {
+      "home_pa": "NEWTON",
+      "devices": 488,
+      "mean_ses": 0.027,
+      "med_quintile": 2.0,
+      "share_q4q5": 0.389
+    },
+    {
+      "home_pa": "SERANGOON",
+      "devices": 2882,
+      "mean_ses": 0.023,
+      "med_quintile": 3.0,
+      "share_q4q5": 0.442
+    },
+    {
+      "home_pa": "SEMBAWANG",
+      "devices": 2209,
+      "mean_ses": 0.014,
+      "med_quintile": 3.0,
+      "share_q4q5": 0.414
+    },
+    {
+      "home_pa": "PUNGGOL",
+      "devices": 3244,
+      "mean_ses": 0.014,
+      "med_quintile": 3.0,
+      "share_q4q5": 0.473
+    },
+    {
+      "home_pa": "BUKIT PANJANG",
+      "devices": 2555,
+      "mean_ses": 0.003,
+      "med_quintile": 3.0,
+      "share_q4q5": 0.372
+    },
+    {
+      "home_pa": "BUKIT BATOK",
+      "devices": 3209,
+      "mean_ses": -0.016,
+      "med_quintile": 3.0,
+      "share_q4q5": 0.32
+    },
+    {
+      "home_pa": "WOODLANDS",
+      "devices": 5075,
+      "mean_ses": -0.031,
+      "med_quintile": 3.0,
+      "share_q4q5": 0.31
+    },
+    {
+      "home_pa": "YISHUN",
+      "devices": 4361,
+      "mean_ses": -0.035,
+      "med_quintile": 3.0,
+      "share_q4q5": 0.293
+    },
+    {
+      "home_pa": "ANG MO KIO",
+      "devices": 2879,
+      "mean_ses": -0.038,
+      "med_quintile": 3.0,
+      "share_q4q5": 0.323
+    },
+    {
+      "home_pa": "TENGAH",
+      "devices": 73,
+      "mean_ses": -0.071,
+      "med_quintile": 3.0,
+      "share_q4q5": 0.178
+    },
+    {
+      "home_pa": "QUEENSTOWN",
+      "devices": 2339,
+      "mean_ses": -0.073,
+      "med_quintile": 3.0,
+      "share_q4q5": 0.411
+    },
+    {
+      "home_pa": "KALLANG",
+      "devices": 2210,
+      "mean_ses": -0.078,
+      "med_quintile": 3.0,
+      "share_q4q5": 0.279
+    },
+    {
+      "home_pa": "CHOA CHU KANG",
+      "devices": 4001,
+      "mean_ses": -0.106,
+      "med_quintile": 3.0,
+      "share_q4q5": 0.242
+    },
+    {
+      "home_pa": "JURONG EAST",
+      "devices": 1899,
+      "mean_ses": -0.137,
+      "med_quintile": 3.0,
+      "share_q4q5": 0.217
+    },
+    {
+      "home_pa": "GEYLANG",
+      "devices": 3941,
+      "mean_ses": -0.147,
+      "med_quintile": 2.0,
+      "share_q4q5": 0.259
+    },
+    {
+      "home_pa": "ROCHOR",
+      "devices": 678,
+      "mean_ses": -0.163,
+      "med_quintile": 3.0,
+      "share_q4q5": 0.372
+    },
+    {
+      "home_pa": "SINGAPORE RIVER",
+      "devices": 277,
+      "mean_ses": -0.178,
+      "med_quintile": 2.0,
+      "share_q4q5": 0.321
+    },
+    {
+      "home_pa": "MUSEUM",
+      "devices": 416,
+      "mean_ses": -0.263,
+      "med_quintile": 2.0,
+      "share_q4q5": 0.079
+    },
+    {
+      "home_pa": "SIMPANG",
+      "devices": 16,
+      "mean_ses": -0.272,
+      "med_quintile": 2.0,
+      "share_q4q5": 0.0
+    },
+    {
+      "home_pa": "CENTRAL WATER CATCHMENT",
+      "devices": 555,
+      "mean_ses": -0.32,
+      "med_quintile": 2.0,
+      "share_q4q5": 0.063
+    },
+    {
+      "home_pa": "LIM CHU KANG",
+      "devices": 14,
+      "mean_ses": -0.327,
+      "med_quintile": 2.0,
+      "share_q4q5": 0.071
+    },
+    {
+      "home_pa": "SELETAR",
+      "devices": 146,
+      "mean_ses": -0.383,
+      "med_quintile": 2.0,
+      "share_q4q5": 0.082
+    },
+    {
+      "home_pa": "NORTH-EASTERN ISLANDS",
+      "devices": 29,
+      "mean_ses": -0.409,
+      "med_quintile": 1.0,
+      "share_q4q5": 0.103
+    },
+    {
+      "home_pa": "OUTRAM",
+      "devices": 727,
+      "mean_ses": -0.445,
+      "med_quintile": 1.0,
+      "share_q4q5": 0.188
+    },
+    {
+      "home_pa": "MARINA EAST",
+      "devices": 6,
+      "mean_ses": -0.468,
+      "med_quintile": 1.5,
+      "share_q4q5": 0.0
+    },
+    {
+      "home_pa": "STRAITS VIEW",
+      "devices": 41,
+      "mean_ses": -0.508,
+      "med_quintile": 1.0,
+      "share_q4q5": 0.073
+    },
+    {
+      "home_pa": "WESTERN WATER CATCHMENT",
+      "devices": 326,
+      "mean_ses": -0.514,
+      "med_quintile": 2.0,
+      "share_q4q5": 0.049
+    },
+    {
+      "home_pa": "PAYA LEBAR",
+      "devices": 115,
+      "mean_ses": -0.532,
+      "med_quintile": 2.0,
+      "share_q4q5": 0.07
+    },
+    {
+      "home_pa": "PIONEER",
+      "devices": 440,
+      "mean_ses": -0.585,
+      "med_quintile": 1.0,
+      "share_q4q5": 0.014
+    },
+    {
+      "home_pa": "SUNGEI KADUT",
+      "devices": 397,
+      "mean_ses": -0.62,
+      "med_quintile": 1.0,
+      "share_q4q5": 0.078
+    },
+    {
+      "home_pa": "DOWNTOWN CORE",
+      "devices": 1365,
+      "mean_ses": -0.662,
+      "med_quintile": 1.0,
+      "share_q4q5": 0.046
+    },
+    {
+      "home_pa": "CHANGI",
+      "devices": 446,
+      "mean_ses": -0.679,
+      "med_quintile": 1.0,
+      "share_q4q5": 0.09
+    },
+    {
+      "home_pa": "ORCHARD",
+      "devices": 667,
+      "mean_ses": -0.732,
+      "med_quintile": 1.0,
+      "share_q4q5": 0.097
+    },
+    {
+      "home_pa": "BOON LAY",
+      "devices": 108,
+      "mean_ses": -0.811,
+      "med_quintile": 1.0,
+      "share_q4q5": 0.046
+    },
+    {
+      "home_pa": "TUAS",
+      "devices": 610,
+      "mean_ses": -0.84,
+      "med_quintile": 1.0,
+      "share_q4q5": 0.023
+    },
+    {
+      "home_pa": "WESTERN ISLANDS",
+      "devices": 65,
+      "mean_ses": -0.879,
+      "med_quintile": 1.0,
+      "share_q4q5": 0.031
+    }
+  ],
+  "segment_x_ses": [
+    {
+      "segment": "cbd_commuter",
+      "ses_quintile": 1,
+      "devices": 579
+    },
+    {
+      "segment": "cbd_commuter",
+      "ses_quintile": 2,
+      "devices": 365
+    },
+    {
+      "segment": "cbd_commuter",
+      "ses_quintile": 3,
+      "devices": 464
+    },
+    {
+      "segment": "cbd_commuter",
+      "ses_quintile": 4,
+      "devices": 443
+    },
+    {
+      "segment": "cbd_commuter",
+      "ses_quintile": 5,
+      "devices": 442
+    },
+    {
+      "segment": "cross_border",
+      "ses_quintile": 1,
+      "devices": 190
+    },
+    {
+      "segment": "cross_border",
+      "ses_quintile": 2,
+      "devices": 165
+    },
+    {
+      "segment": "cross_border",
+      "ses_quintile": 3,
+      "devices": 315
+    },
+    {
+      "segment": "cross_border",
+      "ses_quintile": 4,
+      "devices": 191
+    },
+    {
+      "segment": "cross_border",
+      "ses_quintile": 5,
+      "devices": 102
+    },
+    {
+      "segment": "homebody",
+      "ses_quintile": 1,
+      "devices": 6458
+    },
+    {
+      "segment": "homebody",
+      "ses_quintile": 2,
+      "devices": 8169
+    },
+    {
+      "segment": "homebody",
+      "ses_quintile": 3,
+      "devices": 6610
+    },
+    {
+      "segment": "homebody",
+      "ses_quintile": 4,
+      "devices": 6277
+    },
+    {
+      "segment": "homebody",
+      "ses_quintile": 5,
+      "devices": 6341
+    },
+    {
+      "segment": "islandwide_rover",
+      "ses_quintile": 1,
+      "devices": 592
+    },
+    {
+      "segment": "islandwide_rover",
+      "ses_quintile": 2,
+      "devices": 398
+    },
+    {
+      "segment": "islandwide_rover",
+      "ses_quintile": 3,
+      "devices": 480
+    },
+    {
+      "segment": "islandwide_rover",
+      "ses_quintile": 4,
+      "devices": 520
+    },
+    {
+      "segment": "islandwide_rover",
+      "ses_quintile": 5,
+      "devices": 529
+    },
+    {
+      "segment": "local_resident",
+      "ses_quintile": 1,
+      "devices": 5433
+    },
+    {
+      "segment": "local_resident",
+      "ses_quintile": 2,
+      "devices": 5101
+    },
+    {
+      "segment": "local_resident",
+      "ses_quintile": 3,
+      "devices": 5296
+    },
+    {
+      "segment": "local_resident",
+      "ses_quintile": 4,
+      "devices": 5648
+    },
+    {
+      "segment": "local_resident",
+      "ses_quintile": 5,
+      "devices": 6554
+    },
+    {
+      "segment": "long_haul_commuter",
+      "ses_quintile": 1,
+      "devices": 742
+    },
+    {
+      "segment": "long_haul_commuter",
+      "ses_quintile": 2,
+      "devices": 509
+    },
+    {
+      "segment": "long_haul_commuter",
+      "ses_quintile": 3,
+      "devices": 669
+    },
+    {
+      "segment": "long_haul_commuter",
+      "ses_quintile": 4,
+      "devices": 708
+    },
+    {
+      "segment": "long_haul_commuter",
+      "ses_quintile": 5,
+      "devices": 626
+    },
+    {
+      "segment": "night_shift",
+      "ses_quintile": 1,
+      "devices": 178
+    },
+    {
+      "segment": "night_shift",
+      "ses_quintile": 2,
+      "devices": 90
+    },
+    {
+      "segment": "night_shift",
+      "ses_quintile": 3,
+      "devices": 82
+    },
+    {
+      "segment": "night_shift",
+      "ses_quintile": 4,
+      "devices": 103
+    },
+    {
+      "segment": "night_shift",
+      "ses_quintile": 5,
+      "devices": 94
+    },
+    {
+      "segment": "school_linked",
+      "ses_quintile": 1,
+      "devices": 1726
+    },
+    {
+      "segment": "school_linked",
+      "ses_quintile": 2,
+      "devices": 1785
+    },
+    {
+      "segment": "school_linked",
+      "ses_quintile": 3,
+      "devices": 2248
+    },
+    {
+      "segment": "school_linked",
+      "ses_quintile": 4,
+      "devices": 2271
+    },
+    {
+      "segment": "school_linked",
+      "ses_quintile": 5,
+      "devices": 1781
+    },
+    {
+      "segment": "town_commuter",
+      "ses_quintile": 1,
+      "devices": 1832
+    },
+    {
+      "segment": "town_commuter",
+      "ses_quintile": 2,
+      "devices": 1419
+    },
+    {
+      "segment": "town_commuter",
+      "ses_quintile": 3,
+      "devices": 1720
+    },
+    {
+      "segment": "town_commuter",
+      "ses_quintile": 4,
+      "devices": 1747
+    },
+    {
+      "segment": "town_commuter",
+      "ses_quintile": 5,
+      "devices": 1485
+    },
+    {
+      "segment": "works_near_home",
+      "ses_quintile": 1,
+      "devices": 1215
+    },
+    {
+      "segment": "works_near_home",
+      "ses_quintile": 2,
+      "devices": 944
+    },
+    {
+      "segment": "works_near_home",
+      "ses_quintile": 3,
+      "devices": 1061
+    },
+    {
+      "segment": "works_near_home",
+      "ses_quintile": 4,
+      "devices": 1037
+    },
+    {
+      "segment": "works_near_home",
+      "ses_quintile": 5,
+      "devices": 990
+    }
+  ],
+  "validation": {
+    "status": "ok",
+    "n_pas": 30,
+    "pearson_mean_ses_vs_census_income": 0.532,
+    "spearman_mean_ses_vs_census_income": 0.604,
+    "pass_criterion": true,
+    "by_pa": [
+      {
+        "pa": "TANGLIN",
+        "devices": 767,
+        "mean_ses": 0.591,
+        "med_ses": 0.964,
+        "weighted_mean_ses": 0.591,
+        "share_q4q5": 0.623,
+        "census_est_mean_income": 19110.0,
+        "share_ge_10k": 0.686,
+        "share_ge_15k": 0.596,
+        "households": 7938
+      },
+      {
+        "pa": "RIVER VALLEY",
+        "devices": 365,
+        "mean_ses": 0.629,
+        "med_ses": 0.893,
+        "weighted_mean_ses": 0.629,
+        "share_q4q5": 0.77,
+        "census_est_mean_income": 18313.0,
+        "share_ge_10k": 0.664,
+        "share_ge_15k": 0.566,
+        "households": 3976
+      },
+      {
+        "pa": "BUKIT TIMAH",
+        "devices": 2697,
+        "mean_ses": 0.546,
+        "med_ses": 0.81,
+        "weighted_mean_ses": 0.546,
+        "share_q4q5": 0.582,
+        "census_est_mean_income": 18186.0,
+        "share_ge_10k": 0.654,
+        "share_ge_15k": 0.55,
+        "households": 24612
+      },
+      {
+        "pa": "DOWNTOWN CORE",
+        "devices": 1365,
+        "mean_ses": -0.662,
+        "med_ses": -0.789,
+        "weighted_mean_ses": -0.662,
+        "share_q4q5": 0.046,
+        "census_est_mean_income": 16997.0,
+        "share_ge_10k": 0.656,
+        "share_ge_15k": 0.52,
+        "households": 1547
+      },
+      {
+        "pa": "MARINE PARADE",
+        "devices": 906,
+        "mean_ses": 0.225,
+        "med_ses": 0.192,
+        "weighted_mean_ses": 0.225,
+        "share_q4q5": 0.525,
+        "census_est_mean_income": 14285.0,
+        "share_ge_10k": 0.47,
+        "share_ge_15k": 0.363,
+        "households": 17069
+      },
+      {
+        "pa": "NOVENA",
+        "devices": 1497,
+        "mean_ses": 0.079,
+        "med_ses": 0.055,
+        "weighted_mean_ses": 0.079,
+        "share_q4q5": 0.424,
+        "census_est_mean_income": 13718.0,
+        "share_ge_10k": 0.477,
+        "share_ge_15k": 0.359,
+        "households": 18281
+      },
+      {
+        "pa": "BISHAN",
+        "devices": 1412,
+        "mean_ses": 0.219,
+        "med_ses": 0.297,
+        "weighted_mean_ses": 0.219,
+        "share_q4q5": 0.645,
+        "census_est_mean_income": 13611.0,
+        "share_ge_10k": 0.499,
+        "share_ge_15k": 0.348,
+        "households": 29445
+      },
+      {
+        "pa": "SERANGOON",
+        "devices": 2882,
+        "mean_ses": 0.023,
+        "med_ses": -0.032,
+        "weighted_mean_ses": 0.023,
+        "share_q4q5": 0.442,
+        "census_est_mean_income": 13156.0,
+        "share_ge_10k": 0.477,
+        "share_ge_15k": 0.327,
+        "households": 38086
+      },
+      {
+        "pa": "PASIR RIS",
+        "devices": 3238,
+        "mean_ses": 0.211,
+        "med_ses": 0.204,
+        "weighted_mean_ses": 0.211,
+        "share_q4q5": 0.659,
+        "census_est_mean_income": 12645.0,
+        "share_ge_10k": 0.521,
+        "share_ge_15k": 0.307,
+        "households": 44799
+      },
+      {
+        "pa": "CLEMENTI",
+        "devices": 1788,
+        "mean_ses": 0.049,
+        "med_ses": 0.071,
+        "weighted_mean_ses": 0.049,
+        "share_q4q5": 0.378,
+        "census_est_mean_income": 11969.0,
+        "share_ge_10k": 0.412,
+        "share_ge_15k": 0.271,
+        "households": 33609
+      },
+      {
+        "pa": "BEDOK",
+        "devices": 6604,
+        "mean_ses": 0.079,
+        "med_ses": 0.032,
+        "weighted_mean_ses": 0.079,
+        "share_q4q5": 0.412,
+        "census_est_mean_income": 11493.0,
+        "share_ge_10k": 0.385,
+        "share_ge_15k": 0.252,
+        "households": 97551
+      },
+      {
+        "pa": "QUEENSTOWN",
+        "devices": 2339,
+        "mean_ses": -0.073,
+        "med_ses": -0.154,
+        "weighted_mean_ses": -0.073,
+        "share_q4q5": 0.411,
+        "census_est_mean_income": 11387.0,
+        "share_ge_10k": 0.38,
+        "share_ge_15k": 0.246,
+        "households": 37053
+      },
+      {
+        "pa": "CHOA CHU KANG",
+        "devices": 4001,
+        "mean_ses": -0.106,
+        "med_ses": -0.121,
+        "weighted_mean_ses": -0.106,
+        "share_q4q5": 0.242,
+        "census_est_mean_income": 10979.0,
+        "share_ge_10k": 0.436,
+        "share_ge_15k": 0.233,
+        "households": 58024
+      },
+      {
+        "pa": "SENGKANG",
+        "devices": 5343,
+        "mean_ses": 0.06,
+        "med_ses": 0.133,
+        "weighted_mean_ses": 0.06,
+        "share_q4q5": 0.524,
+        "census_est_mean_income": 10970.0,
+        "share_ge_10k": 0.447,
+        "share_ge_15k": 0.236,
+        "households": 79376
+      },
+      {
+        "pa": "PUNGGOL",
+        "devices": 3244,
+        "mean_ses": 0.014,
+        "med_ses": 0.081,
+        "weighted_mean_ses": 0.014,
+        "share_q4q5": 0.473,
+        "census_est_mean_income": 10887.0,
+        "share_ge_10k": 0.447,
+        "share_ge_15k": 0.232,
+        "households": 56166
+      },
+      {
+        "pa": "TAMPINES",
+        "devices": 5120,
+        "mean_ses": 0.084,
+        "med_ses": 0.184,
+        "weighted_mean_ses": 0.084,
+        "share_q4q5": 0.559,
+        "census_est_mean_income": 10795.0,
+        "share_ge_10k": 0.409,
+        "share_ge_15k": 0.223,
+        "households": 83681
+      },
+      {
+        "pa": "BUKIT PANJANG",
+        "devices": 2555,
+        "mean_ses": 0.003,
+        "med_ses": 0.045,
+        "weighted_mean_ses": 0.003,
+        "share_q4q5": 0.372,
+        "census_est_mean_income": 10742.0,
+        "share_ge_10k": 0.395,
+        "share_ge_15k": 0.226,
+        "households": 43580
+      },
+      {
+        "pa": "HOUGANG",
+        "devices": 4572,
+        "mean_ses": 0.029,
+        "med_ses": 0.116,
+        "weighted_mean_ses": 0.029,
+        "share_q4q5": 0.508,
+        "census_est_mean_income": 10658.0,
+        "share_ge_10k": 0.388,
+        "share_ge_15k": 0.221,
+        "households": 75109
+      },
+      {
+        "pa": "BUKIT BATOK",
+        "devices": 3209,
+        "mean_ses": -0.016,
+        "med_ses": 0.009,
+        "weighted_mean_ses": -0.016,
+        "share_q4q5": 0.32,
+        "census_est_mean_income": 10635.0,
+        "share_ge_10k": 0.386,
+        "share_ge_15k": 0.224,
+        "households": 54297
+      },
+      {
+        "pa": "TOA PAYOH",
+        "devices": 3094,
+        "mean_ses": 0.052,
+        "med_ses": 0.155,
+        "weighted_mean_ses": 0.052,
+        "share_q4q5": 0.522,
+        "census_est_mean_income": 10558.0,
+        "share_ge_10k": 0.336,
+        "share_ge_15k": 0.211,
+        "households": 46880
+      },
+      {
+        "pa": "BUKIT MERAH",
+        "devices": 2943,
+        "mean_ses": 0.157,
+        "med_ses": 0.261,
+        "weighted_mean_ses": 0.157,
+        "share_q4q5": 0.631,
+        "census_est_mean_income": 10527.0,
+        "share_ge_10k": 0.35,
+        "share_ge_15k": 0.216,
+        "households": 59700
+      },
+      {
+        "pa": "KALLANG",
+        "devices": 2210,
+        "mean_ses": -0.078,
+        "med_ses": -0.105,
+        "weighted_mean_ses": -0.078,
+        "share_q4q5": 0.279,
+        "census_est_mean_income": 10524.0,
+        "share_ge_10k": 0.346,
+        "share_ge_15k": 0.214,
+        "households": 40832
+      },
+      {
+        "pa": "SEMBAWANG",
+        "devices": 2209,
+        "mean_ses": 0.014,
+        "med_ses": 0.106,
+        "weighted_mean_ses": 0.014,
+        "share_q4q5": 0.414,
+        "census_est_mean_income": 10146.0,
+        "share_ge_10k": 0.393,
+        "share_ge_15k": 0.188,
+        "households": 33049
+      },
+      {
+        "pa": "GEYLANG",
+        "devices": 3941,
+        "mean_ses": -0.147,
+        "med_ses": -0.19,
+        "weighted_mean_ses": -0.147,
+        "share_q4q5": 0.259,
+        "census_est_mean_income": 9948.0,
+        "share_ge_10k": 0.33,
+        "share_ge_15k": 0.19,
+        "households": 42060
+      },
+      {
+        "pa": "JURONG WEST",
+        "devices": 5319,
+        "mean_ses": 0.042,
+        "med_ses": 0.055,
+        "weighted_mean_ses": 0.042,
+        "share_q4q5": 0.367,
+        "census_est_mean_income": 9920.0,
+        "share_ge_10k": 0.373,
+        "share_ge_15k": 0.178,
+        "households": 83879
+      },
+      {
+        "pa": "JURONG EAST",
+        "devices": 1899,
+        "mean_ses": -0.137,
+        "med_ses": -0.089,
+        "weighted_mean_ses": -0.137,
+        "share_q4q5": 0.217,
+        "census_est_mean_income": 9858.0,
+        "share_ge_10k": 0.331,
+        "share_ge_15k": 0.184,
+        "households": 27213
+      },
+      {
+        "pa": "ANG MO KIO",
+        "devices": 2879,
+        "mean_ses": -0.038,
+        "med_ses": -0.011,
+        "weighted_mean_ses": -0.038,
+        "share_q4q5": 0.323,
+        "census_est_mean_income": 9776.0,
+        "share_ge_10k": 0.31,
+        "share_ge_15k": 0.182,
+        "households": 60220
+      },
+      {
+        "pa": "OUTRAM",
+        "devices": 727,
+        "mean_ses": -0.445,
+        "med_ses": -0.529,
+        "weighted_mean_ses": -0.445,
+        "share_q4q5": 0.188,
+        "census_est_mean_income": 9518.0,
+        "share_ge_10k": 0.282,
+        "share_ge_15k": 0.174,
+        "households": 8053
+      },
+      {
+        "pa": "WOODLANDS",
+        "devices": 5075,
+        "mean_ses": -0.031,
+        "med_ses": 0.046,
+        "weighted_mean_ses": -0.031,
+        "share_q4q5": 0.31,
+        "census_est_mean_income": 9382.0,
+        "share_ge_10k": 0.34,
+        "share_ge_15k": 0.155,
+        "households": 78839
+      },
+      {
+        "pa": "YISHUN",
+        "devices": 4361,
+        "mean_ses": -0.035,
+        "med_ses": 0.041,
+        "weighted_mean_ses": -0.035,
+        "share_q4q5": 0.293,
+        "census_est_mean_income": 9226.0,
+        "share_ge_10k": 0.326,
+        "share_ge_15k": 0.153,
+        "households": 75403
+      }
+    ]
+  }
+}

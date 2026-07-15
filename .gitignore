@@ -16,6 +16,7 @@ __pycache__/
 
 # Warehouse / export temps
 data/duckdb_tmp/
+data/analytics_out/
 data/veraset.duckdb
 data/veraset_scratch/
 *.duckdb
