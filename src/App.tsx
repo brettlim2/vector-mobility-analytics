@@ -1,4 +1,4 @@
-import { useEffect, useMemo } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { CalendarHeatmap } from './components/CalendarHeatmap'
 import { CorridorList } from './components/CorridorList'
 import { FilterBar } from './components/FilterBar'
@@ -15,10 +15,13 @@ import {
 } from './lib/slices'
 import { useAppStore } from './store'
 
+type DrawerMode = 'live' | 'insights'
+
 export default function App() {
   const data = useAnalyticsData()
   const filters = useAppStore((s) => s.filters)
   const hydrateFromUrl = useAppStore((s) => s.hydrateFromUrl)
+  const [drawer, setDrawer] = useState<DrawerMode>('insights')
 
   useEffect(() => {
     hydrateFromUrl()
@@ -73,6 +76,9 @@ export default function App() {
     )
   }
 
+  const routing = data.insights?.routing.road_vs_straight
+  const weightedPop = data.insights?.weighted.weighted_totals.estimated_population
+
   return (
     <div className="relative flex h-full flex-col">
       <FilterBar zones={zoneNames} categories={data.visitCategories} />
@@ -84,31 +90,63 @@ export default function App() {
           planningAreas={data.planningAreas}
         />
 
-        {/* Top fade + KPI */}
-        <div className="pointer-events-none absolute inset-x-0 top-0 bg-[image:var(--vm-map-fade)] pb-16 pt-3">
-          <div className="pointer-events-auto mx-auto max-w-5xl px-4">
+        <div className="pointer-events-none absolute inset-x-0 top-0 bg-[image:var(--vm-map-fade)] pb-20 pt-3">
+          <div className="pointer-events-auto mx-auto max-w-6xl px-4">
             <KpiStrip
               kpi={data.kpi}
               hexCount={hexCells.length}
               corridorCount={arcs.length}
+              circuity={routing?.med_circuity}
+              population={weightedPop}
             />
-            <p className="mt-2 text-[11px] text-[var(--vm-muted)]">
-              Agg feed resets near 08:00 SGT (UTC midnight) — prefer SDK/app for hourly axes.
-              Distances are straight-line until routing is added.
+            <p className="mt-2 max-w-3xl text-[11px] leading-relaxed text-[var(--vm-muted)]">
+              Prefer SDK/app for hourly axes — the aggregate feed resets near 08:00 SGT.
+              {routing
+                ? ` Road distances use OSRM (median circuity ${routing.med_circuity}× vs straight-line).`
+                : ' OD arcs still show straight-line distances.'}
             </p>
           </div>
         </div>
 
-        {/* Side panel */}
-        <aside className="absolute bottom-3 right-3 top-28 flex w-[min(100%-1.5rem,22rem)] flex-col gap-4 overflow-y-auto rounded-xl bg-[var(--vm-panel)] p-4 shadow-lg backdrop-blur-md">
-          <CorridorList arcs={arcs} />
-          <CalendarHeatmap cells={calendar} />
-          <RhythmGrid rhythms={rhythms} />
-          {data.insights && <InsightsPanel data={data.insights} zone={filters.zone} />}
-          <p className="border-t border-[var(--vm-line)] pt-3 text-[10px] leading-relaxed text-[var(--vm-muted)]">
-            Privacy: every cell suppressed below 5 distinct devices at export. POI rhythms use
-            visitor footfall only (home ≥400 m from venue). Filter state is URL-encoded for sharing.
-          </p>
+        <aside className="absolute bottom-3 right-3 top-28 flex w-[min(100%-1.5rem,28rem)] flex-col overflow-hidden rounded-2xl border border-[var(--vm-line)] bg-[var(--vm-panel)] shadow-[0_18px_50px_rgba(12,18,32,0.12)] backdrop-blur-md">
+          <div className="flex items-center gap-1 border-b border-[var(--vm-line)] p-2">
+            {(
+              [
+                ['insights', 'Insights'],
+                ['live', 'Live map'],
+              ] as const
+            ).map(([id, label]) => (
+              <button
+                key={id}
+                type="button"
+                onClick={() => setDrawer(id)}
+                className={`flex-1 rounded-xl px-3 py-2 text-xs transition ${
+                  drawer === id
+                    ? 'bg-[var(--vm-accent)] text-white'
+                    : 'text-[var(--vm-muted)] hover:bg-[var(--vm-accent-soft)] hover:text-[var(--vm-ink)]'
+                }`}
+              >
+                {label}
+              </button>
+            ))}
+          </div>
+
+          <div className="min-h-0 flex-1 space-y-5 overflow-y-auto p-4">
+            {drawer === 'live' ? (
+              <>
+                <CorridorList arcs={arcs} />
+                <CalendarHeatmap cells={calendar} />
+                <RhythmGrid rhythms={rhythms} />
+              </>
+            ) : (
+              data.insights && <InsightsPanel data={data.insights} zone={filters.zone} />
+            )}
+
+            <p className="border-t border-[var(--vm-line)] pt-3 text-[10px] leading-relaxed text-[var(--vm-muted)]">
+              Privacy: every cell suppressed below 5 distinct devices at export. POI and dining
+              footfall use visitor-only rows (home ≥400 m). Filter state is URL-encoded for sharing.
+            </p>
+          </div>
         </aside>
       </div>
     </div>

@@ -17,7 +17,7 @@
     },
     {
       "segment": "town_commuter",
-      "devices": 27288,
+      "devices": 27286,
       "share": 0.032
     },
     {
@@ -27,12 +27,12 @@
     },
     {
       "segment": "works_near_home",
-      "devices": 5247,
+      "devices": 5279,
       "share": 0.006
     },
     {
       "segment": "long_haul_commuter",
-      "devices": 3255,
+      "devices": 3254,
       "share": 0.004
     },
     {
@@ -52,7 +52,7 @@
     },
     {
       "segment": "cbd_commuter",
-      "devices": 2293,
+      "devices": 2264,
       "share": 0.003
     },
     {
@@ -100,7 +100,7 @@
     },
     {
       "segment": "town_commuter",
-      "devices": 27288,
+      "devices": 27286,
       "med_active_days": 8.0,
       "med_rog_km": 3.14,
       "med_commute_km": 5.8,
@@ -124,19 +124,19 @@
     },
     {
       "segment": "works_near_home",
-      "devices": 5247,
+      "devices": 5279,
       "med_active_days": 8.0,
       "med_rog_km": 4.3,
       "med_commute_km": 2.0,
-      "avg_night_share": 0.182,
-      "avg_weekend_share": 0.263,
+      "avg_night_share": 0.183,
+      "avg_weekend_share": 0.262,
       "med_trips": 15.0,
-      "avg_visits": 24.7,
-      "ios_share": 0.39
+      "avg_visits": 24.6,
+      "ios_share": 0.38
     },
     {
       "segment": "long_haul_commuter",
-      "devices": 3255,
+      "devices": 3254,
       "med_active_days": 8.0,
       "med_rog_km": 8.08,
       "med_commute_km": 15.7,
@@ -184,14 +184,14 @@
     },
     {
       "segment": "cbd_commuter",
-      "devices": 2293,
+      "devices": 2264,
       "med_active_days": 8.0,
-      "med_rog_km": 5.33,
+      "med_rog_km": 5.34,
       "med_commute_km": 9.5,
-      "avg_night_share": 0.186,
+      "avg_night_share": 0.185,
       "avg_weekend_share": 0.263,
       "med_trips": 14.0,
-      "avg_visits": 23.9,
+      "avg_visits": 24.0,
       "ios_share": 0.39
     },
     {
@@ -225,10 +225,6 @@
       "devices": 17893
     },
     {
-      "tag": "school_age_kids",
-      "devices": 16050
-    },
-    {
       "tag": "hawker_regular",
       "devices": 13811
     },
@@ -241,172 +237,131 @@
       "devices": 6159
     },
     {
-      "tag": "young_family",
-      "devices": 4842
-    },
-    {
       "tag": "night_owl",
       "devices": 1714
-    },
-    {
-      "tag": "student",
-      "devices": 1013
-    },
-    {
-      "tag": "retiree_like",
-      "devices": 425
     }
   ],
-  "occupation_mix": [
-    {
-      "occupation_class": "no_work_anchor",
-      "devices": 810300
-    },
-    {
-      "occupation_class": "other_work",
-      "devices": 28874
-    },
-    {
-      "occupation_class": "industrial",
-      "devices": 5056
-    },
-    {
-      "occupation_class": "office_cbd",
-      "devices": 3892
-    },
-    {
-      "occupation_class": "hospital_shift",
-      "devices": 1667
-    },
-    {
-      "occupation_class": "construction_dorm",
-      "devices": 187
-    },
-    {
-      "occupation_class": "retail_staff",
-      "devices": 23
-    }
-  ],
+  "occupation_mix": [],
   "segment_hourly": [
     {
       "segment": "cbd_commuter",
       "h": 0,
-      "stop_starts": 1137
+      "stop_starts": 1122
     },
     {
       "segment": "cbd_commuter",
       "h": 1,
-      "stop_starts": 887
+      "stop_starts": 898
     },
     {
       "segment": "cbd_commuter",
       "h": 2,
-      "stop_starts": 826
+      "stop_starts": 806
     },
     {
       "segment": "cbd_commuter",
       "h": 3,
-      "stop_starts": 811
+      "stop_starts": 809
     },
     {
       "segment": "cbd_commuter",
       "h": 4,
-      "stop_starts": 1415
+      "stop_starts": 1397
     },
     {
       "segment": "cbd_commuter",
       "h": 5,
-      "stop_starts": 1353
+      "stop_starts": 1325
     },
     {
       "segment": "cbd_commuter",
       "h": 6,
-      "stop_starts": 1569
+      "stop_starts": 1573
     },
     {
       "segment": "cbd_commuter",
       "h": 7,
-      "stop_starts": 1675
+      "stop_starts": 1664
     },
     {
       "segment": "cbd_commuter",
       "h": 8,
-      "stop_starts": 4614
+      "stop_starts": 4590
     },
     {
       "segment": "cbd_commuter",
       "h": 9,
-      "stop_starts": 2914
+      "stop_starts": 2887
     },
     {
       "segment": "cbd_commuter",
       "h": 10,
-      "stop_starts": 2534
+      "stop_starts": 2492
     },
     {
       "segment": "cbd_commuter",
       "h": 11,
-      "stop_starts": 2181
+      "stop_starts": 2140
     },
     {
       "segment": "cbd_commuter",
       "h": 12,
-      "stop_starts": 2560
+      "stop_starts": 2564
     },
     {
       "segment": "cbd_commuter",
       "h": 13,
-      "stop_starts": 2433
+      "stop_starts": 2396
     },
     {
       "segment": "cbd_commuter",
       "h": 14,
-      "stop_starts": 2085
+      "stop_starts": 2056
     },
     {
       "segment": "cbd_commuter",
       "h": 15,
-      "stop_starts": 1898
+      "stop_starts": 1864
     },
     {
       "segment": "cbd_commuter",
       "h": 16,
-      "stop_starts": 2069
+      "stop_starts": 2020
     },
     {
       "segment": "cbd_commuter",
       "h": 17,
-      "stop_starts": 2245
+      "stop_starts": 2170
     },
     {
       "segment": "cbd_commuter",
       "h": 18,
-      "stop_starts": 2910
+      "stop_starts": 2889
     },
     {
       "segment": "cbd_commuter",
       "h": 19,
-      "stop_starts": 2845
+      "stop_starts": 2802
     },
     {
       "segment": "cbd_commuter",
       "h": 20,
-      "stop_starts": 2632
+      "stop_starts": 2614
     },
     {
       "segment": "cbd_commuter",
       "h": 21,
-      "stop_starts": 2515
+      "stop_starts": 2460
     },
     {
       "segment": "cbd_commuter",
       "h": 22,
-      "stop_starts": 2022
+      "stop_starts": 1989
     },
     {
       "segment": "cbd_commuter",
       "h": 23,
-      "stop_starts": 1639
+      "stop_starts": 1599
     },
     {
       "segment": "cross_border",
@@ -893,7 +848,7 @@
     {
       "segment": "cbd_commuter",
       "home_pa": "BEDOK",
-      "devices": 151
+      "devices": 148
     },
     {
       "segment": "cbd_commuter",
@@ -902,13 +857,8 @@
     },
     {
       "segment": "cbd_commuter",
-      "home_pa": "HOUGANG",
-      "devices": 123
-    },
-    {
-      "segment": "cbd_commuter",
       "home_pa": "TAMPINES",
-      "devices": 123
+      "devices": 122
     },
     {
       "segment": "cbd_commuter",
@@ -916,9 +866,14 @@
       "devices": 121
     },
     {
+      "segment": "cbd_commuter",
+      "home_pa": "HOUGANG",
+      "devices": 117
+    },
+    {
       "segment": "cross_border",
       "home_pa": "WOODLANDS",
-      "devices": 671
+      "devices": 670
     },
     {
       "segment": "cross_border",
@@ -948,12 +903,12 @@
     {
       "segment": "homebody",
       "home_pa": "GEYLANG",
-      "devices": 1951
+      "devices": 1942
     },
     {
       "segment": "homebody",
       "home_pa": "JURONG WEST",
-      "devices": 1703
+      "devices": 1706
     },
     {
       "segment": "homebody",
@@ -963,27 +918,27 @@
     {
       "segment": "homebody",
       "home_pa": "TAMPINES",
-      "devices": 1581
+      "devices": 1578
     },
     {
       "segment": "islandwide_rover",
       "home_pa": "WOODLANDS",
-      "devices": 329
+      "devices": 327
     },
     {
       "segment": "islandwide_rover",
       "home_pa": "JURONG WEST",
-      "devices": 316
+      "devices": 320
     },
     {
       "segment": "islandwide_rover",
       "home_pa": "TAMPINES",
-      "devices": 170
+      "devices": 169
     },
     {
       "segment": "islandwide_rover",
       "home_pa": "YISHUN",
-      "devices": 140
+      "devices": 142
     },
     {
       "segment": "islandwide_rover",
@@ -993,62 +948,62 @@
     {
       "segment": "local_resident",
       "home_pa": "BEDOK",
-      "devices": 1964
+      "devices": 1957
     },
     {
       "segment": "local_resident",
       "home_pa": "SENGKANG",
-      "devices": 1728
+      "devices": 1722
     },
     {
       "segment": "local_resident",
       "home_pa": "TAMPINES",
-      "devices": 1461
+      "devices": 1458
     },
     {
       "segment": "local_resident",
       "home_pa": "HOUGANG",
-      "devices": 1446
+      "devices": 1447
     },
     {
       "segment": "local_resident",
       "home_pa": "JURONG WEST",
-      "devices": 1403
+      "devices": 1401
     },
     {
       "segment": "long_haul_commuter",
       "home_pa": "WOODLANDS",
-      "devices": 384
+      "devices": 382
     },
     {
       "segment": "long_haul_commuter",
       "home_pa": "YISHUN",
-      "devices": 298
+      "devices": 295
     },
     {
       "segment": "long_haul_commuter",
       "home_pa": "JURONG WEST",
-      "devices": 263
+      "devices": 262
     },
     {
       "segment": "long_haul_commuter",
       "home_pa": "CHOA CHU KANG",
-      "devices": 198
+      "devices": 196
     },
     {
       "segment": "long_haul_commuter",
       "home_pa": "SEMBAWANG",
-      "devices": 183
+      "devices": 185
     },
     {
       "segment": "night_shift",
       "home_pa": "TAMPINES",
-      "devices": 41
+      "devices": 39
     },
     {
       "segment": "night_shift",
       "home_pa": "BEDOK",
-      "devices": 36
+      "devices": 38
     },
     {
       "segment": "night_shift",
@@ -1057,88 +1012,88 @@
     },
     {
       "segment": "night_shift",
-      "home_pa": "YISHUN",
-      "devices": 32
+      "home_pa": "JURONG WEST",
+      "devices": 30
     },
     {
       "segment": "night_shift",
-      "home_pa": "JURONG WEST",
+      "home_pa": "YISHUN",
       "devices": 29
     },
     {
       "segment": "school_linked",
       "home_pa": "CHOA CHU KANG",
-      "devices": 1193
+      "devices": 1192
     },
     {
       "segment": "school_linked",
       "home_pa": "TAMPINES",
-      "devices": 701
+      "devices": 702
     },
     {
       "segment": "school_linked",
       "home_pa": "SENGKANG",
-      "devices": 646
+      "devices": 643
     },
     {
       "segment": "school_linked",
       "home_pa": "JURONG WEST",
-      "devices": 588
+      "devices": 590
     },
     {
       "segment": "school_linked",
       "home_pa": "HOUGANG",
-      "devices": 541
+      "devices": 539
     },
     {
       "segment": "town_commuter",
       "home_pa": "SENGKANG",
-      "devices": 587
-    },
-    {
-      "segment": "town_commuter",
-      "home_pa": "BEDOK",
-      "devices": 527
+      "devices": 592
     },
     {
       "segment": "town_commuter",
       "home_pa": "JURONG WEST",
-      "devices": 510
+      "devices": 521
+    },
+    {
+      "segment": "town_commuter",
+      "home_pa": "BEDOK",
+      "devices": 517
     },
     {
       "segment": "town_commuter",
       "home_pa": "HOUGANG",
-      "devices": 496
+      "devices": 501
     },
     {
       "segment": "town_commuter",
       "home_pa": "TAMPINES",
-      "devices": 449
+      "devices": 468
     },
     {
       "segment": "works_near_home",
       "home_pa": "TAMPINES",
-      "devices": 419
-    },
-    {
-      "segment": "works_near_home",
-      "home_pa": "JURONG WEST",
-      "devices": 378
+      "devices": 402
     },
     {
       "segment": "works_near_home",
       "home_pa": "BEDOK",
-      "devices": 366
+      "devices": 374
+    },
+    {
+      "segment": "works_near_home",
+      "home_pa": "JURONG WEST",
+      "devices": 368
     },
     {
       "segment": "works_near_home",
       "home_pa": "WOODLANDS",
-      "devices": 323
+      "devices": 334
     },
     {
       "segment": "works_near_home",
-      "home_pa": "SENGKANG",
-      "devices": 320
+      "home_pa": "YISHUN",
+      "devices": 327
     }
   ],
   "commuter_mode_context": [
@@ -1146,25 +1101,25 @@
       "segment": "works_near_home",
       "home_area_transit_share": 0.49,
       "home_area_car_share": 0.24,
-      "avg_observed_mrt_stops": 7.1
-    },
-    {
-      "segment": "homebody",
-      "home_area_transit_share": 0.49,
-      "home_area_car_share": 0.25,
-      "avg_observed_mrt_stops": 1.9
-    },
-    {
-      "segment": "cbd_commuter",
-      "home_area_transit_share": 0.49,
-      "home_area_car_share": 0.25,
-      "avg_observed_mrt_stops": 10.9
+      "avg_observed_mrt_stops": 7.0
     },
     {
       "segment": "long_haul_commuter",
       "home_area_transit_share": 0.49,
       "home_area_car_share": 0.23,
       "avg_observed_mrt_stops": 6.3
+    },
+    {
+      "segment": "cbd_commuter",
+      "home_area_transit_share": 0.49,
+      "home_area_car_share": 0.25,
+      "avg_observed_mrt_stops": 10.8
+    },
+    {
+      "segment": "homebody",
+      "home_area_transit_share": 0.49,
+      "home_area_car_share": 0.25,
+      "avg_observed_mrt_stops": 1.9
     },
     {
       "segment": "town_commuter",
@@ -1201,9 +1156,9 @@
     {
       "segment": "town_commuter",
       "foodie": 0.13,
-      "transit_rider": 0.418,
-      "hawker_regular": 0.093,
-      "night_owl": 0.006,
+      "transit_rider": 0.419,
+      "hawker_regular": 0.092,
+      "night_owl": 0.007,
       "worked_on_vesak": 0.402
     },
     {
@@ -1216,17 +1171,17 @@
     },
     {
       "segment": "works_near_home",
-      "foodie": 0.164,
-      "transit_rider": 0.626,
-      "hawker_regular": 0.141,
+      "foodie": 0.165,
+      "transit_rider": 0.624,
+      "hawker_regular": 0.144,
       "night_owl": 0.016,
-      "worked_on_vesak": 0.19
+      "worked_on_vesak": 0.188
     },
     {
       "segment": "long_haul_commuter",
       "foodie": 0.175,
       "transit_rider": 0.574,
-      "hawker_regular": 0.131,
+      "hawker_regular": 0.132,
       "night_owl": 0.017,
       "worked_on_vesak": 0.433
     },
@@ -1257,10 +1212,10 @@
     {
       "segment": "cbd_commuter",
       "foodie": 0.241,
-      "transit_rider": 0.749,
+      "transit_rider": 0.751,
       "hawker_regular": 0.156,
-      "night_owl": 0.029,
-      "worked_on_vesak": 0.462
+      "night_owl": 0.027,
+      "worked_on_vesak": 0.466
     },
     {
       "segment": "night_shift",

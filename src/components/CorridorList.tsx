@@ -10,7 +10,7 @@ export function CorridorList({ arcs }: { arcs: OdArc[] }) {
     <section>
       <h2 className="font-display text-lg text-[var(--vm-ink)]">Corridors</h2>
       <p className="mt-0.5 text-[11px] text-[var(--vm-muted)]">
-        Zone → zone · straight-line distance · hover to highlight arcs
+        Zone → zone · map arcs use straight-line km · hover to highlight
       </p>
       <ul className="mt-3 max-h-56 space-y-1 overflow-y-auto pr-1">
         {arcs.slice(0, 18).map((a) => {

@@ -27,23 +27,23 @@
     },
     {
       "segment": "town_commuter",
-      "panel_devices": 8127,
+      "panel_devices": 8134,
       "panel_share": 0.087,
-      "weighted_pop": 364356.0,
+      "weighted_pop": 365204.0,
       "weighted_share": 0.09
     },
     {
       "segment": "works_near_home",
-      "panel_devices": 5202,
+      "panel_devices": 5225,
       "panel_share": 0.056,
-      "weighted_pop": 236523.0,
+      "weighted_pop": 237215.0,
       "weighted_share": 0.059
     },
     {
       "segment": "long_haul_commuter",
-      "panel_devices": 3211,
+      "panel_devices": 3210,
       "panel_share": 0.034,
-      "weighted_pop": 142070.0,
+      "weighted_pop": 141968.0,
       "weighted_share": 0.035
     },
     {
@@ -55,9 +55,9 @@
     },
     {
       "segment": "cbd_commuter",
-      "panel_devices": 2288,
+      "panel_devices": 2259,
       "panel_share": 0.024,
-      "weighted_pop": 101364.0,
+      "weighted_pop": 99925.0,
       "weighted_share": 0.025
     },
     {

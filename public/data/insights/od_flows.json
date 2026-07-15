@@ -145,15 +145,6 @@
       "med_speed_kmh": 5.6
     },
     {
-      "o_zone": "Geylang",
-      "d_zone": "Bedok",
-      "trips": 2640,
-      "devices": 1812,
-      "med_travel_min": 31.3,
-      "med_dist_km": 3.61,
-      "med_speed_kmh": 6.0
-    },
-    {
       "o_zone": "Bedok",
       "d_zone": "Geylang",
       "trips": 2640,
@@ -161,6 +152,15 @@
       "med_travel_min": 33.7,
       "med_dist_km": 3.7,
       "med_speed_kmh": 5.7
+    },
+    {
+      "o_zone": "Geylang",
+      "d_zone": "Bedok",
+      "trips": 2640,
+      "devices": 1812,
+      "med_travel_min": 31.3,
+      "med_dist_km": 3.61,
+      "med_speed_kmh": 6.0
     },
     {
       "o_zone": "Bukit Panjang",
@@ -289,15 +289,6 @@
       "med_speed_kmh": 5.7
     },
     {
-      "o_zone": "Tampines",
-      "d_zone": "Changi Business Park / Expo",
-      "trips": 2327,
-      "devices": 1437,
-      "med_travel_min": 23.0,
-      "med_dist_km": 2.16,
-      "med_speed_kmh": 5.5
-    },
-    {
       "o_zone": "East Coast",
       "d_zone": "Bedok",
       "trips": 2327,
@@ -305,6 +296,15 @@
       "med_travel_min": 31.6,
       "med_dist_km": 2.36,
       "med_speed_kmh": 4.7
+    },
+    {
+      "o_zone": "Tampines",
+      "d_zone": "Changi Business Park / Expo",
+      "trips": 2327,
+      "devices": 1437,
+      "med_travel_min": 23.0,
+      "med_dist_km": 2.16,
+      "med_speed_kmh": 5.5
     },
     {
       "o_zone": "Yishun",
@@ -498,15 +498,6 @@
       "med_speed_kmh": 9.8
     },
     {
-      "o_zone": "Hougang",
-      "d_zone": "Ang Mo Kio",
-      "trips": 414,
-      "devices": 291,
-      "med_travel_min": 34.6,
-      "med_dist_km": 4.14,
-      "med_speed_kmh": 7.3
-    },
-    {
       "o_zone": "Yishun",
       "d_zone": "Ang Mo Kio",
       "trips": 414,
@@ -514,6 +505,15 @@
       "med_travel_min": 34.3,
       "med_dist_km": 5.72,
       "med_speed_kmh": 10.3
+    },
+    {
+      "o_zone": "Hougang",
+      "d_zone": "Ang Mo Kio",
+      "trips": 414,
+      "devices": 291,
+      "med_travel_min": 34.6,
+      "med_dist_km": 4.14,
+      "med_speed_kmh": 7.3
     },
     {
       "o_zone": "Bedok",
@@ -561,15 +561,6 @@
       "med_speed_kmh": 5.2
     },
     {
-      "o_zone": "Sengkang",
-      "d_zone": "Ang Mo Kio",
-      "trips": 378,
-      "devices": 228,
-      "med_travel_min": 38.1,
-      "med_dist_km": 5.61,
-      "med_speed_kmh": 8.3
-    },
-    {
       "o_zone": "Tengah",
       "d_zone": "Jurong West",
       "trips": 378,
@@ -577,6 +568,15 @@
       "med_travel_min": 31.2,
       "med_dist_km": 2.7,
       "med_speed_kmh": 5.7
+    },
+    {
+      "o_zone": "Sengkang",
+      "d_zone": "Ang Mo Kio",
+      "trips": 378,
+      "devices": 228,
+      "med_travel_min": 38.1,
+      "med_dist_km": 5.61,
+      "med_speed_kmh": 8.3
     },
     {
       "o_zone": "Jurong West",
@@ -889,15 +889,6 @@
       "med_speed_kmh": 6.9
     },
     {
-      "o_zone": "Woodlands",
-      "d_zone": "Yishun",
-      "trips": 178,
-      "devices": 143,
-      "med_travel_min": 39.7,
-      "med_dist_km": 5.07,
-      "med_speed_kmh": 7.8
-    },
-    {
       "o_zone": "Bedok",
       "d_zone": "Geylang",
       "trips": 178,
@@ -905,6 +896,15 @@
       "med_travel_min": 36.2,
       "med_dist_km": 3.74,
       "med_speed_kmh": 4.9
+    },
+    {
+      "o_zone": "Woodlands",
+      "d_zone": "Yishun",
+      "trips": 178,
+      "devices": 143,
+      "med_travel_min": 39.7,
+      "med_dist_km": 5.07,
+      "med_speed_kmh": 7.8
     },
     {
       "o_zone": "Tampines",
@@ -925,15 +925,6 @@
       "med_speed_kmh": 9.7
     },
     {
-      "o_zone": "Sengkang",
-      "d_zone": "Punggol",
-      "trips": 175,
-      "devices": 142,
-      "med_travel_min": 20.5,
-      "med_dist_km": 1.91,
-      "med_speed_kmh": 4.4
-    },
-    {
       "o_zone": "Woodlands",
       "d_zone": "Sembawang",
       "trips": 175,
@@ -941,6 +932,15 @@
       "med_travel_min": 40.3,
       "med_dist_km": 2.48,
       "med_speed_kmh": 3.3
+    },
+    {
+      "o_zone": "Sengkang",
+      "d_zone": "Punggol",
+      "trips": 175,
+      "devices": 142,
+      "med_travel_min": 20.5,
+      "med_dist_km": 1.91,
+      "med_speed_kmh": 4.4
     },
     {
       "o_zone": "Tampines",

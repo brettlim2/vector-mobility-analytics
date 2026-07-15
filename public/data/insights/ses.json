@@ -3,810 +3,800 @@
     {
       "ses_quintile": 1,
       "devices": 18945,
-      "mean_score": -0.74,
-      "med_home_value": 250000.0,
-      "ios_share": 0.205,
-      "mean_brand_tier": 2.6
+      "mean_score": -0.796,
+      "med_home_value": 414000.0,
+      "ios_share": 0.175,
+      "mean_brand_tier": 2.55
     },
     {
       "ses_quintile": 2,
       "devices": 18945,
-      "mean_score": -0.313,
-      "med_home_value": 250000.0,
-      "ios_share": 0.262,
+      "mean_score": -0.233,
+      "med_home_value": 530000.0,
+      "ios_share": 0.235,
       "mean_brand_tier": 2.74
     },
     {
       "ses_quintile": 3,
       "devices": 18945,
-      "mean_score": 0.004,
-      "med_home_value": 575000.0,
-      "ios_share": 0.201,
-      "mean_brand_tier": 2.88
+      "mean_score": -0.001,
+      "med_home_value": 585000.0,
+      "ios_share": 0.196,
+      "mean_brand_tier": 2.93
     },
     {
       "ses_quintile": 4,
       "devices": 18945,
-      "mean_score": 0.249,
-      "med_home_value": 645000.0,
-      "ios_share": 0.359,
+      "mean_score": 0.244,
+      "med_home_value": 710000.0,
+      "ios_share": 0.415,
       "mean_brand_tier": 3.0
     },
     {
       "ses_quintile": 5,
       "devices": 18944,
-      "mean_score": 0.799,
+      "mean_score": 0.786,
       "med_home_value": 1450000.0,
-      "ios_share": 0.465,
-      "mean_brand_tier": 3.14
+      "ios_share": 0.471,
+      "mean_brand_tier": 3.13
     }
   ],
   "dwelling_by_quintile": [
     {
       "ses_quintile": 1,
-      "dwelling": "other",
-      "devices": 8893
+      "dwelling": "hdb",
+      "devices": 9959
     },
     {
       "ses_quintile": 1,
-      "dwelling": "hdb",
-      "devices": 5913
+      "dwelling": "other",
+      "devices": 4718
     },
     {
       "ses_quintile": 1,
       "dwelling": "industrial_dorm_like",
-      "devices": 2975
+      "devices": 3058
     },
     {
       "ses_quintile": 1,
       "dwelling": "campus",
-      "devices": 789
+      "devices": 806
     },
     {
       "ses_quintile": 1,
       "dwelling": "hotel_area",
-      "devices": 335
+      "devices": 347
     },
     {
       "ses_quintile": 1,
       "dwelling": "private_residential",
-      "devices": 40
-    },
-    {
-      "ses_quintile": 2,
-      "dwelling": "other",
-      "devices": 10695
+      "devices": 57
     },
     {
       "ses_quintile": 2,
       "dwelling": "hdb",
-      "devices": 7909
+      "devices": 14594
+    },
+    {
+      "ses_quintile": 2,
+      "dwelling": "other",
+      "devices": 3936
     },
     {
       "ses_quintile": 2,
       "dwelling": "private_residential",
-      "devices": 220
-    },
-    {
-      "ses_quintile": 2,
-      "dwelling": "industrial_dorm_like",
-      "devices": 85
+      "devices": 384
     },
     {
       "ses_quintile": 2,
       "dwelling": "campus",
-      "devices": 21
+      "devices": 16
+    },
+    {
+      "ses_quintile": 2,
+      "dwelling": "industrial_dorm_like",
+      "devices": 9
     },
     {
       "ses_quintile": 2,
       "dwelling": "hotel_area",
-      "devices": 15
+      "devices": 6
     },
     {
       "ses_quintile": 3,
       "dwelling": "hdb",
-      "devices": 17019
+      "devices": 11771
     },
     {
       "ses_quintile": 3,
       "dwelling": "other",
-      "devices": 1292
+      "devices": 6642
     },
     {
       "ses_quintile": 3,
       "dwelling": "private_residential",
-      "devices": 610
-    },
-    {
-      "ses_quintile": 3,
-      "dwelling": "campus",
-      "devices": 12
-    },
-    {
-      "ses_quintile": 3,
-      "dwelling": "industrial_dorm_like",
-      "devices": 7
+      "devices": 529
     },
     {
       "ses_quintile": 4,
       "dwelling": "hdb",
-      "devices": 15991
-    },
-    {
-      "ses_quintile": 4,
-      "dwelling": "private_residential",
-      "devices": 2177
+      "devices": 11344
     },
     {
       "ses_quintile": 4,
       "dwelling": "other",
-      "devices": 753
+      "devices": 5195
+    },
+    {
+      "ses_quintile": 4,
+      "dwelling": "private_residential",
+      "devices": 2388
     },
     {
       "ses_quintile": 4,
       "dwelling": "landed",
-      "devices": 23
+      "devices": 18
     },
     {
       "ses_quintile": 5,
       "dwelling": "private_residential",
-      "devices": 12081
+      "devices": 11770
     },
     {
       "ses_quintile": 5,
       "dwelling": "hdb",
-      "devices": 4678
+      "devices": 3842
     },
     {
       "ses_quintile": 5,
       "dwelling": "landed",
-      "devices": 2051
+      "devices": 2056
     },
     {
       "ses_quintile": 5,
       "dwelling": "other",
-      "devices": 134
+      "devices": 1276
     }
   ],
   "pa_ses_mix": [
     {
-      "home_pa": "RIVER VALLEY",
-      "devices": 365,
-      "mean_ses": 0.629,
+      "home_pa": "BUKIT TIMAH",
+      "devices": 2698,
+      "mean_ses": 0.858,
       "med_quintile": 5.0,
-      "share_q4q5": 0.77
+      "share_q4q5": 0.938
+    },
+    {
+      "home_pa": "RIVER VALLEY",
+      "devices": 364,
+      "mean_ses": 0.597,
+      "med_quintile": 5.0,
+      "share_q4q5": 0.766
     },
     {
       "home_pa": "TANGLIN",
-      "devices": 767,
-      "mean_ses": 0.591,
+      "devices": 768,
+      "mean_ses": 0.553,
       "med_quintile": 5.0,
-      "share_q4q5": 0.623
-    },
-    {
-      "home_pa": "BUKIT TIMAH",
-      "devices": 2697,
-      "mean_ses": 0.546,
-      "med_quintile": 5.0,
-      "share_q4q5": 0.582
+      "share_q4q5": 0.618
     },
     {
       "home_pa": "SOUTHERN ISLANDS",
-      "devices": 156,
-      "mean_ses": 0.368,
+      "devices": 154,
+      "mean_ses": 0.31,
       "med_quintile": 3.0,
-      "share_q4q5": 0.494
+      "share_q4q5": 0.474
     },
     {
       "home_pa": "MARINE PARADE",
-      "devices": 906,
-      "mean_ses": 0.225,
+      "devices": 908,
+      "mean_ses": 0.276,
       "med_quintile": 4.0,
-      "share_q4q5": 0.525
+      "share_q4q5": 0.589
     },
     {
       "home_pa": "BISHAN",
       "devices": 1412,
-      "mean_ses": 0.219,
+      "mean_ses": 0.258,
       "med_quintile": 4.0,
-      "share_q4q5": 0.645
+      "share_q4q5": 0.679
     },
     {
       "home_pa": "PASIR RIS",
-      "devices": 3238,
-      "mean_ses": 0.211,
+      "devices": 3239,
+      "mean_ses": 0.187,
       "med_quintile": 4.0,
-      "share_q4q5": 0.659
-    },
-    {
-      "home_pa": "BUKIT MERAH",
-      "devices": 2943,
-      "mean_ses": 0.157,
-      "med_quintile": 4.0,
-      "share_q4q5": 0.631
-    },
-    {
-      "home_pa": "MANDAI",
-      "devices": 88,
-      "mean_ses": 0.107,
-      "med_quintile": 3.0,
-      "share_q4q5": 0.443
-    },
-    {
-      "home_pa": "TAMPINES",
-      "devices": 5120,
-      "mean_ses": 0.084,
-      "med_quintile": 4.0,
-      "share_q4q5": 0.559
-    },
-    {
-      "home_pa": "NOVENA",
-      "devices": 1497,
-      "mean_ses": 0.079,
-      "med_quintile": 3.0,
-      "share_q4q5": 0.424
-    },
-    {
-      "home_pa": "BEDOK",
-      "devices": 6604,
-      "mean_ses": 0.079,
-      "med_quintile": 3.0,
-      "share_q4q5": 0.412
-    },
-    {
-      "home_pa": "SENGKANG",
-      "devices": 5343,
-      "mean_ses": 0.06,
-      "med_quintile": 4.0,
-      "share_q4q5": 0.524
-    },
-    {
-      "home_pa": "TOA PAYOH",
-      "devices": 3094,
-      "mean_ses": 0.052,
-      "med_quintile": 4.0,
-      "share_q4q5": 0.522
-    },
-    {
-      "home_pa": "CLEMENTI",
-      "devices": 1788,
-      "mean_ses": 0.049,
-      "med_quintile": 3.0,
-      "share_q4q5": 0.378
-    },
-    {
-      "home_pa": "JURONG WEST",
-      "devices": 5319,
-      "mean_ses": 0.042,
-      "med_quintile": 3.0,
-      "share_q4q5": 0.367
-    },
-    {
-      "home_pa": "HOUGANG",
-      "devices": 4572,
-      "mean_ses": 0.029,
-      "med_quintile": 4.0,
-      "share_q4q5": 0.508
-    },
-    {
-      "home_pa": "NEWTON",
-      "devices": 488,
-      "mean_ses": 0.027,
-      "med_quintile": 2.0,
-      "share_q4q5": 0.389
+      "share_q4q5": 0.611
     },
     {
       "home_pa": "SERANGOON",
-      "devices": 2882,
-      "mean_ses": 0.023,
+      "devices": 2893,
+      "mean_ses": 0.16,
       "med_quintile": 3.0,
-      "share_q4q5": 0.442
+      "share_q4q5": 0.472
     },
     {
-      "home_pa": "SEMBAWANG",
-      "devices": 2209,
-      "mean_ses": 0.014,
+      "home_pa": "NOVENA",
+      "devices": 1481,
+      "mean_ses": 0.133,
       "med_quintile": 3.0,
-      "share_q4q5": 0.414
+      "share_q4q5": 0.431
     },
     {
-      "home_pa": "PUNGGOL",
-      "devices": 3244,
-      "mean_ses": 0.014,
+      "home_pa": "BEDOK",
+      "devices": 6597,
+      "mean_ses": 0.103,
       "med_quintile": 3.0,
-      "share_q4q5": 0.473
+      "share_q4q5": 0.476
     },
     {
-      "home_pa": "BUKIT PANJANG",
-      "devices": 2555,
-      "mean_ses": 0.003,
-      "med_quintile": 3.0,
-      "share_q4q5": 0.372
+      "home_pa": "BUKIT MERAH",
+      "devices": 2945,
+      "mean_ses": 0.092,
+      "med_quintile": 4.0,
+      "share_q4q5": 0.539
     },
     {
-      "home_pa": "BUKIT BATOK",
-      "devices": 3209,
-      "mean_ses": -0.016,
+      "home_pa": "MANDAI",
+      "devices": 87,
+      "mean_ses": 0.072,
       "med_quintile": 3.0,
-      "share_q4q5": 0.32
+      "share_q4q5": 0.471
     },
     {
-      "home_pa": "WOODLANDS",
-      "devices": 5075,
-      "mean_ses": -0.031,
+      "home_pa": "CLEMENTI",
+      "devices": 1781,
+      "mean_ses": 0.06,
       "med_quintile": 3.0,
-      "share_q4q5": 0.31
-    },
-    {
-      "home_pa": "YISHUN",
-      "devices": 4361,
-      "mean_ses": -0.035,
-      "med_quintile": 3.0,
-      "share_q4q5": 0.293
-    },
-    {
-      "home_pa": "ANG MO KIO",
-      "devices": 2879,
-      "mean_ses": -0.038,
-      "med_quintile": 3.0,
-      "share_q4q5": 0.323
-    },
-    {
-      "home_pa": "TENGAH",
-      "devices": 73,
-      "mean_ses": -0.071,
-      "med_quintile": 3.0,
-      "share_q4q5": 0.178
-    },
-    {
-      "home_pa": "QUEENSTOWN",
-      "devices": 2339,
-      "mean_ses": -0.073,
-      "med_quintile": 3.0,
-      "share_q4q5": 0.411
+      "share_q4q5": 0.441
     },
     {
       "home_pa": "KALLANG",
       "devices": 2210,
-      "mean_ses": -0.078,
+      "mean_ses": 0.05,
+      "med_quintile": 4.0,
+      "share_q4q5": 0.554
+    },
+    {
+      "home_pa": "HOUGANG",
+      "devices": 4567,
+      "mean_ses": 0.03,
       "med_quintile": 3.0,
-      "share_q4q5": 0.279
+      "share_q4q5": 0.407
+    },
+    {
+      "home_pa": "SENGKANG",
+      "devices": 5335,
+      "mean_ses": 0.022,
+      "med_quintile": 3.0,
+      "share_q4q5": 0.412
+    },
+    {
+      "home_pa": "TAMPINES",
+      "devices": 5114,
+      "mean_ses": 0.012,
+      "med_quintile": 3.0,
+      "share_q4q5": 0.401
+    },
+    {
+      "home_pa": "BUKIT PANJANG",
+      "devices": 2556,
+      "mean_ses": -0.002,
+      "med_quintile": 3.0,
+      "share_q4q5": 0.364
+    },
+    {
+      "home_pa": "QUEENSTOWN",
+      "devices": 2341,
+      "mean_ses": -0.003,
+      "med_quintile": 4.0,
+      "share_q4q5": 0.553
+    },
+    {
+      "home_pa": "TOA PAYOH",
+      "devices": 3104,
+      "mean_ses": -0.019,
+      "med_quintile": 3.0,
+      "share_q4q5": 0.339
+    },
+    {
+      "home_pa": "JURONG WEST",
+      "devices": 5326,
+      "mean_ses": -0.03,
+      "med_quintile": 3.0,
+      "share_q4q5": 0.357
+    },
+    {
+      "home_pa": "PUNGGOL",
+      "devices": 3246,
+      "mean_ses": -0.031,
+      "med_quintile": 3.0,
+      "share_q4q5": 0.367
+    },
+    {
+      "home_pa": "BUKIT BATOK",
+      "devices": 3209,
+      "mean_ses": -0.035,
+      "med_quintile": 3.0,
+      "share_q4q5": 0.344
+    },
+    {
+      "home_pa": "SEMBAWANG",
+      "devices": 2208,
+      "mean_ses": -0.042,
+      "med_quintile": 3.0,
+      "share_q4q5": 0.374
+    },
+    {
+      "home_pa": "NEWTON",
+      "devices": 488,
+      "mean_ses": -0.06,
+      "med_quintile": 2.0,
+      "share_q4q5": 0.402
+    },
+    {
+      "home_pa": "ANG MO KIO",
+      "devices": 2893,
+      "mean_ses": -0.064,
+      "med_quintile": 2.0,
+      "share_q4q5": 0.345
+    },
+    {
+      "home_pa": "WOODLANDS",
+      "devices": 5072,
+      "mean_ses": -0.08,
+      "med_quintile": 3.0,
+      "share_q4q5": 0.306
     },
     {
       "home_pa": "CHOA CHU KANG",
-      "devices": 4001,
-      "mean_ses": -0.106,
+      "devices": 3998,
+      "mean_ses": -0.094,
       "med_quintile": 3.0,
-      "share_q4q5": 0.242
+      "share_q4q5": 0.274
     },
     {
-      "home_pa": "JURONG EAST",
-      "devices": 1899,
-      "mean_ses": -0.137,
+      "home_pa": "YISHUN",
+      "devices": 4358,
+      "mean_ses": -0.094,
       "med_quintile": 3.0,
-      "share_q4q5": 0.217
-    },
-    {
-      "home_pa": "GEYLANG",
-      "devices": 3941,
-      "mean_ses": -0.147,
-      "med_quintile": 2.0,
-      "share_q4q5": 0.259
+      "share_q4q5": 0.281
     },
     {
       "home_pa": "ROCHOR",
-      "devices": 678,
-      "mean_ses": -0.163,
+      "devices": 679,
+      "mean_ses": -0.098,
       "med_quintile": 3.0,
-      "share_q4q5": 0.372
+      "share_q4q5": 0.302
+    },
+    {
+      "home_pa": "JURONG EAST",
+      "devices": 1901,
+      "mean_ses": -0.107,
+      "med_quintile": 2.0,
+      "share_q4q5": 0.282
+    },
+    {
+      "home_pa": "GEYLANG",
+      "devices": 3931,
+      "mean_ses": -0.114,
+      "med_quintile": 3.0,
+      "share_q4q5": 0.322
+    },
+    {
+      "home_pa": "DOWNTOWN CORE",
+      "devices": 1373,
+      "mean_ses": -0.151,
+      "med_quintile": 2.0,
+      "share_q4q5": 0.223
+    },
+    {
+      "home_pa": "TENGAH",
+      "devices": 72,
+      "mean_ses": -0.171,
+      "med_quintile": 3.0,
+      "share_q4q5": 0.194
     },
     {
       "home_pa": "SINGAPORE RIVER",
       "devices": 277,
-      "mean_ses": -0.178,
-      "med_quintile": 2.0,
-      "share_q4q5": 0.321
+      "mean_ses": -0.245,
+      "med_quintile": 1.0,
+      "share_q4q5": 0.307
     },
     {
-      "home_pa": "MUSEUM",
-      "devices": 416,
-      "mean_ses": -0.263,
+      "home_pa": "OUTRAM",
+      "devices": 734,
+      "mean_ses": -0.277,
       "med_quintile": 2.0,
-      "share_q4q5": 0.079
+      "share_q4q5": 0.168
     },
     {
       "home_pa": "SIMPANG",
       "devices": 16,
-      "mean_ses": -0.272,
+      "mean_ses": -0.342,
+      "med_quintile": 1.5,
+      "share_q4q5": 0.063
+    },
+    {
+      "home_pa": "MUSEUM",
+      "devices": 413,
+      "mean_ses": -0.386,
       "med_quintile": 2.0,
-      "share_q4q5": 0.0
+      "share_q4q5": 0.087
     },
     {
       "home_pa": "CENTRAL WATER CATCHMENT",
       "devices": 555,
-      "mean_ses": -0.32,
-      "med_quintile": 2.0,
-      "share_q4q5": 0.063
+      "mean_ses": -0.451,
+      "med_quintile": 1.0,
+      "share_q4q5": 0.058
     },
     {
       "home_pa": "LIM CHU KANG",
       "devices": 14,
-      "mean_ses": -0.327,
-      "med_quintile": 2.0,
+      "mean_ses": -0.473,
+      "med_quintile": 1.0,
       "share_q4q5": 0.071
     },
     {
-      "home_pa": "SELETAR",
-      "devices": 146,
-      "mean_ses": -0.383,
-      "med_quintile": 2.0,
-      "share_q4q5": 0.082
-    },
-    {
       "home_pa": "NORTH-EASTERN ISLANDS",
-      "devices": 29,
-      "mean_ses": -0.409,
+      "devices": 30,
+      "mean_ses": -0.492,
       "med_quintile": 1.0,
-      "share_q4q5": 0.103
-    },
-    {
-      "home_pa": "OUTRAM",
-      "devices": 727,
-      "mean_ses": -0.445,
-      "med_quintile": 1.0,
-      "share_q4q5": 0.188
+      "share_q4q5": 0.1
     },
     {
       "home_pa": "MARINA EAST",
       "devices": 6,
-      "mean_ses": -0.468,
-      "med_quintile": 1.5,
+      "mean_ses": -0.503,
+      "med_quintile": 1.0,
       "share_q4q5": 0.0
     },
     {
-      "home_pa": "STRAITS VIEW",
-      "devices": 41,
-      "mean_ses": -0.508,
+      "home_pa": "SELETAR",
+      "devices": 147,
+      "mean_ses": -0.524,
       "med_quintile": 1.0,
-      "share_q4q5": 0.073
-    },
-    {
-      "home_pa": "WESTERN WATER CATCHMENT",
-      "devices": 326,
-      "mean_ses": -0.514,
-      "med_quintile": 2.0,
-      "share_q4q5": 0.049
+      "share_q4q5": 0.048
     },
     {
       "home_pa": "PAYA LEBAR",
-      "devices": 115,
-      "mean_ses": -0.532,
-      "med_quintile": 2.0,
-      "share_q4q5": 0.07
+      "devices": 116,
+      "mean_ses": -0.65,
+      "med_quintile": 1.0,
+      "share_q4q5": 0.06
+    },
+    {
+      "home_pa": "WESTERN WATER CATCHMENT",
+      "devices": 325,
+      "mean_ses": -0.656,
+      "med_quintile": 1.0,
+      "share_q4q5": 0.04
+    },
+    {
+      "home_pa": "STRAITS VIEW",
+      "devices": 39,
+      "mean_ses": -0.694,
+      "med_quintile": 1.0,
+      "share_q4q5": 0.051
     },
     {
       "home_pa": "PIONEER",
-      "devices": 440,
-      "mean_ses": -0.585,
+      "devices": 441,
+      "mean_ses": -0.743,
       "med_quintile": 1.0,
-      "share_q4q5": 0.014
+      "share_q4q5": 0.018
     },
     {
       "home_pa": "SUNGEI KADUT",
-      "devices": 397,
-      "mean_ses": -0.62,
+      "devices": 403,
+      "mean_ses": -0.781,
       "med_quintile": 1.0,
-      "share_q4q5": 0.078
-    },
-    {
-      "home_pa": "DOWNTOWN CORE",
-      "devices": 1365,
-      "mean_ses": -0.662,
-      "med_quintile": 1.0,
-      "share_q4q5": 0.046
+      "share_q4q5": 0.072
     },
     {
       "home_pa": "CHANGI",
-      "devices": 446,
-      "mean_ses": -0.679,
+      "devices": 448,
+      "mean_ses": -0.84,
       "med_quintile": 1.0,
-      "share_q4q5": 0.09
+      "share_q4q5": 0.089
     },
     {
       "home_pa": "ORCHARD",
-      "devices": 667,
-      "mean_ses": -0.732,
+      "devices": 662,
+      "mean_ses": -0.858,
       "med_quintile": 1.0,
-      "share_q4q5": 0.097
+      "share_q4q5": 0.098
     },
     {
       "home_pa": "BOON LAY",
-      "devices": 108,
-      "mean_ses": -0.811,
+      "devices": 107,
+      "mean_ses": -0.978,
       "med_quintile": 1.0,
-      "share_q4q5": 0.046
+      "share_q4q5": 0.093
+    },
+    {
+      "home_pa": "WESTERN ISLANDS",
+      "devices": 67,
+      "mean_ses": -1.017,
+      "med_quintile": 1.0,
+      "share_q4q5": 0.075
     },
     {
       "home_pa": "TUAS",
       "devices": 610,
-      "mean_ses": -0.84,
+      "mean_ses": -1.026,
       "med_quintile": 1.0,
       "share_q4q5": 0.023
-    },
-    {
-      "home_pa": "WESTERN ISLANDS",
-      "devices": 65,
-      "mean_ses": -0.879,
-      "med_quintile": 1.0,
-      "share_q4q5": 0.031
     }
   ],
   "segment_x_ses": [
     {
       "segment": "cbd_commuter",
       "ses_quintile": 1,
-      "devices": 579
+      "devices": 633
     },
     {
       "segment": "cbd_commuter",
       "ses_quintile": 2,
-      "devices": 365
+      "devices": 516
     },
     {
       "segment": "cbd_commuter",
       "ses_quintile": 3,
-      "devices": 464
+      "devices": 301
     },
     {
       "segment": "cbd_commuter",
       "ses_quintile": 4,
-      "devices": 443
+      "devices": 404
     },
     {
       "segment": "cbd_commuter",
       "ses_quintile": 5,
-      "devices": 442
+      "devices": 410
     },
     {
       "segment": "cross_border",
       "ses_quintile": 1,
-      "devices": 190
+      "devices": 283
     },
     {
       "segment": "cross_border",
       "ses_quintile": 2,
+      "devices": 299
+    },
+    {
+      "segment": "cross_border",
+      "ses_quintile": 3,
       "devices": 165
     },
     {
       "segment": "cross_border",
-      "ses_quintile": 3,
-      "devices": 315
-    },
-    {
-      "segment": "cross_border",
       "ses_quintile": 4,
-      "devices": 191
+      "devices": 144
     },
     {
       "segment": "cross_border",
       "ses_quintile": 5,
-      "devices": 102
+      "devices": 72
     },
     {
       "segment": "homebody",
       "ses_quintile": 1,
-      "devices": 6458
+      "devices": 5689
     },
     {
       "segment": "homebody",
       "ses_quintile": 2,
-      "devices": 8169
+      "devices": 6365
     },
     {
       "segment": "homebody",
       "ses_quintile": 3,
-      "devices": 6610
+      "devices": 8476
     },
     {
       "segment": "homebody",
       "ses_quintile": 4,
-      "devices": 6277
+      "devices": 6854
     },
     {
       "segment": "homebody",
       "ses_quintile": 5,
-      "devices": 6341
+      "devices": 6471
     },
     {
       "segment": "islandwide_rover",
       "ses_quintile": 1,
-      "devices": 592
+      "devices": 675
     },
     {
       "segment": "islandwide_rover",
       "ses_quintile": 2,
-      "devices": 398
+      "devices": 471
     },
     {
       "segment": "islandwide_rover",
       "ses_quintile": 3,
-      "devices": 480
+      "devices": 403
     },
     {
       "segment": "islandwide_rover",
       "ses_quintile": 4,
-      "devices": 520
+      "devices": 486
     },
     {
       "segment": "islandwide_rover",
       "ses_quintile": 5,
-      "devices": 529
+      "devices": 484
     },
     {
       "segment": "local_resident",
       "ses_quintile": 1,
-      "devices": 5433
+      "devices": 5414
     },
     {
       "segment": "local_resident",
       "ses_quintile": 2,
-      "devices": 5101
+      "devices": 5657
     },
     {
       "segment": "local_resident",
       "ses_quintile": 3,
-      "devices": 5296
+      "devices": 4769
     },
     {
       "segment": "local_resident",
       "ses_quintile": 4,
-      "devices": 5648
+      "devices": 5593
     },
     {
       "segment": "local_resident",
       "ses_quintile": 5,
-      "devices": 6554
+      "devices": 6599
     },
     {
       "segment": "long_haul_commuter",
       "ses_quintile": 1,
-      "devices": 742
+      "devices": 838
     },
     {
       "segment": "long_haul_commuter",
       "ses_quintile": 2,
-      "devices": 509
+      "devices": 694
     },
     {
       "segment": "long_haul_commuter",
       "ses_quintile": 3,
-      "devices": 669
+      "devices": 472
     },
     {
       "segment": "long_haul_commuter",
       "ses_quintile": 4,
-      "devices": 708
+      "devices": 647
     },
     {
       "segment": "long_haul_commuter",
       "ses_quintile": 5,
-      "devices": 626
+      "devices": 602
     },
     {
       "segment": "night_shift",
       "ses_quintile": 1,
-      "devices": 178
+      "devices": 172
     },
     {
       "segment": "night_shift",
       "ses_quintile": 2,
-      "devices": 90
-    },
-    {
-      "segment": "night_shift",
-      "ses_quintile": 3,
-      "devices": 82
-    },
-    {
-      "segment": "night_shift",
-      "ses_quintile": 4,
       "devices": 103
     },
     {
       "segment": "night_shift",
+      "ses_quintile": 3,
+      "devices": 71
+    },
+    {
+      "segment": "night_shift",
+      "ses_quintile": 4,
+      "devices": 99
+    },
+    {
+      "segment": "night_shift",
       "ses_quintile": 5,
-      "devices": 94
+      "devices": 102
     },
     {
       "segment": "school_linked",
       "ses_quintile": 1,
-      "devices": 1726
+      "devices": 1783
     },
     {
       "segment": "school_linked",
       "ses_quintile": 2,
-      "devices": 1785
+      "devices": 1913
     },
     {
       "segment": "school_linked",
       "ses_quintile": 3,
-      "devices": 2248
+      "devices": 2214
     },
     {
       "segment": "school_linked",
       "ses_quintile": 4,
-      "devices": 2271
+      "devices": 2095
     },
     {
       "segment": "school_linked",
       "ses_quintile": 5,
-      "devices": 1781
+      "devices": 1806
     },
     {
       "segment": "town_commuter",
       "ses_quintile": 1,
-      "devices": 1832
+      "devices": 2060
     },
     {
       "segment": "town_commuter",
       "ses_quintile": 2,
-      "devices": 1419
+      "devices": 1804
     },
     {
       "segment": "town_commuter",
       "ses_quintile": 3,
-      "devices": 1720
+      "devices": 1266
     },
     {
       "segment": "town_commuter",
       "ses_quintile": 4,
-      "devices": 1747
+      "devices": 1655
     },
     {
       "segment": "town_commuter",
       "ses_quintile": 5,
-      "devices": 1485
+      "devices": 1416
     },
     {
       "segment": "works_near_home",
       "ses_quintile": 1,
-      "devices": 1215
+      "devices": 1398
     },
     {
       "segment": "works_near_home",
       "ses_quintile": 2,
-      "devices": 944
+      "devices": 1123
     },
     {
       "segment": "works_near_home",
       "ses_quintile": 3,
-      "devices": 1061
+      "devices": 808
     },
     {
       "segment": "works_near_home",
       "ses_quintile": 4,
-      "devices": 1037
+      "devices": 968
     },
     {
       "segment": "works_near_home",
       "ses_quintile": 5,
-      "devices": 990
+      "devices": 982
     }
   ],
   "validation": {
     "status": "ok",
     "n_pas": 30,
-    "pearson_mean_ses_vs_census_income": 0.532,
-    "spearman_mean_ses_vs_census_income": 0.604,
+    "pearson_mean_ses_vs_census_income": 0.813,
+    "spearman_mean_ses_vs_census_income": 0.721,
     "pass_criterion": true,
     "by_pa": [
       {
         "pa": "TANGLIN",
-        "devices": 767,
-        "mean_ses": 0.591,
-        "med_ses": 0.964,
-        "weighted_mean_ses": 0.591,
-        "share_q4q5": 0.623,
+        "devices": 768,
+        "mean_ses": 0.553,
+        "med_ses": 0.959,
+        "weighted_mean_ses": 0.551,
+        "share_q4q5": 0.618,
         "census_est_mean_income": 19110.0,
         "share_ge_10k": 0.686,
         "share_ge_15k": 0.596,
@@ -814,11 +804,11 @@
       },
       {
         "pa": "RIVER VALLEY",
-        "devices": 365,
-        "mean_ses": 0.629,
-        "med_ses": 0.893,
-        "weighted_mean_ses": 0.629,
-        "share_q4q5": 0.77,
+        "devices": 364,
+        "mean_ses": 0.597,
+        "med_ses": 0.89,
+        "weighted_mean_ses": 0.601,
+        "share_q4q5": 0.766,
         "census_est_mean_income": 18313.0,
         "share_ge_10k": 0.664,
         "share_ge_15k": 0.566,
@@ -826,11 +816,11 @@
       },
       {
         "pa": "BUKIT TIMAH",
-        "devices": 2697,
-        "mean_ses": 0.546,
-        "med_ses": 0.81,
-        "weighted_mean_ses": 0.546,
-        "share_q4q5": 0.582,
+        "devices": 2698,
+        "mean_ses": 0.858,
+        "med_ses": 0.893,
+        "weighted_mean_ses": 0.855,
+        "share_q4q5": 0.938,
         "census_est_mean_income": 18186.0,
         "share_ge_10k": 0.654,
         "share_ge_15k": 0.55,
@@ -838,11 +828,11 @@
       },
       {
         "pa": "DOWNTOWN CORE",
-        "devices": 1365,
-        "mean_ses": -0.662,
-        "med_ses": -0.789,
-        "weighted_mean_ses": -0.662,
-        "share_q4q5": 0.046,
+        "devices": 1373,
+        "mean_ses": -0.151,
+        "med_ses": -0.201,
+        "weighted_mean_ses": -0.117,
+        "share_q4q5": 0.223,
         "census_est_mean_income": 16997.0,
         "share_ge_10k": 0.656,
         "share_ge_15k": 0.52,
@@ -850,11 +840,11 @@
       },
       {
         "pa": "MARINE PARADE",
-        "devices": 906,
-        "mean_ses": 0.225,
-        "med_ses": 0.192,
-        "weighted_mean_ses": 0.225,
-        "share_q4q5": 0.525,
+        "devices": 908,
+        "mean_ses": 0.276,
+        "med_ses": 0.263,
+        "weighted_mean_ses": 0.277,
+        "share_q4q5": 0.589,
         "census_est_mean_income": 14285.0,
         "share_ge_10k": 0.47,
         "share_ge_15k": 0.363,
@@ -862,11 +852,11 @@
       },
       {
         "pa": "NOVENA",
-        "devices": 1497,
-        "mean_ses": 0.079,
-        "med_ses": 0.055,
-        "weighted_mean_ses": 0.079,
-        "share_q4q5": 0.424,
+        "devices": 1481,
+        "mean_ses": 0.133,
+        "med_ses": 0.024,
+        "weighted_mean_ses": 0.134,
+        "share_q4q5": 0.431,
         "census_est_mean_income": 13718.0,
         "share_ge_10k": 0.477,
         "share_ge_15k": 0.359,
@@ -875,10 +865,10 @@
       {
         "pa": "BISHAN",
         "devices": 1412,
-        "mean_ses": 0.219,
-        "med_ses": 0.297,
-        "weighted_mean_ses": 0.219,
-        "share_q4q5": 0.645,
+        "mean_ses": 0.258,
+        "med_ses": 0.269,
+        "weighted_mean_ses": 0.259,
+        "share_q4q5": 0.679,
         "census_est_mean_income": 13611.0,
         "share_ge_10k": 0.499,
         "share_ge_15k": 0.348,
@@ -886,11 +876,11 @@
       },
       {
         "pa": "SERANGOON",
-        "devices": 2882,
-        "mean_ses": 0.023,
-        "med_ses": -0.032,
-        "weighted_mean_ses": 0.023,
-        "share_q4q5": 0.442,
+        "devices": 2893,
+        "mean_ses": 0.16,
+        "med_ses": 0.074,
+        "weighted_mean_ses": 0.161,
+        "share_q4q5": 0.472,
         "census_est_mean_income": 13156.0,
         "share_ge_10k": 0.477,
         "share_ge_15k": 0.327,
@@ -898,11 +888,11 @@
       },
       {
         "pa": "PASIR RIS",
-        "devices": 3238,
-        "mean_ses": 0.211,
-        "med_ses": 0.204,
-        "weighted_mean_ses": 0.211,
-        "share_q4q5": 0.659,
+        "devices": 3239,
+        "mean_ses": 0.187,
+        "med_ses": 0.199,
+        "weighted_mean_ses": 0.187,
+        "share_q4q5": 0.611,
         "census_est_mean_income": 12645.0,
         "share_ge_10k": 0.521,
         "share_ge_15k": 0.307,
@@ -910,11 +900,11 @@
       },
       {
         "pa": "CLEMENTI",
-        "devices": 1788,
-        "mean_ses": 0.049,
-        "med_ses": 0.071,
-        "weighted_mean_ses": 0.049,
-        "share_q4q5": 0.378,
+        "devices": 1781,
+        "mean_ses": 0.06,
+        "med_ses": -0.007,
+        "weighted_mean_ses": 0.059,
+        "share_q4q5": 0.441,
         "census_est_mean_income": 11969.0,
         "share_ge_10k": 0.412,
         "share_ge_15k": 0.271,
@@ -922,11 +912,11 @@
       },
       {
         "pa": "BEDOK",
-        "devices": 6604,
-        "mean_ses": 0.079,
-        "med_ses": 0.032,
-        "weighted_mean_ses": 0.079,
-        "share_q4q5": 0.412,
+        "devices": 6597,
+        "mean_ses": 0.103,
+        "med_ses": 0.059,
+        "weighted_mean_ses": 0.103,
+        "share_q4q5": 0.476,
         "census_est_mean_income": 11493.0,
         "share_ge_10k": 0.385,
         "share_ge_15k": 0.252,
@@ -934,11 +924,11 @@
       },
       {
         "pa": "QUEENSTOWN",
-        "devices": 2339,
-        "mean_ses": -0.073,
-        "med_ses": -0.154,
-        "weighted_mean_ses": -0.073,
-        "share_q4q5": 0.411,
+        "devices": 2341,
+        "mean_ses": -0.003,
+        "med_ses": 0.211,
+        "weighted_mean_ses": -0.003,
+        "share_q4q5": 0.553,
         "census_est_mean_income": 11387.0,
         "share_ge_10k": 0.38,
         "share_ge_15k": 0.246,
@@ -946,11 +936,11 @@
       },
       {
         "pa": "CHOA CHU KANG",
-        "devices": 4001,
-        "mean_ses": -0.106,
-        "med_ses": -0.121,
-        "weighted_mean_ses": -0.106,
-        "share_q4q5": 0.242,
+        "devices": 3998,
+        "mean_ses": -0.094,
+        "med_ses": -0.021,
+        "weighted_mean_ses": -0.093,
+        "share_q4q5": 0.274,
         "census_est_mean_income": 10979.0,
         "share_ge_10k": 0.436,
         "share_ge_15k": 0.233,
@@ -958,11 +948,11 @@
       },
       {
         "pa": "SENGKANG",
-        "devices": 5343,
-        "mean_ses": 0.06,
-        "med_ses": 0.133,
-        "weighted_mean_ses": 0.06,
-        "share_q4q5": 0.524,
+        "devices": 5335,
+        "mean_ses": 0.022,
+        "med_ses": 0.031,
+        "weighted_mean_ses": 0.022,
+        "share_q4q5": 0.412,
         "census_est_mean_income": 10970.0,
         "share_ge_10k": 0.447,
         "share_ge_15k": 0.236,
@@ -970,11 +960,11 @@
       },
       {
         "pa": "PUNGGOL",
-        "devices": 3244,
-        "mean_ses": 0.014,
-        "med_ses": 0.081,
-        "weighted_mean_ses": 0.014,
-        "share_q4q5": 0.473,
+        "devices": 3246,
+        "mean_ses": -0.031,
+        "med_ses": 0.012,
+        "weighted_mean_ses": -0.03,
+        "share_q4q5": 0.367,
         "census_est_mean_income": 10887.0,
         "share_ge_10k": 0.447,
         "share_ge_15k": 0.232,
@@ -982,11 +972,11 @@
       },
       {
         "pa": "TAMPINES",
-        "devices": 5120,
-        "mean_ses": 0.084,
-        "med_ses": 0.184,
-        "weighted_mean_ses": 0.084,
-        "share_q4q5": 0.559,
+        "devices": 5114,
+        "mean_ses": 0.012,
+        "med_ses": 0.044,
+        "weighted_mean_ses": 0.013,
+        "share_q4q5": 0.401,
         "census_est_mean_income": 10795.0,
         "share_ge_10k": 0.409,
         "share_ge_15k": 0.223,
@@ -994,11 +984,11 @@
       },
       {
         "pa": "BUKIT PANJANG",
-        "devices": 2555,
-        "mean_ses": 0.003,
-        "med_ses": 0.045,
-        "weighted_mean_ses": 0.003,
-        "share_q4q5": 0.372,
+        "devices": 2556,
+        "mean_ses": -0.002,
+        "med_ses": 0.007,
+        "weighted_mean_ses": -0.003,
+        "share_q4q5": 0.364,
         "census_est_mean_income": 10742.0,
         "share_ge_10k": 0.395,
         "share_ge_15k": 0.226,
@@ -1006,11 +996,11 @@
       },
       {
         "pa": "HOUGANG",
-        "devices": 4572,
-        "mean_ses": 0.029,
-        "med_ses": 0.116,
-        "weighted_mean_ses": 0.029,
-        "share_q4q5": 0.508,
+        "devices": 4567,
+        "mean_ses": 0.03,
+        "med_ses": 0.023,
+        "weighted_mean_ses": 0.03,
+        "share_q4q5": 0.407,
         "census_est_mean_income": 10658.0,
         "share_ge_10k": 0.388,
         "share_ge_15k": 0.221,
@@ -1019,10 +1009,10 @@
       {
         "pa": "BUKIT BATOK",
         "devices": 3209,
-        "mean_ses": -0.016,
-        "med_ses": 0.009,
-        "weighted_mean_ses": -0.016,
-        "share_q4q5": 0.32,
+        "mean_ses": -0.035,
+        "med_ses": -0.092,
+        "weighted_mean_ses": -0.036,
+        "share_q4q5": 0.344,
         "census_est_mean_income": 10635.0,
         "share_ge_10k": 0.386,
         "share_ge_15k": 0.224,
@@ -1030,11 +1020,11 @@
       },
       {
         "pa": "TOA PAYOH",
-        "devices": 3094,
-        "mean_ses": 0.052,
-        "med_ses": 0.155,
-        "weighted_mean_ses": 0.052,
-        "share_q4q5": 0.522,
+        "devices": 3104,
+        "mean_ses": -0.019,
+        "med_ses": -0.004,
+        "weighted_mean_ses": -0.018,
+        "share_q4q5": 0.339,
         "census_est_mean_income": 10558.0,
         "share_ge_10k": 0.336,
         "share_ge_15k": 0.211,
@@ -1042,11 +1032,11 @@
       },
       {
         "pa": "BUKIT MERAH",
-        "devices": 2943,
-        "mean_ses": 0.157,
-        "med_ses": 0.261,
-        "weighted_mean_ses": 0.157,
-        "share_q4q5": 0.631,
+        "devices": 2945,
+        "mean_ses": 0.092,
+        "med_ses": 0.117,
+        "weighted_mean_ses": 0.092,
+        "share_q4q5": 0.539,
         "census_est_mean_income": 10527.0,
         "share_ge_10k": 0.35,
         "share_ge_15k": 0.216,
@@ -1055,10 +1045,10 @@
       {
         "pa": "KALLANG",
         "devices": 2210,
-        "mean_ses": -0.078,
-        "med_ses": -0.105,
-        "weighted_mean_ses": -0.078,
-        "share_q4q5": 0.279,
+        "mean_ses": 0.05,
+        "med_ses": 0.11,
+        "weighted_mean_ses": 0.05,
+        "share_q4q5": 0.554,
         "census_est_mean_income": 10524.0,
         "share_ge_10k": 0.346,
         "share_ge_15k": 0.214,
@@ -1066,11 +1056,11 @@
       },
       {
         "pa": "SEMBAWANG",
-        "devices": 2209,
-        "mean_ses": 0.014,
-        "med_ses": 0.106,
-        "weighted_mean_ses": 0.014,
-        "share_q4q5": 0.414,
+        "devices": 2208,
+        "mean_ses": -0.042,
+        "med_ses": -0.008,
+        "weighted_mean_ses": -0.043,
+        "share_q4q5": 0.374,
         "census_est_mean_income": 10146.0,
         "share_ge_10k": 0.393,
         "share_ge_15k": 0.188,
@@ -1078,11 +1068,11 @@
       },
       {
         "pa": "GEYLANG",
-        "devices": 3941,
-        "mean_ses": -0.147,
-        "med_ses": -0.19,
-        "weighted_mean_ses": -0.147,
-        "share_q4q5": 0.259,
+        "devices": 3931,
+        "mean_ses": -0.114,
+        "med_ses": -0.042,
+        "weighted_mean_ses": -0.112,
+        "share_q4q5": 0.322,
         "census_est_mean_income": 9948.0,
         "share_ge_10k": 0.33,
         "share_ge_15k": 0.19,
@@ -1090,11 +1080,11 @@
       },
       {
         "pa": "JURONG WEST",
-        "devices": 5319,
-        "mean_ses": 0.042,
-        "med_ses": 0.055,
-        "weighted_mean_ses": 0.042,
-        "share_q4q5": 0.367,
+        "devices": 5326,
+        "mean_ses": -0.03,
+        "med_ses": -0.041,
+        "weighted_mean_ses": -0.03,
+        "share_q4q5": 0.357,
         "census_est_mean_income": 9920.0,
         "share_ge_10k": 0.373,
         "share_ge_15k": 0.178,
@@ -1102,11 +1092,11 @@
       },
       {
         "pa": "JURONG EAST",
-        "devices": 1899,
-        "mean_ses": -0.137,
-        "med_ses": -0.089,
-        "weighted_mean_ses": -0.137,
-        "share_q4q5": 0.217,
+        "devices": 1901,
+        "mean_ses": -0.107,
+        "med_ses": -0.092,
+        "weighted_mean_ses": -0.106,
+        "share_q4q5": 0.282,
         "census_est_mean_income": 9858.0,
         "share_ge_10k": 0.331,
         "share_ge_15k": 0.184,
@@ -1114,11 +1104,11 @@
       },
       {
         "pa": "ANG MO KIO",
-        "devices": 2879,
-        "mean_ses": -0.038,
-        "med_ses": -0.011,
-        "weighted_mean_ses": -0.038,
-        "share_q4q5": 0.323,
+        "devices": 2893,
+        "mean_ses": -0.064,
+        "med_ses": -0.13,
+        "weighted_mean_ses": -0.065,
+        "share_q4q5": 0.345,
         "census_est_mean_income": 9776.0,
         "share_ge_10k": 0.31,
         "share_ge_15k": 0.182,
@@ -1126,11 +1116,11 @@
       },
       {
         "pa": "OUTRAM",
-        "devices": 727,
-        "mean_ses": -0.445,
-        "med_ses": -0.529,
-        "weighted_mean_ses": -0.445,
-        "share_q4q5": 0.188,
+        "devices": 734,
+        "mean_ses": -0.277,
+        "med_ses": -0.298,
+        "weighted_mean_ses": -0.27,
+        "share_q4q5": 0.168,
         "census_est_mean_income": 9518.0,
         "share_ge_10k": 0.282,
         "share_ge_15k": 0.174,
@@ -1138,11 +1128,11 @@
       },
       {
         "pa": "WOODLANDS",
-        "devices": 5075,
-        "mean_ses": -0.031,
-        "med_ses": 0.046,
-        "weighted_mean_ses": -0.031,
-        "share_q4q5": 0.31,
+        "devices": 5072,
+        "mean_ses": -0.08,
+        "med_ses": -0.035,
+        "weighted_mean_ses": -0.08,
+        "share_q4q5": 0.306,
         "census_est_mean_income": 9382.0,
         "share_ge_10k": 0.34,
         "share_ge_15k": 0.155,
@@ -1150,11 +1140,11 @@
       },
       {
         "pa": "YISHUN",
-        "devices": 4361,
-        "mean_ses": -0.035,
-        "med_ses": 0.041,
-        "weighted_mean_ses": -0.035,
-        "share_q4q5": 0.293,
+        "devices": 4358,
+        "mean_ses": -0.094,
+        "med_ses": -0.082,
+        "weighted_mean_ses": -0.094,
+        "share_q4q5": 0.281,
         "census_est_mean_income": 9226.0,
         "share_ge_10k": 0.326,
         "share_ge_15k": 0.153,

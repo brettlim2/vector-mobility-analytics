@@ -360,18 +360,18 @@
       "med_dwell_min": 43.0
     },
     {
-      "name": "Watsons",
-      "locations": 85,
-      "devices": 647,
-      "visits": 736,
-      "med_dwell_min": 61.3
-    },
-    {
       "name": "KFC",
       "locations": 71,
       "devices": 647,
       "visits": 756,
       "med_dwell_min": 51.1
+    },
+    {
+      "name": "Watsons",
+      "locations": 85,
+      "devices": 647,
+      "visits": 736,
+      "med_dwell_min": 61.3
     },
     {
       "name": "Sheng Siong Supermarket",
@@ -1357,9 +1357,9 @@
     },
     {
       "grp": "Food & Drink",
-      "name": "Thohirah Restaurant",
+      "name": "Picante",
       "devices": 183,
-      "med_dwell_min": 50.0
+      "med_dwell_min": 40.5
     },
     {
       "grp": "Geographic",
@@ -1471,15 +1471,15 @@
     },
     {
       "grp": "Lodging",
-      "name": "7th Storey",
-      "devices": 44,
-      "med_dwell_min": 47.5
-    },
-    {
-      "grp": "Lodging",
       "name": "Bt Merah",
       "devices": 44,
       "med_dwell_min": 41.2
+    },
+    {
+      "grp": "Lodging",
+      "name": "7th Storey",
+      "devices": 44,
+      "med_dwell_min": 47.5
     },
     {
       "grp": "Other",
@@ -1489,21 +1489,21 @@
     },
     {
       "grp": "Other",
-      "name": "Clinic 2B",
-      "devices": 36,
-      "med_dwell_min": 106.6
-    },
-    {
-      "grp": "Other",
       "name": "Department of Child Development",
       "devices": 36,
       "med_dwell_min": 109.5
     },
     {
       "grp": "Other",
-      "name": "Orthopaedic Diagnostic Centre",
+      "name": "Clinic 2B",
+      "devices": 36,
+      "med_dwell_min": 106.6
+    },
+    {
+      "grp": "Other",
+      "name": "Hearing Partners",
       "devices": 33,
-      "med_dwell_min": 111.9
+      "med_dwell_min": 80.2
     },
     {
       "grp": "Other",
@@ -1712,14 +1712,14 @@
       "share_local_3km": 0.77
     },
     {
-      "name": "Playground, Telok Kurau Park",
-      "visitors": 503,
+      "name": "Circuit Road Basketball Court",
+      "visitors": 539,
       "med_home_dist_km": 1.3,
       "share_local_3km": 0.75
     },
     {
-      "name": "Circuit Road Basketball Court",
-      "visitors": 539,
+      "name": "Playground, Telok Kurau Park",
+      "visitors": 503,
       "med_home_dist_km": 1.3,
       "share_local_3km": 0.75
     }
@@ -1855,7 +1855,7 @@
       "top_pois": [
         "Bishan Ang Mo Kio Park",
         "452 Ang Mo Kio Ave 10",
-        "A11"
+        "Boon Tong Kee"
       ]
     }
   ]

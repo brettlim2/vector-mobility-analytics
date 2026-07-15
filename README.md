@@ -1,10 +1,10 @@
 # Vector Mobility Analytics
 
 Interactive geospatial analytics over the Veraset Singapore warehouse
-(DuckDB → static cubes → MapLibre + deck.gl). Phases 1–2 of the mobility
-analytics roadmap: hex density, OD arcs, planning-area boundaries, filter
-cubes, calendar heatmap, POI rhythms, and warehouse insight views for
-movement, places, audience segments, socioeconomic signals, and urban context.
+(DuckDB → static cubes → MapLibre + deck.gl). Hex density, OD arcs,
+planning-area boundaries, filter cubes, calendar heatmap, POI rhythms, and
+warehouse insight views for routing, dining × SES, retail missions, affinity,
+audience segments, and urban context.
 
 ## Public demo
 
@@ -74,20 +74,26 @@ Example: `?daytype=weekday&hourBand=am&source=sdk_app&h3=8`
 | `insights/segments.json`, `ses.json` | mobility segments and socioeconomic quintiles |
 | `insights/purpose.json`, `urban_context.json` | inferred trip purpose and external context |
 | `insights/household.json` | privacy-safe household distributions and co-movement proxies |
+| `insights/dining.json` | dining format / cuisine / meal occasions by SES |
+| `insights/retail.json` | mall missions, loyalty, heartland vs regional |
+| `insights/routing.json` | OSRM circuity, mode inference, drive-time catchments |
+| `insights/affinity.json` | category / brand / mall co-visit lift |
+| `insights/weighted.json`, `uncertainty.json` | post-stratified population view and jackknife CIs |
 
 All aggregates are k≥5 suppressed at export. POI footfall uses visitor-only
 rows (home ≥400 m from venue).
 
 The advanced insight runners depend on the enriched warehouse tables built by
-the analytics pipeline (including segment, SES, purpose and weighting stages).
-By default the CLI uses `data/veraset.duckdb`, then falls back to the sibling
-`VectorMobility MVP/data/veraset.duckdb`; set `WAREHOUSE_PATH` to override it.
+the analytics pipeline (including segment, SES, purpose, weighting, and
+optional OSRM routing stages). By default the CLI uses `data/veraset.duckdb`,
+then falls back to the sibling `VectorMobility MVP/data/veraset.duckdb`; set
+`WAREHOUSE_PATH` to override it.
 
 ## Guardrails
 
 - No per-device trajectories in the UI
 - Prefer SDK/app feed for hourly axes (agg has a UTC-midnight step ≈ 08:00 SGT)
-- Straight-line distances labelled as such
+- Map OD arcs remain straight-line; routing insights report road-network metrics
 
 ## Commands
 
@@ -95,7 +101,7 @@ By default the CLI uses `data/veraset.duckdb`, then falls back to the sibling
 python3 -m analytics export                 # all artifacts
 python3 -m analytics export --only hex od   # subset
 python3 -m analytics insights               # refresh all insight payloads
-python3 -m analytics insights --only ses segments purpose
+python3 -m analytics insights --only dining retail routing
 python3 -m analytics sql "SELECT count(*) FROM trips"
 python3 -m analytics profile
 ```

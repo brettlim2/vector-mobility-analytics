@@ -1,0 +1,458 @@
+{
+  "devices": 342720,
+  "k": 10,
+  "ari_vs_rule_segments": 0.007,
+  "interpretation": "Low ARI is expected: device2vec captures consumption/lifestyle sequence structure, orthogonal to the commute-geometry rule segments. The clusters below are characterized by their dominant visited categories.",
+  "clusters": [
+    {
+      "cluster": 9,
+      "devices": 64891,
+      "avg_ses_quintile": 2.98,
+      "top_categories": [
+        {
+          "category": "landmark_and_historical_building",
+          "visits": 127
+        },
+        {
+          "category": "preschool",
+          "visits": 79
+        },
+        {
+          "category": "accommodation",
+          "visits": 67
+        },
+        {
+          "category": "gas_station",
+          "visits": 66
+        },
+        {
+          "category": "community_services_non_profits",
+          "visits": 46
+        },
+        {
+          "category": "beauty_salon",
+          "visits": 46
+        }
+      ],
+      "top_rule_segments": [
+        {
+          "segment": "town_commuter",
+          "devices": 23
+        },
+        {
+          "segment": "homebody",
+          "devices": 12
+        },
+        {
+          "segment": "local_resident",
+          "devices": 11
+        }
+      ]
+    },
+    {
+      "cluster": 4,
+      "devices": 59408,
+      "avg_ses_quintile": 2.6,
+      "top_categories": [
+        {
+          "category": "park",
+          "visits": 156
+        },
+        {
+          "category": "family_practice",
+          "visits": 79
+        },
+        {
+          "category": "boutique",
+          "visits": 62
+        },
+        {
+          "category": "stadium_arena",
+          "visits": 58
+        },
+        {
+          "category": "basketball_court",
+          "visits": 54
+        },
+        {
+          "category": "landmark_and_historical_building",
+          "visits": 49
+        }
+      ],
+      "top_rule_segments": [
+        {
+          "segment": "homebody",
+          "devices": 17
+        },
+        {
+          "segment": "local_resident",
+          "devices": 12
+        },
+        {
+          "segment": "likely_tourist",
+          "devices": 4
+        }
+      ]
+    },
+    {
+      "cluster": 6,
+      "devices": 56121,
+      "avg_ses_quintile": 3.02,
+      "top_categories": [
+        {
+          "category": "accommodation",
+          "visits": 194
+        },
+        {
+          "category": "landmark_and_historical_building",
+          "visits": 146
+        },
+        {
+          "category": "restaurant",
+          "visits": 64
+        },
+        {
+          "category": "park",
+          "visits": 53
+        },
+        {
+          "category": "engineering_services",
+          "visits": 40
+        },
+        {
+          "category": "event_planning",
+          "visits": 37
+        }
+      ],
+      "top_rule_segments": [
+        {
+          "segment": "town_commuter",
+          "devices": 25
+        },
+        {
+          "segment": "local_resident",
+          "devices": 20
+        },
+        {
+          "segment": "homebody",
+          "devices": 14
+        }
+      ]
+    },
+    {
+      "cluster": 2,
+      "devices": 54344,
+      "avg_ses_quintile": 2.7,
+      "top_categories": [
+        {
+          "category": "landmark_and_historical_building",
+          "visits": 129
+        },
+        {
+          "category": "accommodation",
+          "visits": 61
+        },
+        {
+          "category": "preschool",
+          "visits": 55
+        },
+        {
+          "category": "coffee_shop",
+          "visits": 48
+        },
+        {
+          "category": "community_services_non_profits",
+          "visits": 42
+        },
+        {
+          "category": "gas_station",
+          "visits": 42
+        }
+      ],
+      "top_rule_segments": [
+        {
+          "segment": "local_resident",
+          "devices": 19
+        },
+        {
+          "segment": "homebody",
+          "devices": 16
+        },
+        {
+          "segment": "town_commuter",
+          "devices": 11
+        }
+      ]
+    },
+    {
+      "cluster": 3,
+      "devices": 41970,
+      "avg_ses_quintile": 3.73,
+      "top_categories": [
+        {
+          "category": "landmark_and_historical_building",
+          "visits": 177
+        },
+        {
+          "category": "accommodation",
+          "visits": 37
+        },
+        {
+          "category": "hotel",
+          "visits": 31
+        },
+        {
+          "category": "event_planning",
+          "visits": 27
+        },
+        {
+          "category": "attractions_and_activities",
+          "visits": 26
+        },
+        {
+          "category": "restaurant",
+          "visits": 21
+        }
+      ],
+      "top_rule_segments": [
+        {
+          "segment": "homebody",
+          "devices": 13
+        },
+        {
+          "segment": "local_resident",
+          "devices": 10
+        },
+        {
+          "segment": "town_commuter",
+          "devices": 9
+        }
+      ]
+    },
+    {
+      "cluster": 5,
+      "devices": 19491,
+      "avg_ses_quintile": 3.9,
+      "top_categories": [
+        {
+          "category": "landmark_and_historical_building",
+          "visits": 372
+        },
+        {
+          "category": "real_estate",
+          "visits": 13
+        },
+        {
+          "category": "food_stand",
+          "visits": 6
+        },
+        {
+          "category": "beauty_salon",
+          "visits": 5
+        },
+        {
+          "category": "accommodation",
+          "visits": 5
+        },
+        {
+          "category": "private_school",
+          "visits": 5
+        }
+      ],
+      "top_rule_segments": [
+        {
+          "segment": "homebody",
+          "devices": 12
+        },
+        {
+          "segment": "local_resident",
+          "devices": 7
+        },
+        {
+          "segment": "town_commuter",
+          "devices": 2
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "devices": 18514,
+      "avg_ses_quintile": 3.18,
+      "top_categories": [
+        {
+          "category": "park",
+          "visits": 256
+        },
+        {
+          "category": "tutoring_center",
+          "visits": 56
+        },
+        {
+          "category": "landmark_and_historical_building",
+          "visits": 14
+        },
+        {
+          "category": "skin_care",
+          "visits": 5
+        },
+        {
+          "category": "public_service_and_government",
+          "visits": 5
+        },
+        {
+          "category": "real_estate",
+          "visits": 4
+        }
+      ],
+      "top_rule_segments": [
+        {
+          "segment": "homebody",
+          "devices": 4
+        },
+        {
+          "segment": "town_commuter",
+          "devices": 4
+        },
+        {
+          "segment": "local_resident",
+          "devices": 3
+        }
+      ]
+    },
+    {
+      "cluster": 7,
+      "devices": 10089,
+      "avg_ses_quintile": 3.0,
+      "top_categories": [
+        {
+          "category": "playground",
+          "visits": 145
+        },
+        {
+          "category": "train_station",
+          "visits": 9
+        },
+        {
+          "category": "corporate_office",
+          "visits": 7
+        },
+        {
+          "category": "food_stand",
+          "visits": 4
+        },
+        {
+          "category": "park",
+          "visits": 4
+        },
+        {
+          "category": "coffee_shop",
+          "visits": 3
+        }
+      ],
+      "top_rule_segments": [
+        {
+          "segment": "homebody",
+          "devices": 3
+        },
+        {
+          "segment": "town_commuter",
+          "devices": 2
+        },
+        {
+          "segment": "local_resident",
+          "devices": 2
+        }
+      ]
+    },
+    {
+      "cluster": 8,
+      "devices": 9862,
+      "avg_ses_quintile": 4.13,
+      "top_categories": [
+        {
+          "category": "buddhist_temple",
+          "visits": 86
+        },
+        {
+          "category": "park",
+          "visits": 37
+        },
+        {
+          "category": "lake",
+          "visits": 25
+        },
+        {
+          "category": "landmark_and_historical_building",
+          "visits": 16
+        },
+        {
+          "category": "business",
+          "visits": 9
+        },
+        {
+          "category": "religious_organization",
+          "visits": 8
+        }
+      ],
+      "top_rule_segments": [
+        {
+          "segment": "homebody",
+          "devices": 5
+        },
+        {
+          "segment": "local_resident",
+          "devices": 3
+        },
+        {
+          "segment": "town_commuter",
+          "devices": 1
+        }
+      ]
+    },
+    {
+      "cluster": 0,
+      "devices": 8030,
+      "avg_ses_quintile": 2.8,
+      "top_categories": [
+        {
+          "category": "preschool",
+          "visits": 57
+        },
+        {
+          "category": "landmark_and_historical_building",
+          "visits": 26
+        },
+        {
+          "category": "money_transfer_services",
+          "visits": 11
+        },
+        {
+          "category": "bakery",
+          "visits": 8
+        },
+        {
+          "category": "playground",
+          "visits": 7
+        },
+        {
+          "category": "internet_cafe",
+          "visits": 6
+        }
+      ],
+      "top_rule_segments": [
+        {
+          "segment": "local_resident",
+          "devices": 4
+        },
+        {
+          "segment": "school_linked",
+          "devices": 3
+        },
+        {
+          "segment": "homebody",
+          "devices": 2
+        }
+      ]
+    }
+  ]
+}

@@ -31,15 +31,15 @@
       "lift": 1.02
     },
     {
-      "ga": "Cultural & Historic",
-      "gb": "Transport & Travel",
-      "both_days": 3445,
-      "lift": 1.01
-    },
-    {
       "ga": "Shopping",
       "gb": "Transport & Travel",
       "both_days": 6533,
+      "lift": 1.01
+    },
+    {
+      "ga": "Cultural & Historic",
+      "gb": "Transport & Travel",
+      "both_days": 3445,
       "lift": 1.01
     },
     {
@@ -67,12 +67,6 @@
       "lift": 0.94
     },
     {
-      "ga": "Health Care",
-      "gb": "Lifestyle Services",
-      "both_days": 2196,
-      "lift": 0.93
-    },
-    {
       "ga": "Services & Business",
       "gb": "Shopping",
       "both_days": 15297,
@@ -85,16 +79,16 @@
       "lift": 0.93
     },
     {
-      "ga": "Food & Drink",
-      "gb": "Shopping",
-      "both_days": 25241,
+      "ga": "Health Care",
+      "gb": "Lifestyle Services",
+      "both_days": 2196,
       "lift": 0.93
     },
     {
       "ga": "Food & Drink",
-      "gb": "Transport & Travel",
-      "both_days": 9747,
-      "lift": 0.92
+      "gb": "Shopping",
+      "both_days": 25241,
+      "lift": 0.93
     },
     {
       "ga": "Arts & Entertainment",
@@ -104,15 +98,15 @@
     },
     {
       "ga": "Food & Drink",
+      "gb": "Transport & Travel",
+      "both_days": 9747,
+      "lift": 0.92
+    },
+    {
+      "ga": "Food & Drink",
       "gb": "Lifestyle Services",
       "both_days": 9389,
       "lift": 0.91
-    },
-    {
-      "ga": "Cultural & Historic",
-      "gb": "Services & Business",
-      "both_days": 7767,
-      "lift": 0.9
     },
     {
       "ga": "Lifestyle Services",
@@ -127,15 +121,21 @@
       "lift": 0.9
     },
     {
-      "ga": "Community & Government",
-      "gb": "Education",
-      "both_days": 2258,
+      "ga": "Cultural & Historic",
+      "gb": "Services & Business",
+      "both_days": 7767,
       "lift": 0.9
     },
     {
       "ga": "Cultural & Historic",
       "gb": "Shopping",
       "both_days": 7875,
+      "lift": 0.9
+    },
+    {
+      "ga": "Community & Government",
+      "gb": "Education",
+      "both_days": 2258,
       "lift": 0.9
     },
     {
@@ -165,15 +165,15 @@
       "lift": 0.23
     },
     {
-      "ba": "McDonald's",
-      "bb": "NTUC Fairprice",
-      "both_days": 8,
-      "lift": 0.18
-    },
-    {
       "ba": "My First Skool",
       "bb": "NTUC Fairprice",
       "both_days": 6,
+      "lift": 0.18
+    },
+    {
+      "ba": "McDonald's",
+      "bb": "NTUC Fairprice",
+      "both_days": 8,
       "lift": 0.18
     },
     {
@@ -189,34 +189,22 @@
       "lift": 0.16
     },
     {
-      "ba": "Guardian Health & Beauty",
-      "bb": "POSB",
-      "both_days": 5,
-      "lift": 0.15
-    },
-    {
       "ba": "NTUC Fairprice",
       "bb": "Singapore Pools",
       "both_days": 7,
       "lift": 0.15
     },
     {
-      "ba": "Sheng Siong Supermarket",
-      "bb": "TotalEnergies",
-      "both_days": 16,
-      "lift": 0.14
+      "ba": "Guardian Health & Beauty",
+      "bb": "POSB",
+      "both_days": 5,
+      "lift": 0.15
     },
     {
-      "ba": "POSB",
-      "bb": "Subway",
-      "both_days": 11,
-      "lift": 0.14
-    },
-    {
-      "ba": "FairPrice",
-      "bb": "Singapore Pools",
-      "both_days": 9,
-      "lift": 0.14
+      "ba": "7-Eleven",
+      "bb": "Guardian Health and Beauty",
+      "both_days": 7,
+      "lift": 0.15
     },
     {
       "ba": "7-Eleven",
@@ -231,20 +219,32 @@
       "lift": 0.14
     },
     {
+      "ba": "Sheng Siong Supermarket",
+      "bb": "TotalEnergies",
+      "both_days": 16,
+      "lift": 0.14
+    },
+    {
       "ba": "7-Eleven",
       "bb": "FairPrice",
       "both_days": 11,
       "lift": 0.14
     },
     {
-      "ba": "Shell Recharge",
+      "ba": "FairPrice",
       "bb": "Singapore Pools",
-      "both_days": 12,
-      "lift": 0.13
+      "both_days": 9,
+      "lift": 0.14
     },
     {
-      "ba": "Anytime Fitness",
-      "bb": "Singapore Pools",
+      "ba": "POSB",
+      "bb": "Subway",
+      "both_days": 11,
+      "lift": 0.14
+    },
+    {
+      "ba": "Burger King",
+      "bb": "McDonald's",
       "both_days": 7,
       "lift": 0.13
     },
@@ -255,15 +255,15 @@
       "lift": 0.13
     },
     {
-      "ba": "McDonald's",
-      "bb": "NTUC FairPrice",
+      "ba": "FairPrice",
+      "bb": "Shell Recharge",
       "both_days": 5,
       "lift": 0.13
     },
     {
-      "ba": "Burger King",
-      "bb": "McDonald's",
-      "both_days": 7,
+      "ba": "My First Skool",
+      "bb": "TotalEnergies",
+      "both_days": 28,
       "lift": 0.13
     },
     {

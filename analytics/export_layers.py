@@ -325,6 +325,7 @@ def export_insights_copy() -> None:
         "home_work", "movement", "dwell", "anomalies", "pois",
         "data_quality", "poi_insights", "urban_context", "segments",
         "affinity", "purpose", "weighted", "uncertainty", "ses", "household",
+        "dining", "retail", "routing", "embeddings", "granularity",
     ]
     for name in names:
         f = src / f"{name}.json"

@@ -17,7 +17,7 @@ def main() -> int:
         choices=[
             "zones", "pings", "devices", "stops", "trips", "pois", "visits",
             "context", "stop_pa", "segments", "weights", "purpose", "ses",
-            "acra", "lifestage", "household", "sequences",
+            "acra", "lifestage", "household", "sequences", "routing",
         ],
         help="rebuild only these steps (default: all)",
     )

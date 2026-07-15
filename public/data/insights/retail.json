@@ -1,0 +1,276 @@
+{
+  "mission_by_ses": [
+    {
+      "ses_quintile": 1,
+      "mission": "grab",
+      "visits": 5962,
+      "share": 0.142
+    },
+    {
+      "ses_quintile": 1,
+      "mission": "browse",
+      "visits": 19063,
+      "share": 0.455
+    },
+    {
+      "ses_quintile": 1,
+      "mission": "day_out",
+      "visits": 16854,
+      "share": 0.402
+    },
+    {
+      "ses_quintile": 2,
+      "mission": "grab",
+      "visits": 4289,
+      "share": 0.121
+    },
+    {
+      "ses_quintile": 2,
+      "mission": "browse",
+      "visits": 15297,
+      "share": 0.433
+    },
+    {
+      "ses_quintile": 2,
+      "mission": "day_out",
+      "visits": 15727,
+      "share": 0.445
+    },
+    {
+      "ses_quintile": 3,
+      "mission": "grab",
+      "visits": 3199,
+      "share": 0.119
+    },
+    {
+      "ses_quintile": 3,
+      "mission": "browse",
+      "visits": 11938,
+      "share": 0.445
+    },
+    {
+      "ses_quintile": 3,
+      "mission": "day_out",
+      "visits": 11693,
+      "share": 0.436
+    },
+    {
+      "ses_quintile": 4,
+      "mission": "grab",
+      "visits": 3378,
+      "share": 0.115
+    },
+    {
+      "ses_quintile": 4,
+      "mission": "browse",
+      "visits": 12612,
+      "share": 0.43
+    },
+    {
+      "ses_quintile": 4,
+      "mission": "day_out",
+      "visits": 13320,
+      "share": 0.454
+    },
+    {
+      "ses_quintile": 5,
+      "mission": "grab",
+      "visits": 3000,
+      "share": 0.113
+    },
+    {
+      "ses_quintile": 5,
+      "mission": "browse",
+      "visits": 11537,
+      "share": 0.434
+    },
+    {
+      "ses_quintile": 5,
+      "mission": "day_out",
+      "visits": 12071,
+      "share": 0.454
+    }
+  ],
+  "mall_missions": [
+    {
+      "mission": "grab",
+      "visits": 1516,
+      "share": 0.144,
+      "med_dwell_min": 20.2
+    },
+    {
+      "mission": "browse",
+      "visits": 5598,
+      "share": 0.533,
+      "med_dwell_min": 48.1
+    },
+    {
+      "mission": "day_out",
+      "visits": 3397,
+      "share": 0.323,
+      "med_dwell_min": 146.9
+    }
+  ],
+  "mall_loyalty": {
+    "mall_goers": 7634,
+    "mean_distinct_malls": 1.03,
+    "primary_mall_concentration": 0.987,
+    "single_mall_share": 0.972
+  },
+  "tier_dispersion_by_ses": [
+    {
+      "ses_quintile": 1,
+      "devices": 850,
+      "avg_mean_tier": 2.2,
+      "avg_tier_spread": 0.23
+    },
+    {
+      "ses_quintile": 2,
+      "devices": 619,
+      "avg_mean_tier": 2.4,
+      "avg_tier_spread": 0.17
+    },
+    {
+      "ses_quintile": 3,
+      "devices": 269,
+      "avg_mean_tier": 2.65,
+      "avg_tier_spread": 0.23
+    },
+    {
+      "ses_quintile": 4,
+      "devices": 323,
+      "avg_mean_tier": 2.8,
+      "avg_tier_spread": 0.23
+    },
+    {
+      "ses_quintile": 5,
+      "devices": 195,
+      "avg_mean_tier": 3.16,
+      "avg_tier_spread": 0.28
+    }
+  ],
+  "heartland_vs_regional": [
+    {
+      "ses_quintile": 1,
+      "local_mall_visits": 808,
+      "regional_mall_visits": 715,
+      "regional_share": 0.469
+    },
+    {
+      "ses_quintile": 2,
+      "local_mall_visits": 773,
+      "regional_mall_visits": 507,
+      "regional_share": 0.396
+    },
+    {
+      "ses_quintile": 3,
+      "local_mall_visits": 591,
+      "regional_mall_visits": 312,
+      "regional_share": 0.346
+    },
+    {
+      "ses_quintile": 4,
+      "local_mall_visits": 549,
+      "regional_mall_visits": 406,
+      "regional_share": 0.425
+    },
+    {
+      "ses_quintile": 5,
+      "local_mall_visits": 595,
+      "regional_mall_visits": 435,
+      "regional_share": 0.422
+    }
+  ],
+  "top_mall_catchment": [
+    {
+      "mall": "myCK",
+      "visitors": 108,
+      "med_home_km": 2.0,
+      "day_out_share": 0.17
+    },
+    {
+      "mall": "Cheng San Centre",
+      "visitors": 54,
+      "med_home_km": 3.7,
+      "day_out_share": 0.15
+    },
+    {
+      "mall": "Don Don Donki",
+      "visitors": 53,
+      "med_home_km": 4.2,
+      "day_out_share": 0.45
+    },
+    {
+      "mall": "Fairprice Hub",
+      "visitors": 42,
+      "med_home_km": 9.0,
+      "day_out_share": 0.26
+    },
+    {
+      "mall": "Kallang Leisure Park",
+      "visitors": 38,
+      "med_home_km": 8.3,
+      "day_out_share": 0.36
+    },
+    {
+      "mall": "The Rail Mall",
+      "visitors": 36,
+      "med_home_km": 4.4,
+      "day_out_share": 0.19
+    },
+    {
+      "mall": "SingPost Centre",
+      "visitors": 35,
+      "med_home_km": 5.9,
+      "day_out_share": 0.2
+    },
+    {
+      "mall": "Tom Yam Goong, Pasir Panjang Hawker Centre",
+      "visitors": 35,
+      "med_home_km": 14.7,
+      "day_out_share": 0.21
+    },
+    {
+      "mall": "Waterway Point",
+      "visitors": 35,
+      "med_home_km": 3.6,
+      "day_out_share": 0.24
+    },
+    {
+      "mall": "Woods Square",
+      "visitors": 33,
+      "med_home_km": 1.8,
+      "day_out_share": 0.33
+    },
+    {
+      "mall": "BreadTalk IHQ",
+      "visitors": 32,
+      "med_home_km": 5.3,
+      "day_out_share": 0.26
+    },
+    {
+      "mall": "Top Gun Leisure",
+      "visitors": 28,
+      "med_home_km": 9.7,
+      "day_out_share": 0.4
+    },
+    {
+      "mall": "Marsiling Mall",
+      "visitors": 28,
+      "med_home_km": 5.2,
+      "day_out_share": 0.34
+    },
+    {
+      "mall": "Taman Jurong Shopping Centre",
+      "visitors": 28,
+      "med_home_km": 1.8,
+      "day_out_share": 0.06
+    },
+    {
+      "mall": "Ion Orchard Link",
+      "visitors": 27,
+      "med_home_km": 12.7,
+      "day_out_share": 0.37
+    }
+  ]
+}

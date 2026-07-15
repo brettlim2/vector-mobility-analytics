@@ -268,6 +268,7 @@ def build(steps: list[str] | None = None) -> None:
     from .lifestage import build_lifestage
     from .overture import build_pois, build_visits
     from .purpose import build_purpose
+    from .routing import build_routing
     from .segments import build_segments
     from .sequences import build_sequences
     from .ses import build_ses
@@ -292,6 +293,7 @@ def build(steps: list[str] | None = None) -> None:
         "lifestage": build_lifestage,
         "household": build_household,
         "sequences": build_sequences,
+        "routing": build_routing,
     }
     for name, fn in all_steps.items():
         if steps and name not in steps:

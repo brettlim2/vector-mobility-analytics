@@ -1,0 +1,131 @@
+{
+  "verdict": "under_powered_on_one_week",
+  "note": "device2vec/venue2vec are trained and wired, but one week of sparse visit sequences is not enough signal: embedding-cluster ARI vs rule segments \u2248 0 and venue2vec nearest-neighbours are incoherent (e.g. a supermarket's neighbours are unrelated shops). Embeddings are a multi-week investment, not a one-week win \u2014 revisit after \u22654 weeks of data. The weakly-characterised clusters are below.",
+  "embed_segments": {
+    "devices": 342720,
+    "k": 10,
+    "ari_vs_rule_segments": 0.007,
+    "clusters": [
+      {
+        "cluster": 9,
+        "devices": 64891,
+        "avg_ses_quintile": 2.98,
+        "top_categories": [
+          "landmark_and_historical_building",
+          "preschool",
+          "accommodation",
+          "gas_station",
+          "community_services_non_profits"
+        ]
+      },
+      {
+        "cluster": 4,
+        "devices": 59408,
+        "avg_ses_quintile": 2.6,
+        "top_categories": [
+          "park",
+          "family_practice",
+          "boutique",
+          "stadium_arena",
+          "basketball_court"
+        ]
+      },
+      {
+        "cluster": 6,
+        "devices": 56121,
+        "avg_ses_quintile": 3.02,
+        "top_categories": [
+          "accommodation",
+          "landmark_and_historical_building",
+          "restaurant",
+          "park",
+          "engineering_services"
+        ]
+      },
+      {
+        "cluster": 2,
+        "devices": 54344,
+        "avg_ses_quintile": 2.7,
+        "top_categories": [
+          "landmark_and_historical_building",
+          "accommodation",
+          "preschool",
+          "coffee_shop",
+          "community_services_non_profits"
+        ]
+      },
+      {
+        "cluster": 3,
+        "devices": 41970,
+        "avg_ses_quintile": 3.73,
+        "top_categories": [
+          "landmark_and_historical_building",
+          "accommodation",
+          "hotel",
+          "event_planning",
+          "attractions_and_activities"
+        ]
+      },
+      {
+        "cluster": 5,
+        "devices": 19491,
+        "avg_ses_quintile": 3.9,
+        "top_categories": [
+          "landmark_and_historical_building",
+          "real_estate",
+          "food_stand",
+          "beauty_salon",
+          "accommodation"
+        ]
+      },
+      {
+        "cluster": 1,
+        "devices": 18514,
+        "avg_ses_quintile": 3.18,
+        "top_categories": [
+          "park",
+          "tutoring_center",
+          "landmark_and_historical_building",
+          "skin_care",
+          "public_service_and_government"
+        ]
+      },
+      {
+        "cluster": 7,
+        "devices": 10089,
+        "avg_ses_quintile": 3.0,
+        "top_categories": [
+          "playground",
+          "train_station",
+          "corporate_office",
+          "food_stand",
+          "park"
+        ]
+      },
+      {
+        "cluster": 8,
+        "devices": 9862,
+        "avg_ses_quintile": 4.13,
+        "top_categories": [
+          "buddhist_temple",
+          "park",
+          "lake",
+          "landmark_and_historical_building",
+          "business"
+        ]
+      },
+      {
+        "cluster": 0,
+        "devices": 8030,
+        "avg_ses_quintile": 2.8,
+        "top_categories": [
+          "preschool",
+          "landmark_and_historical_building",
+          "money_transfer_services",
+          "bakery",
+          "playground"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "circuity_distribution": [
+    {
+      "band": "direct (<1.2)",
+      "trips": 2354
+    },
+    {
+      "band": "normal (1.2-1.5)",
+      "trips": 20640
+    },
+    {
+      "band": "indirect (1.5-2.0)",
+      "trips": 11728
+    },
+    {
+      "band": "very indirect (2.0+)",
+      "trips": 5278
+    }
+  ],
+  "road_vs_straight": {
+    "med_straight_km": 4.66,
+    "med_road_km": 6.87,
+    "med_circuity": 1.449,
+    "med_drive_min": 10.2
+  },
+  "osrm_validation": {
+    "median_elapsed_to_drive_ratio": 3.23,
+    "travel_band_corr": 0.884,
+    "travel_band_trips": 11137
+  },
+  "mode_inference": [
+    {
+      "mode_est": "slow_walk_or_wait",
+      "trips": 23649,
+      "share": 0.602
+    },
+    {
+      "mode_est": "transit_like",
+      "trips": 9165,
+      "share": 0.233
+    },
+    {
+      "mode_est": "car_like",
+      "trips": 6454,
+      "share": 0.164
+    }
+  ],
+  "catchment_drive_time": [
+    {
+      "name": "Fort Canning Reservoir",
+      "visitors_sampled": 327,
+      "share_within_15min": 0.609,
+      "median_drive_min": 14.0
+    },
+    {
+      "name": "Statue of Sir Stamford Raffles",
+      "visitors_sampled": 122,
+      "share_within_15min": 0.598,
+      "median_drive_min": 14.0
+    },
+    {
+      "name": "Dynamics Square Singapore",
+      "visitors_sampled": 400,
+      "share_within_15min": 0.593,
+      "median_drive_min": 13.6
+    },
+    {
+      "name": "Lake Little Guilin",
+      "visitors_sampled": 400,
+      "share_within_15min": 0.608,
+      "median_drive_min": 12.7
+    },
+    {
+      "name": "Bedok Stadium",
+      "visitors_sampled": 400,
+      "share_within_15min": 0.68,
+      "median_drive_min": 11.9
+    },
+    {
+      "name": "Richard Math Academy",
+      "visitors_sampled": 254,
+      "share_within_15min": 0.724,
+      "median_drive_min": 11.5
+    },
+    {
+      "name": "Thanggam LRT Station",
+      "visitors_sampled": 232,
+      "share_within_15min": 0.694,
+      "median_drive_min": 11.4
+    },
+    {
+      "name": "Edinburgh Road",
+      "visitors_sampled": 400,
+      "share_within_15min": 0.725,
+      "median_drive_min": 11.0
+    },
+    {
+      "name": "81 Carrot Cake Local Delights",
+      "visitors_sampled": 400,
+      "share_within_15min": 0.81,
+      "median_drive_min": 10.6
+    },
+    {
+      "name": "National Biodiversity Centre",
+      "visitors_sampled": 400,
+      "share_within_15min": 0.743,
+      "median_drive_min": 10.5
+    },
+    {
+      "name": "Neram Crescent Playground",
+      "visitors_sampled": 247,
+      "share_within_15min": 0.733,
+      "median_drive_min": 10.2
+    },
+    {
+      "name": "Chartwell Drive Park",
+      "visitors_sampled": 400,
+      "share_within_15min": 0.752,
+      "median_drive_min": 10.0
+    },
+    {
+      "name": "Coronation Park",
+      "visitors_sampled": 251,
+      "share_within_15min": 0.721,
+      "median_drive_min": 9.6
+    },
+    {
+      "name": "Vienna Beauty",
+      "visitors_sampled": 400,
+      "share_within_15min": 0.925,
+      "median_drive_min": 9.4
+    },
+    {
+      "name": "Toa Payoh Sensory Park",
+      "visitors_sampled": 400,
+      "share_within_15min": 0.833,
+      "median_drive_min": 9.4
+    },
+    {
+      "name": "Cornerstone Medical Bidadari",
+      "visitors_sampled": 400,
+      "share_within_15min": 0.858,
+      "median_drive_min": 8.9
+    },
+    {
+      "name": "Circuit Road Basketball Court",
+      "visitors_sampled": 400,
+      "share_within_15min": 0.853,
+      "median_drive_min": 8.9
+    },
+    {
+      "name": "Asia Media Academy",
+      "visitors_sampled": 389,
+      "share_within_15min": 0.892,
+      "median_drive_min": 8.7
+    },
+    {
+      "name": "Lion Corporation",
+      "visitors_sampled": 400,
+      "share_within_15min": 0.927,
+      "median_drive_min": 8.5
+    },
+    {
+      "name": "Woodleigh Glen",
+      "visitors_sampled": 400,
+      "share_within_15min": 0.835,
+      "median_drive_min": 8.4
+    },
+    {
+      "name": "Aljunied Park",
+      "visitors_sampled": 400,
+      "share_within_15min": 0.86,
+      "median_drive_min": 8.1
+    },
+    {
+      "name": "Cheng Soon Garden Playground",
+      "visitors_sampled": 396,
+      "share_within_15min": 0.833,
+      "median_drive_min": 8.1
+    },
+    {
+      "name": "Luxehouse Singapore",
+      "visitors_sampled": 391,
+      "share_within_15min": 0.864,
+      "median_drive_min": 7.2
+    },
+    {
+      "name": "TRIFECTA Riders' Lounge",
+      "visitors_sampled": 368,
+      "share_within_15min": 0.769,
+      "median_drive_min": 6.9
+    },
+    {
+      "name": "Playground, Telok Kurau Park",
+      "visitors_sampled": 397,
+      "share_within_15min": 0.937,
+      "median_drive_min": 6.1
+    }
+  ],
+  "census_car_share": {
+    "census_car_share": 0.255
+  }
+}

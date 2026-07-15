@@ -1,0 +1,547 @@
+{
+  "format_by_ses": [
+    {
+      "ses_quintile": 1,
+      "format": "restaurant",
+      "visits": 34866,
+      "share": 0.504
+    },
+    {
+      "ses_quintile": 1,
+      "format": "hawker_kopitiam",
+      "visits": 8832,
+      "share": 0.128
+    },
+    {
+      "ses_quintile": 1,
+      "format": "cafe_bakery",
+      "visits": 7639,
+      "share": 0.11
+    },
+    {
+      "ses_quintile": 1,
+      "format": "nightlife",
+      "visits": 5528,
+      "share": 0.08
+    },
+    {
+      "ses_quintile": 1,
+      "format": "fast_food",
+      "visits": 5201,
+      "share": 0.075
+    },
+    {
+      "ses_quintile": 1,
+      "format": "other_food",
+      "visits": 4425,
+      "share": 0.064
+    },
+    {
+      "ses_quintile": 1,
+      "format": "snack_dessert",
+      "visits": 2683,
+      "share": 0.039
+    },
+    {
+      "ses_quintile": 2,
+      "format": "restaurant",
+      "visits": 31220,
+      "share": 0.535
+    },
+    {
+      "ses_quintile": 2,
+      "format": "hawker_kopitiam",
+      "visits": 9174,
+      "share": 0.157
+    },
+    {
+      "ses_quintile": 2,
+      "format": "cafe_bakery",
+      "visits": 6707,
+      "share": 0.115
+    },
+    {
+      "ses_quintile": 2,
+      "format": "fast_food",
+      "visits": 4230,
+      "share": 0.072
+    },
+    {
+      "ses_quintile": 2,
+      "format": "other_food",
+      "visits": 3631,
+      "share": 0.062
+    },
+    {
+      "ses_quintile": 2,
+      "format": "snack_dessert",
+      "visits": 2316,
+      "share": 0.04
+    },
+    {
+      "ses_quintile": 2,
+      "format": "nightlife",
+      "visits": 1110,
+      "share": 0.019
+    },
+    {
+      "ses_quintile": 3,
+      "format": "restaurant",
+      "visits": 21288,
+      "share": 0.557
+    },
+    {
+      "ses_quintile": 3,
+      "format": "hawker_kopitiam",
+      "visits": 6389,
+      "share": 0.167
+    },
+    {
+      "ses_quintile": 3,
+      "format": "cafe_bakery",
+      "visits": 4293,
+      "share": 0.112
+    },
+    {
+      "ses_quintile": 3,
+      "format": "other_food",
+      "visits": 2437,
+      "share": 0.064
+    },
+    {
+      "ses_quintile": 3,
+      "format": "fast_food",
+      "visits": 1752,
+      "share": 0.046
+    },
+    {
+      "ses_quintile": 3,
+      "format": "snack_dessert",
+      "visits": 1370,
+      "share": 0.036
+    },
+    {
+      "ses_quintile": 3,
+      "format": "nightlife",
+      "visits": 684,
+      "share": 0.018
+    },
+    {
+      "ses_quintile": 4,
+      "format": "restaurant",
+      "visits": 25724,
+      "share": 0.559
+    },
+    {
+      "ses_quintile": 4,
+      "format": "hawker_kopitiam",
+      "visits": 6811,
+      "share": 0.148
+    },
+    {
+      "ses_quintile": 4,
+      "format": "cafe_bakery",
+      "visits": 5761,
+      "share": 0.125
+    },
+    {
+      "ses_quintile": 4,
+      "format": "other_food",
+      "visits": 2876,
+      "share": 0.063
+    },
+    {
+      "ses_quintile": 4,
+      "format": "fast_food",
+      "visits": 2011,
+      "share": 0.044
+    },
+    {
+      "ses_quintile": 4,
+      "format": "snack_dessert",
+      "visits": 1868,
+      "share": 0.041
+    },
+    {
+      "ses_quintile": 4,
+      "format": "nightlife",
+      "visits": 951,
+      "share": 0.021
+    },
+    {
+      "ses_quintile": 5,
+      "format": "restaurant",
+      "visits": 23847,
+      "share": 0.559
+    },
+    {
+      "ses_quintile": 5,
+      "format": "cafe_bakery",
+      "visits": 5936,
+      "share": 0.139
+    },
+    {
+      "ses_quintile": 5,
+      "format": "hawker_kopitiam",
+      "visits": 5879,
+      "share": 0.138
+    },
+    {
+      "ses_quintile": 5,
+      "format": "other_food",
+      "visits": 2788,
+      "share": 0.065
+    },
+    {
+      "ses_quintile": 5,
+      "format": "snack_dessert",
+      "visits": 1709,
+      "share": 0.04
+    },
+    {
+      "ses_quintile": 5,
+      "format": "fast_food",
+      "visits": 1338,
+      "share": 0.031
+    },
+    {
+      "ses_quintile": 5,
+      "format": "nightlife",
+      "visits": 1166,
+      "share": 0.027
+    }
+  ],
+  "hawker_index_by_ses": [
+    {
+      "ses_quintile": 1,
+      "devices": 13175,
+      "hawker_share": 0.128,
+      "restaurant_share": 0.504,
+      "cafe_share": 0.11,
+      "fast_food_share": 0.075
+    },
+    {
+      "ses_quintile": 2,
+      "devices": 12867,
+      "hawker_share": 0.157,
+      "restaurant_share": 0.535,
+      "cafe_share": 0.115,
+      "fast_food_share": 0.072
+    },
+    {
+      "ses_quintile": 3,
+      "devices": 9035,
+      "hawker_share": 0.167,
+      "restaurant_share": 0.557,
+      "cafe_share": 0.112,
+      "fast_food_share": 0.046
+    },
+    {
+      "ses_quintile": 4,
+      "devices": 10916,
+      "hawker_share": 0.148,
+      "restaurant_share": 0.559,
+      "cafe_share": 0.125,
+      "fast_food_share": 0.044
+    },
+    {
+      "ses_quintile": 5,
+      "devices": 11003,
+      "hawker_share": 0.138,
+      "restaurant_share": 0.559,
+      "cafe_share": 0.139,
+      "fast_food_share": 0.031
+    }
+  ],
+  "cuisine_by_ses": [
+    {
+      "ses_quintile": 1,
+      "cuisine": "sea_other_asian",
+      "visits": 7537,
+      "share": 0.366
+    },
+    {
+      "ses_quintile": 1,
+      "cuisine": "chinese",
+      "visits": 5696,
+      "share": 0.277
+    },
+    {
+      "ses_quintile": 1,
+      "cuisine": "japanese",
+      "visits": 3015,
+      "share": 0.146
+    },
+    {
+      "ses_quintile": 1,
+      "cuisine": "western",
+      "visits": 2215,
+      "share": 0.108
+    },
+    {
+      "ses_quintile": 1,
+      "cuisine": "indian",
+      "visits": 1687,
+      "share": 0.082
+    },
+    {
+      "ses_quintile": 1,
+      "cuisine": "korean",
+      "visits": 446,
+      "share": 0.022
+    },
+    {
+      "ses_quintile": 2,
+      "cuisine": "sea_other_asian",
+      "visits": 7318,
+      "share": 0.395
+    },
+    {
+      "ses_quintile": 2,
+      "cuisine": "chinese",
+      "visits": 6023,
+      "share": 0.325
+    },
+    {
+      "ses_quintile": 2,
+      "cuisine": "japanese",
+      "visits": 2156,
+      "share": 0.116
+    },
+    {
+      "ses_quintile": 2,
+      "cuisine": "western",
+      "visits": 1426,
+      "share": 0.077
+    },
+    {
+      "ses_quintile": 2,
+      "cuisine": "indian",
+      "visits": 1252,
+      "share": 0.068
+    },
+    {
+      "ses_quintile": 2,
+      "cuisine": "korean",
+      "visits": 373,
+      "share": 0.02
+    },
+    {
+      "ses_quintile": 3,
+      "cuisine": "sea_other_asian",
+      "visits": 4978,
+      "share": 0.397
+    },
+    {
+      "ses_quintile": 3,
+      "cuisine": "chinese",
+      "visits": 3839,
+      "share": 0.306
+    },
+    {
+      "ses_quintile": 3,
+      "cuisine": "japanese",
+      "visits": 1318,
+      "share": 0.105
+    },
+    {
+      "ses_quintile": 3,
+      "cuisine": "indian",
+      "visits": 1159,
+      "share": 0.092
+    },
+    {
+      "ses_quintile": 3,
+      "cuisine": "western",
+      "visits": 1045,
+      "share": 0.083
+    },
+    {
+      "ses_quintile": 3,
+      "cuisine": "korean",
+      "visits": 203,
+      "share": 0.016
+    },
+    {
+      "ses_quintile": 4,
+      "cuisine": "sea_other_asian",
+      "visits": 5737,
+      "share": 0.408
+    },
+    {
+      "ses_quintile": 4,
+      "cuisine": "chinese",
+      "visits": 4074,
+      "share": 0.29
+    },
+    {
+      "ses_quintile": 4,
+      "cuisine": "japanese",
+      "visits": 1566,
+      "share": 0.111
+    },
+    {
+      "ses_quintile": 4,
+      "cuisine": "western",
+      "visits": 1315,
+      "share": 0.094
+    },
+    {
+      "ses_quintile": 4,
+      "cuisine": "indian",
+      "visits": 1038,
+      "share": 0.074
+    },
+    {
+      "ses_quintile": 4,
+      "cuisine": "korean",
+      "visits": 325,
+      "share": 0.023
+    },
+    {
+      "ses_quintile": 5,
+      "cuisine": "sea_other_asian",
+      "visits": 4763,
+      "share": 0.342
+    },
+    {
+      "ses_quintile": 5,
+      "cuisine": "chinese",
+      "visits": 3639,
+      "share": 0.262
+    },
+    {
+      "ses_quintile": 5,
+      "cuisine": "western",
+      "visits": 2037,
+      "share": 0.146
+    },
+    {
+      "ses_quintile": 5,
+      "cuisine": "japanese",
+      "visits": 1896,
+      "share": 0.136
+    },
+    {
+      "ses_quintile": 5,
+      "cuisine": "indian",
+      "visits": 1217,
+      "share": 0.087
+    },
+    {
+      "ses_quintile": 5,
+      "cuisine": "korean",
+      "visits": 361,
+      "share": 0.026
+    }
+  ],
+  "meal_occasion_mix": [
+    {
+      "meal_occasion": "supper_late",
+      "daytype": "weekday",
+      "visits": 56343,
+      "near_home_share": 0.463,
+      "med_dwell_min": 64.3
+    },
+    {
+      "meal_occasion": "breakfast",
+      "daytype": "weekday",
+      "visits": 101656,
+      "near_home_share": 0.154,
+      "med_dwell_min": 51.7
+    },
+    {
+      "meal_occasion": "lunch",
+      "daytype": "weekday",
+      "visits": 75329,
+      "near_home_share": 0.118,
+      "med_dwell_min": 55.4
+    },
+    {
+      "meal_occasion": "tea",
+      "daytype": "weekday",
+      "visits": 52865,
+      "near_home_share": 0.141,
+      "med_dwell_min": 55.0
+    },
+    {
+      "meal_occasion": "dinner",
+      "daytype": "weekday",
+      "visits": 71725,
+      "near_home_share": 0.2,
+      "med_dwell_min": 57.5
+    },
+    {
+      "meal_occasion": "supper_late",
+      "daytype": "weekend",
+      "visits": 21450,
+      "near_home_share": 0.477,
+      "med_dwell_min": 67.8
+    },
+    {
+      "meal_occasion": "breakfast",
+      "daytype": "weekend",
+      "visits": 46384,
+      "near_home_share": 0.155,
+      "med_dwell_min": 52.5
+    },
+    {
+      "meal_occasion": "lunch",
+      "daytype": "weekend",
+      "visits": 31549,
+      "near_home_share": 0.14,
+      "med_dwell_min": 59.4
+    },
+    {
+      "meal_occasion": "tea",
+      "daytype": "weekend",
+      "visits": 22926,
+      "near_home_share": 0.137,
+      "med_dwell_min": 58.7
+    },
+    {
+      "meal_occasion": "dinner",
+      "daytype": "weekend",
+      "visits": 30153,
+      "near_home_share": 0.171,
+      "med_dwell_min": 60.1
+    }
+  ],
+  "dining_loyalty": {
+    "mean_visits_per_eatery": 1.45,
+    "repeat3_share": 0.08,
+    "devices": 206137
+  },
+  "top_cuisines_overall": [
+    {
+      "cuisine": "sea_other_asian",
+      "visits": 57210,
+      "devices": 35312
+    },
+    {
+      "cuisine": "chinese",
+      "visits": 48457,
+      "devices": 31696
+    },
+    {
+      "cuisine": "western",
+      "visits": 18478,
+      "devices": 12525
+    },
+    {
+      "cuisine": "japanese",
+      "visits": 17938,
+      "devices": 14103
+    },
+    {
+      "cuisine": "indian",
+      "visits": 11541,
+      "devices": 7874
+    },
+    {
+      "cuisine": "korean",
+      "visits": 2951,
+      "devices": 2486
+    }
+  ]
+}

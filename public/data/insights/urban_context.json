@@ -75,14 +75,14 @@
     {
       "pa": "TUAS",
       "residents": 70,
-      "home_devices": 613,
-      "penetration": 8.7571
+      "home_devices": 607,
+      "penetration": 8.6714
     },
     {
       "pa": "TENGAH",
       "residents": 10,
-      "home_devices": 75,
-      "penetration": 7.5
+      "home_devices": 71,
+      "penetration": 7.1
     },
     {
       "pa": "WESTERN ISLANDS",
@@ -93,14 +93,14 @@
     {
       "pa": "PIONEER",
       "residents": 80,
-      "home_devices": 437,
-      "penetration": 5.4625
+      "home_devices": 439,
+      "penetration": 5.4875
     },
     {
       "pa": "PAYA LEBAR",
       "residents": 40,
-      "home_devices": 111,
-      "penetration": 2.775
+      "home_devices": 115,
+      "penetration": 2.875
     },
     {
       "pa": "BOON LAY",
@@ -117,14 +117,14 @@
     {
       "pa": "ORCHARD",
       "residents": 920,
-      "home_devices": 660,
-      "penetration": 0.7174
+      "home_devices": 657,
+      "penetration": 0.7141
     },
     {
       "pa": "NORTH-EASTERN ISLANDS",
       "residents": 50,
-      "home_devices": 30,
-      "penetration": 0.6
+      "home_devices": 28,
+      "penetration": 0.56
     },
     {
       "pa": "SUNGEI KADUT",
@@ -141,14 +141,14 @@
     {
       "pa": "SELETAR",
       "residents": 300,
-      "home_devices": 147,
-      "penetration": 0.49
+      "home_devices": 146,
+      "penetration": 0.4867
     },
     {
       "pa": "DOWNTOWN CORE",
       "residents": 3190,
-      "home_devices": 1380,
-      "penetration": 0.4326
+      "home_devices": 1366,
+      "penetration": 0.4282
     },
     {
       "pa": "LIM CHU KANG",
@@ -159,187 +159,187 @@
     {
       "pa": "SINGAPORE RIVER",
       "residents": 3260,
-      "home_devices": 282,
-      "penetration": 0.0865
+      "home_devices": 271,
+      "penetration": 0.0831
     },
     {
       "pa": "SOUTHERN ISLANDS",
       "residents": 1940,
-      "home_devices": 159,
-      "penetration": 0.082
+      "home_devices": 158,
+      "penetration": 0.0814
     },
     {
       "pa": "NEWTON",
       "residents": 8260,
-      "home_devices": 478,
-      "penetration": 0.0579
+      "home_devices": 489,
+      "penetration": 0.0592
     },
     {
       "pa": "ROCHOR",
       "residents": 13120,
-      "home_devices": 669,
-      "penetration": 0.051
+      "home_devices": 674,
+      "penetration": 0.0514
     },
     {
       "pa": "MANDAI",
       "residents": 2090,
-      "home_devices": 88,
-      "penetration": 0.0421
+      "home_devices": 85,
+      "penetration": 0.0407
     },
     {
       "pa": "OUTRAM",
       "residents": 18340,
-      "home_devices": 725,
-      "penetration": 0.0395
+      "home_devices": 732,
+      "penetration": 0.0399
     },
     {
       "pa": "RIVER VALLEY",
       "residents": 10070,
-      "home_devices": 365,
-      "penetration": 0.0362
+      "home_devices": 363,
+      "penetration": 0.036
     },
     {
       "pa": "GEYLANG",
       "residents": 110110,
-      "home_devices": 3935,
-      "penetration": 0.0357
+      "home_devices": 3922,
+      "penetration": 0.0356
     },
     {
       "pa": "TANGLIN",
       "residents": 21810,
-      "home_devices": 775,
-      "penetration": 0.0355
+      "home_devices": 771,
+      "penetration": 0.0354
     },
     {
       "pa": "BUKIT TIMAH",
       "residents": 77860,
-      "home_devices": 2700,
-      "penetration": 0.0347
+      "home_devices": 2695,
+      "penetration": 0.0346
     },
     {
       "pa": "NOVENA",
       "residents": 49330,
-      "home_devices": 1504,
-      "penetration": 0.0305
+      "home_devices": 1499,
+      "penetration": 0.0304
     },
     {
       "pa": "TOA PAYOH",
       "residents": 121850,
-      "home_devices": 3092,
+      "home_devices": 3096,
       "penetration": 0.0254
     },
     {
       "pa": "SERANGOON",
       "residents": 116900,
-      "home_devices": 2881,
-      "penetration": 0.0246
+      "home_devices": 2888,
+      "penetration": 0.0247
     },
     {
       "pa": "QUEENSTOWN",
       "residents": 95930,
-      "home_devices": 2334,
-      "penetration": 0.0243
+      "home_devices": 2342,
+      "penetration": 0.0244
     },
     {
       "pa": "JURONG EAST",
       "residents": 78600,
-      "home_devices": 1901,
+      "home_devices": 1902,
       "penetration": 0.0242
     },
     {
       "pa": "BEDOK",
       "residents": 276990,
-      "home_devices": 6598,
-      "penetration": 0.0238
+      "home_devices": 6607,
+      "penetration": 0.0239
     },
     {
       "pa": "PASIR RIS",
       "residents": 147110,
-      "home_devices": 3234,
-      "penetration": 0.022
+      "home_devices": 3244,
+      "penetration": 0.0221
     },
     {
       "pa": "KALLANG",
       "residents": 101290,
-      "home_devices": 2215,
-      "penetration": 0.0219
+      "home_devices": 2210,
+      "penetration": 0.0218
     },
     {
       "pa": "SEMBAWANG",
       "residents": 102640,
-      "home_devices": 2212,
+      "home_devices": 2214,
       "penetration": 0.0216
     },
     {
       "pa": "SENGKANG",
       "residents": 249370,
-      "home_devices": 5353,
+      "home_devices": 5349,
       "penetration": 0.0215
     },
     {
       "pa": "CHOA CHU KANG",
       "residents": 192070,
-      "home_devices": 4011,
+      "home_devices": 4009,
       "penetration": 0.0209
-    },
-    {
-      "pa": "JURONG WEST",
-      "residents": 262730,
-      "home_devices": 5328,
-      "penetration": 0.0203
     },
     {
       "pa": "BUKIT BATOK",
       "residents": 158030,
-      "home_devices": 3215,
+      "home_devices": 3207,
       "penetration": 0.0203
+    },
+    {
+      "pa": "JURONG WEST",
+      "residents": 262730,
+      "home_devices": 5319,
+      "penetration": 0.0202
     },
     {
       "pa": "HOUGANG",
       "residents": 227560,
-      "home_devices": 4564,
+      "home_devices": 4580,
       "penetration": 0.0201
     },
     {
       "pa": "WOODLANDS",
       "residents": 255130,
-      "home_devices": 5067,
+      "home_devices": 5077,
       "penetration": 0.0199
     },
     {
       "pa": "TAMPINES",
       "residents": 259900,
-      "home_devices": 5103,
+      "home_devices": 5114,
+      "penetration": 0.0197
+    },
+    {
+      "pa": "MARINE PARADE",
+      "residents": 46220,
+      "home_devices": 906,
       "penetration": 0.0196
     },
     {
       "pa": "YISHUN",
       "residents": 221610,
-      "home_devices": 4352,
+      "home_devices": 4353,
       "penetration": 0.0196
-    },
-    {
-      "pa": "CLEMENTI",
-      "residents": 91990,
-      "home_devices": 1790,
-      "penetration": 0.0195
     },
     {
       "pa": "BUKIT MERAH",
       "residents": 151250,
-      "home_devices": 2949,
-      "penetration": 0.0195
+      "home_devices": 2934,
+      "penetration": 0.0194
     },
     {
-      "pa": "MARINE PARADE",
-      "residents": 46220,
-      "home_devices": 902,
-      "penetration": 0.0195
+      "pa": "CLEMENTI",
+      "residents": 91990,
+      "home_devices": 1782,
+      "penetration": 0.0194
     },
     {
       "pa": "PUNGGOL",
       "residents": 174450,
-      "home_devices": 3241,
+      "home_devices": 3242,
       "penetration": 0.0186
     },
     {
@@ -351,14 +351,14 @@
     {
       "pa": "ANG MO KIO",
       "residents": 162280,
-      "home_devices": 2891,
-      "penetration": 0.0178
+      "home_devices": 2898,
+      "penetration": 0.0179
     },
     {
       "pa": "BISHAN",
       "residents": 87320,
-      "home_devices": 1408,
-      "penetration": 0.0161
+      "home_devices": 1417,
+      "penetration": 0.0162
     }
   ],
   "rain_response": {
@@ -468,18 +468,18 @@
     ],
     "outdoor_vs_indoor": [
       {
-        "wet": false,
-        "outdoor_visits": 314782,
-        "indoor_visits": 705920,
-        "all_visits": 2871249,
-        "n_hours": 111
-      },
-      {
         "wet": true,
         "outdoor_visits": 2977,
         "indoor_visits": 5879,
         "all_visits": 24694,
         "n_hours": 1
+      },
+      {
+        "wet": false,
+        "outdoor_visits": 314782,
+        "indoor_visits": 705920,
+        "all_visits": 2871249,
+        "n_hours": 111
       }
     ]
   },
@@ -693,16 +693,16 @@
   ],
   "mrt_station_footfall": [
     {
-      "station": "ORCHARD MRT STATION",
-      "devices": 2866,
-      "med_dwell_min": 66.7,
-      "med_home_dist_km": 8.3
-    },
-    {
       "station": "JURONG EAST MRT STATION",
       "devices": 2866,
       "med_dwell_min": 65.9,
       "med_home_dist_km": 4.7
+    },
+    {
+      "station": "ORCHARD MRT STATION",
+      "devices": 2866,
+      "med_dwell_min": 66.7,
+      "med_home_dist_km": 8.3
     },
     {
       "station": "TAMPINES MRT STATION",
@@ -816,17 +816,17 @@
   "ses_validation": {
     "status": "ok",
     "n_pas": 30,
-    "pearson_mean_ses_vs_census_income": 0.532,
-    "spearman_mean_ses_vs_census_income": 0.604,
+    "pearson_mean_ses_vs_census_income": 0.813,
+    "spearman_mean_ses_vs_census_income": 0.721,
     "pass_criterion": true,
     "by_pa": [
       {
         "pa": "TANGLIN",
-        "devices": 767,
-        "mean_ses": 0.591,
-        "med_ses": 0.964,
-        "weighted_mean_ses": 0.591,
-        "share_q4q5": 0.623,
+        "devices": 768,
+        "mean_ses": 0.553,
+        "med_ses": 0.959,
+        "weighted_mean_ses": 0.551,
+        "share_q4q5": 0.618,
         "census_est_mean_income": 19110.0,
         "share_ge_10k": 0.686,
         "share_ge_15k": 0.596,
@@ -834,11 +834,11 @@
       },
       {
         "pa": "RIVER VALLEY",
-        "devices": 365,
-        "mean_ses": 0.629,
-        "med_ses": 0.893,
-        "weighted_mean_ses": 0.629,
-        "share_q4q5": 0.77,
+        "devices": 364,
+        "mean_ses": 0.597,
+        "med_ses": 0.89,
+        "weighted_mean_ses": 0.601,
+        "share_q4q5": 0.766,
         "census_est_mean_income": 18313.0,
         "share_ge_10k": 0.664,
         "share_ge_15k": 0.566,
@@ -846,11 +846,11 @@
       },
       {
         "pa": "BUKIT TIMAH",
-        "devices": 2697,
-        "mean_ses": 0.546,
-        "med_ses": 0.81,
-        "weighted_mean_ses": 0.546,
-        "share_q4q5": 0.582,
+        "devices": 2698,
+        "mean_ses": 0.858,
+        "med_ses": 0.893,
+        "weighted_mean_ses": 0.855,
+        "share_q4q5": 0.938,
         "census_est_mean_income": 18186.0,
         "share_ge_10k": 0.654,
         "share_ge_15k": 0.55,
@@ -858,11 +858,11 @@
       },
       {
         "pa": "DOWNTOWN CORE",
-        "devices": 1365,
-        "mean_ses": -0.662,
-        "med_ses": -0.789,
-        "weighted_mean_ses": -0.662,
-        "share_q4q5": 0.046,
+        "devices": 1373,
+        "mean_ses": -0.151,
+        "med_ses": -0.201,
+        "weighted_mean_ses": -0.117,
+        "share_q4q5": 0.223,
         "census_est_mean_income": 16997.0,
         "share_ge_10k": 0.656,
         "share_ge_15k": 0.52,
@@ -870,11 +870,11 @@
       },
       {
         "pa": "MARINE PARADE",
-        "devices": 906,
-        "mean_ses": 0.225,
-        "med_ses": 0.192,
-        "weighted_mean_ses": 0.225,
-        "share_q4q5": 0.525,
+        "devices": 908,
+        "mean_ses": 0.276,
+        "med_ses": 0.263,
+        "weighted_mean_ses": 0.277,
+        "share_q4q5": 0.589,
         "census_est_mean_income": 14285.0,
         "share_ge_10k": 0.47,
         "share_ge_15k": 0.363,
@@ -882,11 +882,11 @@
       },
       {
         "pa": "NOVENA",
-        "devices": 1497,
-        "mean_ses": 0.079,
-        "med_ses": 0.055,
-        "weighted_mean_ses": 0.079,
-        "share_q4q5": 0.424,
+        "devices": 1481,
+        "mean_ses": 0.133,
+        "med_ses": 0.024,
+        "weighted_mean_ses": 0.134,
+        "share_q4q5": 0.431,
         "census_est_mean_income": 13718.0,
         "share_ge_10k": 0.477,
         "share_ge_15k": 0.359,
@@ -895,10 +895,10 @@
       {
         "pa": "BISHAN",
         "devices": 1412,
-        "mean_ses": 0.219,
-        "med_ses": 0.297,
-        "weighted_mean_ses": 0.219,
-        "share_q4q5": 0.645,
+        "mean_ses": 0.258,
+        "med_ses": 0.269,
+        "weighted_mean_ses": 0.259,
+        "share_q4q5": 0.679,
         "census_est_mean_income": 13611.0,
         "share_ge_10k": 0.499,
         "share_ge_15k": 0.348,
@@ -906,11 +906,11 @@
       },
       {
         "pa": "SERANGOON",
-        "devices": 2882,
-        "mean_ses": 0.023,
-        "med_ses": -0.032,
-        "weighted_mean_ses": 0.023,
-        "share_q4q5": 0.442,
+        "devices": 2893,
+        "mean_ses": 0.16,
+        "med_ses": 0.074,
+        "weighted_mean_ses": 0.161,
+        "share_q4q5": 0.472,
         "census_est_mean_income": 13156.0,
         "share_ge_10k": 0.477,
         "share_ge_15k": 0.327,
@@ -918,11 +918,11 @@
       },
       {
         "pa": "PASIR RIS",
-        "devices": 3238,
-        "mean_ses": 0.211,
-        "med_ses": 0.204,
-        "weighted_mean_ses": 0.211,
-        "share_q4q5": 0.659,
+        "devices": 3239,
+        "mean_ses": 0.187,
+        "med_ses": 0.199,
+        "weighted_mean_ses": 0.187,
+        "share_q4q5": 0.611,
         "census_est_mean_income": 12645.0,
         "share_ge_10k": 0.521,
         "share_ge_15k": 0.307,
@@ -930,11 +930,11 @@
       },
       {
         "pa": "CLEMENTI",
-        "devices": 1788,
-        "mean_ses": 0.049,
-        "med_ses": 0.071,
-        "weighted_mean_ses": 0.049,
-        "share_q4q5": 0.378,
+        "devices": 1781,
+        "mean_ses": 0.06,
+        "med_ses": -0.007,
+        "weighted_mean_ses": 0.059,
+        "share_q4q5": 0.441,
         "census_est_mean_income": 11969.0,
         "share_ge_10k": 0.412,
         "share_ge_15k": 0.271,
@@ -942,11 +942,11 @@
       },
       {
         "pa": "BEDOK",
-        "devices": 6604,
-        "mean_ses": 0.079,
-        "med_ses": 0.032,
-        "weighted_mean_ses": 0.079,
-        "share_q4q5": 0.412,
+        "devices": 6597,
+        "mean_ses": 0.103,
+        "med_ses": 0.059,
+        "weighted_mean_ses": 0.103,
+        "share_q4q5": 0.476,
         "census_est_mean_income": 11493.0,
         "share_ge_10k": 0.385,
         "share_ge_15k": 0.252,
@@ -954,11 +954,11 @@
       },
       {
         "pa": "QUEENSTOWN",
-        "devices": 2339,
-        "mean_ses": -0.073,
-        "med_ses": -0.154,
-        "weighted_mean_ses": -0.073,
-        "share_q4q5": 0.411,
+        "devices": 2341,
+        "mean_ses": -0.003,
+        "med_ses": 0.211,
+        "weighted_mean_ses": -0.003,
+        "share_q4q5": 0.553,
         "census_est_mean_income": 11387.0,
         "share_ge_10k": 0.38,
         "share_ge_15k": 0.246,
@@ -966,11 +966,11 @@
       },
       {
         "pa": "CHOA CHU KANG",
-        "devices": 4001,
-        "mean_ses": -0.106,
-        "med_ses": -0.121,
-        "weighted_mean_ses": -0.106,
-        "share_q4q5": 0.242,
+        "devices": 3998,
+        "mean_ses": -0.094,
+        "med_ses": -0.021,
+        "weighted_mean_ses": -0.093,
+        "share_q4q5": 0.274,
         "census_est_mean_income": 10979.0,
         "share_ge_10k": 0.436,
         "share_ge_15k": 0.233,
@@ -978,11 +978,11 @@
       },
       {
         "pa": "SENGKANG",
-        "devices": 5343,
-        "mean_ses": 0.06,
-        "med_ses": 0.133,
-        "weighted_mean_ses": 0.06,
-        "share_q4q5": 0.524,
+        "devices": 5335,
+        "mean_ses": 0.022,
+        "med_ses": 0.031,
+        "weighted_mean_ses": 0.022,
+        "share_q4q5": 0.412,
         "census_est_mean_income": 10970.0,
         "share_ge_10k": 0.447,
         "share_ge_15k": 0.236,
@@ -990,11 +990,11 @@
       },
       {
         "pa": "PUNGGOL",
-        "devices": 3244,
-        "mean_ses": 0.014,
-        "med_ses": 0.081,
-        "weighted_mean_ses": 0.014,
-        "share_q4q5": 0.473,
+        "devices": 3246,
+        "mean_ses": -0.031,
+        "med_ses": 0.012,
+        "weighted_mean_ses": -0.03,
+        "share_q4q5": 0.367,
         "census_est_mean_income": 10887.0,
         "share_ge_10k": 0.447,
         "share_ge_15k": 0.232,
@@ -1002,11 +1002,11 @@
       },
       {
         "pa": "TAMPINES",
-        "devices": 5120,
-        "mean_ses": 0.084,
-        "med_ses": 0.184,
-        "weighted_mean_ses": 0.084,
-        "share_q4q5": 0.559,
+        "devices": 5114,
+        "mean_ses": 0.012,
+        "med_ses": 0.044,
+        "weighted_mean_ses": 0.013,
+        "share_q4q5": 0.401,
         "census_est_mean_income": 10795.0,
         "share_ge_10k": 0.409,
         "share_ge_15k": 0.223,
@@ -1014,11 +1014,11 @@
       },
       {
         "pa": "BUKIT PANJANG",
-        "devices": 2555,
-        "mean_ses": 0.003,
-        "med_ses": 0.045,
-        "weighted_mean_ses": 0.003,
-        "share_q4q5": 0.372,
+        "devices": 2556,
+        "mean_ses": -0.002,
+        "med_ses": 0.007,
+        "weighted_mean_ses": -0.003,
+        "share_q4q5": 0.364,
         "census_est_mean_income": 10742.0,
         "share_ge_10k": 0.395,
         "share_ge_15k": 0.226,
@@ -1026,11 +1026,11 @@
       },
       {
         "pa": "HOUGANG",
-        "devices": 4572,
-        "mean_ses": 0.029,
-        "med_ses": 0.116,
-        "weighted_mean_ses": 0.029,
-        "share_q4q5": 0.508,
+        "devices": 4567,
+        "mean_ses": 0.03,
+        "med_ses": 0.023,
+        "weighted_mean_ses": 0.03,
+        "share_q4q5": 0.407,
         "census_est_mean_income": 10658.0,
         "share_ge_10k": 0.388,
         "share_ge_15k": 0.221,
@@ -1039,10 +1039,10 @@
       {
         "pa": "BUKIT BATOK",
         "devices": 3209,
-        "mean_ses": -0.016,
-        "med_ses": 0.009,
-        "weighted_mean_ses": -0.016,
-        "share_q4q5": 0.32,
+        "mean_ses": -0.035,
+        "med_ses": -0.092,
+        "weighted_mean_ses": -0.036,
+        "share_q4q5": 0.344,
         "census_est_mean_income": 10635.0,
         "share_ge_10k": 0.386,
         "share_ge_15k": 0.224,
@@ -1050,11 +1050,11 @@
       },
       {
         "pa": "TOA PAYOH",
-        "devices": 3094,
-        "mean_ses": 0.052,
-        "med_ses": 0.155,
-        "weighted_mean_ses": 0.052,
-        "share_q4q5": 0.522,
+        "devices": 3104,
+        "mean_ses": -0.019,
+        "med_ses": -0.004,
+        "weighted_mean_ses": -0.018,
+        "share_q4q5": 0.339,
         "census_est_mean_income": 10558.0,
         "share_ge_10k": 0.336,
         "share_ge_15k": 0.211,
@@ -1062,11 +1062,11 @@
       },
       {
         "pa": "BUKIT MERAH",
-        "devices": 2943,
-        "mean_ses": 0.157,
-        "med_ses": 0.261,
-        "weighted_mean_ses": 0.157,
-        "share_q4q5": 0.631,
+        "devices": 2945,
+        "mean_ses": 0.092,
+        "med_ses": 0.117,
+        "weighted_mean_ses": 0.092,
+        "share_q4q5": 0.539,
         "census_est_mean_income": 10527.0,
         "share_ge_10k": 0.35,
         "share_ge_15k": 0.216,
@@ -1075,10 +1075,10 @@
       {
         "pa": "KALLANG",
         "devices": 2210,
-        "mean_ses": -0.078,
-        "med_ses": -0.105,
-        "weighted_mean_ses": -0.078,
-        "share_q4q5": 0.279,
+        "mean_ses": 0.05,
+        "med_ses": 0.11,
+        "weighted_mean_ses": 0.05,
+        "share_q4q5": 0.554,
         "census_est_mean_income": 10524.0,
         "share_ge_10k": 0.346,
         "share_ge_15k": 0.214,
@@ -1086,11 +1086,11 @@
       },
       {
         "pa": "SEMBAWANG",
-        "devices": 2209,
-        "mean_ses": 0.014,
-        "med_ses": 0.106,
-        "weighted_mean_ses": 0.014,
-        "share_q4q5": 0.414,
+        "devices": 2208,
+        "mean_ses": -0.042,
+        "med_ses": -0.008,
+        "weighted_mean_ses": -0.043,
+        "share_q4q5": 0.374,
         "census_est_mean_income": 10146.0,
         "share_ge_10k": 0.393,
         "share_ge_15k": 0.188,
@@ -1098,11 +1098,11 @@
       },
       {
         "pa": "GEYLANG",
-        "devices": 3941,
-        "mean_ses": -0.147,
-        "med_ses": -0.19,
-        "weighted_mean_ses": -0.147,
-        "share_q4q5": 0.259,
+        "devices": 3931,
+        "mean_ses": -0.114,
+        "med_ses": -0.042,
+        "weighted_mean_ses": -0.112,
+        "share_q4q5": 0.322,
         "census_est_mean_income": 9948.0,
         "share_ge_10k": 0.33,
         "share_ge_15k": 0.19,
@@ -1110,11 +1110,11 @@
       },
       {
         "pa": "JURONG WEST",
-        "devices": 5319,
-        "mean_ses": 0.042,
-        "med_ses": 0.055,
-        "weighted_mean_ses": 0.042,
-        "share_q4q5": 0.367,
+        "devices": 5326,
+        "mean_ses": -0.03,
+        "med_ses": -0.041,
+        "weighted_mean_ses": -0.03,
+        "share_q4q5": 0.357,
         "census_est_mean_income": 9920.0,
         "share_ge_10k": 0.373,
         "share_ge_15k": 0.178,
@@ -1122,11 +1122,11 @@
       },
       {
         "pa": "JURONG EAST",
-        "devices": 1899,
-        "mean_ses": -0.137,
-        "med_ses": -0.089,
-        "weighted_mean_ses": -0.137,
-        "share_q4q5": 0.217,
+        "devices": 1901,
+        "mean_ses": -0.107,
+        "med_ses": -0.092,
+        "weighted_mean_ses": -0.106,
+        "share_q4q5": 0.282,
         "census_est_mean_income": 9858.0,
         "share_ge_10k": 0.331,
         "share_ge_15k": 0.184,
@@ -1134,11 +1134,11 @@
       },
       {
         "pa": "ANG MO KIO",
-        "devices": 2879,
-        "mean_ses": -0.038,
-        "med_ses": -0.011,
-        "weighted_mean_ses": -0.038,
-        "share_q4q5": 0.323,
+        "devices": 2893,
+        "mean_ses": -0.064,
+        "med_ses": -0.13,
+        "weighted_mean_ses": -0.065,
+        "share_q4q5": 0.345,
         "census_est_mean_income": 9776.0,
         "share_ge_10k": 0.31,
         "share_ge_15k": 0.182,
@@ -1146,11 +1146,11 @@
       },
       {
         "pa": "OUTRAM",
-        "devices": 727,
-        "mean_ses": -0.445,
-        "med_ses": -0.529,
-        "weighted_mean_ses": -0.445,
-        "share_q4q5": 0.188,
+        "devices": 734,
+        "mean_ses": -0.277,
+        "med_ses": -0.298,
+        "weighted_mean_ses": -0.27,
+        "share_q4q5": 0.168,
         "census_est_mean_income": 9518.0,
         "share_ge_10k": 0.282,
         "share_ge_15k": 0.174,
@@ -1158,11 +1158,11 @@
       },
       {
         "pa": "WOODLANDS",
-        "devices": 5075,
-        "mean_ses": -0.031,
-        "med_ses": 0.046,
-        "weighted_mean_ses": -0.031,
-        "share_q4q5": 0.31,
+        "devices": 5072,
+        "mean_ses": -0.08,
+        "med_ses": -0.035,
+        "weighted_mean_ses": -0.08,
+        "share_q4q5": 0.306,
         "census_est_mean_income": 9382.0,
         "share_ge_10k": 0.34,
         "share_ge_15k": 0.155,
@@ -1170,11 +1170,11 @@
       },
       {
         "pa": "YISHUN",
-        "devices": 4361,
-        "mean_ses": -0.035,
-        "med_ses": 0.041,
-        "weighted_mean_ses": -0.035,
-        "share_q4q5": 0.293,
+        "devices": 4358,
+        "mean_ses": -0.094,
+        "med_ses": -0.082,
+        "weighted_mean_ses": -0.094,
+        "share_q4q5": 0.281,
         "census_est_mean_income": 9226.0,
         "share_ge_10k": 0.326,
         "share_ge_15k": 0.153,

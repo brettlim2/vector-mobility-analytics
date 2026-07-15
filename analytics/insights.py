@@ -1002,6 +1002,336 @@ def run_segments(con) -> dict:
 
 # ---------------------------------------------------------------- trip purpose & tours
 
+def _build_dining_visits(con) -> None:
+    """Temp table: Food & Drink visits classified by format / cuisine / occasion,
+    joined to SES quintile and the visitor/home distinction."""
+    con.execute("""
+        CREATE OR REPLACE TEMP TABLE dh_din AS
+        SELECT device_id, median(lat) AS hlat, median(lng) AS hlng
+        FROM stops WHERE (start_hour >= 21 OR start_hour <= 5) AND dwell_min >= 30
+        GROUP BY 1 HAVING count(*) >= 3""")
+    # NB: Overture's brand field is too noisy for a chain-vs-independent metric
+    # (it echoes names and mis-tags independents), so we do not export one here —
+    # a curated chain list is future work.
+    con.execute("""
+        CREATE OR REPLACE TEMP TABLE dining_visits AS
+        SELECT v.device_id, v.poi_id, v.poi_name, v.poi_category, v.start_ts,
+               v.dwell_min, v.dow, v.d, v.lat, v.lng,
+               s.ses_quintile,
+               (h.device_id IS NOT NULL
+                 AND hav_m(v.lat, v.lng, h.hlat, h.hlng) < 400) AS near_home,
+               CASE
+                 WHEN v.poi_category IN ('coffee_shop','food_stand','food_court') THEN 'hawker_kopitiam'
+                 WHEN v.poi_category IN ('cafe','bakery','tea_room') THEN 'cafe_bakery'
+                 WHEN v.poi_category IN ('fast_food_restaurant','sandwich_shop','burger_restaurant') THEN 'fast_food'
+                 WHEN v.poi_category IN ('bar','lounge','pub','night_club','wine_bar') THEN 'nightlife'
+                 WHEN v.poi_category IN ('bubble_tea','desserts','ice_cream_shop','juice_bar') THEN 'snack_dessert'
+                 WHEN v.poi_category LIKE '%restaurant%' THEN 'restaurant'
+                 ELSE 'other_food'
+               END AS format,
+               CASE
+                 WHEN v.poi_category LIKE 'chinese%' OR v.poi_category IN ('dim_sum_restaurant','hotpot_restaurant','cantonese_restaurant') THEN 'chinese'
+                 WHEN v.poi_category LIKE 'japanese%' OR v.poi_category IN ('sushi_restaurant','ramen_restaurant') THEN 'japanese'
+                 WHEN v.poi_category LIKE 'korean%' THEN 'korean'
+                 WHEN v.poi_category LIKE 'indian%' THEN 'indian'
+                 WHEN v.poi_category IN ('thai_restaurant','vietnamese_restaurant','malaysian_restaurant','indonesian_restaurant','asian_restaurant','singaporean_restaurant','seafood_restaurant') THEN 'sea_other_asian'
+                 WHEN v.poi_category IN ('italian_restaurant','pizza_restaurant','french_restaurant','american_restaurant','mexican_restaurant','western_restaurant','steak_house') THEN 'western'
+                 ELSE 'mixed_unspecified'
+               END AS cuisine,
+               CASE
+                 WHEN hour(v.start_ts) BETWEEN 6 AND 10 THEN 'breakfast'
+                 WHEN hour(v.start_ts) BETWEEN 11 AND 14 THEN 'lunch'
+                 WHEN hour(v.start_ts) BETWEEN 15 AND 17 THEN 'tea'
+                 WHEN hour(v.start_ts) BETWEEN 18 AND 21 THEN 'dinner'
+                 ELSE 'supper_late'
+               END AS meal_occasion
+        FROM visits v
+        LEFT JOIN device_ses s USING (device_id)
+        LEFT JOIN dh_din h USING (device_id)
+        WHERE v.poi_group = 'Food & Drink'""")
+
+
+def run_dining(con) -> dict:
+    _build_dining_visits(con)
+    return {
+        "format_by_ses": rows(con, f"""
+            SELECT ses_quintile, format,
+                   count(*) AS visits,
+                   round(count(*) / sum(count(*)) OVER (PARTITION BY ses_quintile), 3) AS share
+            FROM dining_visits
+            WHERE ses_quintile IS NOT NULL
+            GROUP BY 1, 2 HAVING count(*) >= {K}
+            ORDER BY 1, visits DESC"""),
+        "hawker_index_by_ses": rows(con, f"""
+            SELECT ses_quintile,
+                   count(DISTINCT device_id) AS devices,
+                   round(count(*) FILTER (format = 'hawker_kopitiam') / count(*)::DOUBLE, 3) AS hawker_share,
+                   round(count(*) FILTER (format = 'restaurant') / count(*)::DOUBLE, 3) AS restaurant_share,
+                   round(count(*) FILTER (format = 'cafe_bakery') / count(*)::DOUBLE, 3) AS cafe_share,
+                   round(count(*) FILTER (format = 'fast_food') / count(*)::DOUBLE, 3) AS fast_food_share
+            FROM dining_visits WHERE ses_quintile IS NOT NULL
+            GROUP BY 1 ORDER BY 1"""),
+        "cuisine_by_ses": rows(con, f"""
+            SELECT ses_quintile, cuisine, count(*) AS visits,
+                   round(count(*) / sum(count(*)) OVER (PARTITION BY ses_quintile), 3) AS share
+            FROM dining_visits
+            WHERE ses_quintile IS NOT NULL AND cuisine != 'mixed_unspecified'
+            GROUP BY 1, 2 HAVING count(*) >= {K}
+            ORDER BY 1, visits DESC"""),
+        "meal_occasion_mix": rows(con, """
+            SELECT meal_occasion,
+                   CASE WHEN dow IN (0,6) THEN 'weekend' ELSE 'weekday' END AS daytype,
+                   count(*) AS visits,
+                   round(count(*) FILTER (near_home) / count(*)::DOUBLE, 3) AS near_home_share,
+                   round(median(dwell_min), 1) AS med_dwell_min
+            FROM dining_visits
+            GROUP BY 1, 2 ORDER BY 2, min(hour(start_ts))"""),
+        "dining_loyalty": one(con, f"""
+            WITH per AS (
+              SELECT device_id, poi_id, count(*) AS visits
+              FROM dining_visits GROUP BY 1, 2
+            )
+            SELECT round(avg(visits), 2) AS mean_visits_per_eatery,
+                   round(count(*) FILTER (visits >= 3) / count(*)::DOUBLE, 3) AS repeat3_share,
+                   count(DISTINCT device_id) AS devices
+            FROM per"""),
+        "top_cuisines_overall": rows(con, """
+            SELECT cuisine, count(*) AS visits, count(DISTINCT device_id) AS devices
+            FROM dining_visits WHERE cuisine != 'mixed_unspecified'
+            GROUP BY 1 ORDER BY visits DESC"""),
+    }
+
+
+def run_granularity(con) -> dict:
+    """H3 multi-resolution rollups (res 8 ≈ 460m → res 10 ≈ 65m edge) reusing the
+    stored h3_res10, showing sub-geohash structure the geohash-6 (~1.2km) map hides."""
+    try:
+        con.execute("INSTALL h3 FROM community; LOAD h3")
+    except Exception as e:
+        return {"status": "skipped", "reason": f"h3 extension unavailable: {e}"}
+
+    out = {
+        "resolution_cell_counts": rows(con, f"""
+            SELECT 'res10 (~65m)' AS resolution, count(DISTINCT h3_10) AS cells,
+                   round(count(*) / count(DISTINCT h3_10)) AS pings_per_cell
+            FROM pings
+            UNION ALL
+            SELECT 'res9 (~170m)', count(DISTINCT h3_cell_to_parent(h3_string_to_h3(h3_10), 9)),
+                   round(count(*) / count(DISTINCT h3_cell_to_parent(h3_string_to_h3(h3_10), 9)))
+            FROM pings
+            UNION ALL
+            SELECT 'res8 (~460m)', count(DISTINCT h3_cell_to_parent(h3_string_to_h3(h3_10), 8)),
+                   round(count(*) / count(DISTINCT h3_cell_to_parent(h3_string_to_h3(h3_10), 8)))
+            FROM pings
+            UNION ALL
+            SELECT 'geohash6 (~1.2km)', count(DISTINCT gh6),
+                   round(count(*) / count(DISTINCT gh6))
+            FROM pings"""),
+        # Within the single busiest geohash-6 cell, how footfall splits across res-10 hexes
+        "subcell_structure": rows(con, f"""
+            WITH busiest AS (
+              SELECT gh6 FROM pings GROUP BY 1
+              ORDER BY count(DISTINCT device_id) DESC LIMIT 1
+            )
+            SELECT p.h3_10 AS hex,
+                   round(avg(p.lat), 5) AS lat, round(avg(p.lng), 5) AS lng,
+                   count(DISTINCT p.device_id) AS devices
+            FROM pings p JOIN busiest USING (gh6)
+            GROUP BY p.h3_10
+            HAVING count(DISTINCT p.device_id) >= {K}
+            ORDER BY devices DESC LIMIT 12"""),
+        "top_res9_hotspots": rows(con, f"""
+            SELECT h3_h3_to_string(h3_cell_to_parent(h3_string_to_h3(h3_10), 9)) AS hex9,
+                   round(avg(lat), 5) AS lat, round(avg(lng), 5) AS lng,
+                   count(DISTINCT device_id) AS devices
+            FROM pings
+            GROUP BY 1
+            HAVING count(DISTINCT device_id) >= {K}
+            ORDER BY devices DESC LIMIT 20"""),
+    }
+    return out
+
+
+def run_embeddings(con) -> dict:
+    """Surface venue2vec substitution + embedding-cluster segments (if built)."""
+    out = {
+        "verdict": "under_powered_on_one_week",
+        "note": "device2vec/venue2vec are trained and wired, but one week of sparse "
+                "visit sequences is not enough signal: embedding-cluster ARI vs rule "
+                "segments ≈ 0 and venue2vec nearest-neighbours are incoherent "
+                "(e.g. a supermarket's neighbours are unrelated shops). Embeddings "
+                "are a multi-week investment, not a one-week win — revisit after "
+                "≥4 weeks of data. The weakly-characterised clusters are below.",
+    }
+    emb_path = OUT_DIR / "embed_segments.json"
+    if emb_path.exists():
+        es = json.loads(emb_path.read_text())
+        out["embed_segments"] = {
+            "devices": es["devices"], "k": es["k"],
+            "ari_vs_rule_segments": es["ari_vs_rule_segments"],
+            "clusters": [
+                {"cluster": c["cluster"], "devices": c["devices"],
+                 "avg_ses_quintile": c["avg_ses_quintile"],
+                 "top_categories": [x["category"] for x in c["top_categories"][:5]]}
+                for c in es["clusters"]
+            ],
+        }
+    return out
+
+
+def run_retail(con) -> dict:
+    con.execute("""
+        CREATE OR REPLACE TEMP TABLE dh_ret AS
+        SELECT device_id, median(lat) AS hlat, median(lng) AS hlng
+        FROM stops WHERE (start_hour >= 21 OR start_hour <= 5) AND dwell_min >= 30
+        GROUP BY 1 HAVING count(*) >= 3""")
+    # Shopping visits with mission (dwell), mall flag, tier, SES, home distance
+    con.execute("""
+        CREATE OR REPLACE TEMP TABLE shop_visits AS
+        SELECT v.device_id, v.poi_id, v.poi_name, v.poi_category, v.start_ts,
+               v.dwell_min, v.d, v.lat, v.lng, s.ses_quintile,
+               (v.poi_category IN ('shopping_center','department_store')) AS is_mall,
+               coalesce(bt.tier, bt2.tier) AS tier,
+               CASE
+                 WHEN v.dwell_min < 25 THEN 'grab'
+                 WHEN v.dwell_min < 90 THEN 'browse'
+                 ELSE 'day_out'
+               END AS mission,
+               CASE WHEN h.device_id IS NOT NULL
+                    THEN hav_m(v.lat, v.lng, h.hlat, h.hlng) / 1000.0 END AS home_km
+        FROM visits v
+        LEFT JOIN device_ses s USING (device_id)
+        LEFT JOIN dh_ret h USING (device_id)
+        LEFT JOIN brand_tiers bt ON lower(trim(coalesce(v.poi_brand, ''))) = bt.brand_key
+        LEFT JOIN brand_tiers bt2 ON bt.brand_key IS NULL AND lower(v.poi_name) = bt2.brand_key
+        WHERE v.poi_group = 'Shopping'""")
+
+    return {
+        "mission_by_ses": rows(con, f"""
+            SELECT ses_quintile, mission, count(*) AS visits,
+                   round(count(*) / sum(count(*)) OVER (PARTITION BY ses_quintile), 3) AS share
+            FROM shop_visits WHERE ses_quintile IS NOT NULL
+            GROUP BY 1, 2 HAVING count(*) >= {K}
+            ORDER BY 1, min(dwell_min)"""),
+        "mall_missions": rows(con, """
+            SELECT mission, count(*) AS visits,
+                   round(count(*) / sum(count(*)) OVER (), 3) AS share,
+                   round(median(dwell_min), 1) AS med_dwell_min
+            FROM shop_visits WHERE is_mall
+            GROUP BY 1 ORDER BY min(dwell_min)"""),
+        # Mall loyalty (RFM-lite over one week): repeat visits + primary-mall concentration
+        "mall_loyalty": one(con, f"""
+            WITH per AS (
+              SELECT device_id, poi_id, count(*) AS visits, count(DISTINCT d) AS days
+              FROM shop_visits WHERE is_mall GROUP BY 1, 2
+            ),
+            dev AS (
+              SELECT device_id, count(DISTINCT poi_id) AS malls, sum(visits) AS total,
+                     max(visits) AS top_mall_visits
+              FROM per GROUP BY 1
+            )
+            SELECT count(*) AS mall_goers,
+                   round(avg(malls), 2) AS mean_distinct_malls,
+                   round(avg(top_mall_visits / total::DOUBLE), 3) AS primary_mall_concentration,
+                   round(count(*) FILTER (malls = 1) / count(*)::DOUBLE, 3) AS single_mall_share
+            FROM dev"""),
+        # Price-tier journeys: does a device span tiers or stay in-band?
+        "tier_dispersion_by_ses": rows(con, f"""
+            WITH dev AS (
+              SELECT device_id, any_value(ses_quintile) AS ses_quintile,
+                     round(avg(tier), 2) AS mean_tier,
+                     round(stddev_samp(tier), 2) AS tier_spread,
+                     count(*) AS tiered_visits
+              FROM shop_visits WHERE tier IS NOT NULL
+              GROUP BY device_id HAVING count(*) >= 3
+            )
+            SELECT ses_quintile, count(*) AS devices,
+                   round(avg(mean_tier), 2) AS avg_mean_tier,
+                   round(avg(tier_spread), 2) AS avg_tier_spread
+            FROM dev WHERE ses_quintile IS NOT NULL
+            GROUP BY 1 ORDER BY 1"""),
+        # Heartland convenience vs regional destination malls (by home distance)
+        "heartland_vs_regional": rows(con, f"""
+            SELECT ses_quintile,
+                   count(*) FILTER (is_mall AND home_km <= 3) AS local_mall_visits,
+                   count(*) FILTER (is_mall AND home_km > 3) AS regional_mall_visits,
+                   round(count(*) FILTER (is_mall AND home_km > 3)
+                         / nullif(count(*) FILTER (is_mall), 0)::DOUBLE, 3) AS regional_share
+            FROM shop_visits WHERE ses_quintile IS NOT NULL AND home_km IS NOT NULL
+            GROUP BY 1 ORDER BY 1"""),
+        "top_mall_catchment": rows(con, f"""
+            SELECT poi_name AS mall,
+                   count(DISTINCT device_id) AS visitors,
+                   round(median(home_km), 1) AS med_home_km,
+                   round(count(*) FILTER (mission = 'day_out') / count(*)::DOUBLE, 2) AS day_out_share
+            FROM shop_visits
+            WHERE is_mall AND home_km IS NOT NULL AND home_km >= 0.4
+            GROUP BY 1 HAVING count(DISTINCT device_id) >= {K}
+            ORDER BY visitors DESC LIMIT 15"""),
+    }
+
+
+def run_routing(con) -> dict:
+    try:
+        con.execute("SELECT 1 FROM trip_routes LIMIT 1")
+    except Exception:
+        return {"status": "skipped", "reason": "trip_routes missing — run build --steps routing (OSRM must be up)"}
+
+    out = {
+        "circuity_distribution": rows(con, """
+            SELECT CASE
+                     WHEN circuity < 1.2 THEN 'direct (<1.2)'
+                     WHEN circuity < 1.5 THEN 'normal (1.2-1.5)'
+                     WHEN circuity < 2.0 THEN 'indirect (1.5-2.0)'
+                     ELSE 'very indirect (2.0+)'
+                   END AS band,
+                   count(*) AS trips
+            FROM trip_routes WHERE circuity IS NOT NULL
+            GROUP BY 1 ORDER BY min(circuity)"""),
+        "road_vs_straight": one(con, """
+            SELECT round(median(straight_km), 2) AS med_straight_km,
+                   round(median(road_km), 2) AS med_road_km,
+                   round(median(circuity), 3) AS med_circuity,
+                   round(median(drive_min), 1) AS med_drive_min
+            FROM trip_routes"""),
+        # Trip travel_min is inter-stop *elapsed* time (≈3x drive time — it
+        # includes short activities/waits between dwell stops), so it is NOT a
+        # clean travel-time. OSRM validates strongly where the gap really is
+        # just travel (the car-plausible band): corr ~0.88.
+        "osrm_validation": one(con, """
+            SELECT round(median(travel_min / nullif(drive_min, 0)), 2) AS median_elapsed_to_drive_ratio,
+                   round(corr(drive_min, travel_min)
+                     FILTER (travel_min BETWEEN drive_min * 0.6 AND drive_min * 2 AND road_km >= 1),
+                     3) AS travel_band_corr,
+                   count(*) FILTER (travel_min BETWEEN drive_min * 0.6 AND drive_min * 2 AND road_km >= 1)
+                     AS travel_band_trips
+            FROM trip_routes"""),
+        # Mode inference: observed duration vs OSRM car estimate.
+        # Much slower than car estimate → transit/walk; near/under car → car-like.
+        "mode_inference": rows(con, """
+            WITH m AS (
+              SELECT CASE
+                       WHEN travel_min <= drive_min * 1.4 THEN 'car_like'
+                       WHEN travel_min <= drive_min * 2.5 THEN 'transit_like'
+                       ELSE 'slow_walk_or_wait'
+                     END AS mode_est
+              FROM trip_routes WHERE drive_min >= 2 AND road_km >= 0.5
+            )
+            SELECT mode_est, count(*) AS trips,
+                   round(count(*) / sum(count(*)) OVER (), 3) AS share
+            FROM m GROUP BY 1 ORDER BY trips DESC"""),
+        "catchment_drive_time": rows(con, """
+            SELECT name, visitors_sampled, share_within_15min, median_drive_min
+            FROM venue_drive_catchment
+            ORDER BY median_drive_min DESC"""),
+    }
+    # Face-validity vs census: car-like share should track the car-owning population
+    out["census_car_share"] = one(con, """
+        SELECT round(sum(car) / sum(workers)::DOUBLE, 3) AS census_car_share
+        FROM mode_share""")
+    return out
+
+
 def run_purpose(con) -> dict:
     return {
         "purpose_by_hour": rows(con, """
@@ -1302,6 +1632,11 @@ ANALYSES: dict[str, Callable] = {
     "uncertainty": run_uncertainty,
     "ses": run_ses,
     "household": run_household,
+    "routing": run_routing,
+    "dining": run_dining,
+    "retail": run_retail,
+    "embeddings": run_embeddings,
+    "granularity": run_granularity,
 }
 
 
