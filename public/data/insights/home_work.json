@@ -1,378 +1,177 @@
 {
   "devices_classified": {
-    "n": 54431,
-    "commuters": 16848
+    "n": 446,
+    "commuters": 50
   },
   "top_home_zones": [
     {
-      "zone": "Sengkang",
-      "devices": 3182
+      "zone": "Saitama / Omiya",
+      "devices": 33
     },
     {
-      "zone": "Yishun",
-      "devices": 2777
+      "zone": "Fukuoka Airport",
+      "devices": 24
     },
     {
-      "zone": "Hougang",
-      "devices": 2769
+      "zone": "Machida",
+      "devices": 22
     },
     {
-      "zone": "Bedok",
-      "devices": 2732
+      "zone": "Sendai",
+      "devices": 22
     },
     {
-      "zone": "Tampines",
-      "devices": 2471
+      "zone": "Nagoya Sakae",
+      "devices": 20
     },
     {
-      "zone": "Choa Chu Kang",
-      "devices": 2453
+      "zone": "Hiroshima",
+      "devices": 20
     },
     {
-      "zone": "Woodlands",
-      "devices": 2300
+      "zone": "Okayama",
+      "devices": 19
     },
     {
-      "zone": "Punggol",
-      "devices": 2291
+      "zone": "Tennoji / Abeno",
+      "devices": 18
     },
     {
-      "zone": "Jurong West",
-      "devices": 2274
+      "zone": "Tsukuba",
+      "devices": 16
     },
     {
-      "zone": "Ang Mo Kio",
-      "devices": 2112
+      "zone": "Tokyo Skytree / Sumida",
+      "devices": 16
     },
     {
-      "zone": "Pasir Ris",
-      "devices": 1729
+      "zone": "Shin-Osaka",
+      "devices": 14
     },
     {
-      "zone": "Toa Payoh",
-      "devices": 1683
+      "zone": "Tachikawa",
+      "devices": 14
     },
     {
-      "zone": "Sembawang",
-      "devices": 1643
+      "zone": "Kyoto Downtown / Gion",
+      "devices": 12
     },
     {
-      "zone": "Bukit Panjang",
-      "devices": 1428
+      "zone": "Kanazawa",
+      "devices": 12
     },
     {
-      "zone": "Bukit Batok",
-      "devices": 1394
+      "zone": "Sapporo",
+      "devices": 12
     },
     {
-      "zone": "Serangoon",
-      "devices": 1391
+      "zone": "Kichijoji / Musashino",
+      "devices": 10
     },
     {
-      "zone": "Geylang",
-      "devices": 1284
+      "zone": "Yokohama / Minato Mirai",
+      "devices": 10
     },
     {
-      "zone": "Clementi",
-      "devices": 1266
+      "zone": "Nagoya Station / Meieki",
+      "devices": 10
     },
     {
-      "zone": "Jurong East",
-      "devices": 1198
+      "zone": "Asakusa",
+      "devices": 9
     },
     {
-      "zone": "Tengah",
-      "devices": 1183
+      "zone": "Ikebukuro / Toshima",
+      "devices": 9
     }
   ],
   "top_work_zones": [
     {
-      "zone": "Sengkang",
-      "devices": 2479
+      "zone": "Saitama / Omiya",
+      "devices": 32
     },
     {
-      "zone": "Bedok",
-      "devices": 2436
+      "zone": "Machida",
+      "devices": 24
     },
     {
-      "zone": "Hougang",
-      "devices": 2371
+      "zone": "Fukuoka Airport",
+      "devices": 24
     },
     {
-      "zone": "Yishun",
-      "devices": 2285
+      "zone": "Sendai",
+      "devices": 22
     },
     {
-      "zone": "Tampines",
-      "devices": 2182
+      "zone": "Nagoya Sakae",
+      "devices": 19
     },
     {
-      "zone": "Ang Mo Kio",
-      "devices": 2080
+      "zone": "Okayama",
+      "devices": 19
     },
     {
-      "zone": "Jurong West",
-      "devices": 2071
+      "zone": "Hiroshima",
+      "devices": 19
     },
     {
-      "zone": "Choa Chu Kang",
-      "devices": 1958
+      "zone": "Tsukuba",
+      "devices": 15
     },
     {
-      "zone": "Woodlands",
-      "devices": 1888
+      "zone": "Tennoji / Abeno",
+      "devices": 15
     },
     {
-      "zone": "Geylang",
-      "devices": 1816
+      "zone": "Tachikawa",
+      "devices": 14
     },
     {
-      "zone": "Punggol",
-      "devices": 1786
+      "zone": "Ikebukuro / Toshima",
+      "devices": 13
     },
     {
-      "zone": "Toa Payoh",
-      "devices": 1564
+      "zone": "Tokyo Skytree / Sumida",
+      "devices": 12
     },
     {
-      "zone": "Jurong East",
-      "devices": 1506
+      "zone": "Kanazawa",
+      "devices": 12
     },
     {
-      "zone": "Sembawang",
-      "devices": 1445
+      "zone": "Shin-Osaka",
+      "devices": 12
     },
     {
-      "zone": "Pasir Ris",
-      "devices": 1433
+      "zone": "Sapporo",
+      "devices": 12
     },
     {
-      "zone": "Clementi",
-      "devices": 1283
+      "zone": "Kyoto Downtown / Gion",
+      "devices": 11
     },
     {
-      "zone": "Serangoon",
-      "devices": 1282
+      "zone": "Shinagawa",
+      "devices": 11
     },
     {
-      "zone": "Orchard",
-      "devices": 1247
+      "zone": "Kansai Airport",
+      "devices": 10
     },
     {
-      "zone": "Bukit Batok",
-      "devices": 1214
+      "zone": "Nagoya Station / Meieki",
+      "devices": 10
     },
     {
-      "zone": "Bukit Panjang",
-      "devices": 1103
+      "zone": "Osaka Namba / Minami",
+      "devices": 9
     }
   ],
-  "commute_flows": [
-    {
-      "home_zone": "Jurong West",
-      "work_zone": "Jurong East",
-      "devices": 97
-    },
-    {
-      "home_zone": "Sengkang",
-      "work_zone": "Hougang",
-      "devices": 87
-    },
-    {
-      "home_zone": "Jurong West",
-      "work_zone": "Tuas",
-      "devices": 87
-    },
-    {
-      "home_zone": "Bedok",
-      "work_zone": "Geylang",
-      "devices": 81
-    },
-    {
-      "home_zone": "Hougang",
-      "work_zone": "Geylang",
-      "devices": 81
-    },
-    {
-      "home_zone": "Sengkang",
-      "work_zone": "Geylang",
-      "devices": 81
-    },
-    {
-      "home_zone": "Choa Chu Kang",
-      "work_zone": "Jurong East",
-      "devices": 79
-    },
-    {
-      "home_zone": "Woodlands",
-      "work_zone": "Sembawang",
-      "devices": 66
-    },
-    {
-      "home_zone": "Yishun",
-      "work_zone": "Sembawang",
-      "devices": 64
-    },
-    {
-      "home_zone": "Yishun",
-      "work_zone": "Ang Mo Kio",
-      "devices": 62
-    },
-    {
-      "home_zone": "Choa Chu Kang",
-      "work_zone": "Jurong West",
-      "devices": 62
-    },
-    {
-      "home_zone": "Tampines",
-      "work_zone": "Geylang",
-      "devices": 59
-    },
-    {
-      "home_zone": "Sembawang",
-      "work_zone": "Woodlands",
-      "devices": 57
-    },
-    {
-      "home_zone": "Tengah",
-      "work_zone": "Jurong East",
-      "devices": 56
-    },
-    {
-      "home_zone": "Tampines",
-      "work_zone": "Changi Airport",
-      "devices": 54
-    },
-    {
-      "home_zone": "Pasir Ris",
-      "work_zone": "Tampines",
-      "devices": 54
-    },
-    {
-      "home_zone": "Hougang",
-      "work_zone": "Ang Mo Kio",
-      "devices": 53
-    },
-    {
-      "home_zone": "Yishun",
-      "work_zone": "Geylang",
-      "devices": 52
-    },
-    {
-      "home_zone": "Punggol",
-      "work_zone": "Geylang",
-      "devices": 50
-    },
-    {
-      "home_zone": "Pasir Ris",
-      "work_zone": "Geylang",
-      "devices": 49
-    },
-    {
-      "home_zone": "Bedok",
-      "work_zone": "Changi Business Park / Expo",
-      "devices": 48
-    },
-    {
-      "home_zone": "Tampines",
-      "work_zone": "Changi Business Park / Expo",
-      "devices": 48
-    },
-    {
-      "home_zone": "Punggol",
-      "work_zone": "Sengkang",
-      "devices": 48
-    },
-    {
-      "home_zone": "Toa Payoh",
-      "work_zone": "Geylang",
-      "devices": 47
-    },
-    {
-      "home_zone": "Choa Chu Kang",
-      "work_zone": "Tuas",
-      "devices": 47
-    },
-    {
-      "home_zone": "Yishun",
-      "work_zone": "Woodlands",
-      "devices": 46
-    },
-    {
-      "home_zone": "Woodlands",
-      "work_zone": "Yishun",
-      "devices": 46
-    },
-    {
-      "home_zone": "Tengah",
-      "work_zone": "Jurong West",
-      "devices": 45
-    },
-    {
-      "home_zone": "Sengkang",
-      "work_zone": "Orchard",
-      "devices": 45
-    },
-    {
-      "home_zone": "Sembawang",
-      "work_zone": "Yishun",
-      "devices": 45
-    },
-    {
-      "home_zone": "Yishun",
-      "work_zone": "Orchard",
-      "devices": 44
-    },
-    {
-      "home_zone": "Sengkang",
-      "work_zone": "Ang Mo Kio",
-      "devices": 44
-    },
-    {
-      "home_zone": "Hougang",
-      "work_zone": "Sengkang",
-      "devices": 42
-    },
-    {
-      "home_zone": "Bukit Batok",
-      "work_zone": "Jurong East",
-      "devices": 42
-    },
-    {
-      "home_zone": "Hougang",
-      "work_zone": "Serangoon",
-      "devices": 41
-    },
-    {
-      "home_zone": "Tampines",
-      "work_zone": "Bedok",
-      "devices": 41
-    },
-    {
-      "home_zone": "NTU / Pioneer",
-      "work_zone": "Jurong West",
-      "devices": 41
-    },
-    {
-      "home_zone": "Sengkang",
-      "work_zone": "Punggol",
-      "devices": 41
-    },
-    {
-      "home_zone": "Bedok",
-      "work_zone": "Tampines",
-      "devices": 41
-    },
-    {
-      "home_zone": "Pasir Ris",
-      "work_zone": "Bedok",
-      "devices": 40
-    }
-  ],
+  "commute_flows": [],
   "commute_distance_km": {
-    "p25": 4.9,
-    "p50": 8.8,
-    "p75": 13.9,
-    "p90": 17.8
+    "p25": 7.2,
+    "p50": 9.7,
+    "p75": 27.5,
+    "p90": 67.6
   }
 }

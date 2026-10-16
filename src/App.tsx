@@ -76,8 +76,8 @@ export default function App() {
     )
   }
 
-  const routing = data.insights?.routing.road_vs_straight
-  const weightedPop = data.insights?.weighted.weighted_totals.estimated_population
+  const routing = data.insights?.routing?.road_vs_straight
+  const weightedPop = data.insights?.weighted?.weighted_totals?.estimated_population
 
   return (
     <div className="relative flex h-full flex-col">
@@ -100,10 +100,10 @@ export default function App() {
               population={weightedPop}
             />
             <p className="mt-2 max-w-3xl text-[11px] leading-relaxed text-[var(--vm-muted)]">
-              Prefer SDK/app for hourly axes — the aggregate feed resets near 08:00 SGT.
+              Factori Japan mobility · September 2026 · hours in JST.
               {routing
                 ? ` Road distances use OSRM (median circuity ${routing.med_circuity}× vs straight-line).`
-                : ' OD arcs still show straight-line distances.'}
+                : ' OD arcs show straight-line distances between zone centroids.'}
             </p>
           </div>
         </div>
@@ -143,8 +143,8 @@ export default function App() {
             )}
 
             <p className="border-t border-[var(--vm-line)] pt-3 text-[10px] leading-relaxed text-[var(--vm-muted)]">
-              Privacy: every cell suppressed below 5 distinct devices at export. POI and dining
-              footfall use visitor-only rows (home ≥400 m). Filter state is URL-encoded for sharing.
+              Privacy: every cell is suppressed below 5 distinct devices at export; no per-device
+              trajectories leave the warehouse. Filter state is URL-encoded for sharing.
             </p>
           </div>
         </aside>

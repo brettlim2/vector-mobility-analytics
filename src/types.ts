@@ -174,6 +174,7 @@ export interface AnomaliesInsight {
     event_stop_devices: number
     first_time_share: number
   }>
+  quietest_vs_busiest_days: Array<{ d: string; day: string; devices: number }>
 }
 
 export interface DataQualityInsight {
@@ -425,25 +426,28 @@ export interface UncertaintyInsight {
   }>
 }
 
+// Every section is optional: a given deployment only has the analyses its source
+// data supports (the Factori Japan build, for example, has the geometry analyses but
+// not the POI/census-derived ones). Missing analyses load as null.
 export interface AnalyticsInsights {
-  homeWork: HomeWorkInsight
-  zoneActivity: ZoneActivityInsight
-  poi: PoiInsights
-  movement: MovementInsight
-  dwell: DwellInsight
-  anomalies: AnomaliesInsight
-  dataQuality: DataQualityInsight
-  segments: SegmentsInsight
-  ses: SesInsight
-  purpose: PurposeInsight
-  urbanContext: UrbanContextInsight
-  household: HouseholdInsight
-  dining: DiningInsight
-  retail: RetailInsight
-  routing: RoutingInsight
-  affinity: AffinityInsight
-  weighted: WeightedInsight
-  uncertainty: UncertaintyInsight
+  homeWork: HomeWorkInsight | null
+  zoneActivity: ZoneActivityInsight | null
+  poi: PoiInsights | null
+  movement: MovementInsight | null
+  dwell: DwellInsight | null
+  anomalies: AnomaliesInsight | null
+  dataQuality: DataQualityInsight | null
+  segments: SegmentsInsight | null
+  ses: SesInsight | null
+  purpose: PurposeInsight | null
+  urbanContext: UrbanContextInsight | null
+  household: HouseholdInsight | null
+  dining: DiningInsight | null
+  retail: RetailInsight | null
+  routing: RoutingInsight | null
+  affinity: AffinityInsight | null
+  weighted: WeightedInsight | null
+  uncertainty: UncertaintyInsight | null
 }
 
 export const DEFAULT_FILTERS: Filters = {

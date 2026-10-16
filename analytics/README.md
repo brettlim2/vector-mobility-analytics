@@ -1,13 +1,16 @@
-# Veraset Mobility Analytics Engine (exports for this app)
+# Mobility Analytics Engine (exports for this app)
 
-DuckDB-backed analytics. The warehouse may live here or at `WAREHOUSE_PATH`
-(defaults to sibling `VectorMobility MVP/data/veraset.duckdb` when present).
+DuckDB-backed analytics. Source is selected by `MOBILITY_SOURCE`
+(`factori` = Factori Japan, default; `veraset` = legacy Singapore). The
+warehouse defaults to `data/factori_jp.duckdb` (or `data/veraset.duckdb`);
+override with `WAREHOUSE_PATH`.
 
 ## Setup
 
 ```bash
 pip3 install -r ../requirements.txt   # or: pip3 install duckdb h3
-export WAREHOUSE_PATH="/path/to/veraset.duckdb"   # if needed
+# Fetch the Factori Japan sample (see ../scripts/fetch_factori_jp.sh), then:
+python3 -m analytics build            # raw parquet → pings → … → trips → zones
 ```
 
 ## Export for the UI
@@ -20,8 +23,8 @@ python3 -m analytics export
 # → public/data/insights/*.json
 ```
 
-Place URA Master Plan planning-area GeoJSON at
-`data/boundaries/planning_areas.geojson` so export copies it into `public/data/`.
+Prefecture boundaries ship at `data/boundaries/japan_prefectures.geojson`
+(copied into `public/data/planning_areas.geojson` on export).
 
 ## Other commands
 

@@ -1,10 +1,36 @@
-# Vector Mobility Analytics
+# Japan Mobility Analytics
 
-Interactive geospatial analytics over the Veraset Singapore warehouse
-(DuckDB → static cubes → MapLibre + deck.gl). Hex density, OD arcs,
-planning-area boundaries, filter cubes, calendar heatmap, POI rhythms, and
-warehouse insight views for routing, dining × SES, retail missions, affinity,
-audience segments, and urban context.
+Interactive geospatial analytics over **Factori** Japan mobility data
+(DuckDB → static cubes → MapLibre + deck.gl). Hex density, inter-metro OD arcs,
+prefecture boundaries, filter cubes, calendar heatmap, and warehouse insight
+views for zone activity, movement, dwell, and burst events.
+
+The pipeline is source-aware (`analytics.SOURCE`): `factori` (Factori Japan GCS
+parquet, the default) or `veraset` (the original Singapore feed). Only the raw
+ping-ingestion step (`engine.build_pings`) and a handful of geo constants differ;
+everything downstream — stops, trips, hex rollups, exports, the frontend — is shared.
+
+## Data source
+
+Factori ships Japan mobility as partitioned parquet in a GCS bucket
+(`gs://factori-messynetwork/sample/mobility/year=.../month=.../cntry=JPN/`).
+Parts are device-disjoint, so a strided subset is a clean random device sample
+with complete trajectories. Pull one with:
+
+```bash
+FACTORI_KEY=/path/to/service-account.json ./scripts/fetch_factori_jp.sh 25
+```
+
+Columns map to the engine's ping contract as: `maid`→device id, epoch
+`timestamp`→`ts` (JST), `latitude`/`longitude`/`horizontal_accuracy` direct,
+`country='JPN'`, plus precomputed `geohash`/`hex8`/`hex9` and `state_hasc`/`city_hasc`.
+Raw parquet, the DuckDB warehouse, and the service-account key are git-ignored —
+never commit them.
+
+> Note: analyses that need POI (Overture) or Japan census/boundary enrichment
+> (dining, retail, SES, segments, purpose, weighted, affinity, urban context) are
+> not produced in the default Japan build; the pipeline skips them cleanly and the
+> UI hides the sections that have no data.
 
 ## Public demo
 
@@ -23,23 +49,22 @@ git add public/data && git commit -m "Refresh analytics exports" && git push
 ## Quick start
 
 ```bash
-# 1. Python deps (uses warehouse at WAREHOUSE_PATH or sibling MVP data/)
+# 1. Python deps (duckdb, h3) + the Factori Japan sample
 pip3 install -r requirements.txt
+FACTORI_KEY=/path/to/service-account.json ./scripts/fetch_factori_jp.sh 25
 
-# Point at the DuckDB warehouse if not auto-detected:
-export WAREHOUSE_PATH="/path/to/veraset.duckdb"
-
-# 2. Regenerate warehouse insights, then export map layers + cubes
+# 2. Build the warehouse from the raw parquet, run insights, export cubes
+python3 -m analytics build        # pings → devices → stops → trips → zones
 python3 -m analytics insights
-python3 -m analytics export
-
-# Optional: download URA planning areas into data/boundaries/ first
-# (curl the data.gov.sg poll-download URL) — export will copy them.
+python3 -m analytics export       # map layers + cubes → public/data/
 
 # 3. Run the UI
 npm install
 npm run dev
 ```
+
+Prefecture boundaries ship at `data/boundaries/japan_prefectures.geojson`
+(dataofjapan/land, simplified); the export copies them to `public/data/`.
 
 ## Filters (URL-shareable)
 
@@ -61,7 +86,7 @@ Example: `?daytype=weekday&hourBand=am&source=sdk_app&h3=8`
 |---|---|
 | `hex_density.json` | H3 res 7/8/9/10 × daypart device counts |
 | `od_arcs.json` | zone→zone arcs by hour band |
-| `planning_areas.geojson` | URA MP2025 planning areas |
+| `planning_areas.geojson` | Japan prefecture boundaries (Factori build) |
 | `cubes/cube_hex_hour.json` | h3_res8 × hour × daytype × source_class |
 | `cubes/cube_visits.json` | visitor POI footfall cube + group rhythms |
 | `cubes/cube_od.json` | OD × hour_band × daytype |
@@ -80,20 +105,21 @@ Example: `?daytype=weekday&hourBand=am&source=sdk_app&h3=8`
 | `insights/affinity.json` | category / brand / mall co-visit lift |
 | `insights/weighted.json`, `uncertainty.json` | post-stratified population view and jackknife CIs |
 
-All aggregates are k≥5 suppressed at export. POI footfall uses visitor-only
-rows (home ≥400 m from venue).
+All aggregates are k≥5 suppressed at export; no per-device trajectories leave
+the warehouse. The POI/SES/census-derived artifacts (`cube_visits`,
+`poi_insights`, `dining`, `retail`, `ses`, `segments`, `purpose`, `urban_context`,
+`weighted`, `affinity`, `uncertainty`) require Overture + Japan census enrichment
+and are absent from the default Japan build.
 
-The advanced insight runners depend on the enriched warehouse tables built by
-the analytics pipeline (including segment, SES, purpose, weighting, and
-optional OSRM routing stages). By default the CLI uses `data/veraset.duckdb`,
-then falls back to the sibling `VectorMobility MVP/data/veraset.duckdb`; set
-`WAREHOUSE_PATH` to override it.
+The warehouse DB defaults to `data/factori_jp.duckdb` (`factori` source) or
+`data/veraset.duckdb` (`veraset`); set `WAREHOUSE_PATH` to override. Select the
+source with `MOBILITY_SOURCE=factori|veraset`.
 
 ## Guardrails
 
 - No per-device trajectories in the UI
-- Prefer SDK/app feed for hourly axes (agg has a UTC-midnight step ≈ 08:00 SGT)
-- Map OD arcs remain straight-line; routing insights report road-network metrics
+- All timestamps are JST (UTC+9) for the Japan build
+- Map OD arcs are straight-line between zone centroids
 
 ## Commands
 

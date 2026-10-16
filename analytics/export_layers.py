@@ -16,11 +16,22 @@ from typing import Any
 
 import h3
 
-from . import EXPORT_DIR, MIN_K_ANON, OUT_DIR
+from . import EXPORT_DIR, MIN_K_ANON, OUT_DIR, SOURCE
 from .engine import connect
-from .zones import SG_ZONES
+from .zones import ZONES
 
 K = MIN_K_ANON
+
+# Veraset split pings into precise SDK/app vs an aggregate feed via quality_fields;
+# Factori is a single feed with no such flag, so treat every Factori ping as the
+# primary ("sdk_app") source and don't filter on it.
+_IS_FACTORI = SOURCE == "factori"
+PING_SOURCE_FILTER = "" if _IS_FACTORI else "AND source_type IN ('sdk', 'app')"
+
+# Per-resolution cell cap for the hex-density map layer (top cells by device count).
+# Coarse resolutions are left uncapped; the fine ones are bounded so a nationwide
+# export stays a reasonable static-bundle size. None = uncapped.
+HEX_CELL_CAP: dict[int, int | None] = {7: None, 8: 60000, 9: 25000, 10: 12000}
 
 DAYPART_SQL = """
 CASE
@@ -41,9 +52,11 @@ CASE
 END
 """
 
-SOURCE_CLASS_SQL = """
-CASE WHEN source_type IN ('sdk', 'app') THEN 'sdk_app' ELSE 'agg' END
-"""
+SOURCE_CLASS_SQL = (
+    "'sdk_app'"
+    if _IS_FACTORI
+    else "CASE WHEN source_type IN ('sdk', 'app') THEN 'sdk_app' ELSE 'agg' END"
+)
 
 
 def _rows(con, sql: str) -> list[dict[str, Any]]:
@@ -71,7 +84,7 @@ def _parent(cell: str, res: int) -> str | None:
 def export_zones(con) -> None:
     zones = [
         {"zone": name, "lat": lat, "lng": lng, "kind": kind}
-        for name, lat, lng, kind in SG_ZONES
+        for name, lat, lng, kind in ZONES
     ]
     _write_json(EXPORT_DIR / "zones.json", {"zones": zones})
 
@@ -205,7 +218,7 @@ def export_hex_density_from_pings(con) -> None:
                  END AS daypart
           FROM pings
           WHERE h3_10 IS NOT NULL
-            AND source_type IN ('sdk', 'app')
+            {PING_SOURCE_FILTER}
         )
         SELECT h3_10, daypart, count(DISTINCT device_id) AS devices
         FROM tagged
@@ -221,15 +234,26 @@ def export_hex_density_from_pings(con) -> None:
             parent = row["h3_10"] if res == 10 else _parent(row["h3_10"], res)
             if parent:
                 rolled[(parent, row["daypart"])] += int(row["devices"])
+        all_roll: dict[str, int] = defaultdict(int)
+        for (h, _dp), n in rolled.items():
+            all_roll[h] += n
+        # Fine resolutions over a whole country explode in size; a density map only
+        # meaningfully renders the busiest cells, so cap res 9/10 to the top cells by
+        # total device count (keeps urban cores, bounds the static bundle).
+        keep = set(all_roll)
+        cap = HEX_CELL_CAP.get(res)
+        if cap and len(all_roll) > cap:
+            keep = {h for h, _ in sorted(all_roll.items(), key=lambda kv: kv[1], reverse=True)[:cap]}
         rows = [
             {"h3": h, "daypart": dp, "devices": n}
             for (h, dp), n in rolled.items()
-            if n >= K
+            if n >= K and h in keep
         ]
-        all_roll: dict[str, int] = defaultdict(int)
-        for r in rows:
-            all_roll[r["h3"]] += r["devices"]
-        rows.extend({"h3": h, "daypart": "all", "devices": n} for h, n in all_roll.items() if n >= K)
+        rows.extend(
+            {"h3": h, "daypart": "all", "devices": n}
+            for h, n in all_roll.items()
+            if n >= K and h in keep
+        )
         by_res[str(res)] = rows
 
     _write_json(EXPORT_DIR / "hex_density.json", {"resolutions": by_res, "k": K, "source": "sdk_app_pings"})
@@ -237,7 +261,7 @@ def export_hex_density_from_pings(con) -> None:
 
 
 def export_od_arcs(con) -> None:
-    zones = {z: (lat, lng) for z, lat, lng, _ in SG_ZONES}
+    zones = {z: (lat, lng) for z, lat, lng, _ in ZONES}
 
     def enrich(rows: list[dict]) -> list[dict]:
         out = []
@@ -283,7 +307,8 @@ def export_planning_areas() -> None:
     """Copy cached URA GeoJSON if present; else write zone centroid markers as fallback."""
     from . import ROOT
 
-    cached = ROOT / "data" / "boundaries" / "planning_areas.geojson"
+    boundaries = ROOT / "data" / "boundaries"
+    cached = boundaries / ("japan_prefectures.geojson" if _IS_FACTORI else "planning_areas.geojson")
     dest = EXPORT_DIR / "planning_areas.geojson"
     if cached.exists() and cached.stat().st_size > 1000:
         shutil.copy(cached, dest)
@@ -296,7 +321,7 @@ def export_planning_areas() -> None:
             "properties": {"name": name, "kind": kind, "PLN_AREA_N": name},
             "geometry": {"type": "Point", "coordinates": [lng, lat]},
         }
-        for name, lat, lng, kind in SG_ZONES
+        for name, lat, lng, kind in ZONES
     ]
     _write_json(
         dest,
@@ -443,7 +468,7 @@ def export_cube_visits(con) -> None:
 
 
 def export_cube_od(con) -> None:
-    zones = {z: (lat, lng) for z, lat, lng, _ in SG_ZONES}
+    zones = {z: (lat, lng) for z, lat, lng, _ in ZONES}
     rows = _rows(con, f"""
         SELECT o_zone, d_zone,
                {HOUR_BAND_SQL} AS hour_band,
@@ -503,29 +528,33 @@ def run_export(steps: list[str] | None = None) -> None:
     t0 = time.time()
     print(f"[export] DB={con.execute('SELECT current_database()').fetchone()} path via connect; EXPORT_DIR={EXPORT_DIR}", flush=True)
 
-    if "zones" in selected:
-        export_zones(con)
-    if "kepler" in selected:
-        export_kepler(con)
-    if "hex" in selected:
+    def _try(name: str, fn) -> None:
+        """Run an export step, but never let one missing/degraded table (e.g. the
+        POI-dependent `visits`) abort the whole export."""
+        if name not in selected:
+            return
+        try:
+            fn()
+        except Exception as e:
+            print(f"[export] step '{name}' skipped: {e}", flush=True)
+
+    _try("zones", lambda: export_zones(con))
+    _try("kepler", lambda: export_kepler(con))
+
+    def _hex() -> None:
         try:
             export_hex_density_from_pings(con)
         except Exception as e:
             print(f"[export] ping hex failed ({e}), trying stops…", flush=True)
             export_hex_density(con)
-    if "od" in selected:
-        export_od_arcs(con)
-    if "planning" in selected:
-        export_planning_areas()
-    if "insights" in selected:
-        export_insights_copy()
-    if "cube_hex" in selected:
-        export_cube_hex_hour(con)
-    if "cube_visits" in selected:
-        export_cube_visits(con)
-    if "cube_od" in selected:
-        export_cube_od(con)
-    if "kpi" in selected:
-        export_profile_kpi(con)
+
+    _try("hex", _hex)
+    _try("od", lambda: export_od_arcs(con))
+    _try("planning", export_planning_areas)
+    _try("insights", export_insights_copy)
+    _try("cube_hex", lambda: export_cube_hex_hour(con))
+    _try("cube_visits", lambda: export_cube_visits(con))
+    _try("cube_od", lambda: export_cube_od(con))
+    _try("kpi", lambda: export_profile_kpi(con))
 
     print(f"[export] done in {time.time() - t0:.1f}s → {EXPORT_DIR}", flush=True)

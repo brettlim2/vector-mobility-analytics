@@ -61,7 +61,7 @@ function fmt(n?: number) {
 }
 
 function compact(n: number) {
-  return new Intl.NumberFormat('en-SG', {
+  return new Intl.NumberFormat('ja-JP', {
     notation: 'compact',
     maximumFractionDigits: 1,
   }).format(n)

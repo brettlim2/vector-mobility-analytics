@@ -1,13 +1,16 @@
-"""Warehouse builder: raw Veraset parquet -> cleaned DuckDB tables.
+"""Warehouse builder: raw mobility parquet -> cleaned DuckDB tables.
 
-Tables produced in data/veraset.duckdb:
-    pings   - cleaned, deduped, typed pings (device_id is a 64-bit hash of ad_id)
+Source is selected by analytics.SOURCE: "factori" (Factori Japan GCS feed, the
+default) or "veraset" (legacy Singapore feed). See engine.build_pings.
+
+Tables produced in the warehouse DB:
+    pings   - cleaned, deduped, typed pings (device_id is a 64-bit hash of the device id)
     devices - per-device stats + trajectory-eligibility flag
     stops   - dwell locations from segmenting each trajectory device's ping stream
     trips   - movements between consecutive stops
-    zones   - named Singapore area centroids (see zones.py)
+    zones   - named area centroids (see zones.py)
 
-All timestamps in behavioural columns are Singapore local time (UTC+8).
+All timestamps in behavioural columns are local time (JST/UTC+9 for Japan).
 """
 
 from __future__ import annotations
@@ -17,11 +20,17 @@ import time
 import duckdb
 
 from . import (
+    COUNTRY_CODE,
     DB_PATH,
+    LAT_MAX,
+    LAT_MIN,
+    LNG_MAX,
+    LNG_MIN,
     MAX_ACCURACY_M,
     MIN_HOURS_TRAJ,
     MIN_PINGS_TRAJ,
     PARQUET_GLOB,
+    SOURCE,
     STOP_MAX_GAP_MIN,
     STOP_MIN_DWELL_MIN,
     STOP_RADIUS_M,
@@ -40,6 +49,11 @@ def connect(read_only: bool = False) -> duckdb.DuckDBPyConnection:
     tmp = ROOT / "data" / "duckdb_tmp"
     tmp.mkdir(parents=True, exist_ok=True)
     con.execute(f"SET temp_directory='{tmp}'")
+    # H3 is used by ping ingestion (Factori h3_res10 derivation) and the export layer.
+    try:
+        con.execute("INSTALL h3 FROM community; LOAD h3")
+    except Exception as e:  # pragma: no cover - offline / already-loaded
+        print(f"[build] warning: could not load h3 extension: {e}", flush=True)
     _register_macros(con)
     return con
 
@@ -78,11 +92,9 @@ def build_zones(con: duckdb.DuckDBPyConnection) -> None:
     )
 
 
-def build_pings(con: duckdb.DuckDBPyConnection) -> None:
-    _step(
-        con,
-        "pings",
-        f"""
+def _pings_sql_veraset() -> str:
+    """Legacy Singapore Veraset feed: nested quality_fields / geo_fields maps."""
+    return f"""
         CREATE OR REPLACE TABLE pings AS
         SELECT
           hash(ad_id)                                        AS device_id,
@@ -102,14 +114,53 @@ def build_pings(con: duckdb.DuckDBPyConnection) -> None:
             try_cast(longitude AS DOUBLE) AS lng,
             try_cast(horizontal_accuracy AS DOUBLE) AS acc
           FROM read_parquet('{PARQUET_GLOB}')
-          WHERE iso_country_code = 'SG'
+          WHERE iso_country_code = '{COUNTRY_CODE}'
         )
         WHERE lat IS NOT NULL AND lng IS NOT NULL
-          AND lat BETWEEN 1.1 AND 1.5 AND lng BETWEEN 103.5 AND 104.2
+          AND lat BETWEEN {LAT_MIN} AND {LAT_MAX} AND lng BETWEEN {LNG_MIN} AND {LNG_MAX}
           AND acc IS NOT NULL AND acc >= 0 AND acc <= {MAX_ACCURACY_M}
         GROUP BY device_id, utc_timestamp, lat, lng
-        """,
-    )
+    """
+
+
+def _pings_sql_factori() -> str:
+    """Factori Japan feed (flat parquet): maid, epoch `timestamp`, precomputed
+    geohash/hex. id_type 0/1 -> gaid/idfa to match downstream SES/insight SQL;
+    h3_res10 is derived from lat/lng (Factori ships hex8/hex9 only); the quality
+    source_type/ha_type maps have no Factori equivalent, so they are NULL.
+    The h3 extension is loaded in connect()."""
+    return f"""
+        CREATE OR REPLACE TABLE pings AS
+        SELECT
+          hash(maid)                                         AS device_id,
+          any_value(to_timestamp("timestamp") + INTERVAL {TZ_OFFSET_HOURS} HOUR)::TIMESTAMP AS ts,
+          lat,
+          lng,
+          any_value(acc)                                     AS accuracy_m,
+          any_value(CASE WHEN id_type = 1 THEN 'idfa' ELSE 'gaid' END) AS id_type,
+          any_value(NULL)::VARCHAR                           AS source_type,
+          any_value(NULL)::VARCHAR                           AS ha_type,
+          any_value(h3_h3_to_string(h3_latlng_to_cell(lat, lng, 10))) AS h3_10,
+          any_value(substring(geohash, 1, 6))                AS gh6
+        FROM (
+          SELECT
+            *,
+            try_cast(latitude AS DOUBLE)  AS lat,
+            try_cast(longitude AS DOUBLE) AS lng,
+            try_cast(horizontal_accuracy AS DOUBLE) AS acc
+          FROM read_parquet('{PARQUET_GLOB}')
+          WHERE country = '{COUNTRY_CODE}'
+        )
+        WHERE lat IS NOT NULL AND lng IS NOT NULL
+          AND lat BETWEEN {LAT_MIN} AND {LAT_MAX} AND lng BETWEEN {LNG_MIN} AND {LNG_MAX}
+          AND acc IS NOT NULL AND acc >= 0 AND acc <= {MAX_ACCURACY_M}
+        GROUP BY device_id, "timestamp", lat, lng
+    """
+
+
+def build_pings(con: duckdb.DuckDBPyConnection) -> None:
+    sql = _pings_sql_veraset() if SOURCE == "veraset" else _pings_sql_factori()
+    _step(con, "pings", sql)
 
 
 def build_devices(con: duckdb.DuckDBPyConnection) -> None:

@@ -64,6 +64,18 @@ async function getJson<T>(path: string): Promise<T> {
   return res.json() as Promise<T>
 }
 
+// Optional artifact: analyses/exports a given deployment doesn't produce resolve to
+// null instead of rejecting the whole load (e.g. POI/census sections on the Japan build).
+async function getOpt<T>(path: string): Promise<T | null> {
+  try {
+    const res = await fetch(`${import.meta.env.BASE_URL}${path}`)
+    if (!res.ok) return null
+    return (await res.json()) as T
+  } catch {
+    return null
+  }
+}
+
 export function useAnalyticsData(): AppData {
   const [data, setData] = useState<AppData>(empty)
 
@@ -103,34 +115,34 @@ export function useAnalyticsData(): AppData {
           getJson<{ resolutions: Record<string, HexCell[]> }>('data/hex_density.json'),
           getJson<{ bands: Record<string, OdArc[]> }>('data/od_arcs.json'),
           getJson<{ zones: ZoneRow[] }>('data/zones.json'),
-          getJson<GeoJSON.FeatureCollection>('data/planning_areas.geojson'),
+          getOpt<GeoJSON.FeatureCollection>('data/planning_areas.geojson'),
           getJson<{ calendar: CalendarCell[] }>('data/cubes/cube_hex_hour.json'),
-          getJson<{ group_rhythms: GroupRhythm[]; cells: VisitCell[] }>(
+          getOpt<{ group_rhythms: GroupRhythm[]; cells: VisitCell[] }>(
             'data/cubes/cube_visits.json',
           ),
           getJson<{ cells: OdArc[] }>('data/cubes/cube_od.json'),
-          getJson<HomeWorkInsight>('data/insights/home_work.json'),
-          getJson<ZoneActivityInsight>('data/insights/zone_activity.json'),
-          getJson<PoiInsights>('data/insights/poi_insights.json'),
-          getJson<MovementInsight>('data/insights/movement.json'),
-          getJson<DwellInsight>('data/insights/dwell.json'),
-          getJson<AnomaliesInsight>('data/insights/anomalies.json'),
-          getJson<DataQualityInsight>('data/insights/data_quality.json'),
-          getJson<SegmentsInsight>('data/insights/segments.json'),
-          getJson<SesInsight>('data/insights/ses.json'),
-          getJson<PurposeInsight>('data/insights/purpose.json'),
-          getJson<UrbanContextInsight>('data/insights/urban_context.json'),
-          getJson<HouseholdInsight>('data/insights/household.json'),
-          getJson<DiningInsight>('data/insights/dining.json'),
-          getJson<RetailInsight>('data/insights/retail.json'),
-          getJson<RoutingInsight>('data/insights/routing.json'),
-          getJson<AffinityInsight>('data/insights/affinity.json'),
-          getJson<WeightedInsight>('data/insights/weighted.json'),
-          getJson<UncertaintyInsight>('data/insights/uncertainty.json'),
+          getOpt<HomeWorkInsight>('data/insights/home_work.json'),
+          getOpt<ZoneActivityInsight>('data/insights/zone_activity.json'),
+          getOpt<PoiInsights>('data/insights/poi_insights.json'),
+          getOpt<MovementInsight>('data/insights/movement.json'),
+          getOpt<DwellInsight>('data/insights/dwell.json'),
+          getOpt<AnomaliesInsight>('data/insights/anomalies.json'),
+          getOpt<DataQualityInsight>('data/insights/data_quality.json'),
+          getOpt<SegmentsInsight>('data/insights/segments.json'),
+          getOpt<SesInsight>('data/insights/ses.json'),
+          getOpt<PurposeInsight>('data/insights/purpose.json'),
+          getOpt<UrbanContextInsight>('data/insights/urban_context.json'),
+          getOpt<HouseholdInsight>('data/insights/household.json'),
+          getOpt<DiningInsight>('data/insights/dining.json'),
+          getOpt<RetailInsight>('data/insights/retail.json'),
+          getOpt<RoutingInsight>('data/insights/routing.json'),
+          getOpt<AffinityInsight>('data/insights/affinity.json'),
+          getOpt<WeightedInsight>('data/insights/weighted.json'),
+          getOpt<UncertaintyInsight>('data/insights/uncertainty.json'),
         ])
         if (cancelled) return
         const cats = [
-          ...new Set(cubeVisits.group_rhythms.map((r) => r.category_group)),
+          ...new Set((cubeVisits?.group_rhythms ?? []).map((r) => r.category_group)),
         ].sort()
         setData({
           kpi,
@@ -138,7 +150,7 @@ export function useAnalyticsData(): AppData {
           odBands: od.bands,
           cubeOd: cubeOd.cells,
           calendar: cubeHex.calendar,
-          groupRhythms: cubeVisits.group_rhythms,
+          groupRhythms: cubeVisits?.group_rhythms ?? [],
           visitCategories: cats,
           zones: zones.zones,
           planningAreas: planning,

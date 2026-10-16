@@ -1,955 +1,955 @@
 {
   "top_corridors": [
     {
-      "o_zone": "Hougang",
-      "d_zone": "Sengkang",
-      "trips": 4489,
-      "devices": 2647,
-      "med_travel_min": 22.6,
-      "med_dist_km": 2.33,
-      "med_speed_kmh": 5.9
+      "o_zone": "Nagoya Sakae",
+      "d_zone": "Nagoya Station / Meieki",
+      "trips": 778,
+      "devices": 727,
+      "med_travel_min": 87.1,
+      "med_dist_km": 11.5,
+      "med_speed_kmh": 8.5
     },
     {
-      "o_zone": "Sengkang",
-      "d_zone": "Hougang",
-      "trips": 4221,
-      "devices": 2509,
-      "med_travel_min": 23.9,
-      "med_dist_km": 2.33,
-      "med_speed_kmh": 5.8
+      "o_zone": "Nagoya Station / Meieki",
+      "d_zone": "Nagoya Sakae",
+      "trips": 737,
+      "devices": 689,
+      "med_travel_min": 85.7,
+      "med_dist_km": 11.5,
+      "med_speed_kmh": 8.6
     },
     {
-      "o_zone": "Yishun",
-      "d_zone": "Sembawang",
-      "trips": 3624,
-      "devices": 2113,
-      "med_travel_min": 24.3,
-      "med_dist_km": 2.98,
-      "med_speed_kmh": 7.1
+      "o_zone": "Chubu Centrair Airport",
+      "d_zone": "Nagoya Sakae",
+      "trips": 529,
+      "devices": 496,
+      "med_travel_min": 97.0,
+      "med_dist_km": 15.44,
+      "med_speed_kmh": 11.0
     },
     {
-      "o_zone": "Jurong East",
-      "d_zone": "Jurong West",
-      "trips": 3582,
-      "devices": 2248,
-      "med_travel_min": 28.3,
-      "med_dist_km": 3.99,
-      "med_speed_kmh": 7.8
-    },
-    {
-      "o_zone": "Sembawang",
-      "d_zone": "Yishun",
-      "trips": 3502,
-      "devices": 2057,
-      "med_travel_min": 25.7,
-      "med_dist_km": 3.0,
-      "med_speed_kmh": 6.7
-    },
-    {
-      "o_zone": "Jurong West",
-      "d_zone": "Jurong East",
-      "trips": 3292,
-      "devices": 2114,
-      "med_travel_min": 28.3,
-      "med_dist_km": 3.99,
-      "med_speed_kmh": 7.6
-    },
-    {
-      "o_zone": "Serangoon",
-      "d_zone": "Hougang",
-      "trips": 3269,
-      "devices": 2183,
-      "med_travel_min": 23.9,
-      "med_dist_km": 2.41,
-      "med_speed_kmh": 5.6
-    },
-    {
-      "o_zone": "Bedok",
-      "d_zone": "Tampines",
-      "trips": 3234,
-      "devices": 2098,
-      "med_travel_min": 29.6,
-      "med_dist_km": 3.3,
-      "med_speed_kmh": 6.6
-    },
-    {
-      "o_zone": "Tampines",
-      "d_zone": "Pasir Ris",
-      "trips": 3215,
-      "devices": 2065,
-      "med_travel_min": 24.0,
-      "med_dist_km": 2.44,
-      "med_speed_kmh": 5.9
-    },
-    {
-      "o_zone": "Woodlands",
-      "d_zone": "Sembawang",
-      "trips": 3205,
-      "devices": 1903,
-      "med_travel_min": 24.3,
-      "med_dist_km": 2.59,
-      "med_speed_kmh": 6.2
-    },
-    {
-      "o_zone": "Sengkang",
-      "d_zone": "Punggol",
-      "trips": 3194,
-      "devices": 2105,
-      "med_travel_min": 23.1,
-      "med_dist_km": 2.04,
-      "med_speed_kmh": 5.2
-    },
-    {
-      "o_zone": "Tampines",
-      "d_zone": "Bedok",
-      "trips": 3142,
-      "devices": 2058,
-      "med_travel_min": 28.9,
-      "med_dist_km": 3.3,
-      "med_speed_kmh": 6.8
-    },
-    {
-      "o_zone": "Sembawang",
-      "d_zone": "Woodlands",
-      "trips": 3092,
-      "devices": 1865,
-      "med_travel_min": 24.0,
-      "med_dist_km": 2.6,
-      "med_speed_kmh": 6.3
-    },
-    {
-      "o_zone": "Punggol",
-      "d_zone": "Sengkang",
-      "trips": 3068,
-      "devices": 2065,
-      "med_travel_min": 23.7,
-      "med_dist_km": 2.07,
-      "med_speed_kmh": 5.1
-    },
-    {
-      "o_zone": "Pasir Ris",
-      "d_zone": "Tampines",
-      "trips": 3045,
-      "devices": 1993,
-      "med_travel_min": 25.3,
-      "med_dist_km": 2.45,
-      "med_speed_kmh": 5.5
-    },
-    {
-      "o_zone": "Hougang",
-      "d_zone": "Serangoon",
-      "trips": 2994,
-      "devices": 1949,
-      "med_travel_min": 23.2,
-      "med_dist_km": 2.33,
-      "med_speed_kmh": 5.6
-    },
-    {
-      "o_zone": "Bedok",
-      "d_zone": "Geylang",
-      "trips": 2640,
-      "devices": 1805,
-      "med_travel_min": 33.7,
-      "med_dist_km": 3.7,
-      "med_speed_kmh": 5.7
-    },
-    {
-      "o_zone": "Geylang",
-      "d_zone": "Bedok",
-      "trips": 2640,
-      "devices": 1812,
-      "med_travel_min": 31.3,
-      "med_dist_km": 3.61,
-      "med_speed_kmh": 6.0
-    },
-    {
-      "o_zone": "Bukit Panjang",
-      "d_zone": "Choa Chu Kang",
-      "trips": 2637,
-      "devices": 1668,
-      "med_travel_min": 23.1,
-      "med_dist_km": 2.3,
-      "med_speed_kmh": 5.7
-    },
-    {
-      "o_zone": "Choa Chu Kang",
-      "d_zone": "Bukit Panjang",
-      "trips": 2538,
-      "devices": 1576,
-      "med_travel_min": 24.6,
-      "med_dist_km": 2.38,
+      "o_zone": "Osaka Umeda / Kita",
+      "d_zone": "Shin-Osaka",
+      "trips": 526,
+      "devices": 496,
+      "med_travel_min": 88.4,
+      "med_dist_km": 8.71,
       "med_speed_kmh": 5.4
     },
     {
-      "o_zone": "Ang Mo Kio",
-      "d_zone": "Hougang",
-      "trips": 2520,
-      "devices": 1601,
-      "med_travel_min": 30.0,
-      "med_dist_km": 4.01,
-      "med_speed_kmh": 8.0
+      "o_zone": "Nagoya Sakae",
+      "d_zone": "Chubu Centrair Airport",
+      "trips": 509,
+      "devices": 475,
+      "med_travel_min": 82.7,
+      "med_dist_km": 14.16,
+      "med_speed_kmh": 10.2
     },
     {
-      "o_zone": "Jurong West",
-      "d_zone": "Tengah",
-      "trips": 2486,
-      "devices": 1584,
-      "med_travel_min": 24.6,
-      "med_dist_km": 2.37,
-      "med_speed_kmh": 5.7
+      "o_zone": "Shin-Osaka",
+      "d_zone": "Osaka Umeda / Kita",
+      "trips": 415,
+      "devices": 395,
+      "med_travel_min": 62.1,
+      "med_dist_km": 7.38,
+      "med_speed_kmh": 7.1
     },
     {
-      "o_zone": "Tengah",
-      "d_zone": "Jurong West",
-      "trips": 2468,
-      "devices": 1566,
-      "med_travel_min": 24.4,
-      "med_dist_km": 2.33,
-      "med_speed_kmh": 5.6
+      "o_zone": "Yokohama / Minato Mirai",
+      "d_zone": "Machida",
+      "trips": 415,
+      "devices": 395,
+      "med_travel_min": 93.5,
+      "med_dist_km": 17.13,
+      "med_speed_kmh": 9.9
     },
     {
-      "o_zone": "Changi Business Park / Expo",
-      "d_zone": "Bedok",
-      "trips": 2455,
-      "devices": 1493,
-      "med_travel_min": 24.5,
-      "med_dist_km": 2.9,
-      "med_speed_kmh": 6.9
+      "o_zone": "Machida",
+      "d_zone": "Yokohama / Minato Mirai",
+      "trips": 367,
+      "devices": 346,
+      "med_travel_min": 92.4,
+      "med_dist_km": 16.14,
+      "med_speed_kmh": 9.9
     },
     {
-      "o_zone": "Bishan",
-      "d_zone": "Ang Mo Kio",
-      "trips": 2443,
-      "devices": 1565,
-      "med_travel_min": 20.2,
-      "med_dist_km": 2.18,
-      "med_speed_kmh": 5.8
+      "o_zone": "Kyoto Downtown / Gion",
+      "d_zone": "Kyoto Station",
+      "trips": 346,
+      "devices": 326,
+      "med_travel_min": 87.1,
+      "med_dist_km": 8.31,
+      "med_speed_kmh": 6.5
     },
     {
-      "o_zone": "Changi Business Park / Expo",
-      "d_zone": "Tampines",
-      "trips": 2441,
-      "devices": 1530,
-      "med_travel_min": 23.1,
-      "med_dist_km": 2.17,
-      "med_speed_kmh": 5.5
+      "o_zone": "Fukuoka Hakata",
+      "d_zone": "Fukuoka Airport",
+      "trips": 314,
+      "devices": 296,
+      "med_travel_min": 89.5,
+      "med_dist_km": 9.77,
+      "med_speed_kmh": 9.5
     },
     {
-      "o_zone": "Bedok",
-      "d_zone": "Changi Business Park / Expo",
-      "trips": 2417,
-      "devices": 1458,
-      "med_travel_min": 23.0,
-      "med_dist_km": 2.87,
-      "med_speed_kmh": 7.2
+      "o_zone": "Kyoto Station",
+      "d_zone": "Kyoto Downtown / Gion",
+      "trips": 306,
+      "devices": 295,
+      "med_travel_min": 89.2,
+      "med_dist_km": 8.55,
+      "med_speed_kmh": 6.6
     },
     {
-      "o_zone": "Hougang",
-      "d_zone": "Ang Mo Kio",
-      "trips": 2411,
-      "devices": 1548,
-      "med_travel_min": 30.7,
-      "med_dist_km": 4.1,
-      "med_speed_kmh": 7.9
+      "o_zone": "Ikebukuro / Toshima",
+      "d_zone": "Saitama / Omiya",
+      "trips": 294,
+      "devices": 280,
+      "med_travel_min": 86.0,
+      "med_dist_km": 13.22,
+      "med_speed_kmh": 8.5
     },
     {
-      "o_zone": "Jurong West",
-      "d_zone": "NTU / Pioneer",
-      "trips": 2402,
-      "devices": 1389,
-      "med_travel_min": 21.3,
-      "med_dist_km": 1.79,
-      "med_speed_kmh": 5.1
+      "o_zone": "Fukuoka Tenjin",
+      "d_zone": "Fukuoka Airport",
+      "trips": 293,
+      "devices": 271,
+      "med_travel_min": 104.0,
+      "med_dist_km": 21.08,
+      "med_speed_kmh": 14.4
     },
     {
-      "o_zone": "Ang Mo Kio",
-      "d_zone": "Bishan",
-      "trips": 2363,
-      "devices": 1536,
-      "med_travel_min": 21.4,
-      "med_dist_km": 2.21,
-      "med_speed_kmh": 5.9
+      "o_zone": "Kichijoji / Musashino",
+      "d_zone": "Tachikawa",
+      "trips": 270,
+      "devices": 260,
+      "med_travel_min": 80.8,
+      "med_dist_km": 10.62,
+      "med_speed_kmh": 6.8
     },
     {
-      "o_zone": "NTU / Pioneer",
-      "d_zone": "Jurong West",
-      "trips": 2362,
-      "devices": 1382,
-      "med_travel_min": 21.9,
-      "med_dist_km": 1.79,
-      "med_speed_kmh": 5.1
+      "o_zone": "Tachikawa",
+      "d_zone": "Kichijoji / Musashino",
+      "trips": 269,
+      "devices": 258,
+      "med_travel_min": 82.2,
+      "med_dist_km": 10.28,
+      "med_speed_kmh": 7.6
     },
     {
-      "o_zone": "Jurong East",
-      "d_zone": "Tengah",
-      "trips": 2336,
-      "devices": 1514,
-      "med_travel_min": 23.4,
-      "med_dist_km": 2.29,
-      "med_speed_kmh": 5.7
+      "o_zone": "Fukuoka Airport",
+      "d_zone": "Fukuoka Tenjin",
+      "trips": 266,
+      "devices": 249,
+      "med_travel_min": 109.1,
+      "med_dist_km": 23.3,
+      "med_speed_kmh": 14.6
     },
     {
-      "o_zone": "East Coast",
-      "d_zone": "Bedok",
-      "trips": 2327,
-      "devices": 1656,
-      "med_travel_min": 31.6,
-      "med_dist_km": 2.36,
-      "med_speed_kmh": 4.7
-    },
-    {
-      "o_zone": "Tampines",
-      "d_zone": "Changi Business Park / Expo",
-      "trips": 2327,
-      "devices": 1437,
-      "med_travel_min": 23.0,
-      "med_dist_km": 2.16,
-      "med_speed_kmh": 5.5
-    },
-    {
-      "o_zone": "Yishun",
-      "d_zone": "Woodlands",
-      "trips": 2320,
-      "devices": 1493,
-      "med_travel_min": 31.1,
-      "med_dist_km": 5.05,
-      "med_speed_kmh": 9.6
-    },
-    {
-      "o_zone": "Jurong East",
-      "d_zone": "Bukit Batok",
-      "trips": 2317,
-      "devices": 1525,
-      "med_travel_min": 23.9,
-      "med_dist_km": 2.43,
-      "med_speed_kmh": 5.6
-    },
-    {
-      "o_zone": "Bedok",
-      "d_zone": "East Coast",
-      "trips": 2281,
-      "devices": 1597,
-      "med_travel_min": 31.2,
-      "med_dist_km": 2.37,
+      "o_zone": "Osaka Namba / Minami",
+      "d_zone": "Tennoji / Abeno",
+      "trips": 259,
+      "devices": 245,
+      "med_travel_min": 84.6,
+      "med_dist_km": 5.83,
       "med_speed_kmh": 4.4
     },
     {
-      "o_zone": "Woodlands",
-      "d_zone": "Yishun",
-      "trips": 2274,
-      "devices": 1494,
-      "med_travel_min": 33.2,
-      "med_dist_km": 5.1,
-      "med_speed_kmh": 9.2
+      "o_zone": "Fukuoka Airport",
+      "d_zone": "Fukuoka Hakata",
+      "trips": 258,
+      "devices": 242,
+      "med_travel_min": 74.5,
+      "med_dist_km": 10.43,
+      "med_speed_kmh": 10.5
     },
     {
-      "o_zone": "Tengah",
-      "d_zone": "Jurong East",
-      "trips": 2209,
-      "devices": 1373,
-      "med_travel_min": 22.7,
-      "med_dist_km": 2.25,
-      "med_speed_kmh": 5.8
+      "o_zone": "Saitama / Omiya",
+      "d_zone": "Ikebukuro / Toshima",
+      "trips": 253,
+      "devices": 241,
+      "med_travel_min": 76.8,
+      "med_dist_km": 11.41,
+      "med_speed_kmh": 9.1
     },
     {
-      "o_zone": "Bukit Batok",
-      "d_zone": "Jurong East",
-      "trips": 2135,
-      "devices": 1428,
-      "med_travel_min": 22.5,
-      "med_dist_km": 2.47,
-      "med_speed_kmh": 5.9
+      "o_zone": "Osaka Umeda / Kita",
+      "d_zone": "Tennoji / Abeno",
+      "trips": 235,
+      "devices": 222,
+      "med_travel_min": 91.5,
+      "med_dist_km": 10.82,
+      "med_speed_kmh": 6.7
+    },
+    {
+      "o_zone": "Fukuoka Tenjin",
+      "d_zone": "Fukuoka Hakata",
+      "trips": 227,
+      "devices": 215,
+      "med_travel_min": 67.5,
+      "med_dist_km": 4.2,
+      "med_speed_kmh": 4.7
+    },
+    {
+      "o_zone": "Yokohama / Minato Mirai",
+      "d_zone": "Shin-Yokohama",
+      "trips": 221,
+      "devices": 213,
+      "med_travel_min": 83.9,
+      "med_dist_km": 7.93,
+      "med_speed_kmh": 5.7
+    },
+    {
+      "o_zone": "Tennoji / Abeno",
+      "d_zone": "Osaka Namba / Minami",
+      "trips": 220,
+      "devices": 208,
+      "med_travel_min": 72.2,
+      "med_dist_km": 5.88,
+      "med_speed_kmh": 4.8
+    },
+    {
+      "o_zone": "Osaka Namba / Minami",
+      "d_zone": "Osaka Umeda / Kita",
+      "trips": 219,
+      "devices": 209,
+      "med_travel_min": 76.7,
+      "med_dist_km": 2.85,
+      "med_speed_kmh": 2.5
+    },
+    {
+      "o_zone": "Shin-Osaka",
+      "d_zone": "Tennoji / Abeno",
+      "trips": 218,
+      "devices": 211,
+      "med_travel_min": 83.5,
+      "med_dist_km": 16.5,
+      "med_speed_kmh": 10.4
+    },
+    {
+      "o_zone": "Hiroshima",
+      "d_zone": "Okayama",
+      "trips": 216,
+      "devices": 194,
+      "med_travel_min": 100.2,
+      "med_dist_km": 50.45,
+      "med_speed_kmh": 24.4
+    },
+    {
+      "o_zone": "Tennoji / Abeno",
+      "d_zone": "Osaka Umeda / Kita",
+      "trips": 210,
+      "devices": 203,
+      "med_travel_min": 71.7,
+      "med_dist_km": 9.75,
+      "med_speed_kmh": 7.6
+    },
+    {
+      "o_zone": "Okayama",
+      "d_zone": "Hiroshima",
+      "trips": 209,
+      "devices": 193,
+      "med_travel_min": 89.5,
+      "med_dist_km": 32.39,
+      "med_speed_kmh": 27.6
+    },
+    {
+      "o_zone": "Fukuoka Hakata",
+      "d_zone": "Fukuoka Tenjin",
+      "trips": 205,
+      "devices": 192,
+      "med_travel_min": 87.2,
+      "med_dist_km": 4.77,
+      "med_speed_kmh": 4.1
+    },
+    {
+      "o_zone": "Osaka Bay / USJ",
+      "d_zone": "Shin-Osaka",
+      "trips": 205,
+      "devices": 192,
+      "med_travel_min": 86.2,
+      "med_dist_km": 8.17,
+      "med_speed_kmh": 6.1
+    },
+    {
+      "o_zone": "Shin-Yokohama",
+      "d_zone": "Yokohama / Minato Mirai",
+      "trips": 205,
+      "devices": 199,
+      "med_travel_min": 73.2,
+      "med_dist_km": 7.66,
+      "med_speed_kmh": 6.3
+    },
+    {
+      "o_zone": "Tachikawa",
+      "d_zone": "Machida",
+      "trips": 200,
+      "devices": 192,
+      "med_travel_min": 96.0,
+      "med_dist_km": 12.63,
+      "med_speed_kmh": 9.5
+    },
+    {
+      "o_zone": "Tsukuba",
+      "d_zone": "Saitama / Omiya",
+      "trips": 197,
+      "devices": 186,
+      "med_travel_min": 91.6,
+      "med_dist_km": 26.71,
+      "med_speed_kmh": 18.0
+    },
+    {
+      "o_zone": "Machida",
+      "d_zone": "Tachikawa",
+      "trips": 197,
+      "devices": 188,
+      "med_travel_min": 88.5,
+      "med_dist_km": 13.82,
+      "med_speed_kmh": 11.3
+    },
+    {
+      "o_zone": "Chiba",
+      "d_zone": "Makuhari",
+      "trips": 194,
+      "devices": 184,
+      "med_travel_min": 74.1,
+      "med_dist_km": 11.06,
+      "med_speed_kmh": 8.1
+    },
+    {
+      "o_zone": "Tennoji / Abeno",
+      "d_zone": "Shin-Osaka",
+      "trips": 194,
+      "devices": 186,
+      "med_travel_min": 95.1,
+      "med_dist_km": 17.08,
+      "med_speed_kmh": 11.4
+    },
+    {
+      "o_zone": "Saitama / Omiya",
+      "d_zone": "Tsukuba",
+      "trips": 193,
+      "devices": 178,
+      "med_travel_min": 98.5,
+      "med_dist_km": 31.48,
+      "med_speed_kmh": 19.4
+    },
+    {
+      "o_zone": "Asakusa",
+      "d_zone": "Tokyo Skytree / Sumida",
+      "trips": 193,
+      "devices": 183,
+      "med_travel_min": 66.9,
+      "med_dist_km": 5.4,
+      "med_speed_kmh": 4.6
+    },
+    {
+      "o_zone": "Osaka Umeda / Kita",
+      "d_zone": "Osaka Namba / Minami",
+      "trips": 193,
+      "devices": 185,
+      "med_travel_min": 59.6,
+      "med_dist_km": 2.79,
+      "med_speed_kmh": 3.2
+    },
+    {
+      "o_zone": "Shin-Osaka",
+      "d_zone": "Osaka Bay / USJ",
+      "trips": 192,
+      "devices": 178,
+      "med_travel_min": 80.1,
+      "med_dist_km": 8.19,
+      "med_speed_kmh": 6.2
     }
   ],
   "am_peak_weekday": [
     {
-      "o_zone": "Sengkang",
-      "d_zone": "Hougang",
-      "trips": 766,
-      "devices": 461,
-      "med_travel_min": 25.1,
-      "med_dist_km": 2.65,
-      "med_speed_kmh": 6.2
+      "o_zone": "Nagoya Station / Meieki",
+      "d_zone": "Nagoya Sakae",
+      "trips": 77,
+      "devices": 77,
+      "med_travel_min": 55.5,
+      "med_dist_km": 12.0,
+      "med_speed_kmh": 12.2
     },
     {
-      "o_zone": "Jurong West",
-      "d_zone": "Jurong East",
-      "trips": 607,
-      "devices": 371,
-      "med_travel_min": 32.1,
-      "med_dist_km": 4.35,
-      "med_speed_kmh": 7.6
+      "o_zone": "Nagoya Sakae",
+      "d_zone": "Nagoya Station / Meieki",
+      "trips": 61,
+      "devices": 61,
+      "med_travel_min": 56.1,
+      "med_dist_km": 13.14,
+      "med_speed_kmh": 12.7
     },
     {
-      "o_zone": "Jurong West",
-      "d_zone": "Tuas",
-      "trips": 564,
-      "devices": 300,
-      "med_travel_min": 34.7,
-      "med_dist_km": 6.89,
+      "o_zone": "Chubu Centrair Airport",
+      "d_zone": "Nagoya Sakae",
+      "trips": 57,
+      "devices": 57,
+      "med_travel_min": 52.8,
+      "med_dist_km": 13.7,
+      "med_speed_kmh": 16.7
+    },
+    {
+      "o_zone": "Shin-Osaka",
+      "d_zone": "Osaka Umeda / Kita",
+      "trips": 56,
+      "devices": 56,
+      "med_travel_min": 52.7,
+      "med_dist_km": 10.72,
+      "med_speed_kmh": 10.8
+    },
+    {
+      "o_zone": "Nagoya Sakae",
+      "d_zone": "Chubu Centrair Airport",
+      "trips": 46,
+      "devices": 46,
+      "med_travel_min": 49.8,
+      "med_dist_km": 13.04,
+      "med_speed_kmh": 17.8
+    },
+    {
+      "o_zone": "Machida",
+      "d_zone": "Yokohama / Minato Mirai",
+      "trips": 41,
+      "devices": 41,
+      "med_travel_min": 84.6,
+      "med_dist_km": 17.73,
+      "med_speed_kmh": 11.3
+    },
+    {
+      "o_zone": "Fukuoka Airport",
+      "d_zone": "Fukuoka Hakata",
+      "trips": 34,
+      "devices": 34,
+      "med_travel_min": 46.8,
+      "med_dist_km": 10.67,
+      "med_speed_kmh": 13.5
+    },
+    {
+      "o_zone": "Kyoto Downtown / Gion",
+      "d_zone": "Kyoto Station",
+      "trips": 34,
+      "devices": 34,
+      "med_travel_min": 67.2,
+      "med_dist_km": 11.89,
+      "med_speed_kmh": 11.4
+    },
+    {
+      "o_zone": "Shin-Osaka",
+      "d_zone": "Osaka Namba / Minami",
+      "trips": 31,
+      "devices": 31,
+      "med_travel_min": 75.4,
+      "med_dist_km": 12.82,
+      "med_speed_kmh": 10.4
+    },
+    {
+      "o_zone": "Tennoji / Abeno",
+      "d_zone": "Osaka Umeda / Kita",
+      "trips": 31,
+      "devices": 31,
+      "med_travel_min": 64.8,
+      "med_dist_km": 10.32,
+      "med_speed_kmh": 11.9
+    },
+    {
+      "o_zone": "Saitama / Omiya",
+      "d_zone": "Ikebukuro / Toshima",
+      "trips": 30,
+      "devices": 30,
+      "med_travel_min": 68.6,
+      "med_dist_km": 12.2,
+      "med_speed_kmh": 11.7
+    },
+    {
+      "o_zone": "Shin-Osaka",
+      "d_zone": "Osaka Bay / USJ",
+      "trips": 27,
+      "devices": 26,
+      "med_travel_min": 59.3,
+      "med_dist_km": 8.9,
+      "med_speed_kmh": 9.5
+    },
+    {
+      "o_zone": "Fukuoka Tenjin",
+      "d_zone": "Fukuoka Airport",
+      "trips": 22,
+      "devices": 22,
+      "med_travel_min": 61.8,
+      "med_dist_km": 16.88,
+      "med_speed_kmh": 17.6
+    },
+    {
+      "o_zone": "Fukuoka Tenjin",
+      "d_zone": "Fukuoka Hakata",
+      "trips": 22,
+      "devices": 22,
+      "med_travel_min": 57.0,
+      "med_dist_km": 4.37,
+      "med_speed_kmh": 6.4
+    },
+    {
+      "o_zone": "Kyoto Station",
+      "d_zone": "Kyoto Downtown / Gion",
+      "trips": 22,
+      "devices": 22,
+      "med_travel_min": 65.4,
+      "med_dist_km": 15.33,
       "med_speed_kmh": 12.1
     },
     {
-      "o_zone": "Bedok",
-      "d_zone": "Geylang",
-      "trips": 545,
-      "devices": 337,
-      "med_travel_min": 30.9,
-      "med_dist_km": 3.86,
-      "med_speed_kmh": 6.6
-    },
-    {
-      "o_zone": "Woodlands",
-      "d_zone": "Sembawang",
-      "trips": 517,
-      "devices": 294,
-      "med_travel_min": 25.1,
-      "med_dist_km": 2.51,
-      "med_speed_kmh": 6.0
-    },
-    {
-      "o_zone": "Bedok",
-      "d_zone": "Changi Business Park / Expo",
-      "trips": 507,
-      "devices": 311,
-      "med_travel_min": 27.9,
-      "med_dist_km": 2.9,
-      "med_speed_kmh": 6.4
-    },
-    {
-      "o_zone": "Hougang",
-      "d_zone": "Geylang",
-      "trips": 492,
-      "devices": 283,
-      "med_travel_min": 35.7,
-      "med_dist_km": 4.52,
-      "med_speed_kmh": 7.4
-    },
-    {
-      "o_zone": "Tampines",
-      "d_zone": "Changi Business Park / Expo",
-      "trips": 489,
-      "devices": 304,
-      "med_travel_min": 25.9,
-      "med_dist_km": 2.33,
-      "med_speed_kmh": 5.3
-    },
-    {
-      "o_zone": "Hougang",
-      "d_zone": "Sengkang",
-      "trips": 484,
-      "devices": 352,
-      "med_travel_min": 25.6,
-      "med_dist_km": 2.4,
-      "med_speed_kmh": 5.2
-    },
-    {
-      "o_zone": "Sembawang",
-      "d_zone": "Yishun",
-      "trips": 464,
-      "devices": 307,
-      "med_travel_min": 26.9,
-      "med_dist_km": 2.97,
-      "med_speed_kmh": 6.4
-    },
-    {
-      "o_zone": "Yishun",
-      "d_zone": "Sembawang",
-      "trips": 452,
-      "devices": 270,
-      "med_travel_min": 29.1,
-      "med_dist_km": 3.78,
-      "med_speed_kmh": 7.1
-    },
-    {
-      "o_zone": "Tampines",
-      "d_zone": "Bedok",
-      "trips": 428,
-      "devices": 284,
-      "med_travel_min": 31.0,
-      "med_dist_km": 3.46,
-      "med_speed_kmh": 6.2
-    },
-    {
-      "o_zone": "Tampines",
-      "d_zone": "Geylang",
-      "trips": 424,
-      "devices": 236,
-      "med_travel_min": 34.2,
-      "med_dist_km": 6.22,
-      "med_speed_kmh": 10.7
-    },
-    {
-      "o_zone": "Pasir Ris",
-      "d_zone": "Tampines",
-      "trips": 423,
-      "devices": 287,
-      "med_travel_min": 32.5,
-      "med_dist_km": 2.52,
-      "med_speed_kmh": 4.7
-    },
-    {
-      "o_zone": "Choa Chu Kang",
-      "d_zone": "Jurong East",
-      "trips": 418,
-      "devices": 257,
-      "med_travel_min": 39.0,
-      "med_dist_km": 5.69,
-      "med_speed_kmh": 9.8
-    },
-    {
-      "o_zone": "Yishun",
-      "d_zone": "Ang Mo Kio",
-      "trips": 414,
-      "devices": 256,
-      "med_travel_min": 34.3,
-      "med_dist_km": 5.72,
-      "med_speed_kmh": 10.3
-    },
-    {
-      "o_zone": "Hougang",
-      "d_zone": "Ang Mo Kio",
-      "trips": 414,
-      "devices": 291,
-      "med_travel_min": 34.6,
-      "med_dist_km": 4.14,
+      "o_zone": "Tachikawa",
+      "d_zone": "Kichijoji / Musashino",
+      "trips": 22,
+      "devices": 22,
+      "med_travel_min": 43.0,
+      "med_dist_km": 8.19,
       "med_speed_kmh": 7.3
     },
     {
-      "o_zone": "Bedok",
-      "d_zone": "Tampines",
-      "trips": 402,
-      "devices": 260,
-      "med_travel_min": 28.0,
-      "med_dist_km": 3.22,
-      "med_speed_kmh": 6.3
+      "o_zone": "Yokohama / Minato Mirai",
+      "d_zone": "Machida",
+      "trips": 21,
+      "devices": 21,
+      "med_travel_min": 65.7,
+      "med_dist_km": 16.52,
+      "med_speed_kmh": 13.2
     },
     {
-      "o_zone": "Sembawang",
-      "d_zone": "Woodlands",
-      "trips": 400,
-      "devices": 254,
-      "med_travel_min": 26.5,
-      "med_dist_km": 2.42,
-      "med_speed_kmh": 5.3
+      "o_zone": "Fukuoka Hakata",
+      "d_zone": "Fukuoka Airport",
+      "trips": 20,
+      "devices": 20,
+      "med_travel_min": 56.7,
+      "med_dist_km": 18.13,
+      "med_speed_kmh": 13.3
     },
     {
-      "o_zone": "Jurong West",
-      "d_zone": "Tengah",
-      "trips": 398,
-      "devices": 263,
-      "med_travel_min": 26.6,
-      "med_dist_km": 2.31,
-      "med_speed_kmh": 5.0
+      "o_zone": "Fukuoka Airport",
+      "d_zone": "Fukuoka Tenjin",
+      "trips": 19,
+      "devices": 19,
+      "med_travel_min": 61.5,
+      "med_dist_km": 20.84,
+      "med_speed_kmh": 20.2
     },
     {
-      "o_zone": "Punggol",
-      "d_zone": "Sengkang",
-      "trips": 396,
-      "devices": 259,
-      "med_travel_min": 22.7,
-      "med_dist_km": 1.94,
-      "med_speed_kmh": 4.6
-    },
-    {
-      "o_zone": "Hougang",
-      "d_zone": "Serangoon",
-      "trips": 394,
-      "devices": 265,
-      "med_travel_min": 27.5,
-      "med_dist_km": 2.52,
-      "med_speed_kmh": 5.2
-    },
-    {
-      "o_zone": "Tengah",
-      "d_zone": "Jurong West",
-      "trips": 378,
-      "devices": 244,
-      "med_travel_min": 31.2,
-      "med_dist_km": 2.7,
+      "o_zone": "Fukuoka Hakata",
+      "d_zone": "Fukuoka Tenjin",
+      "trips": 19,
+      "devices": 18,
+      "med_travel_min": 39.9,
+      "med_dist_km": 3.55,
       "med_speed_kmh": 5.7
     },
     {
-      "o_zone": "Sengkang",
-      "d_zone": "Ang Mo Kio",
-      "trips": 378,
-      "devices": 228,
-      "med_travel_min": 38.1,
-      "med_dist_km": 5.61,
-      "med_speed_kmh": 8.3
+      "o_zone": "Shin-Osaka",
+      "d_zone": "Tennoji / Abeno",
+      "trips": 19,
+      "devices": 19,
+      "med_travel_min": 58.4,
+      "med_dist_km": 13.57,
+      "med_speed_kmh": 16.1
     },
     {
-      "o_zone": "Jurong West",
-      "d_zone": "NTU / Pioneer",
-      "trips": 369,
-      "devices": 243,
-      "med_travel_min": 26.9,
-      "med_dist_km": 2.12,
-      "med_speed_kmh": 5.1
+      "o_zone": "Kichijoji / Musashino",
+      "d_zone": "Tachikawa",
+      "trips": 19,
+      "devices": 18,
+      "med_travel_min": 66.6,
+      "med_dist_km": 13.59,
+      "med_speed_kmh": 12.6
+    },
+    {
+      "o_zone": "Okayama",
+      "d_zone": "Hiroshima",
+      "trips": 19,
+      "devices": 19,
+      "med_travel_min": 52.6,
+      "med_dist_km": 30.67,
+      "med_speed_kmh": 34.4
+    },
+    {
+      "o_zone": "Ikebukuro / Toshima",
+      "d_zone": "Saitama / Omiya",
+      "trips": 19,
+      "devices": 19,
+      "med_travel_min": 67.2,
+      "med_dist_km": 10.46,
+      "med_speed_kmh": 8.6
+    },
+    {
+      "o_zone": "Tennoji / Abeno",
+      "d_zone": "Osaka Namba / Minami",
+      "trips": 18,
+      "devices": 18,
+      "med_travel_min": 75.8,
+      "med_dist_km": 5.05,
+      "med_speed_kmh": 5.4
     }
   ],
   "pm_peak_weekday": [
     {
-      "o_zone": "Hougang",
-      "d_zone": "Sengkang",
-      "trips": 922,
-      "devices": 701,
-      "med_travel_min": 21.4,
-      "med_dist_km": 2.3,
-      "med_speed_kmh": 6.2
+      "o_zone": "Nagoya Sakae",
+      "d_zone": "Nagoya Station / Meieki",
+      "trips": 186,
+      "devices": 186,
+      "med_travel_min": 87.5,
+      "med_dist_km": 11.84,
+      "med_speed_kmh": 8.0
     },
     {
-      "o_zone": "Jurong East",
-      "d_zone": "Jurong West",
-      "trips": 800,
-      "devices": 607,
-      "med_travel_min": 30.6,
-      "med_dist_km": 4.15,
-      "med_speed_kmh": 7.8
-    },
-    {
-      "o_zone": "Sembawang",
-      "d_zone": "Yishun",
-      "trips": 707,
-      "devices": 510,
-      "med_travel_min": 27.1,
-      "med_dist_km": 3.09,
-      "med_speed_kmh": 6.9
-    },
-    {
-      "o_zone": "Geylang",
-      "d_zone": "Bedok",
-      "trips": 662,
-      "devices": 472,
-      "med_travel_min": 31.7,
-      "med_dist_km": 3.76,
-      "med_speed_kmh": 6.4
-    },
-    {
-      "o_zone": "Serangoon",
-      "d_zone": "Hougang",
-      "trips": 661,
-      "devices": 541,
-      "med_travel_min": 25.4,
-      "med_dist_km": 2.44,
-      "med_speed_kmh": 5.2
-    },
-    {
-      "o_zone": "Sembawang",
-      "d_zone": "Woodlands",
-      "trips": 655,
-      "devices": 470,
-      "med_travel_min": 20.3,
-      "med_dist_km": 2.62,
-      "med_speed_kmh": 6.9
-    },
-    {
-      "o_zone": "Sengkang",
-      "d_zone": "Hougang",
-      "trips": 650,
-      "devices": 539,
-      "med_travel_min": 20.5,
-      "med_dist_km": 2.23,
-      "med_speed_kmh": 6.4
-    },
-    {
-      "o_zone": "Sengkang",
-      "d_zone": "Punggol",
-      "trips": 635,
-      "devices": 523,
-      "med_travel_min": 21.5,
-      "med_dist_km": 1.99,
-      "med_speed_kmh": 5.6
-    },
-    {
-      "o_zone": "Tampines",
-      "d_zone": "Pasir Ris",
-      "trips": 616,
-      "devices": 513,
-      "med_travel_min": 24.2,
-      "med_dist_km": 2.45,
-      "med_speed_kmh": 5.9
-    },
-    {
-      "o_zone": "Yishun",
-      "d_zone": "Sembawang",
-      "trips": 597,
-      "devices": 491,
-      "med_travel_min": 23.5,
-      "med_dist_km": 2.77,
-      "med_speed_kmh": 7.2
-    },
-    {
-      "o_zone": "Jurong East",
-      "d_zone": "Choa Chu Kang",
-      "trips": 590,
-      "devices": 435,
-      "med_travel_min": 33.4,
-      "med_dist_km": 5.71,
-      "med_speed_kmh": 10.5
-    },
-    {
-      "o_zone": "Woodlands",
-      "d_zone": "Sembawang",
-      "trips": 586,
-      "devices": 446,
-      "med_travel_min": 23.1,
-      "med_dist_km": 2.67,
-      "med_speed_kmh": 6.9
-    },
-    {
-      "o_zone": "Jurong East",
-      "d_zone": "Bukit Batok",
-      "trips": 577,
-      "devices": 435,
-      "med_travel_min": 24.3,
-      "med_dist_km": 2.52,
-      "med_speed_kmh": 5.6
-    },
-    {
-      "o_zone": "Tampines",
-      "d_zone": "Bedok",
-      "trips": 564,
-      "devices": 454,
-      "med_travel_min": 25.0,
-      "med_dist_km": 3.19,
-      "med_speed_kmh": 7.6
-    },
-    {
-      "o_zone": "Tuas",
-      "d_zone": "Jurong West",
-      "trips": 558,
-      "devices": 304,
-      "med_travel_min": 38.1,
-      "med_dist_km": 6.81,
-      "med_speed_kmh": 11.6
-    },
-    {
-      "o_zone": "Bedok",
-      "d_zone": "Tampines",
-      "trips": 556,
-      "devices": 449,
-      "med_travel_min": 29.7,
-      "med_dist_km": 3.34,
-      "med_speed_kmh": 6.8
-    },
-    {
-      "o_zone": "Changi Business Park / Expo",
-      "d_zone": "Tampines",
-      "trips": 526,
-      "devices": 386,
-      "med_travel_min": 22.5,
-      "med_dist_km": 2.22,
-      "med_speed_kmh": 5.6
-    },
-    {
-      "o_zone": "Punggol",
-      "d_zone": "Sengkang",
-      "trips": 523,
-      "devices": 446,
-      "med_travel_min": 22.4,
-      "med_dist_km": 2.08,
-      "med_speed_kmh": 5.4
-    },
-    {
-      "o_zone": "Jurong West",
-      "d_zone": "Jurong East",
-      "trips": 516,
-      "devices": 420,
-      "med_travel_min": 27.6,
-      "med_dist_km": 3.94,
-      "med_speed_kmh": 7.2
-    },
-    {
-      "o_zone": "Jurong East",
-      "d_zone": "Tengah",
-      "trips": 498,
-      "devices": 393,
-      "med_travel_min": 25.5,
-      "med_dist_km": 2.49,
-      "med_speed_kmh": 5.6
-    },
-    {
-      "o_zone": "Pasir Ris",
-      "d_zone": "Tampines",
-      "trips": 490,
-      "devices": 424,
-      "med_travel_min": 24.0,
-      "med_dist_km": 2.43,
-      "med_speed_kmh": 5.6
-    },
-    {
-      "o_zone": "Hougang",
-      "d_zone": "Serangoon",
-      "trips": 490,
-      "devices": 412,
-      "med_travel_min": 22.1,
-      "med_dist_km": 2.35,
-      "med_speed_kmh": 5.7
-    },
-    {
-      "o_zone": "Bukit Panjang",
-      "d_zone": "Choa Chu Kang",
-      "trips": 489,
-      "devices": 414,
-      "med_travel_min": 21.2,
-      "med_dist_km": 2.24,
-      "med_speed_kmh": 5.8
-    },
-    {
-      "o_zone": "Bishan",
-      "d_zone": "Ang Mo Kio",
-      "trips": 489,
-      "devices": 385,
-      "med_travel_min": 18.7,
-      "med_dist_km": 2.16,
+      "o_zone": "Osaka Umeda / Kita",
+      "d_zone": "Shin-Osaka",
+      "trips": 149,
+      "devices": 147,
+      "med_travel_min": 85.1,
+      "med_dist_km": 9.77,
       "med_speed_kmh": 6.1
     },
     {
-      "o_zone": "Changi Business Park / Expo",
-      "d_zone": "Bedok",
-      "trips": 482,
-      "devices": 348,
-      "med_travel_min": 24.0,
-      "med_dist_km": 2.91,
-      "med_speed_kmh": 7.2
+      "o_zone": "Nagoya Station / Meieki",
+      "d_zone": "Nagoya Sakae",
+      "trips": 143,
+      "devices": 143,
+      "med_travel_min": 78.9,
+      "med_dist_km": 11.26,
+      "med_speed_kmh": 9.3
+    },
+    {
+      "o_zone": "Nagoya Sakae",
+      "d_zone": "Chubu Centrair Airport",
+      "trips": 107,
+      "devices": 107,
+      "med_travel_min": 75.5,
+      "med_dist_km": 11.96,
+      "med_speed_kmh": 9.8
+    },
+    {
+      "o_zone": "Chubu Centrair Airport",
+      "d_zone": "Nagoya Sakae",
+      "trips": 103,
+      "devices": 103,
+      "med_travel_min": 86.6,
+      "med_dist_km": 12.9,
+      "med_speed_kmh": 10.3
+    },
+    {
+      "o_zone": "Yokohama / Minato Mirai",
+      "d_zone": "Machida",
+      "trips": 86,
+      "devices": 85,
+      "med_travel_min": 86.8,
+      "med_dist_km": 17.08,
+      "med_speed_kmh": 9.9
+    },
+    {
+      "o_zone": "Osaka Namba / Minami",
+      "d_zone": "Tennoji / Abeno",
+      "trips": 79,
+      "devices": 78,
+      "med_travel_min": 82.8,
+      "med_dist_km": 6.75,
+      "med_speed_kmh": 5.0
+    },
+    {
+      "o_zone": "Shin-Osaka",
+      "d_zone": "Osaka Umeda / Kita",
+      "trips": 76,
+      "devices": 76,
+      "med_travel_min": 57.6,
+      "med_dist_km": 6.53,
+      "med_speed_kmh": 6.4
+    },
+    {
+      "o_zone": "Kyoto Downtown / Gion",
+      "d_zone": "Kyoto Station",
+      "trips": 75,
+      "devices": 74,
+      "med_travel_min": 69.7,
+      "med_dist_km": 8.22,
+      "med_speed_kmh": 8.4
+    },
+    {
+      "o_zone": "Fukuoka Hakata",
+      "d_zone": "Fukuoka Airport",
+      "trips": 74,
+      "devices": 74,
+      "med_travel_min": 106.7,
+      "med_dist_km": 9.53,
+      "med_speed_kmh": 7.3
+    },
+    {
+      "o_zone": "Ikebukuro / Toshima",
+      "d_zone": "Saitama / Omiya",
+      "trips": 70,
+      "devices": 70,
+      "med_travel_min": 81.1,
+      "med_dist_km": 13.7,
+      "med_speed_kmh": 7.9
+    },
+    {
+      "o_zone": "Osaka Umeda / Kita",
+      "d_zone": "Tennoji / Abeno",
+      "trips": 67,
+      "devices": 67,
+      "med_travel_min": 90.4,
+      "med_dist_km": 11.6,
+      "med_speed_kmh": 8.9
+    },
+    {
+      "o_zone": "Machida",
+      "d_zone": "Yokohama / Minato Mirai",
+      "trips": 67,
+      "devices": 67,
+      "med_travel_min": 89.2,
+      "med_dist_km": 15.73,
+      "med_speed_kmh": 9.5
+    },
+    {
+      "o_zone": "Kyoto Station",
+      "d_zone": "Kyoto Downtown / Gion",
+      "trips": 65,
+      "devices": 65,
+      "med_travel_min": 70.3,
+      "med_dist_km": 9.45,
+      "med_speed_kmh": 8.1
+    },
+    {
+      "o_zone": "Yokohama / Minato Mirai",
+      "d_zone": "Shin-Yokohama",
+      "trips": 59,
+      "devices": 59,
+      "med_travel_min": 71.4,
+      "med_dist_km": 7.79,
+      "med_speed_kmh": 7.0
+    },
+    {
+      "o_zone": "Fukuoka Hakata",
+      "d_zone": "Fukuoka Tenjin",
+      "trips": 59,
+      "devices": 59,
+      "med_travel_min": 87.2,
+      "med_dist_km": 3.54,
+      "med_speed_kmh": 5.8
+    },
+    {
+      "o_zone": "Fukuoka Tenjin",
+      "d_zone": "Fukuoka Airport",
+      "trips": 57,
+      "devices": 57,
+      "med_travel_min": 92.7,
+      "med_dist_km": 20.11,
+      "med_speed_kmh": 12.6
+    },
+    {
+      "o_zone": "Shinjuku",
+      "d_zone": "Kichijoji / Musashino",
+      "trips": 55,
+      "devices": 54,
+      "med_travel_min": 87.3,
+      "med_dist_km": 12.88,
+      "med_speed_kmh": 9.3
+    },
+    {
+      "o_zone": "Shin-Osaka",
+      "d_zone": "Tennoji / Abeno",
+      "trips": 54,
+      "devices": 54,
+      "med_travel_min": 83.5,
+      "med_dist_km": 16.32,
+      "med_speed_kmh": 10.3
+    },
+    {
+      "o_zone": "Osaka Namba / Minami",
+      "d_zone": "Shin-Osaka",
+      "trips": 52,
+      "devices": 51,
+      "med_travel_min": 94.8,
+      "med_dist_km": 11.58,
+      "med_speed_kmh": 7.1
+    },
+    {
+      "o_zone": "Kichijoji / Musashino",
+      "d_zone": "Tachikawa",
+      "trips": 52,
+      "devices": 52,
+      "med_travel_min": 95.8,
+      "med_dist_km": 11.0,
+      "med_speed_kmh": 7.5
+    },
+    {
+      "o_zone": "Osaka Namba / Minami",
+      "d_zone": "Osaka Umeda / Kita",
+      "trips": 49,
+      "devices": 49,
+      "med_travel_min": 53.0,
+      "med_dist_km": 2.63,
+      "med_speed_kmh": 3.4
+    },
+    {
+      "o_zone": "Shinjuku",
+      "d_zone": "Nakano",
+      "trips": 49,
+      "devices": 49,
+      "med_travel_min": 65.9,
+      "med_dist_km": 3.85,
+      "med_speed_kmh": 4.0
+    },
+    {
+      "o_zone": "Osaka Bay / USJ",
+      "d_zone": "Shin-Osaka",
+      "trips": 49,
+      "devices": 49,
+      "med_travel_min": 79.9,
+      "med_dist_km": 8.44,
+      "med_speed_kmh": 6.5
+    },
+    {
+      "o_zone": "Osaka Umeda / Kita",
+      "d_zone": "Osaka Namba / Minami",
+      "trips": 47,
+      "devices": 47,
+      "med_travel_min": 49.4,
+      "med_dist_km": 2.75,
+      "med_speed_kmh": 4.5
     }
   ],
   "late_night": [
     {
-      "o_zone": "Sengkang",
-      "d_zone": "Hougang",
-      "trips": 275,
-      "devices": 230,
-      "med_travel_min": 41.7,
-      "med_dist_km": 2.43,
-      "med_speed_kmh": 3.0
+      "o_zone": "Nagoya Station / Meieki",
+      "d_zone": "Nagoya Sakae",
+      "trips": 50,
+      "devices": 50,
+      "med_travel_min": 83.0,
+      "med_dist_km": 16.23,
+      "med_speed_kmh": 9.6
     },
     {
-      "o_zone": "Yishun",
-      "d_zone": "Sembawang",
-      "trips": 270,
-      "devices": 203,
-      "med_travel_min": 27.9,
-      "med_dist_km": 3.4,
-      "med_speed_kmh": 6.5
+      "o_zone": "Nagoya Sakae",
+      "d_zone": "Chubu Centrair Airport",
+      "trips": 39,
+      "devices": 39,
+      "med_travel_min": 112.0,
+      "med_dist_km": 17.56,
+      "med_speed_kmh": 12.5
     },
     {
-      "o_zone": "Hougang",
-      "d_zone": "Sengkang",
-      "trips": 251,
-      "devices": 215,
-      "med_travel_min": 23.9,
-      "med_dist_km": 2.63,
-      "med_speed_kmh": 6.2
+      "o_zone": "Fukuoka Airport",
+      "d_zone": "Fukuoka Tenjin",
+      "trips": 36,
+      "devices": 36,
+      "med_travel_min": 122.6,
+      "med_dist_km": 63.44,
+      "med_speed_kmh": 27.1
     },
     {
-      "o_zone": "Sembawang",
-      "d_zone": "Yishun",
-      "trips": 233,
-      "devices": 185,
-      "med_travel_min": 30.6,
-      "med_dist_km": 3.07,
-      "med_speed_kmh": 5.4
+      "o_zone": "Nagoya Sakae",
+      "d_zone": "Nagoya Station / Meieki",
+      "trips": 35,
+      "devices": 35,
+      "med_travel_min": 85.8,
+      "med_dist_km": 12.54,
+      "med_speed_kmh": 10.5
     },
     {
-      "o_zone": "Sembawang",
-      "d_zone": "Woodlands",
-      "trips": 220,
-      "devices": 175,
-      "med_travel_min": 28.5,
-      "med_dist_km": 2.79,
-      "med_speed_kmh": 6.7
+      "o_zone": "Chubu Centrair Airport",
+      "d_zone": "Nagoya Sakae",
+      "trips": 34,
+      "devices": 33,
+      "med_travel_min": 113.0,
+      "med_dist_km": 21.2,
+      "med_speed_kmh": 17.5
     },
     {
-      "o_zone": "Punggol",
-      "d_zone": "Sengkang",
-      "trips": 215,
-      "devices": 183,
-      "med_travel_min": 27.9,
-      "med_dist_km": 2.2,
-      "med_speed_kmh": 4.5
+      "o_zone": "Yokohama / Minato Mirai",
+      "d_zone": "Machida",
+      "trips": 31,
+      "devices": 31,
+      "med_travel_min": 132.8,
+      "med_dist_km": 19.57,
+      "med_speed_kmh": 16.9
     },
     {
-      "o_zone": "Jurong East",
-      "d_zone": "Jurong West",
-      "trips": 198,
-      "devices": 151,
-      "med_travel_min": 27.6,
-      "med_dist_km": 3.87,
-      "med_speed_kmh": 8.9
+      "o_zone": "Hiroshima",
+      "d_zone": "Okayama",
+      "trips": 28,
+      "devices": 28,
+      "med_travel_min": 96.2,
+      "med_dist_km": 84.75,
+      "med_speed_kmh": 56.4
     },
     {
-      "o_zone": "Bedok",
-      "d_zone": "Tampines",
-      "trips": 192,
-      "devices": 167,
-      "med_travel_min": 28.0,
-      "med_dist_km": 3.48,
-      "med_speed_kmh": 6.9
+      "o_zone": "Shin-Osaka",
+      "d_zone": "Osaka Umeda / Kita",
+      "trips": 25,
+      "devices": 24,
+      "med_travel_min": 47.9,
+      "med_dist_km": 7.96,
+      "med_speed_kmh": 3.9
     },
     {
-      "o_zone": "Bedok",
-      "d_zone": "Geylang",
-      "trips": 178,
-      "devices": 152,
-      "med_travel_min": 36.2,
-      "med_dist_km": 3.74,
-      "med_speed_kmh": 4.9
+      "o_zone": "Fukuoka Hakata",
+      "d_zone": "Fukuoka Airport",
+      "trips": 25,
+      "devices": 24,
+      "med_travel_min": 42.1,
+      "med_dist_km": 9.6,
+      "med_speed_kmh": 10.9
     },
     {
-      "o_zone": "Woodlands",
-      "d_zone": "Yishun",
-      "trips": 178,
-      "devices": 143,
-      "med_travel_min": 39.7,
-      "med_dist_km": 5.07,
-      "med_speed_kmh": 7.8
+      "o_zone": "Machida",
+      "d_zone": "Yokohama / Minato Mirai",
+      "trips": 25,
+      "devices": 25,
+      "med_travel_min": 108.6,
+      "med_dist_km": 22.9,
+      "med_speed_kmh": 14.7
     },
     {
-      "o_zone": "Tampines",
-      "d_zone": "Pasir Ris",
-      "trips": 176,
-      "devices": 144,
-      "med_travel_min": 23.0,
-      "med_dist_km": 2.36,
-      "med_speed_kmh": 5.1
+      "o_zone": "Tachikawa",
+      "d_zone": "Kichijoji / Musashino",
+      "trips": 22,
+      "devices": 21,
+      "med_travel_min": 78.9,
+      "med_dist_km": 9.73,
+      "med_speed_kmh": 8.2
     },
     {
-      "o_zone": "Yishun",
-      "d_zone": "Woodlands",
-      "trips": 175,
-      "devices": 149,
-      "med_travel_min": 30.2,
-      "med_dist_km": 5.1,
-      "med_speed_kmh": 9.7
+      "o_zone": "New Chitose Airport",
+      "d_zone": "Sapporo",
+      "trips": 22,
+      "devices": 21,
+      "med_travel_min": 63.6,
+      "med_dist_km": 88.55,
+      "med_speed_kmh": 123.1
     },
     {
-      "o_zone": "Woodlands",
-      "d_zone": "Sembawang",
-      "trips": 175,
-      "devices": 144,
-      "med_travel_min": 40.3,
-      "med_dist_km": 2.48,
-      "med_speed_kmh": 3.3
+      "o_zone": "Osaka Umeda / Kita",
+      "d_zone": "Shin-Osaka",
+      "trips": 21,
+      "devices": 21,
+      "med_travel_min": 83.8,
+      "med_dist_km": 6.83,
+      "med_speed_kmh": 4.7
     },
     {
-      "o_zone": "Sengkang",
-      "d_zone": "Punggol",
-      "trips": 175,
-      "devices": 142,
-      "med_travel_min": 20.5,
-      "med_dist_km": 1.91,
-      "med_speed_kmh": 4.4
+      "o_zone": "Fukuoka Airport",
+      "d_zone": "Fukuoka Hakata",
+      "trips": 21,
+      "devices": 21,
+      "med_travel_min": 60.3,
+      "med_dist_km": 11.8,
+      "med_speed_kmh": 10.3
     },
     {
-      "o_zone": "Tampines",
-      "d_zone": "Bedok",
-      "trips": 172,
-      "devices": 146,
-      "med_travel_min": 32.6,
-      "med_dist_km": 3.19,
-      "med_speed_kmh": 5.9
+      "o_zone": "Chiba",
+      "d_zone": "Makuhari",
+      "trips": 18,
+      "devices": 18,
+      "med_travel_min": 85.3,
+      "med_dist_km": 15.35,
+      "med_speed_kmh": 9.2
     }
   ]
 }

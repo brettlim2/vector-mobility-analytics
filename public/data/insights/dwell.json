@@ -1,160 +1,154 @@
 {
   "by_kind": [
     {
-      "kind": "residential",
-      "stops": 3091142,
-      "med_dwell_min": 66.4,
-      "p90_dwell_min": 372.8
-    },
-    {
       "kind": "cbd",
-      "stops": 480728,
-      "med_dwell_min": 61.1,
-      "p90_dwell_min": 301.9
+      "stops": 459919,
+      "med_dwell_min": 51.7,
+      "p90_dwell_min": 220.2
     },
     {
       "kind": "leisure",
-      "stops": 368619,
-      "med_dwell_min": 58.2,
-      "p90_dwell_min": 260.9
-    },
-    {
-      "kind": "industrial",
-      "stops": 189865,
-      "med_dwell_min": 64.1,
-      "p90_dwell_min": 321.9
-    },
-    {
-      "kind": "education",
-      "stops": 66773,
-      "med_dwell_min": 64.1,
-      "p90_dwell_min": 336.5
-    },
-    {
-      "kind": "transport",
-      "stops": 27969,
-      "med_dwell_min": 74.2,
-      "p90_dwell_min": 415.8
+      "stops": 141337,
+      "med_dwell_min": 52.7,
+      "p90_dwell_min": 236.8
     },
     {
       "kind": "airport",
-      "stops": 26757,
-      "med_dwell_min": 61.9,
-      "p90_dwell_min": 246.0
+      "stops": 129853,
+      "med_dwell_min": 51.9,
+      "p90_dwell_min": 225.9
+    },
+    {
+      "kind": "residential",
+      "stops": 116690,
+      "med_dwell_min": 54.0,
+      "p90_dwell_min": 251.4
+    },
+    {
+      "kind": "transport",
+      "stops": 53068,
+      "med_dwell_min": 54.3,
+      "p90_dwell_min": 258.3
+    },
+    {
+      "kind": "education",
+      "stops": 32082,
+      "med_dwell_min": 52.6,
+      "p90_dwell_min": 229.1
     }
   ],
   "longest_dwell_zones": [
     {
-      "zone": "Punggol",
-      "stops": 118830,
-      "devices": 30468,
-      "med_dwell_min": 84.7
+      "zone": "Tokyo Disney / Maihama",
+      "stops": 6729,
+      "devices": 3121,
+      "med_dwell_min": 56.6
     },
     {
-      "zone": "Sengkang",
-      "stops": 159830,
-      "devices": 40318,
-      "med_dwell_min": 84.4
+      "zone": "Setagaya",
+      "stops": 11739,
+      "devices": 5541,
+      "med_dwell_min": 56.4
     },
     {
-      "zone": "Queenstown",
-      "stops": 29745,
-      "devices": 10099,
-      "med_dwell_min": 81.2
+      "zone": "Ueno / Taito",
+      "stops": 3068,
+      "devices": 1531,
+      "med_dwell_min": 56.2
     },
     {
-      "zone": "Tengah",
-      "stops": 66227,
-      "devices": 18997,
-      "med_dwell_min": 80.9
+      "zone": "Tokyo Skytree / Sumida",
+      "stops": 20406,
+      "devices": 9368,
+      "med_dwell_min": 55.9
     },
     {
-      "zone": "Loyang",
-      "stops": 45383,
-      "devices": 13612,
-      "med_dwell_min": 80.4
+      "zone": "Nakano",
+      "stops": 8243,
+      "devices": 4022,
+      "med_dwell_min": 55.6
     },
     {
-      "zone": "Novena",
-      "stops": 40279,
-      "devices": 13372,
-      "med_dwell_min": 79.9
+      "zone": "Ikebukuro / Toshima",
+      "stops": 15868,
+      "devices": 7648,
+      "med_dwell_min": 55.6
     },
     {
-      "zone": "Pasir Ris",
-      "stops": 97481,
-      "devices": 27174,
-      "med_dwell_min": 79.3
+      "zone": "Kyoto Station",
+      "stops": 11102,
+      "devices": 4917,
+      "med_dwell_min": 55.5
     },
     {
-      "zone": "Sembawang",
-      "stops": 95545,
-      "devices": 25971,
-      "med_dwell_min": 79.0
+      "zone": "Kawasaki",
+      "stops": 10714,
+      "devices": 4965,
+      "med_dwell_min": 55.5
     },
     {
-      "zone": "Changi Business Park / Expo",
-      "stops": 55866,
-      "devices": 17415,
-      "med_dwell_min": 78.8
+      "zone": "Kichijoji / Musashino",
+      "stops": 18013,
+      "devices": 8352,
+      "med_dwell_min": 55.3
     },
     {
-      "zone": "Tampines",
-      "stops": 147985,
-      "devices": 39445,
-      "med_dwell_min": 78.5
+      "zone": "Shin-Yokohama",
+      "stops": 10303,
+      "devices": 4771,
+      "med_dwell_min": 55.2
     },
     {
-      "zone": "Bishan",
-      "stops": 53491,
-      "devices": 16804,
-      "med_dwell_min": 76.7
+      "zone": "Makuhari",
+      "stops": 13371,
+      "devices": 6199,
+      "med_dwell_min": 55.0
     },
     {
-      "zone": "Yishun",
-      "stops": 165342,
-      "devices": 43455,
-      "med_dwell_min": 75.8
+      "zone": "Shinagawa",
+      "stops": 7072,
+      "devices": 3425,
+      "med_dwell_min": 54.8
     },
     {
-      "zone": "Woodlands Checkpoint",
-      "stops": 25881,
-      "devices": 8257,
-      "med_dwell_min": 75.4
+      "zone": "Chiba",
+      "stops": 11561,
+      "devices": 5171,
+      "med_dwell_min": 54.7
     },
     {
-      "zone": "Woodlands",
-      "stops": 144221,
-      "devices": 40246,
-      "med_dwell_min": 72.7
+      "zone": "Nagoya Station / Meieki",
+      "stops": 23696,
+      "devices": 10325,
+      "med_dwell_min": 53.8
     },
     {
-      "zone": "Kranji",
-      "stops": 24548,
-      "devices": 8072,
-      "med_dwell_min": 72.5
+      "zone": "Tachikawa",
+      "stops": 32461,
+      "devices": 13976,
+      "med_dwell_min": 53.8
     }
   ],
   "dwell_distribution": [
     {
       "bucket": "15-30 min",
-      "stops": 809020
+      "stops": 238704
     },
     {
       "bucket": "30-60 min",
-      "stops": 1180089
+      "stops": 290885
     },
     {
       "bucket": "1-3 h",
-      "stops": 1379856
+      "stops": 280344
     },
     {
       "bucket": "3-8 h",
-      "stops": 604856
+      "stops": 84541
     },
     {
       "bucket": "8+ h",
-      "stops": 278032
+      "stops": 38475
     }
   ]
 }

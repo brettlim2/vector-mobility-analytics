@@ -10,10 +10,11 @@ import type { HexCell, OdArc } from '../types'
 
 const MAP_STYLE = 'https://tiles.openfreemap.org/styles/positron'
 const INITIAL_VIEW = {
-  longitude: 103.82,
-  latitude: 1.35,
-  zoom: 10.6,
-  pitch: 35,
+  // National overview of Japan; users can zoom into any metro (Tokyo, Kansai, …).
+  longitude: 138.2,
+  latitude: 37.0,
+  zoom: 5.1,
+  pitch: 30,
   bearing: -8,
 }
 
@@ -134,7 +135,7 @@ export function MapView({ hexCells, arcs, planningAreas }: Props) {
         <MapGL mapStyle={MAP_STYLE} attributionControl={false} />
       </DeckGL>
       <div className="pointer-events-none absolute bottom-3 left-3 rounded bg-[var(--vm-panel)] px-2 py-1 font-mono text-[10px] text-[var(--vm-muted)] shadow-sm">
-        Singapore · aggregates only · k≥5 · OpenFreeMap
+        Japan · Factori mobility · k≥5 · OpenFreeMap
       </div>
     </div>
   )

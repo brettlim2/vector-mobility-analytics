@@ -21,6 +21,12 @@ data/veraset.duckdb
 data/veraset_scratch/
 *.duckdb
 
+# Factori raw mobility pull (Japan) + credentials — never commit raw data or keys
+data/factori_scratch/
+data/overture/
+*service-account*.json
+*.key.json
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

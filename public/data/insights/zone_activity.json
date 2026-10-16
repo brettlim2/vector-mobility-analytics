@@ -1,1052 +1,1034 @@
 {
   "by_zone": [
     {
-      "zone": "Bedok",
-      "kind": "residential",
-      "devices": 58633,
-      "stops": 206697,
-      "med_dwell_min": 62.1,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Hougang",
-      "kind": "residential",
-      "devices": 57849,
-      "stops": 201738,
-      "med_dwell_min": 64.6,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Geylang",
-      "kind": "residential",
-      "devices": 54468,
-      "stops": 161766,
-      "med_dwell_min": 53.4,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Toa Payoh",
-      "kind": "residential",
-      "devices": 51761,
-      "stops": 152267,
-      "med_dwell_min": 55.9,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Ang Mo Kio",
-      "kind": "residential",
-      "devices": 48401,
-      "stops": 160815,
-      "med_dwell_min": 63.6,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Bugis",
-      "kind": "cbd",
-      "devices": 44783,
-      "stops": 86675,
-      "med_dwell_min": 48.8,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Yishun",
-      "kind": "residential",
-      "devices": 43455,
-      "stops": 165342,
-      "med_dwell_min": 75.8,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Jurong West",
-      "kind": "residential",
-      "devices": 43424,
-      "stops": 161189,
-      "med_dwell_min": 65.8,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Orchard",
-      "kind": "leisure",
-      "devices": 41740,
-      "stops": 104286,
-      "med_dwell_min": 57.2,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Sengkang",
-      "kind": "residential",
-      "devices": 40318,
-      "stops": 159830,
-      "med_dwell_min": 84.4,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Woodlands",
-      "kind": "residential",
-      "devices": 40246,
-      "stops": 144221,
-      "med_dwell_min": 72.7,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Tampines",
-      "kind": "residential",
-      "devices": 39445,
-      "stops": 147985,
-      "med_dwell_min": 78.5,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Choa Chu Kang",
-      "kind": "residential",
-      "devices": 37774,
-      "stops": 152268,
-      "med_dwell_min": 70.8,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Serangoon",
-      "kind": "residential",
-      "devices": 35598,
-      "stops": 107312,
-      "med_dwell_min": 60.6,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Jurong East",
-      "kind": "cbd",
-      "devices": 35021,
-      "stops": 104108,
-      "med_dwell_min": 69.5,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Clementi",
-      "kind": "residential",
-      "devices": 33431,
-      "stops": 110761,
-      "med_dwell_min": 59.3,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Bukit Batok",
-      "kind": "residential",
-      "devices": 32029,
-      "stops": 103449,
-      "med_dwell_min": 62.2,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Punggol",
-      "kind": "residential",
-      "devices": 30468,
-      "stops": 118830,
-      "med_dwell_min": 84.7,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Kallang",
-      "kind": "residential",
-      "devices": 30246,
-      "stops": 80839,
-      "med_dwell_min": 59.9,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Little India",
-      "kind": "leisure",
-      "devices": 28380,
-      "stops": 62066,
-      "med_dwell_min": 56.1,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Bukit Panjang",
-      "kind": "residential",
-      "devices": 28221,
-      "stops": 97775,
-      "med_dwell_min": 65.6,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Pasir Ris",
-      "kind": "residential",
-      "devices": 27174,
-      "stops": 97481,
-      "med_dwell_min": 79.3,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Sembawang",
-      "kind": "residential",
-      "devices": 25971,
-      "stops": 95545,
-      "med_dwell_min": 79.0,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Bukit Merah",
-      "kind": "residential",
-      "devices": 25807,
-      "stops": 79971,
-      "med_dwell_min": 63.9,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Bukit Timah",
-      "kind": "residential",
-      "devices": 24735,
-      "stops": 76551,
-      "med_dwell_min": 54.8,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Raffles Place / CBD",
-      "kind": "cbd",
-      "devices": 21262,
-      "stops": 51796,
-      "med_dwell_min": 55.0,
-      "peak_hour": 8
-    },
-    {
-      "zone": "East Coast",
-      "kind": "leisure",
-      "devices": 21181,
-      "stops": 65839,
-      "med_dwell_min": 57.3,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Tiong Bahru",
-      "kind": "residential",
-      "devices": 21161,
-      "stops": 55553,
-      "med_dwell_min": 59.8,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Clarke Quay / River Valley",
-      "kind": "leisure",
-      "devices": 20431,
-      "stops": 45910,
-      "med_dwell_min": 51.5,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Tengah",
-      "kind": "residential",
-      "devices": 18997,
-      "stops": 66227,
-      "med_dwell_min": 80.9,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Paya Lebar",
-      "kind": "cbd",
-      "devices": 18199,
-      "stops": 48663,
-      "med_dwell_min": 69.2,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Tuas",
-      "kind": "industrial",
-      "devices": 17974,
-      "stops": 59916,
-      "med_dwell_min": 65.6,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Changi Business Park / Expo",
-      "kind": "cbd",
-      "devices": 17415,
-      "stops": 55866,
-      "med_dwell_min": 78.8,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Holland Village",
-      "kind": "leisure",
-      "devices": 16957,
-      "stops": 52725,
-      "med_dwell_min": 66.6,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Bishan",
-      "kind": "residential",
-      "devices": 16804,
-      "stops": 53491,
-      "med_dwell_min": 76.7,
-      "peak_hour": 8
-    },
-    {
-      "zone": "NTU / Pioneer",
-      "kind": "education",
-      "devices": 15802,
-      "stops": 49156,
-      "med_dwell_min": 64.3,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Chinatown",
-      "kind": "cbd",
-      "devices": 14390,
-      "stops": 27939,
-      "med_dwell_min": 56.1,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Seletar",
-      "kind": "industrial",
-      "devices": 13628,
-      "stops": 40679,
-      "med_dwell_min": 51.4,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Loyang",
-      "kind": "industrial",
-      "devices": 13612,
-      "stops": 45383,
-      "med_dwell_min": 80.4,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Novena",
-      "kind": "residential",
-      "devices": 13372,
-      "stops": 40279,
-      "med_dwell_min": 79.9,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Marine Parade / Katong",
-      "kind": "residential",
-      "devices": 13275,
-      "stops": 39596,
-      "med_dwell_min": 62.1,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Alexandra / Labrador",
-      "kind": "cbd",
-      "devices": 12262,
-      "stops": 32564,
-      "med_dwell_min": 66.9,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Tanjong Pagar",
-      "kind": "cbd",
-      "devices": 11391,
-      "stops": 27283,
-      "med_dwell_min": 66.0,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Changi Airport",
+      "zone": "Fukuoka Airport",
       "kind": "airport",
-      "devices": 11293,
-      "stops": 26757,
-      "med_dwell_min": 61.9,
-      "peak_hour": 8
+      "devices": 24167,
+      "stops": 58461,
+      "med_dwell_min": 51.8,
+      "peak_hour": 9
     },
     {
-      "zone": "One-North / Buona Vista",
+      "zone": "Saitama / Omiya",
       "kind": "cbd",
-      "devices": 10929,
-      "stops": 29817,
-      "med_dwell_min": 68.2,
-      "peak_hour": 8
+      "devices": 22592,
+      "stops": 51851,
+      "med_dwell_min": 52.9,
+      "peak_hour": 9
     },
     {
-      "zone": "HarbourFront",
+      "zone": "Shinjuku",
+      "kind": "cbd",
+      "devices": 21130,
+      "stops": 30781,
+      "med_dwell_min": 43.5,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Machida",
+      "kind": "residential",
+      "devices": 19995,
+      "stops": 46234,
+      "med_dwell_min": 52.9,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Nagoya Sakae",
       "kind": "leisure",
-      "devices": 10227,
-      "stops": 22599,
-      "med_dwell_min": 65.9,
-      "peak_hour": 8
+      "devices": 18298,
+      "stops": 41577,
+      "med_dwell_min": 52.3,
+      "peak_hour": 9
     },
     {
-      "zone": "Queenstown",
-      "kind": "residential",
-      "devices": 10099,
-      "stops": 29745,
-      "med_dwell_min": 81.2,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Newton",
-      "kind": "residential",
-      "devices": 8386,
-      "stops": 23619,
-      "med_dwell_min": 70.4,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Woodlands Checkpoint",
-      "kind": "transport",
-      "devices": 8257,
-      "stops": 25881,
-      "med_dwell_min": 75.4,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Kranji",
-      "kind": "industrial",
-      "devices": 8072,
-      "stops": 24548,
-      "med_dwell_min": 72.5,
-      "peak_hour": 8
-    },
-    {
-      "zone": "Marina Bay",
+      "zone": "Sendai",
       "kind": "cbd",
-      "devices": 7961,
-      "stops": 16017,
-      "med_dwell_min": 60.2,
-      "peak_hour": 8
+      "devices": 14837,
+      "stops": 36845,
+      "med_dwell_min": 52.0,
+      "peak_hour": 9
     },
     {
-      "zone": "NUS / Kent Ridge",
+      "zone": "Shin-Osaka",
+      "kind": "transport",
+      "devices": 14348,
+      "stops": 31663,
+      "med_dwell_min": 53.6,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Okayama",
+      "kind": "cbd",
+      "devices": 14068,
+      "stops": 34787,
+      "med_dwell_min": 51.7,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Tachikawa",
+      "kind": "residential",
+      "devices": 13976,
+      "stops": 32461,
+      "med_dwell_min": 53.8,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Hiroshima",
+      "kind": "cbd",
+      "devices": 12816,
+      "stops": 31966,
+      "med_dwell_min": 52.9,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Yokohama / Minato Mirai",
+      "kind": "cbd",
+      "devices": 12747,
+      "stops": 27368,
+      "med_dwell_min": 52.7,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Chubu Centrair Airport",
+      "kind": "airport",
+      "devices": 12393,
+      "stops": 29455,
+      "med_dwell_min": 52.9,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Tsukuba",
       "kind": "education",
-      "devices": 6234,
-      "stops": 17617,
-      "med_dwell_min": 63.6,
-      "peak_hour": 8
+      "devices": 12387,
+      "stops": 29615,
+      "med_dwell_min": 52.5,
+      "peak_hour": 9
     },
     {
-      "zone": "Sentosa",
+      "zone": "Kobe Sannomiya",
+      "kind": "cbd",
+      "devices": 11849,
+      "stops": 27527,
+      "med_dwell_min": 52.4,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Tennoji / Abeno",
+      "kind": "cbd",
+      "devices": 11516,
+      "stops": 25583,
+      "med_dwell_min": 53.3,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Nagoya Station / Meieki",
+      "kind": "cbd",
+      "devices": 10325,
+      "stops": 23696,
+      "med_dwell_min": 53.8,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Kanazawa",
+      "kind": "cbd",
+      "devices": 9842,
+      "stops": 23939,
+      "med_dwell_min": 52.0,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Tokyo Skytree / Sumida",
       "kind": "leisure",
-      "devices": 3319,
-      "stops": 9062,
-      "med_dwell_min": 69.3,
-      "peak_hour": 8
+      "devices": 9368,
+      "stops": 20406,
+      "med_dwell_min": 55.9,
+      "peak_hour": 9
     },
     {
-      "zone": "Pasir Panjang",
-      "kind": "industrial",
-      "devices": 3271,
-      "stops": 9173,
-      "med_dwell_min": 61.7,
-      "peak_hour": 8
+      "zone": "Osaka Umeda / Kita",
+      "kind": "cbd",
+      "devices": 9233,
+      "stops": 15166,
+      "med_dwell_min": 44.2,
+      "peak_hour": 9
     },
     {
-      "zone": "Mandai",
+      "zone": "Sapporo",
+      "kind": "cbd",
+      "devices": 8729,
+      "stops": 21564,
+      "med_dwell_min": 52.6,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Kichijoji / Musashino",
+      "kind": "residential",
+      "devices": 8352,
+      "stops": 18013,
+      "med_dwell_min": 55.3,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Fukuoka Tenjin",
+      "kind": "cbd",
+      "devices": 8160,
+      "stops": 18810,
+      "med_dwell_min": 51.9,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Kyoto Downtown / Gion",
       "kind": "leisure",
-      "devices": 2643,
-      "stops": 6132,
-      "med_dwell_min": 59.6,
-      "peak_hour": 8
+      "devices": 7871,
+      "stops": 17321,
+      "med_dwell_min": 51.6,
+      "peak_hour": 9
     },
     {
-      "zone": "Jurong Island",
-      "kind": "industrial",
-      "devices": 2538,
-      "stops": 7808,
-      "med_dwell_min": 61.4,
-      "peak_hour": 8
+      "zone": "Ikebukuro / Toshima",
+      "kind": "cbd",
+      "devices": 7648,
+      "stops": 15868,
+      "med_dwell_min": 55.6,
+      "peak_hour": 9
     },
     {
-      "zone": "Lim Chu Kang",
-      "kind": "industrial",
-      "devices": 850,
-      "stops": 2358,
-      "med_dwell_min": 63.1,
-      "peak_hour": 8
+      "zone": "Kansai Airport",
+      "kind": "airport",
+      "devices": 6984,
+      "stops": 16262,
+      "med_dwell_min": 51.9,
+      "peak_hour": 9
     },
     {
-      "zone": "Tuas Checkpoint",
+      "zone": "New Chitose Airport",
+      "kind": "airport",
+      "devices": 6835,
+      "stops": 16702,
+      "med_dwell_min": 50.8,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Nara",
+      "kind": "leisure",
+      "devices": 6324,
+      "stops": 14340,
+      "med_dwell_min": 52.6,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Makuhari",
+      "kind": "cbd",
+      "devices": 6199,
+      "stops": 13371,
+      "med_dwell_min": 55.0,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Setagaya",
+      "kind": "residential",
+      "devices": 5541,
+      "stops": 11739,
+      "med_dwell_min": 56.4,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Chiba",
+      "kind": "cbd",
+      "devices": 5171,
+      "stops": 11561,
+      "med_dwell_min": 54.7,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Kawasaki",
+      "kind": "cbd",
+      "devices": 4965,
+      "stops": 10714,
+      "med_dwell_min": 55.5,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Niigata",
+      "kind": "cbd",
+      "devices": 4939,
+      "stops": 12484,
+      "med_dwell_min": 51.4,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Kyoto Station",
       "kind": "transport",
-      "devices": 838,
-      "stops": 2088,
-      "med_dwell_min": 63.0,
-      "peak_hour": 8
+      "devices": 4917,
+      "stops": 11102,
+      "med_dwell_min": 55.5,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Shin-Yokohama",
+      "kind": "transport",
+      "devices": 4771,
+      "stops": 10303,
+      "med_dwell_min": 55.2,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Asakusa",
+      "kind": "leisure",
+      "devices": 4153,
+      "stops": 8639,
+      "med_dwell_min": 53.7,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Nakano",
+      "kind": "residential",
+      "devices": 4022,
+      "stops": 8243,
+      "med_dwell_min": 55.6,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Naha / Okinawa",
+      "kind": "leisure",
+      "devices": 3711,
+      "stops": 9484,
+      "med_dwell_min": 51.7,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Osaka Bay / USJ",
+      "kind": "leisure",
+      "devices": 3547,
+      "stops": 6919,
+      "med_dwell_min": 49.8,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Shinagawa",
+      "kind": "cbd",
+      "devices": 3425,
+      "stops": 7072,
+      "med_dwell_min": 54.8,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Osaka Namba / Minami",
+      "kind": "leisure",
+      "devices": 3352,
+      "stops": 6272,
+      "med_dwell_min": 50.0,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Fukuoka Hakata",
+      "kind": "cbd",
+      "devices": 3166,
+      "stops": 5799,
+      "med_dwell_min": 48.7,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Tokyo Disney / Maihama",
+      "kind": "leisure",
+      "devices": 3121,
+      "stops": 6729,
+      "med_dwell_min": 56.6,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Narita Airport",
+      "kind": "airport",
+      "devices": 2535,
+      "stops": 5721,
+      "med_dwell_min": 53.4,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Shibuya",
+      "kind": "cbd",
+      "devices": 1833,
+      "stops": 3246,
+      "med_dwell_min": 48.6,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Haneda Airport",
+      "kind": "airport",
+      "devices": 1539,
+      "stops": 3252,
+      "med_dwell_min": 51.2,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Nihonbashi / Chuo",
+      "kind": "cbd",
+      "devices": 1533,
+      "stops": 2895,
+      "med_dwell_min": 52.6,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Ueno / Taito",
+      "kind": "leisure",
+      "devices": 1531,
+      "stops": 3068,
+      "med_dwell_min": 56.2,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Bunkyo / Hongo",
+      "kind": "education",
+      "devices": 1318,
+      "stops": 2467,
+      "med_dwell_min": 53.5,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Odaiba / Koto",
+      "kind": "leisure",
+      "devices": 1112,
+      "stops": 1983,
+      "med_dwell_min": 48.8,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Ginza",
+      "kind": "leisure",
+      "devices": 1022,
+      "stops": 1792,
+      "med_dwell_min": 49.9,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Minato / Roppongi",
+      "kind": "cbd",
+      "devices": 985,
+      "stops": 1767,
+      "med_dwell_min": 52.9,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Toranomon / Kasumigaseki",
+      "kind": "cbd",
+      "devices": 929,
+      "stops": 1589,
+      "med_dwell_min": 51.5,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Otemachi / Chiyoda",
+      "kind": "cbd",
+      "devices": 857,
+      "stops": 1448,
+      "med_dwell_min": 45.8,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Akihabara",
+      "kind": "leisure",
+      "devices": 824,
+      "stops": 1501,
+      "med_dwell_min": 50.6,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Shimbashi / Shiodome",
+      "kind": "cbd",
+      "devices": 821,
+      "stops": 1452,
+      "med_dwell_min": 52.6,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Harajuku / Omotesando",
+      "kind": "leisure",
+      "devices": 790,
+      "stops": 1306,
+      "med_dwell_min": 48.7,
+      "peak_hour": 9
+    },
+    {
+      "zone": "Marunouchi / Tokyo Stn",
+      "kind": "cbd",
+      "devices": 497,
+      "stops": 770,
+      "med_dwell_min": 40.7,
+      "peak_hour": 9
     }
   ],
   "day_night": [
     {
-      "zone": "Bedok",
-      "day_devices": 39066,
-      "night_devices": 21347
+      "zone": "Fukuoka Airport",
+      "day_devices": 17672,
+      "night_devices": 9762
     },
     {
-      "zone": "Hougang",
-      "day_devices": 37669,
-      "night_devices": 21660
+      "zone": "Saitama / Omiya",
+      "day_devices": 15970,
+      "night_devices": 9123
     },
     {
-      "zone": "Geylang",
-      "day_devices": 35902,
-      "night_devices": 18464
+      "zone": "Shinjuku",
+      "day_devices": 14915,
+      "night_devices": 4111
     },
     {
-      "zone": "Toa Payoh",
-      "day_devices": 33082,
-      "night_devices": 17652
+      "zone": "Machida",
+      "day_devices": 14399,
+      "night_devices": 7972
     },
     {
-      "zone": "Ang Mo Kio",
-      "day_devices": 31240,
-      "night_devices": 15608
+      "zone": "Nagoya Sakae",
+      "day_devices": 13230,
+      "night_devices": 6861
     },
     {
-      "zone": "Bugis",
-      "day_devices": 30217,
-      "night_devices": 8725
+      "zone": "Sendai",
+      "day_devices": 10893,
+      "night_devices": 5831
     },
     {
-      "zone": "Orchard",
-      "day_devices": 28429,
-      "night_devices": 10154
+      "zone": "Okayama",
+      "day_devices": 10388,
+      "night_devices": 5735
     },
     {
-      "zone": "Jurong West",
-      "day_devices": 28179,
-      "night_devices": 16034
+      "zone": "Tachikawa",
+      "day_devices": 10194,
+      "night_devices": 5482
     },
     {
-      "zone": "Yishun",
-      "day_devices": 27608,
-      "night_devices": 15906
+      "zone": "Shin-Osaka",
+      "day_devices": 10056,
+      "night_devices": 5552
     },
     {
-      "zone": "Tampines",
-      "day_devices": 25851,
-      "night_devices": 13944
+      "zone": "Hiroshima",
+      "day_devices": 9452,
+      "night_devices": 5209
     },
     {
-      "zone": "Sengkang",
-      "day_devices": 25326,
-      "night_devices": 15905
+      "zone": "Yokohama / Minato Mirai",
+      "day_devices": 9137,
+      "night_devices": 4626
     },
     {
-      "zone": "Woodlands",
-      "day_devices": 25319,
-      "night_devices": 14965
+      "zone": "Tsukuba",
+      "day_devices": 9063,
+      "night_devices": 4882
     },
     {
-      "zone": "Choa Chu Kang",
-      "day_devices": 24330,
-      "night_devices": 15874
+      "zone": "Chubu Centrair Airport",
+      "day_devices": 8974,
+      "night_devices": 4786
     },
     {
-      "zone": "Jurong East",
-      "day_devices": 22989,
-      "night_devices": 9487
+      "zone": "Kobe Sannomiya",
+      "day_devices": 8614,
+      "night_devices": 4623
     },
     {
-      "zone": "Serangoon",
-      "day_devices": 22832,
-      "night_devices": 11416
+      "zone": "Tennoji / Abeno",
+      "day_devices": 8206,
+      "night_devices": 4412
     },
     {
-      "zone": "Clementi",
-      "day_devices": 22042,
-      "night_devices": 11373
+      "zone": "Nagoya Station / Meieki",
+      "day_devices": 7465,
+      "night_devices": 3877
     },
     {
-      "zone": "Bukit Batok",
-      "day_devices": 20241,
-      "night_devices": 11344
+      "zone": "Kanazawa",
+      "day_devices": 7196,
+      "night_devices": 3883
     },
     {
-      "zone": "Punggol",
-      "day_devices": 19070,
-      "night_devices": 11679
+      "zone": "Sapporo",
+      "day_devices": 6589,
+      "night_devices": 3411
     },
     {
-      "zone": "Kallang",
-      "day_devices": 19023,
-      "night_devices": 9115
+      "zone": "Tokyo Skytree / Sumida",
+      "day_devices": 6539,
+      "night_devices": 3700
     },
     {
-      "zone": "Little India",
-      "day_devices": 18286,
-      "night_devices": 6928
+      "zone": "Osaka Umeda / Kita",
+      "day_devices": 6205,
+      "night_devices": 2389
     },
     {
-      "zone": "Bukit Panjang",
-      "day_devices": 18002,
-      "night_devices": 11459
+      "zone": "Fukuoka Tenjin",
+      "day_devices": 5866,
+      "night_devices": 3164
     },
     {
-      "zone": "Pasir Ris",
-      "day_devices": 17491,
-      "night_devices": 9483
+      "zone": "Kichijoji / Musashino",
+      "day_devices": 5787,
+      "night_devices": 3339
     },
     {
-      "zone": "Sembawang",
-      "day_devices": 16942,
-      "night_devices": 9397
+      "zone": "Kyoto Downtown / Gion",
+      "day_devices": 5710,
+      "night_devices": 2820
     },
     {
-      "zone": "Bukit Merah",
-      "day_devices": 16540,
-      "night_devices": 8138
-    },
-    {
-      "zone": "Bukit Timah",
-      "day_devices": 16153,
-      "night_devices": 8390
-    },
-    {
-      "zone": "Raffles Place / CBD",
-      "day_devices": 14205,
-      "night_devices": 6475
-    },
-    {
-      "zone": "Tiong Bahru",
-      "day_devices": 14011,
-      "night_devices": 5633
-    },
-    {
-      "zone": "East Coast",
-      "day_devices": 13762,
-      "night_devices": 7419
-    },
-    {
-      "zone": "Clarke Quay / River Valley",
-      "day_devices": 12926,
-      "night_devices": 5783
-    },
-    {
-      "zone": "Tuas",
-      "day_devices": 12405,
-      "night_devices": 4737
-    },
-    {
-      "zone": "Paya Lebar",
-      "day_devices": 12262,
-      "night_devices": 4252
-    },
-    {
-      "zone": "Tengah",
-      "day_devices": 11915,
-      "night_devices": 6517
-    },
-    {
-      "zone": "Changi Business Park / Expo",
-      "day_devices": 11780,
-      "night_devices": 4535
-    },
-    {
-      "zone": "Bishan",
-      "day_devices": 11477,
-      "night_devices": 4269
-    },
-    {
-      "zone": "Holland Village",
-      "day_devices": 10996,
-      "night_devices": 4812
-    },
-    {
-      "zone": "NTU / Pioneer",
-      "day_devices": 10279,
-      "night_devices": 5395
-    },
-    {
-      "zone": "Novena",
-      "day_devices": 9437,
-      "night_devices": 2966
-    },
-    {
-      "zone": "Chinatown",
-      "day_devices": 9412,
+      "zone": "Ikebukuro / Toshima",
+      "day_devices": 5265,
       "night_devices": 2873
     },
     {
-      "zone": "Loyang",
-      "day_devices": 8755,
-      "night_devices": 4237
+      "zone": "New Chitose Airport",
+      "day_devices": 5071,
+      "night_devices": 2592
     },
     {
-      "zone": "Seletar",
-      "day_devices": 8551,
-      "night_devices": 5511
+      "zone": "Kansai Airport",
+      "day_devices": 5070,
+      "night_devices": 2731
     },
     {
-      "zone": "Marine Parade / Katong",
-      "day_devices": 8345,
-      "night_devices": 4309
+      "zone": "Nara",
+      "day_devices": 4494,
+      "night_devices": 2433
     },
     {
-      "zone": "Alexandra / Labrador",
-      "day_devices": 8196,
-      "night_devices": 2832
+      "zone": "Makuhari",
+      "day_devices": 4321,
+      "night_devices": 2448
     },
     {
-      "zone": "Tanjong Pagar",
-      "day_devices": 7565,
-      "night_devices": 2146
+      "zone": "Setagaya",
+      "day_devices": 3862,
+      "night_devices": 2117
     },
     {
-      "zone": "Queenstown",
-      "day_devices": 7502,
-      "night_devices": 3964
+      "zone": "Chiba",
+      "day_devices": 3720,
+      "night_devices": 1956
     },
     {
-      "zone": "Changi Airport",
-      "day_devices": 6967,
-      "night_devices": 2364
+      "zone": "Niigata",
+      "day_devices": 3646,
+      "night_devices": 2006
     },
     {
-      "zone": "One-North / Buona Vista",
-      "day_devices": 6959,
-      "night_devices": 2886
+      "zone": "Kyoto Station",
+      "day_devices": 3568,
+      "night_devices": 1860
     },
     {
-      "zone": "HarbourFront",
-      "day_devices": 6931,
-      "night_devices": 1733
+      "zone": "Kawasaki",
+      "day_devices": 3507,
+      "night_devices": 1862
     },
     {
-      "zone": "Newton",
-      "day_devices": 5336,
-      "night_devices": 2195
+      "zone": "Shin-Yokohama",
+      "day_devices": 3318,
+      "night_devices": 1891
     },
     {
-      "zone": "Kranji",
-      "day_devices": 5302,
-      "night_devices": 2181
+      "zone": "Asakusa",
+      "day_devices": 2912,
+      "night_devices": 1547
     },
     {
-      "zone": "Woodlands Checkpoint",
-      "day_devices": 5067,
-      "night_devices": 2741
+      "zone": "Nakano",
+      "day_devices": 2767,
+      "night_devices": 1512
     },
     {
-      "zone": "Marina Bay",
-      "day_devices": 4731,
-      "night_devices": 1530
+      "zone": "Naha / Okinawa",
+      "day_devices": 2739,
+      "night_devices": 1600
     },
     {
-      "zone": "NUS / Kent Ridge",
-      "day_devices": 3997,
-      "night_devices": 1536
+      "zone": "Shinagawa",
+      "day_devices": 2494,
+      "night_devices": 1083
     },
     {
-      "zone": "Sentosa",
-      "day_devices": 2401,
-      "night_devices": 767
+      "zone": "Osaka Bay / USJ",
+      "day_devices": 2493,
+      "night_devices": 1153
     },
     {
-      "zone": "Pasir Panjang",
-      "day_devices": 2022,
-      "night_devices": 835
+      "zone": "Osaka Namba / Minami",
+      "day_devices": 2379,
+      "night_devices": 958
     },
     {
-      "zone": "Mandai",
-      "day_devices": 1766,
-      "night_devices": 512
+      "zone": "Fukuoka Hakata",
+      "day_devices": 2190,
+      "night_devices": 939
     },
     {
-      "zone": "Jurong Island",
-      "day_devices": 1657,
-      "night_devices": 473
+      "zone": "Tokyo Disney / Maihama",
+      "day_devices": 2145,
+      "night_devices": 1246
     },
     {
-      "zone": "Lim Chu Kang",
-      "day_devices": 610,
-      "night_devices": 165
+      "zone": "Narita Airport",
+      "day_devices": 1845,
+      "night_devices": 935
     },
     {
-      "zone": "Tuas Checkpoint",
-      "day_devices": 565,
-      "night_devices": 130
+      "zone": "Shibuya",
+      "day_devices": 1299,
+      "night_devices": 497
+    },
+    {
+      "zone": "Nihonbashi / Chuo",
+      "day_devices": 1193,
+      "night_devices": 338
+    },
+    {
+      "zone": "Haneda Airport",
+      "day_devices": 1139,
+      "night_devices": 511
+    },
+    {
+      "zone": "Ueno / Taito",
+      "day_devices": 1082,
+      "night_devices": 514
+    },
+    {
+      "zone": "Bunkyo / Hongo",
+      "day_devices": 970,
+      "night_devices": 337
+    },
+    {
+      "zone": "Odaiba / Koto",
+      "day_devices": 845,
+      "night_devices": 290
+    },
+    {
+      "zone": "Ginza",
+      "day_devices": 784,
+      "night_devices": 209
+    },
+    {
+      "zone": "Toranomon / Kasumigaseki",
+      "day_devices": 773,
+      "night_devices": 110
+    },
+    {
+      "zone": "Minato / Roppongi",
+      "day_devices": 733,
+      "night_devices": 231
+    },
+    {
+      "zone": "Shimbashi / Shiodome",
+      "day_devices": 659,
+      "night_devices": 146
+    },
+    {
+      "zone": "Otemachi / Chiyoda",
+      "day_devices": 654,
+      "night_devices": 147
+    },
+    {
+      "zone": "Akihabara",
+      "day_devices": 627,
+      "night_devices": 158
+    },
+    {
+      "zone": "Harajuku / Omotesando",
+      "day_devices": 580,
+      "night_devices": 175
+    },
+    {
+      "zone": "Marunouchi / Tokyo Stn",
+      "day_devices": 391,
+      "night_devices": 39
     }
   ],
   "weekend_shift": [
     {
-      "zone": "Sentosa",
-      "wkday_devices_per_day": 461.0,
-      "wkend_devices_per_day": 781.0
+      "zone": "Shin-Yokohama",
+      "wkday_devices_per_day": 746.4,
+      "wkend_devices_per_day": 715.0
     },
     {
-      "zone": "Marina Bay",
-      "wkday_devices_per_day": 1056.4,
-      "wkend_devices_per_day": 1774.0
+      "zone": "Kanazawa",
+      "wkday_devices_per_day": 1559.8,
+      "wkend_devices_per_day": 1458.0
     },
     {
-      "zone": "Little India",
-      "wkday_devices_per_day": 3951.4,
-      "wkend_devices_per_day": 6514.0
+      "zone": "Sendai",
+      "wkday_devices_per_day": 2366.0,
+      "wkend_devices_per_day": 2179.0
     },
     {
-      "zone": "Punggol",
-      "wkday_devices_per_day": 4795.0,
-      "wkend_devices_per_day": 7868.5
+      "zone": "Kichijoji / Musashino",
+      "wkday_devices_per_day": 1318.4,
+      "wkend_devices_per_day": 1212.0
     },
     {
-      "zone": "Sengkang",
-      "wkday_devices_per_day": 6390.4,
-      "wkend_devices_per_day": 10371.5
+      "zone": "Kansai Airport",
+      "wkday_devices_per_day": 1102.0,
+      "wkend_devices_per_day": 1013.0
     },
     {
-      "zone": "Yishun",
-      "wkday_devices_per_day": 6815.2,
-      "wkend_devices_per_day": 11039.5
+      "zone": "Machida",
+      "wkday_devices_per_day": 3180.0,
+      "wkend_devices_per_day": 2879.0
     },
     {
-      "zone": "HarbourFront",
-      "wkday_devices_per_day": 1406.4,
-      "wkend_devices_per_day": 2265.5
+      "zone": "Nara",
+      "wkday_devices_per_day": 1002.0,
+      "wkend_devices_per_day": 901.0
     },
     {
-      "zone": "Mandai",
-      "wkday_devices_per_day": 364.0,
-      "wkend_devices_per_day": 583.0
+      "zone": "Tokyo Disney / Maihama",
+      "wkday_devices_per_day": 499.6,
+      "wkend_devices_per_day": 449.0
     },
     {
-      "zone": "Pasir Ris",
-      "wkday_devices_per_day": 4252.4,
-      "wkend_devices_per_day": 6703.5
+      "zone": "Niigata",
+      "wkday_devices_per_day": 795.6,
+      "wkend_devices_per_day": 715.0
     },
     {
-      "zone": "Seletar",
-      "wkday_devices_per_day": 2110.6,
-      "wkend_devices_per_day": 3313.0
+      "zone": "Tokyo Skytree / Sumida",
+      "wkday_devices_per_day": 1495.0,
+      "wkend_devices_per_day": 1336.5
     },
     {
-      "zone": "Bukit Batok",
-      "wkday_devices_per_day": 4928.8,
-      "wkend_devices_per_day": 7723.0
+      "zone": "Saitama / Omiya",
+      "wkday_devices_per_day": 3597.4,
+      "wkend_devices_per_day": 3215.5
     },
     {
-      "zone": "Woodlands",
-      "wkday_devices_per_day": 6387.2,
-      "wkend_devices_per_day": 9811.5
+      "zone": "Chubu Centrair Airport",
+      "wkday_devices_per_day": 1976.4,
+      "wkend_devices_per_day": 1757.5
     },
     {
-      "zone": "Woodlands Checkpoint",
-      "wkday_devices_per_day": 1276.6,
-      "wkend_devices_per_day": 1955.0
+      "zone": "Tsukuba",
+      "wkday_devices_per_day": 1980.2,
+      "wkend_devices_per_day": 1760.0
     },
     {
-      "zone": "Bukit Panjang",
-      "wkday_devices_per_day": 4512.6,
-      "wkend_devices_per_day": 6899.0
+      "zone": "Hiroshima",
+      "wkday_devices_per_day": 2058.8,
+      "wkend_devices_per_day": 1823.5
     },
     {
-      "zone": "Marine Parade / Katong",
-      "wkday_devices_per_day": 2007.6,
-      "wkend_devices_per_day": 3068.5
+      "zone": "Haneda Airport",
+      "wkday_devices_per_day": 245.2,
+      "wkend_devices_per_day": 217.0
     },
     {
-      "zone": "Tengah",
-      "wkday_devices_per_day": 2980.8,
-      "wkend_devices_per_day": 4548.5
+      "zone": "Okayama",
+      "wkday_devices_per_day": 2263.8,
+      "wkend_devices_per_day": 2003.0
     },
     {
-      "zone": "East Coast",
-      "wkday_devices_per_day": 3284.4,
-      "wkend_devices_per_day": 5007.0
+      "zone": "Fukuoka Tenjin",
+      "wkday_devices_per_day": 1299.8,
+      "wkend_devices_per_day": 1150.0
     },
     {
-      "zone": "Hougang",
-      "wkday_devices_per_day": 9239.0,
-      "wkend_devices_per_day": 13932.5
+      "zone": "Sapporo",
+      "wkday_devices_per_day": 1404.4,
+      "wkend_devices_per_day": 1239.0
     },
     {
-      "zone": "Kallang",
-      "wkday_devices_per_day": 4530.8,
-      "wkend_devices_per_day": 6829.0
+      "zone": "Tachikawa",
+      "wkday_devices_per_day": 2233.8,
+      "wkend_devices_per_day": 1968.0
     },
     {
-      "zone": "Sembawang",
-      "wkday_devices_per_day": 4152.4,
-      "wkend_devices_per_day": 6258.0
+      "zone": "Fukuoka Airport",
+      "wkday_devices_per_day": 3877.2,
+      "wkend_devices_per_day": 3410.5
     },
     {
-      "zone": "Ang Mo Kio",
-      "wkday_devices_per_day": 7546.4,
-      "wkend_devices_per_day": 11351.5
+      "zone": "Nagoya Sakae",
+      "wkday_devices_per_day": 2921.0,
+      "wkend_devices_per_day": 2566.5
     },
     {
-      "zone": "Changi Airport",
-      "wkday_devices_per_day": 1605.2,
-      "wkend_devices_per_day": 2396.5
+      "zone": "Kyoto Downtown / Gion",
+      "wkday_devices_per_day": 1249.0,
+      "wkend_devices_per_day": 1095.0
     },
     {
-      "zone": "Loyang",
-      "wkday_devices_per_day": 2132.8,
-      "wkend_devices_per_day": 3177.5
+      "zone": "Shin-Osaka",
+      "wkday_devices_per_day": 2292.0,
+      "wkend_devices_per_day": 2007.0
     },
     {
-      "zone": "Choa Chu Kang",
-      "wkday_devices_per_day": 6209.8,
-      "wkend_devices_per_day": 9242.0
+      "zone": "New Chitose Airport",
+      "wkday_devices_per_day": 1100.6,
+      "wkend_devices_per_day": 963.0
     },
     {
-      "zone": "Paya Lebar",
-      "wkday_devices_per_day": 2728.2,
-      "wkend_devices_per_day": 4058.5
+      "zone": "Tennoji / Abeno",
+      "wkday_devices_per_day": 1836.8,
+      "wkend_devices_per_day": 1607.0
     },
     {
-      "zone": "Bishan",
-      "wkday_devices_per_day": 2605.8,
-      "wkend_devices_per_day": 3844.5
+      "zone": "Setagaya",
+      "wkday_devices_per_day": 885.8,
+      "wkend_devices_per_day": 770.5
     },
     {
-      "zone": "Tampines",
-      "wkday_devices_per_day": 6380.4,
-      "wkend_devices_per_day": 9384.0
+      "zone": "Ikebukuro / Toshima",
+      "wkday_devices_per_day": 1217.4,
+      "wkend_devices_per_day": 1058.5
     },
     {
-      "zone": "Jurong West",
-      "wkday_devices_per_day": 7053.2,
-      "wkend_devices_per_day": 10365.5
+      "zone": "Kobe Sannomiya",
+      "wkday_devices_per_day": 1897.8,
+      "wkend_devices_per_day": 1650.0
     },
     {
-      "zone": "Holland Village",
-      "wkday_devices_per_day": 2635.6,
-      "wkend_devices_per_day": 3837.5
+      "zone": "Narita Airport",
+      "wkday_devices_per_day": 403.4,
+      "wkend_devices_per_day": 349.5
     },
     {
-      "zone": "Serangoon",
-      "wkday_devices_per_day": 5546.0,
-      "wkend_devices_per_day": 7984.0
+      "zone": "Chiba",
+      "wkday_devices_per_day": 826.2,
+      "wkend_devices_per_day": 715.5
     },
     {
-      "zone": "Lim Chu Kang",
-      "wkday_devices_per_day": 123.0,
-      "wkend_devices_per_day": 177.0
+      "zone": "Kyoto Station",
+      "wkday_devices_per_day": 793.8,
+      "wkend_devices_per_day": 687.0
     },
     {
-      "zone": "Kranji",
-      "wkday_devices_per_day": 1266.0,
-      "wkend_devices_per_day": 1771.5
+      "zone": "Makuhari",
+      "wkday_devices_per_day": 995.0,
+      "wkend_devices_per_day": 858.5
     },
     {
-      "zone": "Bukit Merah",
-      "wkday_devices_per_day": 4098.4,
-      "wkend_devices_per_day": 5638.0
+      "zone": "Nagoya Station / Meieki",
+      "wkday_devices_per_day": 1655.8,
+      "wkend_devices_per_day": 1425.5
     },
     {
-      "zone": "NTU / Pioneer",
-      "wkday_devices_per_day": 2539.8,
-      "wkend_devices_per_day": 3456.5
+      "zone": "Naha / Okinawa",
+      "wkday_devices_per_day": 601.2,
+      "wkend_devices_per_day": 513.5
     },
     {
-      "zone": "Newton",
-      "wkday_devices_per_day": 1290.4,
-      "wkend_devices_per_day": 1744.0
+      "zone": "Asakusa",
+      "wkday_devices_per_day": 666.2,
+      "wkend_devices_per_day": 565.0
     },
     {
-      "zone": "Bukit Timah",
-      "wkday_devices_per_day": 3948.6,
-      "wkend_devices_per_day": 5215.5
+      "zone": "Ueno / Taito",
+      "wkday_devices_per_day": 243.2,
+      "wkend_devices_per_day": 205.5
     },
     {
-      "zone": "Tiong Bahru",
-      "wkday_devices_per_day": 3320.0,
-      "wkend_devices_per_day": 4353.0
+      "zone": "Nakano",
+      "wkday_devices_per_day": 647.8,
+      "wkend_devices_per_day": 540.5
     },
     {
-      "zone": "Jurong East",
-      "wkday_devices_per_day": 5567.2,
-      "wkend_devices_per_day": 7295.5
+      "zone": "Yokohama / Minato Mirai",
+      "wkday_devices_per_day": 2044.8,
+      "wkend_devices_per_day": 1699.0
     },
     {
-      "zone": "Alexandra / Labrador",
-      "wkday_devices_per_day": 1905.4,
-      "wkend_devices_per_day": 2493.0
+      "zone": "Osaka Bay / USJ",
+      "wkday_devices_per_day": 565.4,
+      "wkend_devices_per_day": 467.5
     },
     {
-      "zone": "Changi Business Park / Expo",
-      "wkday_devices_per_day": 2791.0,
-      "wkend_devices_per_day": 3613.5
+      "zone": "Kawasaki",
+      "wkday_devices_per_day": 805.4,
+      "wkend_devices_per_day": 662.5
     },
     {
-      "zone": "Geylang",
-      "wkday_devices_per_day": 8807.0,
-      "wkend_devices_per_day": 11401.5
+      "zone": "Odaiba / Koto",
+      "wkday_devices_per_day": 178.8,
+      "wkend_devices_per_day": 143.5
     },
     {
-      "zone": "Bedok",
-      "wkday_devices_per_day": 9688.8,
-      "wkend_devices_per_day": 12542.0
+      "zone": "Fukuoka Hakata",
+      "wkday_devices_per_day": 507.2,
+      "wkend_devices_per_day": 406.5
     },
     {
-      "zone": "Bugis",
-      "wkday_devices_per_day": 6731.6,
-      "wkend_devices_per_day": 8690.0
+      "zone": "Osaka Umeda / Kita",
+      "wkday_devices_per_day": 1468.6,
+      "wkend_devices_per_day": 1129.5
     },
     {
-      "zone": "Pasir Panjang",
-      "wkday_devices_per_day": 518.0,
-      "wkend_devices_per_day": 666.0
+      "zone": "Osaka Namba / Minami",
+      "wkday_devices_per_day": 541.8,
+      "wkend_devices_per_day": 412.0
     },
     {
-      "zone": "One-North / Buona Vista",
-      "wkday_devices_per_day": 1724.0,
-      "wkend_devices_per_day": 2201.0
+      "zone": "Shinjuku",
+      "wkday_devices_per_day": 3348.4,
+      "wkend_devices_per_day": 2473.0
     },
     {
-      "zone": "Novena",
-      "wkday_devices_per_day": 2126.4,
-      "wkend_devices_per_day": 2694.5
+      "zone": "Shinagawa",
+      "wkday_devices_per_day": 570.2,
+      "wkend_devices_per_day": 408.5
     },
     {
-      "zone": "Clarke Quay / River Valley",
-      "wkday_devices_per_day": 3141.4,
-      "wkend_devices_per_day": 3969.0
+      "zone": "Harajuku / Omotesando",
+      "wkday_devices_per_day": 127.6,
+      "wkend_devices_per_day": 89.5
     },
     {
-      "zone": "Tuas",
-      "wkday_devices_per_day": 2992.4,
-      "wkend_devices_per_day": 3702.0
+      "zone": "Ginza",
+      "wkday_devices_per_day": 168.4,
+      "wkend_devices_per_day": 109.0
     },
     {
-      "zone": "Toa Payoh",
-      "wkday_devices_per_day": 8397.4,
-      "wkend_devices_per_day": 10376.0
+      "zone": "Shibuya",
+      "wkday_devices_per_day": 305.4,
+      "wkend_devices_per_day": 197.5
     },
     {
-      "zone": "Chinatown",
-      "wkday_devices_per_day": 2171.4,
-      "wkend_devices_per_day": 2623.5
+      "zone": "Bunkyo / Hongo",
+      "wkday_devices_per_day": 220.8,
+      "wkend_devices_per_day": 141.0
     },
     {
-      "zone": "Orchard",
-      "wkday_devices_per_day": 6583.6,
-      "wkend_devices_per_day": 7929.5
+      "zone": "Nihonbashi / Chuo",
+      "wkday_devices_per_day": 263.0,
+      "wkend_devices_per_day": 153.5
     },
     {
-      "zone": "NUS / Kent Ridge",
-      "wkday_devices_per_day": 1000.6,
-      "wkend_devices_per_day": 1202.5
+      "zone": "Marunouchi / Tokyo Stn",
+      "wkday_devices_per_day": 83.0,
+      "wkend_devices_per_day": 46.0
     },
     {
-      "zone": "Clementi",
-      "wkday_devices_per_day": 5566.4,
-      "wkend_devices_per_day": 6639.0
+      "zone": "Akihabara",
+      "wkday_devices_per_day": 141.8,
+      "wkend_devices_per_day": 72.0
     },
     {
-      "zone": "Jurong Island",
-      "wkday_devices_per_day": 420.2,
-      "wkend_devices_per_day": 468.0
+      "zone": "Minato / Roppongi",
+      "wkday_devices_per_day": 170.4,
+      "wkend_devices_per_day": 85.5
     },
     {
-      "zone": "Tanjong Pagar",
-      "wkday_devices_per_day": 1830.4,
-      "wkend_devices_per_day": 1904.0
+      "zone": "Shimbashi / Shiodome",
+      "wkday_devices_per_day": 146.8,
+      "wkend_devices_per_day": 61.0
     },
     {
-      "zone": "Raffles Place / CBD",
-      "wkday_devices_per_day": 3584.2,
-      "wkend_devices_per_day": 3353.0
+      "zone": "Otemachi / Chiyoda",
+      "wkday_devices_per_day": 151.8,
+      "wkend_devices_per_day": 59.5
     },
     {
-      "zone": "Tuas Checkpoint",
-      "wkday_devices_per_day": 140.6,
-      "wkend_devices_per_day": 128.5
-    },
-    {
-      "zone": "Queenstown",
-      "wkday_devices_per_day": 1722.6,
-      "wkend_devices_per_day": 1373.5
+      "zone": "Toranomon / Kasumigaseki",
+      "wkday_devices_per_day": 171.0,
+      "wkend_devices_per_day": 49.0
     }
   ]
 }
