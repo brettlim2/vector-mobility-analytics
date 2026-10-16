@@ -136,8 +136,22 @@ def _load_cell_visits():
     return visits
 
 
+def _airport_device_days() -> int:
+    """Distinct (device, day) across the whole airport extract bbox — the denominator
+    for retail conversion (everyone at the airport, not just the retail sub-zones)."""
+    con = duckdb.connect()
+    con.execute("SET memory_limit='6GB'")
+    n = con.execute(f"""
+        SELECT count(DISTINCT (maid, cast(to_timestamp("timestamp") + INTERVAL 9 HOUR AS DATE)))
+        FROM read_parquet('{AIRPORT_GLOB}') WHERE horizontal_accuracy <= 200
+    """).fetchone()[0]
+    con.close()
+    return int(n)
+
+
 def build_retail() -> dict:
     visits = _load_cell_visits()
+    airport_dd = _airport_device_days()
 
     # Per day: terminal devices, and per-zone visitors / first-stops; transitions; next-stops.
     days = sorted({d for (_m, d) in visits})
@@ -298,7 +312,7 @@ def build_retail() -> dict:
             "silver_week_uplift_pct": round(100 * (_mean([len(term_dev[d]) for d in camp_days])
                                            / _mean([len(term_dev[d]) for d in base_days]) - 1)),
             "retail_sessions": sessions,
-            "retail_conversion": round(sessions / tdd, 3) if tdd else 0.0,
+            "retail_conversion": round(sessions / airport_dd, 3) if airport_dd else 0.0,
             "zones_per_session": round(_mean([len(dict.fromkeys(v[0] for v in seq))
                                       for seq in visits.values()]), 2),
             "promoted_zone": PROMOTED, "neighbour_zone": NEIGHBOUR, "control_zone": CONTROL,
