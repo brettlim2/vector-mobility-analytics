@@ -115,6 +115,19 @@ The warehouse DB defaults to `data/factori_jp.duckdb` (`factori` source) or
 `data/veraset.duckdb` (`veraset`); set `WAREHOUSE_PATH` to override. Select the
 source with `MOBILITY_SOURCE=factori|veraset`.
 
+## Japan use-case readouts (separate app)
+
+The MessyNet Japan readouts — **New Chitose Airport × Retail** and **domestic tourism** —
+live in their own repo: **https://github.com/brettlim2/messynet-japan-mobility**. Their
+data is generated from this warehouse by:
+
+- `analytics/jp_retail.py` → `jp_retail_readout.json` (needs the New Chitose airport extract
+  from `scripts/extract_factori_airport.py`)
+- `analytics/jp_tourism.py` → `jp_tourism_readout.json` (domestic flows from the warehouse)
+
+Set `MESSYNET_APP_DIR` to a checkout of that repo and run the exporters to refresh its
+`public/data/`. Mobility is real; revenue is modelled; the SNS block is synthetic.
+
 ## Guardrails
 
 - No per-device trajectories in the UI
