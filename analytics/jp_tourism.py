@@ -15,11 +15,18 @@ from __future__ import annotations
 import json
 from collections import Counter, defaultdict
 
+import os
+from pathlib import Path
+
 from . import MIN_K_ANON, ROOT
 from .engine import connect
 
 K = MIN_K_ANON
-APP_DATA = ROOT / "messynet-japan-mobility" / "public" / "data"
+# Target the messynet app's public/data. Override with MESSYNET_APP_DIR (the app repo root)
+# once the app lives in its own repo; default to the in-repo vendored copy.
+_APP_ROOT = Path(os.environ["MESSYNET_APP_DIR"]) if os.environ.get("MESSYNET_APP_DIR") \
+    else ROOT / "messynet-japan-mobility"
+APP_DATA = _APP_ROOT / "public" / "data"
 
 # Gateways the FlowMap knows: id -> (lat, lng, home_region). Tight radius around each.
 GATEWAYS = {

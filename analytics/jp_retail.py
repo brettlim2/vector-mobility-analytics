@@ -17,14 +17,20 @@ from __future__ import annotations
 import datetime as dt
 import json
 import math
+import os
 from collections import Counter, defaultdict
+from pathlib import Path
 
 import duckdb
 
 from . import MIN_K_ANON, ROOT
 
 K = MIN_K_ANON
-APP_DATA = ROOT / "messynet-japan-mobility" / "public" / "data"
+# Target the messynet app's public/data. Override with MESSYNET_APP_DIR (the app repo root)
+# once the app lives in its own repo; default to the in-repo vendored copy.
+_APP_ROOT = Path(os.environ["MESSYNET_APP_DIR"]) if os.environ.get("MESSYNET_APP_DIR") \
+    else ROOT / "messynet-japan-mobility"
+APP_DATA = _APP_ROOT / "public" / "data"
 AIRPORT_GLOB = str(ROOT / "data" / "factori_scratch" / "newchitose" / "airport_*.parquet")
 
 # Terminal core bbox (the main building cluster) + grid cell size (~200 m).

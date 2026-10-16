@@ -75,7 +75,11 @@ def main() -> int:
            stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         glob = f"{TMP}/*.parquet"
         idx = bstart // BATCH
-        dest = OUT / f"airport_{idx:04d}.parquet"
+        # Name the output by the first part number in the batch so reruns/resumes never
+        # overwrite earlier batch files (the run-local idx collides across runs).
+        first_part = batch[0].rsplit("/", 1)[-1]
+        tag = first_part.split("-")[1] if "-" in first_part else f"{idx:04d}"
+        dest = OUT / f"airport_{tag}.parquet"
         n = con.execute(
             f"SELECT count(*) FROM read_parquet('{glob}') WHERE {where}"
         ).fetchone()[0]
