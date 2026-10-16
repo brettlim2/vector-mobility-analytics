@@ -61,6 +61,10 @@ def main() -> int:
 
     con = duckdb.connect()
     con.execute("SET preserve_insertion_order=false")
+    con.execute("SET memory_limit='4GB'")
+    tmp_spill = OUT.parent / "_duckdb_spill"
+    tmp_spill.mkdir(parents=True, exist_ok=True)
+    con.execute(f"SET temp_directory='{tmp_spill}'")
     where = (f"latitude BETWEEN {LAT_MIN} AND {LAT_MAX} "
              f"AND longitude BETWEEN {LNG_MIN} AND {LNG_MAX} "
              f"AND horizontal_accuracy IS NOT NULL")
